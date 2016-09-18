@@ -7,13 +7,18 @@
 // 2  If techfolio, update bio field based on bio.json file data.
 // 4. Override bio fields with bio-overrides.
 // 3. Write out a data file to this _data directory with info for Jekyll.
+// 10. Image processing: https://github.com/EyalAr/lwip
 
 console.log('Starting update_ics_portfolios');
 const request = require('request');
 
-// URL: https://raw.githubusercontent.com/philipmjohnson/philipmjohnson.github.io/master/_data/bio.json
-
+/**
+ * Given a github.io domain, returns the URL to the bio.json file.
+ * @param domain A domain, such as 'philipmjohnson.github.io'.
+ * @returns {string} The corresponding URL to the bio.json file.
+ */
 function getBioJsonUrl(domain) {
+  // URL: https://raw.githubusercontent.com/philipmjohnson/philipmjohnson.github.io/master/_data/bio.json
   const username = domain.split('.')[0];
   return `https://raw.githubusercontent.com/${username}/${domain}/master/_data/bio.json`;
 }
