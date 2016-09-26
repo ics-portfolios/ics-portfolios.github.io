@@ -1,11 +1,7 @@
 #! /usr/bin/env node
 
-// 1. Merge the bio.json file into the profile data. Match the techfolio key against the website field.
-//    This will fail for me, unfortunately, unless I update my bio.json.
-//    I should do that for now, then when I implement defaults, I can override somehow.
-//    The website is the only unique key I can use to match profile entries to the bio.json file.
-// 3. Write out a data file to the _data directory with appropriate info for Jekyll.
-// 4. Start on HTML.
+// 1. WriteJekyllInfoFiles: Write out a data file to the _data directory with appropriate info for Jekyll.
+// 2. Start on HTML.
 // 10. Image processing: https://github.com/EyalAr/lwip
 
 console.log('Starting update_ics_portfolios');
@@ -61,6 +57,34 @@ function getBioFiles(domain) {
   });
 }
 
+function updateProfileEntry(bio) {
+  // first, strip off the protocol part of the website entry.
+  const bioUrl = bio.basics.website;
+  const protocolIndex = _.indexOf(bioUrl, ':');
+  const bioHostName = bioUrl.substring(protocolIndex + 3);
+  const profileEntry = _.find(profileData, function (entry) { return entry.techfolio === bioHostName; });
+  if (profileEntry) {
+    profileEntry.bio = bio;
+  } else {
+    console.log(`Could not find profile entry corresponding to ${bio}`);
+  }
+}
+
+/* Returns the profile entry object whose techfolio entry matches the website entry in the passed bio object. */
+function updateProfileEntries(bios) {
+  _.each(bios, updateProfileEntry);
+}
+
+/**
+ * To simplify Jekyll parsing, write out four files: undergrads.json, grads.json, faculty.json, and all.json.
+ * Each file is written in sorted order by the last field.
+ * Each field contains: bio.basics.name, bio.basics.picture, bio.basics.website, bio.basics.summary, bio.interests
+ */
+function writeJekyllInfoFiles() {
+  console.log('starting write jekyll info files.', profileData);
+}
+
+
 // ////////////////////  Start the script. ////////////////////////////////////////////
 
 // Set profileData to the contents of the profile entries.
@@ -68,11 +92,14 @@ initializeProfileData();
 
 // Create a set of promises for reading in the bio.json files associated with every entry.
 // Note that profile-entries cannot yet handle non-Techfolio data.
-const urlBodyPromises = _.map(profileData, function (entry) { return getBioFiles(entry.techfolio); });
+const bioBodyPromises = _.map(profileData, function (entry) { return getBioFiles(entry.techfolio); });
 
-// Retrieve the bio.json files.
-Promise.all(urlBodyPromises)
-    .then(function (body) {
-      console.log(body);
+// Retrieve the bio.json files, add them to the profileData object, then write out a Jekyll file
+Promise.all(bioBodyPromises)
+    .then(function (bios) {
+      updateProfileEntries(bios);
+      writeJekyllInfoFiles();
     })
     .catch(console.error);
+
+
