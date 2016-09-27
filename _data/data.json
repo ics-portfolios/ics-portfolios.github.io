@@ -3,10 +3,11 @@
     "last": "casanova",
     "techfolio": "amymalia.github.io",
     "level": "faculty",
+    "label": "Professor",
     "name": "Henri Casanova",
     "website": "https://henricasanova.github.io/",
     "summary": "I am a Professor at the University of Hawaii.",
-    "label": "Professor",
+    "picture": "https://github.com/ics-portfolios/ics-portfolios.github.io/raw/master/images/casanova.jpg",
     "interests": [
       "High Performance Computing"
     ]
@@ -19,6 +20,7 @@
     "label": "Student",
     "website": "https://jogarces.github.io",
     "summary": "I’m an Information and Computer Science undergraduate in my Senior year at the University of Hawaii at Manoa, expected to graduate Fall 2016. I have a passion for drawing, writing, and designing for the web.",
+    "picture": "https://jogarces.github.io/images/jogarces.png",
     "interests": [
       "Game Development",
       "Web Development",
@@ -34,6 +36,7 @@
     "label": "Professor",
     "website": "https://philipmjohnson.github.io",
     "summary": "I am a Professor of [Information and Computer Sciences](http://www.ics.hawaii.edu) at the University of Hawaii, Director of the [Collaborative Software Development Laboratory](http://csdl.ics.hawaii.edu), and the CEO of [OpenPowerQuality.com](http://openpowerquality.com).",
+    "picture": "https://philipmjohnson.github.io/images/philip2.jpeg",
     "interests": [
       "Software Engineering",
       "Serious Games",
@@ -53,6 +56,7 @@
     "label": "Graduate Student",
     "website": "https://amymalia.github.io",
     "summary": "I am studying for a Masters in Computer Science at the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
+    "picture": "https://amymalia.github.io/images/amy2.jpeg",
     "interests": [
       "software engineering",
       "social informatics",
