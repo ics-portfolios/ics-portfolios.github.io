@@ -1,13 +1,15 @@
 #! /usr/bin/env node
 
-// 1. WriteJekyllInfoFiles: Write out a data file to the _data directory with appropriate info for Jekyll.
-// 2. Start on HTML.
+// 1. Start on HTML.
 // 10. Image processing: https://github.com/EyalAr/lwip
 
 console.log('Starting update_ics_portfolios');
 const request = require('request');
 const fs = require('fs');
 const _ = require('underscore');
+const jsonfile = require('jsonfile');
+
+const dataFile = '_data/data.json';
 
 /** Location of the profile entries file. */
 const profileEntriesFile = 'profile-entries.json';
@@ -21,7 +23,9 @@ const profileData = [];
 function initializeProfileData() {
   const contents = fs.readFileSync(profileEntriesFile, 'utf8');
   const data = JSON.parse(contents);
-  _.each(data, function (entry) { profileData.push(entry); });
+  _.each(data, function (entry) {
+    profileData.push(entry);
+  });
 }
 
 /**
@@ -48,9 +52,11 @@ function getBioFiles(domain) {
         try {
           resolve(JSON.parse(body));
         } catch (e) {
+          console.log(`Failed to parse bio.json for ${domain}.`);
           reject(new Error(`Failed to parse bio.json for ${domain}.`));
         }
       } else {
+        console.log(`Failed to get bio.json for ${domain}.`);
         reject(new Error(`Failed to get bio.json for ${domain}.`));
       }
     });
@@ -62,11 +68,21 @@ function updateProfileEntry(bio) {
   const bioUrl = bio.basics.website;
   const protocolIndex = _.indexOf(bioUrl, ':');
   const bioHostName = bioUrl.substring(protocolIndex + 3);
-  const profileEntry = _.find(profileData, function (entry) { return entry.techfolio === bioHostName; });
+  const profileEntry = _.find(profileData, function (entry) {
+    //console.log(bioHostName, entry.techfolio);
+    return entry.techfolio === bioHostName;
+  });
   if (profileEntry) {
-    profileEntry.bio = bio;
+    _.defaults(profileEntry, {
+      name: bio.basics.name,
+      label: bio.basics.label,
+      website: bio.basics.website,
+      summary: bio.basics.summary,
+      picture: bio.basics.picture,
+      interests: _.map(bio.interests, (interest) => interest.name),
+    });
   } else {
-    console.log(`Could not find profile entry corresponding to ${bio}`);
+    console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
   }
 }
 
@@ -81,9 +97,12 @@ function updateProfileEntries(bios) {
  * Each field contains: bio.basics.name, bio.basics.picture, bio.basics.website, bio.basics.summary, bio.interests
  */
 function writeJekyllInfoFiles() {
-  console.log('starting write jekyll info files.', profileData);
+  console.log('Writing jekyll info files.');
+  jsonfile.spaces = 2;
+  jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
+    console.error(err);
+  });
 }
-
 
 // ////////////////////  Start the script. ////////////////////////////////////////////
 
@@ -92,7 +111,9 @@ initializeProfileData();
 
 // Create a set of promises for reading in the bio.json files associated with every entry.
 // Note that profile-entries cannot yet handle non-Techfolio data.
-const bioBodyPromises = _.map(profileData, function (entry) { return getBioFiles(entry.techfolio); });
+const bioBodyPromises = _.map(profileData, function (entry) {
+  return getBioFiles(entry.techfolio);
+});
 
 // Retrieve the bio.json files, add them to the profileData object, then write out a Jekyll file
 Promise.all(bioBodyPromises)

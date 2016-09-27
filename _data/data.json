@@ -1,0 +1,62 @@
+[
+  {
+    "last": "casanova",
+    "techfolio": "amymalia.github.io",
+    "level": "faculty",
+    "name": "Henri Casanova",
+    "website": "https://henricasanova.github.io/",
+    "summary": "I am a Professor at the University of Hawaii.",
+    "label": "Professor",
+    "interests": [
+      "High Performance Computing"
+    ]
+  },
+  {
+    "last": "garces",
+    "techfolio": "jogarces.github.io",
+    "level": "undergrad",
+    "name": "Josephine Garces",
+    "label": "Student",
+    "website": "https://jogarces.github.io",
+    "summary": "I’m an Information and Computer Science undergraduate in my Senior year at the University of Hawaii at Manoa, expected to graduate Fall 2016. I have a passion for drawing, writing, and designing for the web.",
+    "interests": [
+      "Game Development",
+      "Web Development",
+      "Web Design",
+      "Pixel Art"
+    ]
+  },
+  {
+    "last": "johnson",
+    "techfolio": "philipmjohnson.github.io",
+    "level": "faculty",
+    "name": "Philip Johnson",
+    "label": "Professor",
+    "website": "https://philipmjohnson.github.io",
+    "summary": "I am a Professor of [Information and Computer Sciences](http://www.ics.hawaii.edu) at the University of Hawaii, Director of the [Collaborative Software Development Laboratory](http://csdl.ics.hawaii.edu), and the CEO of [OpenPowerQuality.com](http://openpowerquality.com).",
+    "interests": [
+      "Software Engineering",
+      "Serious Games",
+      "Renewable Energy"
+    ]
+  },
+  {
+    "last": "moore",
+    "techfolio": "cammoore.github.io",
+    "level": "faculty"
+  },
+  {
+    "last": "takayesu",
+    "techfolio": "amymalia.github.io",
+    "level": "grad",
+    "name": "Amy Takayesu",
+    "label": "Graduate Student",
+    "website": "https://amymalia.github.io",
+    "summary": "I am studying for a Masters in Computer Science at the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
+    "interests": [
+      "software engineering",
+      "social informatics",
+      "artificial intelligence"
+    ]
+  }
+]
