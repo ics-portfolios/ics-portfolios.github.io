@@ -1,0 +1,13 @@
+[
+  {"last": "johnson", "techfolio": "philipmjohnson.github.io", "level": "faculty" },
+  {"last": "moore", "techfolio": "cammoore.github.io", "level": "faculty" },
+  {"last": "garces", "techfolio": "jogarces.github.io", "level": "undergrad" },
+  {"last": "takayesu", "techfolio": "amymalia.github.io", "level": "grad" },
+  {"last": "casanova", "techfolio": "amymalia.github.io", "level": "faculty", "label": "Professor",
+    "name": "Henri Casanova", "website": "https://henricasanova.github.io/",
+    "summary": "I am a Professor at the University of Hawaii.",
+    "picture": "https://github.com/ics-portfolios/ics-portfolios.github.io/raw/master/images/casanova.jpg",
+    "interests": ["High Performance Computing"]
+  }
+
+]

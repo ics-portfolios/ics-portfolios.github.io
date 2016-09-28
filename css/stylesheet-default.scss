@@ -1,0 +1,45 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+@charset "utf-8";
+
+// Default CSS.
+// Don't edit this file.  Put your changes in stylesheet-customizations.scss
+
+// Default background color
+body {
+  background-color: #F5F8F7;
+}
+
+// Default menubar color
+.ui.menu {
+  background: lighten(silver, 10%);
+}
+
+// Default home page icon color
+.icon-color {
+  color: darken(silver, 40%);
+}
+
+
+// Prefer space between list items in screen mode.
+.list-padding {
+  ul li { padding: 5px 0px; }
+  ol li { padding: 5px 0px; }
+}
+
+// This class is used in the prebuilt bio themes.
+.no-bottom {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.ui.basic.green.button, .ui.basic.green.buttons .button {
+  color: rgba(0,0,0,0.870588) !important;
+  box-shadow: 0 0 0 2px green inset !important;
+  margin-right: 3px;
+}
+
+.ui.basic.buttons {
+  border: none;
+}
