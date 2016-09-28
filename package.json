@@ -16,7 +16,7 @@
     "url": "https://github.com/ics-portfolios/ics-portfolios.github.io/issues"
   },
   "bin": {
-    "update_ics_portfolios": "index.js"
+    "update_ics_portfolios": "update-ics-portfolios.js"
   },
   "homepage": "https://github.com/ics-portfolios/ics-portfolios.github.io#readme",
   "dependencies": {
