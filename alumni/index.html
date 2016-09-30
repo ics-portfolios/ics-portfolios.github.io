@@ -1,0 +1,12 @@
+---
+layout: alumni
+---
+
+<div class="ui container ">
+  <div class="ui cards">
+    {% assign portfolios = site.data.data | where: "level", "alumni"  %}
+    {% for portfolio in portfolios %}
+      {% include portfolio-card.html portfolio=portfolio %}
+    {% endfor %}
+  </div>
+</div>

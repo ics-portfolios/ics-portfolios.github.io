@@ -12,7 +12,7 @@ layout: default
     </div>
 
 
-    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px" class="ui fluid centered card">
+    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px; padding-bottom: 20px" class="ui fluid centered card">
 
       <div class="center aligned content">
         <span class="header">ICS Portfolios</span>
@@ -27,22 +27,30 @@ layout: default
         </div>
       </div>
 
-      <div class="center aligned content">
+      <div class="center aligned stackable grid">
         <div class="ui small green basic buttons">
-          <a href="{{ site.baseurl}}/undergrads/">
-            <button class="ui button">Undergrads (31)</button>
+          {% if site.data.counts.undergrad > 0 %}
+          <a href="{{ site.baseurl}}/undergrads">
+            <button class="ui button">Undergrads ({{ site.data.counts.undergrad }})</button>
           </a>
-          <a href="{{ site.baseurl}}/grads/">
-            <button class="ui button">Grads (3)</button>
+          {% endif %}
+          {% if site.data.counts.grad > 0 %}
+          <a href="{{ site.baseurl}}/grads">
+            <button class="ui button">Grads ({{ site.data.counts.grad }})</button>
           </a>
-          <a href="{{ site.baseurl}}/faculty/">
-            <button class="ui button">Faculty (4)</button>
+          {% endif %}
+          {% if site.data.counts.faculty > 0 %}
+          <a href="{{ site.baseurl}}/faculty">
+            <button class="ui button">Faculty ({{ site.data.counts.faculty }})</button>
           </a>
-          <a href="{{ site.baseurl}}/alumni/">
-            <button class="ui button">Alumni (3)</button>
+          {% endif %}
+          {% if site.data.counts.alumni > 0 %}
+          <a href="{{ site.baseurl}}/alumni">
+            <button class="ui button">Alumni ({{ site.data.counts.alumni }})</button>
           </a>
-          <a href="{{ site.baseurl}}/all/">
-            <button class="ui button">All (3)</button>
+          {% endif %}
+          <a href="{{ site.baseurl}}/all">
+            <button class="ui button">All ({{ site.data.counts.all }})</button>
           </a>
         </div>
       </div>

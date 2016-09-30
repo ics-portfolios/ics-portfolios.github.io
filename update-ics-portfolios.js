@@ -10,6 +10,7 @@ const _ = require('underscore');
 const jsonfile = require('jsonfile');
 
 const dataFile = '_data/data.json';
+const countFile = '_data/counts.json';
 
 /** Location of the profile entries file. */
 const profileEntriesFile = 'profile-entries.json';
@@ -68,8 +69,8 @@ function updateProfileEntry(bio) {
   const bioUrl = bio.basics.website;
   const protocolIndex = _.indexOf(bioUrl, ':');
   const bioHostName = bioUrl.substring(protocolIndex + 3);
-  const profileEntry = _.find(profileData, function (entry) {
-    //console.log(bioHostName, entry.techfolio);
+  const profileEntry = _.find(profileData, function makeEntry(entry) {
+    // console.log(bioHostName, entry.techfolio);
     return entry.techfolio === bioHostName;
   });
   if (profileEntry) {
@@ -102,6 +103,14 @@ function writeJekyllInfoFiles() {
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
     console.error(err);
   });
+  // now write out a file indicating the number of entries for each type.
+  const profileDataGroups = _.countBy(profileData, 'level');
+  _.defaults(profileDataGroups, { faculty: 0, undergrad: 0, grad: 0, alumni: 0 });
+  profileDataGroups.all = profileDataGroups.faculty + profileDataGroups.undergrad + profileDataGroups.grad +
+      profileDataGroups.alumni;
+  jsonfile.writeFile(countFile, profileDataGroups, function (err) {
+    console.error(err);
+  });
 }
 
 // ////////////////////  Start the script. ////////////////////////////////////////////
@@ -122,5 +131,3 @@ Promise.all(bioBodyPromises)
       writeJekyllInfoFiles();
     })
     .catch(console.error);
-
-
