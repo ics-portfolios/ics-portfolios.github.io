@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "name": "Minako Doi",
+    "label": "Student",
+    "picture": "https://minakodoi.github.io/images/minako_pic.JPG",
+    "email": "minakod@hawaii.edu",
+    "phone": "",
+    "website": "https://minakodoi.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
+    "location": {
+      "address": "",
+      "postalCode": "96815",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "minakodoi",
+        "url": "http://github.com/minakodoi"
+      },
+      {
+        "network": "linkedin",
+        "username": "minakod",
+        "url": "http://linkedin.com/in/minako-doi-a14b6b123"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "software engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "web designing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "algorithms",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "MacOS",
+        "Windows",
+        "Git/GitHub",
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2017)",
+      "studyType": "B.S.",
+      "startDate": "2015-08-24",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Kapiolani Community College, Honolulu, HI",
+      "area": "Liberal Arts",
+      "studyType": "A.A.",
+      "startDate": "2013-08-26",
+      "endDate": "2015-05-13",
+      "gpa": "3.94",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Business Search Technology Corporation",
+      "position": "Data Entry Operator",
+      "website": "",
+      "startDate": "2012-04",
+      "endDate": "2012-12",
+      "summary": "entrying data of some comanies' specification from to a program that the company made.",
+      "highlights": [
+        
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Makiki Christian Church",
+      "position": "Leader of Youth and Young Adult Bible Study",
+      "startDate": "2013-09-01",
+      "endDate": "Present",
+      "summary": "Leading a bible study with high school students and young adults.",
+      "highlights": [
+       
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Kapiolani Undergraduate AA in Liberal Arts for Spring 2015 Honors",
+      "date": "2015",
+      "awarder": "Kapiolani Community College",
+      "summary": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

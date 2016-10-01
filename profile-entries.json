@@ -1,13 +1,34 @@
 [
+
   {"last": "johnson", "techfolio": "philipmjohnson.github.io", "level": "faculty" },
   {"last": "moore", "techfolio": "cammoore.github.io", "level": "faculty" },
+
+
+  {"last": "bartlett", "techfolio": "wyattbartlett.github.io", "level": "undergrad", "tmpbio": "wyattbartlett.bio.json" },
+  {"last": "chen", "techfolio": "kendrickchen.github.io", "level": "undergrad" },
+  {"last": "chock", "techfolio": "jchock.github.io", "level": "undergrad" },
+  {"last": "doi", "techfolio": "minakodoi.github.io", "level": "undergrad",  "tmpbio": "minakodoi.bio.json"},
+  {"last": "figgs", "techfolio": "rfiggs.github.io", "level": "undergrad" },
+  {"last": "gaoiran", "techfolio": "mariahgaoiran.github.io", "level": "undergrad" },
   {"last": "garces", "techfolio": "jogarces.github.io", "level": "undergrad" },
+  {"last": "hoe", "techfolio": "mahoe7.github.io", "level": "undergrad", "tmpbio": "mahoe7.bio.json"  },
+  {"last": "huang", "techfolio": "huang6606521.github.io", "level": "undergrad",  },
+  {"last": "koo", "techfolio": "dankoo.github.io", "level": "undergrad" },
+  {"last": "kuok", "techfolio": "mckuok.github.io", "level": "undergrad" },
+  {"last": "kuloloia", "techfolio": "akuloloia.github.io", "level": "undergrad" },
+  {"last": "leong", "techfolio": "LambertLeong.github.io", "level": "undergrad" },
+  {"last": "mink", "techfolio": "acvmf.github.io", "level": "undergrad" },
+  {"last": "preza", "techfolio": "aljonpreza.github.io", "level": "undergrad" },
+
+
   {"last": "takayesu", "techfolio": "amymalia.github.io", "level": "grad" },
+  {"last": "christe", "techfolio": "anthonyjchriste.github.io", "level": "grad", "tmpbio": "anthonyjchriste.bio.json"},
+  {"last": "negrashov", "techfolio": "sergey-negrashov.github.io", "level": "grad" },
+
   {"last": "casanova", "techfolio": "amymalia.github.io", "level": "faculty", "label": "Professor",
     "name": "Henri Casanova", "website": "https://henricasanova.github.io/",
     "summary": "I am a Professor at the University of Hawaii.",
     "picture": "https://github.com/ics-portfolios/ics-portfolios.github.io/raw/master/images/casanova.jpg",
     "interests": ["High Performance Computing"]
   }
-
 ]

@@ -8,6 +8,7 @@ const request = require('request');
 const fs = require('fs');
 const _ = require('underscore');
 const jsonfile = require('jsonfile');
+const jsonic = require('jsonic');
 
 const dataFile = '_data/data.json';
 const countFile = '_data/counts.json';
@@ -23,7 +24,7 @@ const profileData = [];
  */
 function initializeProfileData() {
   const contents = fs.readFileSync(profileEntriesFile, 'utf8');
-  const data = JSON.parse(contents);
+  const data = jsonic(contents);
   _.each(data, function (entry) {
     profileData.push(entry);
   });
@@ -47,43 +48,46 @@ function getBioJsonUrl(techfolioHostName) {
  * @returns {Promise} A Promise to push that body onto bioJsons.
  */
 function getBioFiles(domain) {
-  return new Promise(function (resolve, reject) {
+  return new Promise(function (resolve) {
     request.get(getBioJsonUrl(domain), function processUrl(error, response, body) {
       if (!error && response.statusCode === 200) {
         try {
-          resolve(JSON.parse(body));
+          resolve(jsonic(body));
         } catch (e) {
-          console.log(`Failed to parse bio.json for ${domain}.`);
-          reject(new Error(`Failed to parse bio.json for ${domain}.`));
+          console.log(`Error: https://${domain}/_data/bio.json\n    ${e.name} ${e.message}, line: ${e.lineNumber}`);
+          // reject(new Error(`Failed to parse bio.json for ${domain}.`));
+          resolve({});
         }
       } else {
         console.log(`Failed to get bio.json for ${domain}.`);
-        reject(new Error(`Failed to get bio.json for ${domain}.`));
+        // reject(new Error(`Failed to get bio.json for ${domain}.`));
+        resolve({});
       }
     });
   });
 }
 
 function updateProfileEntry(bio) {
-  // first, strip off the protocol part of the website entry.
-  const bioUrl = bio.basics.website;
-  const protocolIndex = _.indexOf(bioUrl, ':');
-  const bioHostName = bioUrl.substring(protocolIndex + 3);
-  const profileEntry = _.find(profileData, function makeEntry(entry) {
-    // console.log(bioHostName, entry.techfolio);
-    return entry.techfolio === bioHostName;
-  });
-  if (profileEntry) {
-    _.defaults(profileEntry, {
-      name: bio.basics.name,
-      label: bio.basics.label,
-      website: bio.basics.website,
-      summary: bio.basics.summary,
-      picture: bio.basics.picture,
-      interests: _.map(bio.interests, (interest) => interest.name),
+  if (!_.isEmpty(bio)) {
+    // first, strip off the protocol part of the website entry.
+    const bioUrl = bio.basics.website;
+    const protocolIndex = _.indexOf(bioUrl, ':');
+    const bioHostName = bioUrl.substring(protocolIndex + 3);
+    const profileEntry = _.find(profileData, function makeEntry(entry) {
+      return entry.techfolio === bioHostName;
     });
-  } else {
-    console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
+    if (profileEntry) {
+      _.defaults(profileEntry, {
+        name: bio.basics.name,
+        label: bio.basics.label,
+        website: bio.basics.website,
+        summary: bio.basics.summary,
+        picture: bio.basics.picture,
+        interests: _.map(bio.interests, (interest) => interest.name),
+      });
+    } else {
+      console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
+    }
   }
 }
 
@@ -113,6 +117,15 @@ function writeJekyllInfoFiles() {
   });
 }
 
+function updateProfileDataFromLocalBio(localProfiles) {
+  _.map(localProfiles, function updateLocal(localProfile) {
+    const fileName = localProfile.tmpbio;
+    const contents = fs.readFileSync(`_tmpbios/${fileName}`, 'utf8');
+    const bio = jsonic(contents);
+    updateProfileEntry(bio);
+  });
+}
+
 // ////////////////////  Start the script. ////////////////////////////////////////////
 
 // Set profileData to the contents of the profile entries.
@@ -120,7 +133,13 @@ initializeProfileData();
 
 // Create a set of promises for reading in the bio.json files associated with every entry.
 // Note that profile-entries cannot yet handle non-Techfolio data.
-const bioBodyPromises = _.map(profileData, function (entry) {
+
+const localProfileData = _.filter(profileData, (obj) => _.has(obj, 'tmpbio'));
+
+updateProfileDataFromLocalBio(localProfileData);
+
+const cloudProfileData = _.filter(profileData, (obj) => !_.has(obj, 'tmpbio'));
+const bioBodyPromises = _.map(cloudProfileData, function (entry) {
   return getBioFiles(entry.techfolio);
 });
 

@@ -1,0 +1,162 @@
+{
+  "basics": {
+    "name": "Wyatt Bartlett",
+    "label": "Student",
+    "picture": "https://wyattbartlett.github.io/images/MyFaceSquare.JPG",
+    "email": "wmmb AT hawaii DOT edu",
+    "phone": "",
+    "website": "https://wyattbartlett.github.io",
+    "summary": "Aloha, I am a student pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2017, after which I will pursue a career in software engineering.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "wyattbartlett",
+        "url": "http://github.com/wyattbartlett"
+      },
+      {
+        "network": "linkedin",
+        "username": "wyattbartlett",
+        "url": "http://linkedin.com/in/wyattbartlett"
+      },
+    ]
+  },
+  "interests": [
+    {
+      "name": "natural language processing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "artificial intelligence",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "web development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "internet of things",
+      "keywords": [
+        "Arduino",
+        "Raspberry Pi"
+      ]
+    },
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Python",
+        "VBA"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Ubuntu",
+        "Git/GitHub",
+        "g++",
+        "MS SQL Server"
+      ]
+    },
+    {
+      "name": "Natural Languages",
+      "level": "",
+      "keywords": [
+        "English",
+        "Hawaiian"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2017)",
+      "studyType": "B.S.",
+      "startDate": "2012-08-20",
+      "endDate": "Present",
+      "gpa": "3.53",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa STAR Technologies Office",
+      "position": "SQL Assistant Programmer",
+      "website": "https://www.star.hawaii.edu",
+      "startDate": "2016-05-23",
+      "endDate": "Present",
+      "summary": "Maintain and upgrade MS SQL Server and MS Access databases used by STAR clients",
+      "highlights": [
+        "Improve database structure and design queries for easier and faster manipulation of data",
+        "Troubleshoot and debug Visual Basic modules"
+      ]
+    },
+    {
+      "company": "UH Manoa Music Department",
+      "position": "Auditorium Attendant",
+      "website": "http://manoa.hawaii.edu/music/",
+      "startDate": "2013-08-19",
+      "endDate": "Present",
+      "summary": "Manage house operations for performances at Mae Zenke Orvis Auditorium",
+      "highlights": [
+        "Operate and maintain sound and light equipment",
+        "Record student concert attendance in Excel",
+        "Sell tickets and record sales"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "UH Manoa Honors Student Organization",
+      "website": "http://manoa.hawaii.edu/undergrad/honors/honors-student-organization-hso/",
+      "position": "Volunteer",
+      "startDate": "2012-08-20",
+      "endDate": "Present",
+      "summary": "Volunteered with a group of UH Honors students to assist various community groups",
+      "highlights": [
+        "Raised funds for American Cancer Society through Relay for Life",
+        "Restored native bird habitat on Kāneʻohe Marine Base",
+        "Participated in UHM campus trash clean-up"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "First Place - Landslide Early Warning System",
+      "date": "2015-08-15",
+      "awarder": "Indigenous Knowledge in Engineering (IKE) Student Symposium",
+      "summary": "John Nihi and I gave a winning presentation for the Landslide Early Warning System project.  Please see my Projects page for more details."
+    },
+    {
+      "title": "Walter and Jeane Lum Scholarship Fund",
+      "date": "Fall 2013",
+      "awarder": "University of Hawaii",
+      "summary": "The purpose of this Fund is to provide scholarships to assist students at the University of Hawai`i at Manoa College of Engineering, who provide leadership in the areas of: student mentorship, academic leadership, student-college outreach leadership, and leadership in research."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

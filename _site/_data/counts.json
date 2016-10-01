@@ -1,7 +1,7 @@
 {
   "faculty": 3,
-  "undergrad": 1,
-  "grad": 1,
+  "undergrad": 15,
+  "grad": 3,
   "alumni": 0,
-  "all": 5
+  "all": 21
 }
