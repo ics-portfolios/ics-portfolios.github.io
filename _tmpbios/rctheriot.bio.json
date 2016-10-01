@@ -1,0 +1,113 @@
+{
+  "basics": {
+    "name": "Ryan Theriot",
+    "label": "Student",
+    "picture": "https://rctheriot.github.io/images/headshot-300x300.jpg",
+    "email": "rtheriot@hawaii.edu",
+    "website": "https://rctheriot.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2017.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "rctheriot",
+        "url": "http://github.com/rctheriot"
+      },
+      {
+        "network": "linkedin",
+        "username": "ryantheriot",
+        "url": "https://www.linkedin.com/in/ryan-theriot-190285124"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Computer Graphics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Unity3D",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Virtual Reality",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "Java",
+        "C#",
+        "CG Shader Language",
+        "Javascript",
+        "PHP",
+        "SQL",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Unity",
+        "GitHub",
+        "Eclipse"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2017)",
+      "studyType": "B.S.",
+      "startDate": "2013-09-01",
+      "endDate": "2017-12-15",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "United States Coast Guard",
+      "position": "Avionics Electrical Technician",
+      "website": "",
+      "startDate": "2007-01-15",
+      "endDate": "2012-01-15",
+      "summary": "Inspect, service, maintain, troubleshoot, and repair avionics systems that perform communications, navigation, collision avoidance, target acquisition, and automatic flight-control functions.",
+      "highlights": [
+        "Operated, inspected, serviced, maintained, and repaired avionics systems",
+        "Performed aircraft ground handling, aircraft inspections, and aviation administrative duties",
+        "In-flight duties of Navigator, Radio Operator, and Basic Aircrew",
+        "Collateral Duties included process and handling of HAZMAT, aircraft corrosion prevention, and aircraft fueling operations"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "USCG Commandant’s Letter of Commendation",
+      "date": "2012",
+      "awarder": "United States Coast Guard",
+      "summary": "Awarded for extraordinary performance as a radio operator on a HC-130H aircraft during a search and rescue case for an overdue sailing vessel."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

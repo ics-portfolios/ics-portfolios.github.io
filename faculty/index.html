@@ -3,7 +3,7 @@ layout: faculty
 ---
 
 <div class="ui container ">
-  <div class="ui cards">
+  <div class="ui four doubling stackable cards">
     {% assign portfolios = site.data.data | where: "level", "faculty"  %}
     {% for portfolio in portfolios %}
       {% include portfolio-card.html portfolio=portfolio %}

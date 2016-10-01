@@ -1,0 +1,125 @@
+{
+  "basics": {
+    "name": "Egan Nakano",
+    "label": "Student",
+    "picture": "https://Enakano.github.io/images/20160826_133754.jpg",
+    "email": "enakano@hawaii.edu",
+    "phone": "",
+    "website": "https://Enakano.github.io",
+    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2018.",
+    "location": {
+      "address": "",
+      "postalCode": "96701",
+      "city": "Aiea",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "Enakano",
+        "url": "http://github.com/Enakano"
+      },
+      {
+        "network": "linkedin",
+        "username": "egan-nakano",
+        "url": "http://linkedin.com/in/egan-nakano-988282124"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "internet of things",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "gamification",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "education",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript(soon)"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "MacOS",
+        "Ubuntu",
+        "Git/GitHub",
+        "g++",
+        "Windows"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.A.",
+      "startDate": "2011-08-21",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Waipahu High School",
+      "position": "Paraprofessional Tutor",
+      "website": "http://www.edline.net/pages/Waipahu_High_School/Community/Waipahu_High_School_Early_Coll",
+      "startDate": "2013-04-23",
+      "endDate": "Present",
+      "summary": "Assistant to the Director of Early College, Mark Silliman",
+      "highlights": [
+        "Maintain, update, and oversee portions of official WHS Early College website",
+        "Maintain, update, and oversee macbooks and chomebooks for E.C. program", 
+        "Other duties helping Early College students"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "website": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

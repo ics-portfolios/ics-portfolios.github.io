@@ -1,0 +1,147 @@
+{
+  "basics": {
+    "name": "Brandon Chun",
+    "label": "Student",
+    "picture": "https://github.com/brandon-chun/brandon-chun.github.io/raw/master/images/bChun-1%20-%20Copy.jpg",
+    "email": "bchun9@hawaii.edu",
+    "phone": "",
+    "website": "https://brandon-chun.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "bchun9",
+        "url": "http://brandon-chun.github.io"
+      },
+      {
+        "network": "linkedin",
+        "username": "bchun9",
+        "url": "https://www.linkedin.com/in/brandon-chun-528264124?trk=nav_responsive_tab_profile"
+      },
+      {
+        "network": "email",
+        "url": "bchun9@hawaii.edu"
+      },
+
+    ]
+  },
+  "interests": [
+    {
+      "name": "Sports in general",
+      "keywords": [
+        "Sports"
+      ]
+    },
+    {
+      "name": "Coding",
+      "keywords": [
+        "Java", "C", "C++"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "keywords": [
+        "Software", "Engineering", "Programming"
+      ]
+    },
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript"
+
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Git/GitHub",
+        "g++"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2017)",
+      "studyType": "B.S.",
+      "startDate": "2012-09-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Information Technology Services",
+      "position": "ITS Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its",
+      "startDate": "2016-06-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Assist users with resetting passwords and managing UH Usernames", 
+        "Troubleshoot software, hardware, and networking issues over the phone"
+      ]
+    },
+  ],
+  "volunteer": [
+    {
+    "organization": "Information Technology Management Association (ITMA)",
+    "website": "",
+    "position": "Active member",
+    "startDate": "2014",
+    "endDate": "2015",
+    "summary": "",
+    "highlights": [
+      "Attend bi-weekly meetings",
+      "Particpate in professional mixers",
+      "Engage in club activities"
+      ]
+
+    },
+    {
+    "organization": "Information Technology Management Association (ITMA)",
+    "website": "",
+    "position": "Director of Student Relations",
+    "startDate": "2015",
+    "endDate": "2016",
+    "summary": "",
+    "highlights": [
+      "Attend bi-weekly meetings",
+      "Particpate in professional mixers",
+      "Plan club activities",
+      "Engage in club activities",
+      "Interact with officers from other clubs"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    },
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

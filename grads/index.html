@@ -3,7 +3,7 @@ layout: grad
 ---
 
 <div class="ui container ">
-  <div class="ui cards">
+  <div class="ui four doubling stackable cards">
     {% assign portfolios = site.data.data | where: "level", "grad"  %}
     {% for portfolio in portfolios %}
       {% include portfolio-card.html portfolio=portfolio %}

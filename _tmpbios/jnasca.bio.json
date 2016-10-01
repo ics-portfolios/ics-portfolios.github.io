@@ -1,0 +1,84 @@
+{
+  "basics": {
+    "name": "Joseph Nasca",
+    "label": "Student",
+    "picture": "http://jnasca.github.io/images/20160827_202446.jpg",
+    "email": "jnasca221@gmail.com",
+    "website": "https://jnasca.github.io",
+    "summary": "I am an undergraduate student at the University of Hawaii at Manoa working on a degree in Computer Science. I expect to graduate in Spring of 2018, and plan to work towards a career in game design.",
+    "location": {
+      "address": "",
+      "postalCode": "96782",
+      "city": "Pearl City",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "jnasca",
+        "url": "https://github.com/jnasca"
+      },
+      {
+        "network": "linkedin",
+        "username": "Joseph Nasca",
+        "url": "http://linkedin.com/in/josephmnasca"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Software Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Virtual Reality",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "System Security",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "Java",
+        "SQL",
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Active Directory",
+        "SQL Server",
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2015-09-01",
+      "endDate": "Present",
+      "gpa": "3.6",
+      "courses": [
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

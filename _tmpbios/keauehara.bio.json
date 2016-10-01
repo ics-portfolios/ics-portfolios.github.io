@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Kea Uehara",
+    "label": "Student",
+    "picture": "https://KeaUehara.github.io/images/Kea_Face.JPG",
+    "email": "keal@hawaii.edu",
+    "phone": "",
+    "website": "https://Keauehara.github.io",
+    "summary": "I am an undergraduate pursuing a B.S. in Computer Science at the University of Hawaii. My expected graduation date is Spring, 2018.After graduation, I would like to be employed in an area involving networking.",
+    "location": {
+      "address": "",
+      "postalCode": "96826",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "keauehara",
+        "url": "http://github.com/keauehara"
+      },
+      {
+        "network": "linkedin",
+        "username": "keauehara",
+        "url": "http://linkedin.com/in/keauehara"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Networking",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Electronics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "High quality products",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Ubuntu",
+        "Git/GitHub",
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2014-08-23",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa Information Technology Services",
+      "position": "Student data center technician",
+      "website": "",
+      "startDate": "2015-09-01",
+      "endDate": "Present",
+      "summary": "Student assistants for full time data center technicians",
+      "highlights": [
+        "Maintain data center operation and infrastructure",
+        "Assist with projects"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

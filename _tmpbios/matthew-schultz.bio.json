@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Matt Schultz",
+    "label": "Student",
+    "picture": "https://github.com/matthew-schultz/matthew-schultz.github.io/raw/master/matt_techfolio_profile.jpg",
+    "email": "mschultz@hawaii.edu",
+    "website": "https://matthew-schultz.github.io",
+    "summary": "Hi there! I'm a part time web developer and a computer science student currently studying at the University of Hawaii in Manoa. I expect to graduate in Spring, 2018.",
+    "profiles": [
+      {
+        "network": "github",
+        "username": "matthew-schultz",
+        "url": "http://github.com/matthew-schultz"
+      },
+      {
+        "network": "linkedin",
+        "username": "Matthew Schultz",
+        "url": "http://www.linkedin.com/in/matthew-schultz-0b519110a"
+      },
+    ]
+  },
+  "interests": [
+    {
+      "name": "cyber security",
+      "keywords": [
+        "encryption",
+        "hardening"
+      ]
+    },
+    {
+      "name": "software development",
+      "keywords": [
+        "enterprise resource planning"
+      ]
+    },
+    {
+      "name": "artificial intelligence",
+      "keywords": [
+        "autonomous vehicles"
+      ]
+    },
+    {
+      "name": "web development",
+      "keywords": [
+        "user account management",
+        "web design",
+        "user interfaces",
+        "user experience"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [
+        "Java",
+        "Javascript",
+        "PHP",
+        "C++"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [
+        "MacOS",
+        "Windows",
+        "Git/GitHub",
+        "Wordpress"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
+      "studyType": "B.S.",
+      "startDate": "2016-08",
+      "endDate": "Present",
+      "courses": "Software Engineering"
+    },
+    {
+      "institution": "Leeward Community College, Honolulu, HI",
+      "area": "Liberal Arts",
+      "studyType": "A.A.",
+      "startDate": "2012-01",
+      "endDate": "2015-08",
+      "courses": [
+		"Introduction to Computer Science I", 
+		"Introduction to Computer Science II", 
+		"Discrete Math for Computer Science I", 
+		"Discrete Math for Computer Science II", 
+		"Introduction to Networking"
+      ]
+    },
+    {
+      "institution": "Harding University, Searcy, AR",
+      "area": "Computer Science",
+      "studyType": "n/a",
+      "startDate": "2009-08",
+      "endDate": "2011-11",
+      "courses": [
+		"Programming I", 
+		"Programming II", 
+		"Data Structures", 
+		"Internet Development", 
+		"Computer Architecture and Assembly Programming"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Intellectual Services",
+      "position": "Web Content Manager",
+      "website": "",
+      "startDate": "2016-02",
+      "endDate": "Present",
+      "summary": "Development and maintenance of Wordpress websites and database management"
+    },
+	{
+      "company": "Intellectual Services",
+      "position": "Data Entry Clerk",
+      "website": "",
+      "startDate": "2015-11",
+      "endDate": "2016-02",
+      "summary": "Data entry and database management",
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Hawaii Medical Center West",
+      "position": "IT/IS Volunteer",
+      "startDate": "2007",
+      "endDate": "2009",
+      "summary": "General IT/IS installation and maintenance"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Academic Achievement Scholarship",
+      "date": "2009-2011",
+      "awarder": "Harding University",
+      "summary": "Awarded to freshman applicants with a minimum high school GPA of 3.0 and an ACT composite score of 22 or higher or an SAT total score of 1020 (combined Math and Critical Reading) or higher."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
