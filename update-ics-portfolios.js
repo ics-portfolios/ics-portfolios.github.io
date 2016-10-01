@@ -65,6 +65,16 @@ function getBioFiles(domain) {
   });
 }
 
+function canonicalHostName(name) {
+  'use strict';
+  let canonicalName = name.toLowerCase();
+  canonicalName.replace(/\/$/, '');
+  if (!canonicalName.startsWith('http')) {
+    canonicalName = `https://${canonicalName}`;
+  }
+  return canonicalName;
+}
+
 function updateProfileEntry(bio) {
   if (!_.isEmpty(bio)) {
     // first, strip off the protocol part of the website entry.
@@ -72,13 +82,13 @@ function updateProfileEntry(bio) {
     const protocolIndex = _.indexOf(bioUrl, ':');
     const bioHostName = bioUrl.substring(protocolIndex + 3);
     const profileEntry = _.find(profileData, function makeEntry(entry) {
-      return entry.techfolio === bioHostName;
+      return canonicalHostName(entry.techfolio) === canonicalHostName(bioHostName);
     });
     if (profileEntry) {
       _.defaults(profileEntry, {
         name: bio.basics.name,
         label: bio.basics.label,
-        website: bio.basics.website,
+        website: canonicalHostName(bio.basics.website),
         summary: bio.basics.summary,
         picture: bio.basics.picture,
         interests: _.map(bio.interests, (interest) => interest.name),
@@ -108,14 +118,6 @@ function writeJekyllInfoFiles() {
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
     console.error(err);
   });
-  // // now write out a file indicating the number of entries for each type.
-  // const profileDataGroups = _.countBy(profileData, 'level');
-  // _.defaults(profileDataGroups, { faculty: 0, undergrad: 0, grad: 0, alumni: 0 });
-  // profileDataGroups.all = profileDataGroups.faculty + profileDataGroups.undergrad + profileDataGroups.grad +
-  //     profileDataGroups.alumni;
-  // jsonfile.writeFile(countFile, profileDataGroups, function (err) {
-  //   console.error(err);
-  // });
 }
 
 function updateProfileDataFromLocalBio(localProfiles) {
@@ -126,6 +128,7 @@ function updateProfileDataFromLocalBio(localProfiles) {
     updateProfileEntry(bio);
   });
 }
+
 
 // ////////////////////  Start the script. ////////////////////////////////////////////
 

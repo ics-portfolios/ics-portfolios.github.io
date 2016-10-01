@@ -50,11 +50,11 @@
   },
   {
     "last": "braun",
-    "techfolio": "Steven-Braun.github.io",
+    "techfolio": "steven-braun.github.io",
     "level": "undergrad",
     "name": "Steven Braun",
     "label": "Student",
-    "website": "https://Steven-Braun.github.io",
+    "website": "https://steven-braun.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "picture": "https://Steven-Braun.github.io/images/headshot.jpg",
     "interests": [
@@ -340,7 +340,7 @@
     "level": "undergrad",
     "name": "Xen Huang",
     "label": "Student",
-    "website": "https://XenHuang.github.io",
+    "website": "https://xenhuang.github.io",
     "summary": "I am studying for Computer engineering at the University of Hawaii. I expect to graduate in Fall, 2016.",
     "picture": "https://XenHuang.github.io/images/icon2.jpg",
     "interests": [
@@ -432,7 +432,7 @@
     "level": "undergrad",
     "name": "Lambert Leong",
     "label": "Student & Researcher",
-    "website": "https://LambertLeong.github.io",
+    "website": "https://lambertleong.github.io",
     "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.  I also received my B.S. in biology with a minor in chemistry from the University of Oregon.  After receiving my degree in computer science, I hope to continue to work in the bio-tech and bio-medical fields.",
     "picture": "https://LambertLeong.github.io/images/profile2dsquare.jpg ",
     "interests": [
@@ -462,7 +462,7 @@
     "level": "undergrad",
     "name": "Stephen Mau",
     "label": "Student",
-    "website": "https://Smau4.github.io",
+    "website": "https://smau4.github.io",
     "summary": "I am studying for a B.S. in Computer Engineering in the Department of Engineering at the University of Hawaii. I expect to graduate in Spring, 2018.",
     "picture": "https://smau4.github.io/images/ProfessionalPicture.jpg",
     "interests": [
@@ -572,7 +572,7 @@
     "tmpbio": "enakano.bio.json",
     "name": "Egan Nakano",
     "label": "Student",
-    "website": "https://Enakano.github.io",
+    "website": "https://enakano.github.io",
     "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2018.",
     "picture": "https://Enakano.github.io/images/20160826_133754.jpg",
     "interests": [
@@ -665,7 +665,7 @@
     "level": "undergrad",
     "name": "Jonathan Quemuel",
     "label": "Student",
-    "website": "https://Jonkiote.github.io",
+    "website": "https://jonkiote.github.io",
     "summary": "I am studying for a B.S. in Computer Engineering at the College of Engineering at the University of Hawaii. I expect to graduate in Fall, 2016.",
     "picture": "https://jonkiote.github.io/images/Jon1.jpg",
     "interests": [
@@ -823,7 +823,7 @@
     "tmpbio": "keauehara.bio.json",
     "name": "Kea Uehara",
     "label": "Student",
-    "website": "https://Keauehara.github.io",
+    "website": "https://keauehara.github.io",
     "summary": "I am an undergraduate pursuing a B.S. in Computer Science at the University of Hawaii. My expected graduation date is Spring, 2018.After graduation, I would like to be employed in an area involving networking.",
     "picture": "https://KeaUehara.github.io/images/Kea_Face.JPG",
     "interests": [
