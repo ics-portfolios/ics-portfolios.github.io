@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 
-// 1. Start on HTML.
-// 10. Image processing: https://github.com/EyalAr/lwip
+// Image processing: https://github.com/EyalAr/lwip
 
 console.log('Starting update_ics_portfolios');
 const request = require('request');
@@ -11,7 +10,6 @@ const jsonfile = require('jsonfile');
 const jsonic = require('jsonic');
 
 const dataFile = '_data/data.json';
-const countFile = '_data/counts.json';
 
 /** Location of the profile entries file. */
 const profileEntriesFile = 'profile-entries.json';
@@ -85,6 +83,9 @@ function updateProfileEntry(bio) {
         picture: bio.basics.picture,
         interests: _.map(bio.interests, (interest) => interest.name),
       });
+      // strip any trailing slash on website url
+      profileEntry.website.replace(/\/$/, '');
+
     } else {
       console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
     }
@@ -107,14 +108,14 @@ function writeJekyllInfoFiles() {
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
     console.error(err);
   });
-  // now write out a file indicating the number of entries for each type.
-  const profileDataGroups = _.countBy(profileData, 'level');
-  _.defaults(profileDataGroups, { faculty: 0, undergrad: 0, grad: 0, alumni: 0 });
-  profileDataGroups.all = profileDataGroups.faculty + profileDataGroups.undergrad + profileDataGroups.grad +
-      profileDataGroups.alumni;
-  jsonfile.writeFile(countFile, profileDataGroups, function (err) {
-    console.error(err);
-  });
+  // // now write out a file indicating the number of entries for each type.
+  // const profileDataGroups = _.countBy(profileData, 'level');
+  // _.defaults(profileDataGroups, { faculty: 0, undergrad: 0, grad: 0, alumni: 0 });
+  // profileDataGroups.all = profileDataGroups.faculty + profileDataGroups.undergrad + profileDataGroups.grad +
+  //     profileDataGroups.alumni;
+  // jsonfile.writeFile(countFile, profileDataGroups, function (err) {
+  //   console.error(err);
+  // });
 }
 
 function updateProfileDataFromLocalBio(localProfiles) {

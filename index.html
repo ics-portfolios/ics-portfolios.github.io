@@ -2,6 +2,11 @@
 layout: default
 ---
 
+{% assign faculty = site.data.data | where: "level", "faculty"  %}
+{% assign undergrads = site.data.data | where: "level", "undergrad"  %}
+{% assign grads = site.data.data | where: "level", "grad"  %}
+{% assign alumni = site.data.data | where: "level", "alumni"  %}
+
 <div style="height: 100%; margin-top: -75px" class="ui middle aligned grid ">
 
   <div class="column">
@@ -29,24 +34,24 @@ layout: default
 
       <div class="center aligned stackable grid">
         <div class="ui small green basic buttons">
-          {% if site.data.counts.undergrad > 0 %}
+          {% if undergrads.size > 0 %}
           <a href="{{ site.baseurl}}/undergrads">
-            <button class="ui button">Undergrads ({{ site.data.counts.undergrad }})</button>
+            <button class="ui button">B.A./B.S. ({{ undergrads.size }})</button>
           </a>
           {% endif %}
-          {% if site.data.counts.grad > 0 %}
+          {% if grads.size > 0 %}
           <a href="{{ site.baseurl}}/grads">
-            <button class="ui button">Grads ({{ site.data.counts.grad }})</button>
+            <button class="ui button">M.S./Ph.D. ({{ grads.size }})</button>
           </a>
           {% endif %}
-          {% if site.data.counts.faculty > 0 %}
+          {% if faculty.size > 0 %}
           <a href="{{ site.baseurl}}/faculty">
-            <button class="ui button">Faculty ({{ site.data.counts.faculty }})</button>
+            <button class="ui button">Faculty ({{ faculty.size }})</button>
           </a>
           {% endif %}
-          {% if site.data.counts.alumni > 0 %}
+          {% if alumni.size > 0 %}
           <a href="{{ site.baseurl}}/alumni">
-            <button class="ui button">Alumni ({{ site.data.counts.alumni }})</button>
+            <button class="ui button">Alumni ({{ alumni.size }})</button>
           </a>
           {% endif %}
           <a href="{{ site.baseurl}}/all">

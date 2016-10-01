@@ -1,6 +1,6 @@
 <div class="ui card">
     <div class="content">
-      <img class="right floated tiny circular ui image" src="{{ portfolio.picture }}">
+      <img class="right floated mini circular ui image" src="{{ portfolio.picture }}">
       <div class="header">
         {{ portfolio.name }}
       </div>
@@ -17,8 +17,8 @@
       {{ interest }}{% if forloop.last != true %}, {% endif %}
       {% endfor %}
     </div>
-  <div class="ui bottom attached button">
+  <a class="ui bottom attached button" href="{{ portfolio.website }}">
     <i class="external icon"></i>
-    <a href="{{ portfolio.website}}">Portfolio</a>
-  </div>
+    See portfolio
+  </a>
 </div>

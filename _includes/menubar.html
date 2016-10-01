@@ -1,29 +1,33 @@
+{% assign faculty = site.data.data | where: "level", "faculty"  %}
+{% assign undergrads = site.data.data | where: "level", "undergrad"  %}
+{% assign grads = site.data.data | where: "level", "grad"  %}
+{% assign alumni = site.data.data | where: "level", "alumni"  %}
+
 <nav class="ui stackable menu">
   <a href="{{ site.baseurl }}/" class="brand item">
     ICS Portfolios
   </a>
-  {% if site.data.counts.undergrad > 0 %}
-  <a href="{{ site.baseurl }}/undergrads" class=" {% if include.active == " undergrad" %} active {% endif
-  %}item">Undergrads ({{ site.data.counts.undergrad }})</a>
+  {% if undergrads.size > 0 %}
+  <a href="{{ site.baseurl }}/undergrads" class=" {% if include.active == "undergrad" %} active {% endif
+  %}item">B.A./B.S. ({{ undergrads.size }})</a>
   {% endif %}
 
-  {% if site.data.counts.grad > 0 %}
-  <a href="{{ site.baseurl }}/grads" class=" {% if include.active == " grad" %} active {% endif %}item">Grads ({{
-  site.data.counts.grad }})</a>
+  {% if grads.size > 0 %}
+  <a href="{{ site.baseurl }}/graduatestudents" class=" {% if include.active == "grad" %} active {% endif %}item">M.S./Ph.D. ({{
+  grads.size }})</a>
   {% endif %}
 
-  {% if site.data.counts.faculty > 0 %}
-  <a href="{{ site.baseurl }}/faculty" class=" {% if include.active == " faculty" %} active {% endif %}item">Faculty ({{
-  site.data.counts.faculty }})</a>
+  {% if faculty.size > 0 %}
+  <a href="{{ site.baseurl }}/faculty" class=" {% if include.active == "faculty" %} active {% endif %}item">Faculty ({{
+  faculty.size }})</a>
   {% endif %}
 
-  {% if site.data.counts.alumni > 0 %}
-  <a href="{{ site.baseurl }}/alumni" class=" {% if include.active == " alumni" %} active {% endif %}item">Alumni ({{
-  site.data.counts.alumni }})</a>
+  {% if alumni.size > 0 %}
+  <a href="{{ site.baseurl }}/alumni" class=" {% if include.active == "alumni" %} active {% endif %}item">Alumni ({{
+  alumni.size }})</a>
   {% endif %}
 
-  {% if site.data.counts.all > 0 %}
-  <a href="{{ site.baseurl }}/all" class=" {% if include.active == " all" %} active {% endif %}item">All ({{
-  site.data.counts.all }})</a>
-  {% endif %}
+  <a href="{{ site.baseurl }}/all" class=" {% if include.active == "all" %} active {% endif %}item">All ({{
+  site.data.data.size }})</a>
+
 </nav>

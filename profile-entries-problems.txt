@@ -1,0 +1,2 @@
+ {"last": "nunagawa", "techfolio": "brentnunogawa.github.io", "level": "undergrad" },
+   - profile picture is a stock icon.

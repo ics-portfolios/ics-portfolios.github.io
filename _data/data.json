@@ -141,7 +141,6 @@
     "last": "christe",
     "techfolio": "anthonyjchriste.github.io",
     "level": "grad",
-    "tmpbio": "anthonyjchriste.bio.json",
     "name": "Anthony J. Christe",
     "label": "Ph.D. Student and Research Assistant",
     "website": "https://anthonyjchriste.github.io",
@@ -614,23 +613,6 @@
     ]
   },
   {
-    "last": "nunagawa",
-    "techfolio": "brentnunogawa.github.io",
-    "level": "undergrad",
-    "name": "Brent Nunogawa",
-    "label": "Student",
-    "website": "https://brentnunogawa.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.  From then on I hope to work in mobile app development in an attempt to work, meet new people, make money all while having fun in an environment which will most likely be a guiding force in the future of how the world works",
-    "picture": "https://brentnunogawa.github.io/images/molly.png",
-    "interests": [
-      "Software Engineering",
-      "data mining",
-      "game development",
-      "mobile app development",
-      "artificial intelligence"
-    ]
-  },
-  {
     "last": "oconner",
     "techfolio": "ian-oconnor.github.io",
     "level": "undergrad",
@@ -852,20 +834,8 @@
   },
   {
     "last": "vilanueva",
-    "techfolio": "reedv.github.io",
-    "level": "undergrad",
-    "tmpbio": "reedv.bio.json",
-    "name": "Reed Villanueva",
-    "label": "Student",
-    "website": "https://reedv.github.io",
-    "summary": "Studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. Expecting to graduate in Spring, 2017.",
-    "picture": "https://REEDV.github.io/images/1.1-square.JPG",
-    "interests": [
-      "software engineering",
-      "networking",
-      "data mining",
-      "animal welfare"
-    ]
+    "techfolio": "REEDV.github.io",
+    "level": "undergrad"
   },
   {
     "last": "viloria",
