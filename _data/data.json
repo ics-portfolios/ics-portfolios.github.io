@@ -805,11 +805,12 @@
     "last": "siu",
     "techfolio": "williamycsiu.github.io",
     "level": "undergrad",
+    "tmpbio": "williamycsiu",
     "name": "William Siu",
     "label": "Student",
     "website": "https://williamycsiu.github.io",
     "summary": "I am a student majoring in Computer Science at the University of Hawaii of Manoa.",
-    "picture": "https:/williamycsiu.github.io/images/profile pic.jpg",
+    "picture": "https://github.com/williamycsiu/williamycsiu.github.io/raw/master/images/profile%20pic.jpg",
     "interests": [
       "drawing",
       "video games",
