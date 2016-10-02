@@ -17,7 +17,8 @@ layout: default
     </div>
 
 
-    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px; padding-bottom: 20px" class="ui fluid centered card">
+    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px; padding-bottom: 20px"
+         class="ui fluid centered card">
 
       <div class="center aligned content">
         <span class="header">ICS Portfolios</span>
@@ -32,32 +33,42 @@ layout: default
         </div>
       </div>
 
-      <div class="center aligned stackable grid">
-        <div class="ui small green basic buttons">
-          {% if undergrads.size > 0 %}
+      <div class="ui center aligned four column stackable grid content">
+
+        {% if undergrads.size > 0 %}
+        <div class="column">
           <a href="{{ site.baseurl}}/undergrads">
-            <button class="ui button">B.A./B.S. ({{ undergrads.size }})</button>
-          </a>
-          {% endif %}
-          {% if grads.size > 0 %}
-          <a href="{{ site.baseurl}}/graduatestudents">
-            <button class="ui button">M.S./Ph.D. ({{ grads.size }})</button>
-          </a>
-          {% endif %}
-          {% if faculty.size > 0 %}
-          <a href="{{ site.baseurl}}/faculty">
-            <button class="ui button">Faculty ({{ faculty.size }})</button>
-          </a>
-          {% endif %}
-          {% if alumni.size > 0 %}
-          <a href="{{ site.baseurl}}/alumni">
-            <button class="ui button">Alumni ({{ alumni.size }})</button>
-          </a>
-          {% endif %}
-          <a href="{{ site.baseurl}}/all">
-            <button class="ui button">All ({{ site.data.counts.all }})</button>
+            <button class="ui small green fluid button">B.A./B.S.<br />({{ undergrads.size }})</button>
           </a>
         </div>
+        {% endif %}
+        {% if grads.size > 0 %}
+        <div class="column">
+          <a href="{{ site.baseurl}}/graduatestudents">
+            <button class="ui small green fluid button">M.S./Ph.D.<br />({{ grads.size }})</button>
+          </a>
+        </div>
+        {% endif %}
+        {% if faculty.size > 0 %}
+        <div class="column">
+          <a href="{{ site.baseurl}}/faculty">
+            <button class="ui small green fluid button">Faculty<br />({{ faculty.size }})</button>
+          </a>
+        </div>
+        {% endif %}
+        {% if alumni.size > 0 %}
+        <div class="column">
+          <a href="{{ site.baseurl}}/alumni">
+            <button class="ui small green fluid button">Alumni<br />({{ alumni.size }})</button>
+          </a>
+        </div>
+        {% endif %}
+        <div class="column">
+          <a href="{{ site.baseurl}}/all">
+            <button class="ui small green fluid button">All<br />({{ site.data.data.size }})</button>
+          </a>
+        </div>
+
       </div>
     </div>
   </div>

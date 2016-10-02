@@ -43,3 +43,7 @@ body {
 .ui.basic.buttons {
   border: none;
 }
+
+.ui.green.button, .ui.green.buttons .button {
+  background-color: lighten(darkgreen, 10%);
+}
