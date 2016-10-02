@@ -85,7 +85,7 @@
     "tmpbio": "henricasanova",
     "name": "Henri Casanova",
     "label": "Faculty",
-    "website": "https://henricasanova.github.io/",
+    "website": "https://henricasanova.github.io",
     "summary": "I am a Professor at the University of Hawaii. I am an author of [Parallel Algorithms](https://www.crcpress.com/Parallel-Algorithms/Casanova-Legrand-Robert/p/book/9781584889458), and am currently a PI on the NSF-funded [WRENCH project](https://scitech.isi.edu/2016/09/16/award-nsf-wrench/).",
     "picture": "https://github.com/ics-portfolios/ics-portfolios.github.io/raw/master/images/casanova.jpg",
     "interests": [
@@ -215,6 +215,21 @@
       "Web/App Development",
       "Security",
       "Game Development"
+    ]
+  },
+  {
+    "last": "exzabe",
+    "techfolio": "pexzabe.github.io",
+    "level": "undergrad",
+    "name": "Preston Exzabe",
+    "label": "Student",
+    "website": "https://pexzabe.github.io",
+    "summary": "I am studying to earn a BS in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Fall, 2017",
+    "picture": "https://pexzabe.github.io/images/prestonself.JPG",
+    "interests": [
+      "Software development",
+      "Security",
+      "Networking"
     ]
   },
   {
@@ -536,6 +551,21 @@
     ]
   },
   {
+    "last": "mosher",
+    "techfolio": "dmosher42.github.io",
+    "level": "undergrad",
+    "name": "Dee Mosher",
+    "label": "Student",
+    "website": "https://dmosher42.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring, 2017... Hopefully.",
+    "picture": "https://dmosher42.github.io/images/dmosher42.jpg",
+    "interests": [
+      "internet of things",
+      "rapid prototyping",
+      "artificial intelligence"
+    ]
+  },
+  {
     "last": "mullen",
     "techfolio": "billmullen42.github.io",
     "level": "undergrad",
@@ -628,6 +658,21 @@
       "Cyber Security",
       "Computer Forensics",
       "Programming"
+    ]
+  },
+  {
+    "last": "palpallatoc",
+    "techfolio": "cpalpall.github.io",
+    "level": "undergrad",
+    "name": "Chad Palpallatoc",
+    "label": "Student",
+    "website": "https://cpalpall.github.io",
+    "summary": "I am a student studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii.",
+    "picture": "https://cpalpall.github.io/images/Snapshot_20160826.JPG",
+    "interests": [
+      "software programming",
+      "java",
+      "videogames"
     ]
   },
   {
@@ -837,8 +882,20 @@
   },
   {
     "last": "vilanueva",
-    "techfolio": "REEDV.github.io",
-    "level": "undergrad"
+    "techfolio": "reedv.github.io",
+    "level": "undergrad",
+    "tmpbio": "reedv",
+    "name": "Reed Villanueva",
+    "label": "Student",
+    "website": "https://reedv.github.io",
+    "summary": "Studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. Expecting to graduate in Spring, 2017.",
+    "picture": "https://REEDV.github.io/images/1.1-square.JPG",
+    "interests": [
+      "software engineering",
+      "networking",
+      "data mining",
+      "animal welfare"
+    ]
   },
   {
     "last": "viloria",
@@ -856,6 +913,21 @@
     ]
   },
   {
+    "last": "white",
+    "techfolio": "spyhi.github.io",
+    "level": "undergrad",
+    "name": "Ed White",
+    "label": "Student",
+    "website": "https://spyhi.github.io",
+    "summary": "I am studying for a B.S. in Computer Science and a B.B.A. in Entrepreneurship at the University of Hawaii at Manoa. I'm interested in consumer-level automation and predictive AI assistants. I expect to graduate in Fall, 2018.",
+    "picture": "https://spyhi.github.io/images/EdWebHead_SpyhiGithubIO.jpg",
+    "interests": [
+      "Software Engineering",
+      "Tech Entrepreneurship",
+      "Product Design"
+    ]
+  },
+  {
     "last": "yang",
     "techfolio": "yohanyang.github.io",
     "level": "undergrad",
@@ -869,6 +941,22 @@
       "Software engineering",
       "Game industry",
       "History"
+    ]
+  },
+  {
+    "last": "yoshimura",
+    "techfolio": "yoshimura123.github.io",
+    "level": "undergrad",
+    "tmpbio": "yoshimura123",
+    "name": "Michael Yoshimura",
+    "label": "Student",
+    "website": "https://yoshimura123.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Fall, 2018.",
+    "picture": "https://yoshimura123.github.io/images/image.jpeg",
+    "interests": [
+      "Programming",
+      "App Design",
+      "Skateboarding"
     ]
   }
 ]

@@ -26,6 +26,12 @@
     "tmpbio": "wyattbartlett"
   },
   {
+    "last": "casanova",
+    "level": "faculty",
+    "techfolio": "https://henricasanova.github.io/",
+    "tmpbio": "henricasanova"
+  },
+  {
     "last": "chan",
     "techfolio": "creightonchan.github.io",
     "level": "undergrad"
@@ -52,6 +58,11 @@
     "level": "undergrad"
   },
   {
+    "last": "christe",
+    "techfolio": "anthonyjchriste.github.io",
+    "level": "grad"
+  },
+  {
     "last": "doi",
     "techfolio": "minakodoi.github.io",
     "level": "undergrad",
@@ -60,6 +71,11 @@
   {
     "last": "dumlao",
     "techfolio": "dumlaoj.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "exzabe",
+    "techfolio": "pexzabe.github.io",
     "level": "undergrad"
   },
   {
@@ -165,6 +181,11 @@
     "level": "undergrad"
   },
   {
+    "last": "mosher",
+    "techfolio": "dmosher42.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "mullen",
     "techfolio": "billmullen42.github.io",
     "level": "undergrad"
@@ -192,8 +213,18 @@
     "tmpbio": "jnasca"
   },
   {
+    "last": "negrashov",
+    "techfolio": "sergey-negrashov.github.io",
+    "level": "grad"
+  },
+  {
     "last": "oconner",
     "techfolio": "ian-oconnor.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "palpallatoc",
+    "techfolio": "cpalpall.github.io",
     "level": "undergrad"
   },
   {
@@ -244,6 +275,11 @@
     "tmpbio": "seantshi"
   },
   {
+    "last": "takayesu",
+    "techfolio": "amymalia.github.io",
+    "level": "grad"
+  },
+  {
     "last": "teves",
     "techfolio": "neilnthings.github.io",
     "level": "undergrad"
@@ -267,7 +303,13 @@
   },
   {
     "last": "vilanueva",
-    "techfolio": "REEDV.github.io",
+    "techfolio": "reedv.github.io",
+    "level": "undergrad",
+    "tmpbio": "reedv"
+  },
+  {
+    "last": "white",
+    "techfolio": "spyhi.github.io",
     "level": "undergrad"
   },
   {
@@ -276,24 +318,9 @@
     "level": "undergrad"
   },
   {
-    "last": "takayesu",
-    "techfolio": "amymalia.github.io",
-    "level": "grad"
-  },
-  {
-    "last": "christe",
-    "techfolio": "anthonyjchriste.github.io",
-    "level": "grad"
-  },
-  {
-    "last": "negrashov",
-    "techfolio": "sergey-negrashov.github.io",
-    "level": "grad"
-  },
-  {
-    "last": "casanova",
-    "level": "faculty",
-    "techfolio": "https://henricasanova.github.io/",
-    "tmpbio": "henricasanova"
+    "last": "yoshimura",
+    "techfolio": "yoshimura123.github.io",
+    "level": "undergrad",
+    "tmpbio": "yoshimura123"
   }
 ]

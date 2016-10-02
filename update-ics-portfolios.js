@@ -68,11 +68,18 @@ function getBioFiles(domain) {
 function canonicalHostName(name) {
   'use strict';
   let canonicalName = name.toLowerCase();
-  canonicalName.replace(/\/$/, '');
+  //  canonicalName.replace(/\/$/, ''); // why this doesn't work in the case of pexzabe is beyond me.
+  if (canonicalName.slice(-1) === '/') {
+    canonicalName = canonicalName.slice(0, -1);
+  }
   if (!canonicalName.startsWith('http')) {
     canonicalName = `https://${canonicalName}`;
   }
   return canonicalName;
+}
+
+function fixPicturePrefix(pictureUrl) {
+  return (pictureUrl.startsWith('http')) ? pictureUrl : `https://${pictureUrl}`;
 }
 
 function updateProfileEntry(bio) {
@@ -82,6 +89,7 @@ function updateProfileEntry(bio) {
     const protocolIndex = _.indexOf(bioUrl, ':');
     const bioHostName = bioUrl.substring(protocolIndex + 3);
     const profileEntry = _.find(profileData, function makeEntry(entry) {
+      //console.log(`${canonicalHostName(entry.techfolio)}, ${canonicalHostName(entry.techfolio).length}, ${canonicalHostName(bioHostName)}, ${canonicalHostName(bioHostName).length}`);
       return canonicalHostName(entry.techfolio) === canonicalHostName(bioHostName);
     });
     if (profileEntry) {
@@ -90,7 +98,7 @@ function updateProfileEntry(bio) {
         label: bio.basics.label,
         website: canonicalHostName(bio.basics.website),
         summary: bio.basics.summary,
-        picture: bio.basics.picture,
+        picture: fixPicturePrefix(bio.basics.picture),
         interests: _.map(bio.interests, (interest) => interest.name),
       });
       // strip any trailing slash on website url

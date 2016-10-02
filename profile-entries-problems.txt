@@ -1,2 +1,14 @@
  {"last": "nunagawa", "techfolio": "brentnunogawa.github.io", "level": "undergrad" },
    - profile picture is a stock icon.
+
+ https://azadaj.github.io/
+   - profile picture link broken, essays not written
+
+ https://jeremyhedricks.github.io/
+ picture not square (home page, projects)
+
+ https://kpk3.github.io/
+ using default essays.
+
+ rileymiyamoto
+ uses yaml, not json
