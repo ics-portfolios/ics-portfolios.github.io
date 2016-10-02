@@ -34,7 +34,6 @@ layout: default
       </div>
 
       <div class="ui center aligned four column stackable grid content">
-
         {% if undergrads.size > 0 %}
         <div class="column">
           <a href="{{ site.baseurl}}/undergrads">
@@ -56,18 +55,21 @@ layout: default
           </a>
         </div>
         {% endif %}
-        {% if alumni.size > 0 %}
+        {% if alumni.size > -1 %}
         <div class="column">
           <a href="{{ site.baseurl}}/alumni">
             <button class="ui small green fluid button">Alumni ({{ alumni.size }})</button>
           </a>
         </div>
         {% endif %}
+
+        <!--
         <div class="column">
           <a href="{{ site.baseurl}}/all">
-            <button class="ui small green fluid button">All ({{ site.data.data.size }}) <br /> &nbsp; </button>
+            <button class="ui small green fluid button">All ({{ site.data.data.size }}) <br/> &nbsp; </button>
           </a>
         </div>
+        -->
 
       </div>
     </div>

@@ -122,8 +122,8 @@ function writeJekyllInfoFiles() {
 
 function updateProfileDataFromLocalBio(localProfiles) {
   _.map(localProfiles, function updateLocal(localProfile) {
-    const fileName = localProfile.tmpbio;
-    const contents = fs.readFileSync(`_tmpbios/${fileName}`, 'utf8');
+    const dirName = localProfile.tmpbio;
+    const contents = fs.readFileSync(`_tmpbios/${dirName}/bio.json`, 'utf8');
     const bio = jsonic(contents);
     updateProfileEntry(bio);
   });
