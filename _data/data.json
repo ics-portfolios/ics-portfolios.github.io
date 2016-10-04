@@ -49,6 +49,20 @@
     ]
   },
   {
+    "last": "biagioni",
+    "level": "faculty",
+    "techfolio": "https://www2.hawaii.edu/~esb/",
+    "tmpbio": "esb",
+    "name": "Edo Biagioni",
+    "label": "Faculty",
+    "website": "https://www2.hawaii.edu/~esb",
+    "summary": "I am an Associate Professor in the Department of Information and Computer Sciences (ICS) at the University of Hawai`i at Manoa.  I am currently (2016) the Graduate Chair for ICS.",
+    "picture": "https://github.com/ics-portfolios/ics-portfolios.github.io/raw/master/images/esb.png",
+    "interests": [
+      "Networking, particularly wireless ad-hoc networks."
+    ]
+  },
+  {
     "last": "braun",
     "techfolio": "steven-braun.github.io",
     "level": "undergrad",
@@ -451,7 +465,7 @@
     "name": "Lambert Leong",
     "label": "Student & Researcher",
     "website": "https://lambertleong.github.io",
-    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.  I also received my B.S. in biology with a minor in chemistry from the University of Oregon.  After receiving my degree in computer science, I hope to continue to work in the bio-tech and bio-medical fields.",
+    "summary": "I am studying Information and Computer Sciences at the University of Hawaii, Manoa and expect to graduate in 2018.",
     "picture": "https://LambertLeong.github.io/images/profile2dsquare.jpg ",
     "interests": [
       "bioinformatics",
@@ -576,7 +590,7 @@
     "picture": "https://billmullen42.github.io/images/headshot.png",
     "interests": [
       "Data management",
-      "wed development",
+      "web development",
       "data analysis",
       "content management systems",
       "scientific publications",
