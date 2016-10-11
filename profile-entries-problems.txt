@@ -10,5 +10,3 @@
  https://kpk3.github.io/
  using default essays.
 
- rileymiyamoto
- uses yaml, not json

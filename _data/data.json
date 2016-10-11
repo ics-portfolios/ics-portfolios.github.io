@@ -519,6 +519,21 @@
     ]
   },
   {
+    "last": "miyamoto",
+    "techfolio": "rileymiyamoto.github.io",
+    "level": "undergrad",
+    "name": "Riley Miyamoto",
+    "label": "Student",
+    "website": "https://rileymiyamoto.github.io",
+    "summary": "I am studying for a B.A. in Computer Science focusing on Information Technologies in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2018.",
+    "picture": "https://RileyMiyamoto.github.io/RileyMiyamoto.github.io/images/linkedein_pic.jpg",
+    "interests": [
+      "Network Technologies",
+      "Computer Hardware",
+      "Mobile Devices"
+    ]
+  },
+  {
     "last": "moore",
     "techfolio": "cammoore.github.io",
     "level": "faculty",
@@ -651,7 +666,7 @@
     "name": "Sergey Negrashov",
     "label": "Graduate Student",
     "website": "https://sergey-negrashov.github.io",
-    "summary": "I am working on the PHD in ICS. My interests are in sensor networks, distributed measurements, and smart grid technologies.",
+    "summary": "I am working on the PHD in Information and Computer Science at the University of Hawaii at Manoa. My research is in scalable IP sensor networks. I hope to graduate in 2017.",
     "picture": "https://sergey-negrashov.github.io/images/serge.jpg",
     "interests": [
       "Power Quality",
@@ -786,7 +801,6 @@
     "last": "schultz",
     "techfolio": "matthew-schultz.github.io",
     "level": "undergrad",
-    "tmpbio": "matthew-schultz",
     "name": "Matt Schultz",
     "label": "Student",
     "website": "https://matthew-schultz.github.io",

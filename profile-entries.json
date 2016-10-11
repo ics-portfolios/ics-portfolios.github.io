@@ -167,6 +167,11 @@
     "level": "undergrad"
   },
   {
+    "last": "miyamoto",
+    "techfolio": "rileymiyamoto.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "mangrobang",
     "techfolio": "mickyjm.github.io",
     "level": "undergrad"
@@ -272,8 +277,7 @@
   {
     "last": "schultz",
     "techfolio": "matthew-schultz.github.io",
-    "level": "undergrad",
-    "tmpbio": "matthew-schultz"
+    "level": "undergrad"
   },
   {
     "last": "shimoda",
