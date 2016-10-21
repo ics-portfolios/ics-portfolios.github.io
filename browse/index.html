@@ -1,0 +1,14 @@
+---
+layout: browse
+---
+
+<div class="ui container ">
+  <p> Search: <input id="searchBox"> </p> <button onclick="browse()"> Run </button>
+  <div class="ui four doubling stackable cards">
+    {% assign portfolios = site.data.data %}
+    {% for portfolio in portfolios %}
+      {% include portfolio-card.html portfolio=portfolio %}
+    {% endfor %}
+  </div>
+</div>
+

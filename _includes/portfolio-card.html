@@ -13,9 +13,11 @@
     </div>
     <div class="extra content">
       Interests:
-      {% for interest in portfolio.interests %}
-      {{ interest }}{% if forloop.last != true %}, {% endif %}
-      {% endfor %}
+      <div class="interests">
+        {% for interest in portfolio.interests %}
+        {{ interest }}{% if forloop.last != true %}, {% endif %}
+        {% endfor %}
+      </div>>
     </div>
   <a class="ui bottom attached button" href="{{ portfolio.website }}">
     <i class="external icon"></i>
