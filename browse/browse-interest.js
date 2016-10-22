@@ -1,10 +1,19 @@
 var keywordsSynonymList = [
-	["software", "engineer", "dev", "program"],
-	["web", "design", "UI", "dev", "IT"],
+	["software", "engineer", "program"],
+	["web", "design", "ui", "experience", "ux"],
 	["security", "defense", "greyhat"],
 	["ai", "artificial", "intelligence"],
-	["mobile", "app", "dev"]
+	["mobile", "app", "android", "ios"],
+	["concurren", "performance", "optim"],
+	["start", "business", "entrepreneur"]
 ];
+
+// register enter key
+$("#searchBox").keyup(function(event){
+    if(event.keyCode == 13){  
+        browse();
+    }
+});
 
 function browse() {
 	var text = $("#searchBox").val().toLowerCase();

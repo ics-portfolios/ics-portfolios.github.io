@@ -3,7 +3,16 @@ layout: browse
 ---
 
 <div class="ui container ">
-  <p> Search: <input id="searchBox"> </p> <button onclick="browse()"> Run </button>
+  <div class="ui input">
+    <p> 
+      Browse portfolios by interest:   <input class="prompt" id="searchBox" type="text"> 
+      <button onclick="browse()" class="ui primary button"> Browse </button>
+    </p>  
+  </div>
+  <br>
+  <br>
+  <hr>
+  <br>
   <div class="ui four doubling stackable cards">
     {% assign portfolios = site.data.data %}
     {% for portfolio in portfolios %}
