@@ -19,15 +19,28 @@ function browse() {
 	var text = $("#searchBox").val().toLowerCase();
 	var synonyms = querySynonyms(text);
 	//console.log("searching for " + text + " in " + synonyms);
+	var or = !$("#slider").checkbox('is checked');
+
 	$(".interests").each(function() {
 		var interests = $(this).text().toLowerCase();
 		var match = false;
+		var matchingCount = 0;
 
 		for (var i = 0; i < synonyms.length; i++) {
-			if (interests.includes(synonyms[i])) {
-				match = true;
+			for (var j = 0; j < synonyms[i].length; j++) {
+				if (interests.includes(synonyms[i][j])) {
+					match = true;
+					matchingCount ++;
+					break;
+				} 
+			}
+			if (or && match) {
 				break;
 			}
+		}
+
+		if (!or && matchingCount < synonyms.length) {
+			match = false;
 		}
 
 		if (!match) {
@@ -39,12 +52,26 @@ function browse() {
 }
 
 function querySynonyms(keyword) {
-	for (var i = 0; i < keywordsSynonymList.length; i++) {
-		if (containsInList(keyword, keywordsSynonymList[i])) {
-			return keywordsSynonymList[i];
+	var keywordList = keyword.split(" ");
+	//console.log(keywordList);
+	var synonyms = [];
+
+	for (var i = 0; i < keywordList.length; i++) {
+		var match = false;
+		for (var j = 0; j < keywordsSynonymList.length; j++) {
+			if (containsInList(keywordList[i], keywordsSynonymList[j])) {
+				synonyms.push(keywordsSynonymList[j]);
+				match = true;
+				break;
+			}
+		}
+		if (!match) {
+			synonyms.push([keywordList[i]]);
 		}
 	}
-	return [keyword];
+
+	//console.log(synonyms);
+	return synonyms;
 }
 
 function containsInList(keyword, wordList) {
