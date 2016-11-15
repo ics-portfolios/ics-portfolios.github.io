@@ -8,14 +8,21 @@ const fs = require('fs');
 const _ = require('underscore');
 const jsonfile = require('jsonfile');
 const jsonic = require('jsonic');
+const cheerio = require('cheerio');
 
 const dataFile = '_data/data.json';
 
 /** Location of the profile entries file. */
 const profileEntriesFile = 'profile-entries.json';
 
+const hallOfFrameCardsFile = '_includes/hallOfFrameCards.html';
+
+
 /** Holds the profile data, initialized with profile-entries, then updated with bio.json. */
 const profileData = [];
+
+var hallOfFrameCardsHTML = '';
+
 
 /**
  * Initializes profileData with the contents of the profile-entries file.
@@ -27,6 +34,7 @@ function initializeProfileData() {
     profileData.push(entry);
   });
 }
+
 
 /**
  * Given a techfolio hostname, returns the URL to its associated bio.json file.
@@ -126,6 +134,14 @@ function writeJekyllInfoFiles() {
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
     console.error(err);
   });
+
+  fs.writeFile(hallOfFrameCardsFile, hallOfFrameCardsHTML, function(err) {
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+  });
 }
 
 function updateProfileDataFromLocalBio(localProfiles) {
@@ -162,3 +178,59 @@ Promise.all(bioBodyPromises)
       writeJekyllInfoFiles();
     })
     .catch(console.error);
+
+
+//getCardHTML("https://mckuok.github.io/essays/2016-10-15.html")
+
+
+
+function getCardHTML(url) {
+  var summaryPageURL = url.substring(url.substring(0, url.length - 1), url.lastIndexOf("/") + 1);
+  var documentName = url.substring(summaryPageURL.length);
+  console.log(summaryPageURL.substring(0, summaryPageURL.length - 1));
+  
+  var baseURL = summaryPageURL.substring(0, summaryPageURL.length - 1);
+  baseURL = baseURL.substring(0, baseURL.lastIndexOf("/"));
+  console.log(baseURL);
+
+  request(summaryPageURL, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      let $ = cheerio.load(body);
+      $(".card").each(function(card) {
+        var cardHTML = $(this).html();
+        if (cardHTML.indexOf(documentName) >= 0) {
+          $(this).find('a').each(function() {
+            var href = $(this).attr('href');
+            $(this).attr('href', toAbsoluteURL(href, baseURL));
+          });
+
+          $(this).find('img').each(function() {
+            var href = $(this).attr('src');
+            $(this).attr('src', toAbsoluteURL(href, baseURL));
+          });
+
+          hallOfFrameCardsHTML += $(this).html();
+        }
+      })
+    }
+  })
+}
+
+function toAbsoluteURL(relativeURL, base) {
+  if (relativeURL.indexOf("http") < 0) {
+    if (!base.endsWith("/")) {
+      base += "/";
+    }
+    if (relativeURL.startsWith("/")) {
+      relativeURL = relativeURL.substring(1);
+    }
+    console.log("FULL " + base + relativeURL);
+    return base + relativeURL;
+  } else {
+    return relativeURL;
+  }
+
+}
+
+
+
