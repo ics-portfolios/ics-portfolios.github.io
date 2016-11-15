@@ -1,0 +1,389 @@
+[
+  {
+    "level": "faculty",
+    "data": [
+      {
+        "interest": "Networking",
+        "names": [
+          "www2",
+          "henricasanova"
+        ]
+      },
+      {
+        "interest": "System Design",
+        "names": [
+          "henricasanova",
+          "henricasanova"
+        ]
+      },
+      {
+        "interest": "Software Engineering",
+        "names": [
+          "philipmjohnson",
+          "cammoore"
+        ]
+      },
+      {
+        "interest": "Game Development",
+        "names": [
+          "philipmjohnson"
+        ]
+      },
+      {
+        "interest": "Social Topics",
+        "names": [
+          "philipmjohnson",
+          "cammoore"
+        ]
+      },
+      {
+        "interest": "Web Development",
+        "names": [
+          "cammoore"
+        ]
+      }
+    ]
+  },
+  {
+    "level": "undergrad",
+    "data": [
+      {
+        "interest": "Artificial Intelligence",
+        "names": [
+          "wyattbartlett",
+          "wyattbartlett",
+          "seantshi",
+          "byerst",
+          "creightonchan",
+          "jchock",
+          "mckuok",
+          "akuloloia",
+          "acvmf",
+          "mickyjm",
+          "dmosher42",
+          "paniolonate",
+          "dylanpavao",
+          "matthew-schultz"
+        ]
+      },
+      {
+        "interest": "Web Development",
+        "names": [
+          "wyattbartlett",
+          "minakodoi",
+          "seantshi",
+          "ryanbars",
+          "rfiggs",
+          "jogarces",
+          "jogarces",
+          "xenhuang",
+          "lambertleong",
+          "billmullen42",
+          "dylanpavao",
+          "aljonpreza",
+          "aljonpreza",
+          "marysantabarbara",
+          "matthew-schultz",
+          "neilnthings"
+        ]
+      },
+      {
+        "interest": "Networking",
+        "names": [
+          "wyattbartlett",
+          "mahoe7",
+          "enakano",
+          "keauehara",
+          "reedv",
+          "jchock",
+          "derrick-comiso",
+          "pexzabe",
+          "mariahgaoiran",
+          "huang6606521",
+          "xenhuang",
+          "alliekim13",
+          "mckuok",
+          "akuloloia",
+          "acvmf",
+          "rileymiyamoto",
+          "smau4",
+          "chadmorita",
+          "dmosher42",
+          "keanur",
+          "marysantabarbara"
+        ]
+      },
+      {
+        "interest": "Sports",
+        "names": [
+          "brandon-chun",
+          "yoshimura123",
+          "ryanbars",
+          "huang6606521",
+          "clint-morimoto"
+        ]
+      },
+      {
+        "interest": "Software Engineering",
+        "names": [
+          "brandon-chun",
+          "brandon-chun",
+          "minakodoi",
+          "mahoe7",
+          "jnasca",
+          "reedv",
+          "yoshimura123",
+          "kylebali",
+          "steven-braun",
+          "creightonchan",
+          "kendrickchen",
+          "jchock",
+          "derrick-comiso",
+          "pexzabe",
+          "mariahgaoiran",
+          "kaseyhagi",
+          "alliekim13",
+          "dankoo",
+          "mckuok",
+          "mckuok",
+          "mickyjm",
+          "chadmorita",
+          "dmosher42",
+          "clint-morimoto",
+          "paniolonate",
+          "ian-oconnor",
+          "cpalpall",
+          "dylanpavao",
+          "aljonpreza",
+          "jonkiote",
+          "keanur",
+          "marysantabarbara",
+          "matthew-schultz",
+          "gviloria",
+          "spyhi",
+          "yohanyang"
+        ]
+      },
+      {
+        "interest": "Algorithm",
+        "names": [
+          "minakodoi"
+        ]
+      },
+      {
+        "interest": "Virtual Reality",
+        "names": [
+          "mahoe7",
+          "jnasca",
+          "rctheriot",
+          "rctheriot",
+          "kylebali",
+          "byerst",
+          "amsanchez93"
+        ]
+      },
+      {
+        "interest": "Game Development",
+        "names": [
+          "enakano",
+          "williamycsiu",
+          "williamycsiu",
+          "kylebali",
+          "jchock",
+          "dumlaoj",
+          "jogarces",
+          "jheadland",
+          "mickyjm",
+          "billmullen42",
+          "clint-morimoto",
+          "cpalpall",
+          "dylanpavao",
+          "jonkiote",
+          "yohanyang"
+        ]
+      },
+      {
+        "interest": "Social Topics",
+        "names": [
+          "enakano",
+          "reedv",
+          "kendrickchen"
+        ]
+      },
+      {
+        "interest": "Security",
+        "names": [
+          "jnasca",
+          "dumlaoj",
+          "pexzabe",
+          "irene-f",
+          "jheadland",
+          "dankoo",
+          "chadmorita",
+          "ian-oconnor",
+          "matthew-schultz"
+        ]
+      },
+      {
+        "interest": "Art",
+        "names": [
+          "williamycsiu",
+          "rctheriot",
+          "yoshimura123",
+          "kylebali",
+          "derrick-comiso",
+          "irene-f",
+          "jogarces",
+          "clint-morimoto",
+          "aljonpreza",
+          "gviloria",
+          "spyhi"
+        ]
+      },
+      {
+        "interest": "Leisure Activities",
+        "names": [
+          "williamycsiu",
+          "kylebali",
+          "ryanbars",
+          "kendrickchen",
+          "huang6606521",
+          "xenhuang"
+        ]
+      },
+      {
+        "interest": "Hardware",
+        "names": [
+          "williamycsiu",
+          "keauehara",
+          "keauehara",
+          "mariahgaoiran",
+          "acvmf",
+          "rileymiyamoto",
+          "smau4",
+          "jonkiote",
+          "keanur",
+          "amsanchez93",
+          "amsanchez93"
+        ]
+      },
+      {
+        "interest": "Data Administration",
+        "names": [
+          "seantshi",
+          "reedv",
+          "byerst",
+          "alliekim13",
+          "akuloloia",
+          "lambertleong",
+          "smau4",
+          "billmullen42",
+          "billmullen42",
+          "jonkiote",
+          "neilnthings",
+          "neilnthings",
+          "gviloria",
+          "yohanyang"
+        ]
+      },
+      {
+        "interest": "Languages",
+        "names": [
+          "steven-braun",
+          "cpalpall"
+        ]
+      },
+      {
+        "interest": "Subjects",
+        "names": [
+          "steven-braun",
+          "kaseyhagi",
+          "kaseyhagi",
+          "lambertleong",
+          "billmullen42",
+          "ian-oconnor",
+          "yohanyang"
+        ]
+      },
+      {
+        "interest": "System Design",
+        "names": [
+          "creightonchan",
+          "billmullen42"
+        ]
+      },
+      {
+        "interest": "Mobile Design",
+        "names": [
+          "dumlaoj",
+          "irene-f",
+          "dankoo",
+          "rileymiyamoto",
+          "paniolonate"
+        ]
+      },
+      {
+        "interest": "Operating Systems",
+        "names": [
+          "jheadland"
+        ]
+      },
+      {
+        "interest": "Business",
+        "names": [
+          "mckuok",
+          "spyhi"
+        ]
+      }
+    ]
+  },
+  {
+    "level": "grad",
+    "data": [
+      {
+        "interest": "System Design",
+        "names": [
+          "anthonyjchriste",
+          "anthonyjchriste"
+        ]
+      },
+      {
+        "interest": "Data Administration",
+        "names": [
+          "anthonyjchriste"
+        ]
+      },
+      {
+        "interest": "Social Topics",
+        "names": [
+          "sergey-negrashov"
+        ]
+      },
+      {
+        "interest": "Subjects",
+        "names": [
+          "sergey-negrashov",
+          "amymalia"
+        ]
+      },
+      {
+        "interest": "Networking",
+        "names": [
+          "sergey-negrashov"
+        ]
+      },
+      {
+        "interest": "Software Engineering",
+        "names": [
+          "amymalia"
+        ]
+      },
+      {
+        "interest": "Artificial Intelligence",
+        "names": [
+          "amymalia"
+        ]
+      }
+    ]
+  }
+]
