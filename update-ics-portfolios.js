@@ -133,7 +133,9 @@ function writeJekyllInfoFiles() {
   console.log('Writing jekyll info files.');
   jsonfile.spaces = 2;
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
-    console.error(err);
+    if (err) {
+      console.error(err);
+    }
   });
 
   generateHallOfFrameTemplate();
@@ -199,13 +201,14 @@ function generateHallOfFrameTemplate() {
     }
 
     async.waterfall(tasks, function(err, result) {
-
+      if (err) {
+        console.log(err);
+      }
       fs.writeFile(hallOfFrameCardsFile, result, function(err) {
+        console.log("Writing to " + hallOfFrameURLFile);
         if(err) {
-            return console.log(err);
+          return console.log(err);
         }
-
-        console.log("The file was saved!");
       });
     });
   } 
@@ -213,39 +216,42 @@ function generateHallOfFrameTemplate() {
 
 /* Get the card's HTML */
 function getCardHTML(url, html, callback) {
-  //console.log(url);
+  console.log("Reading " + url + " for hall of frame");
   var summaryPageURL = url.substring(url.substring(0, url.length - 1), url.lastIndexOf("/") + 1);
   var documentName = url.substring(summaryPageURL.length);
-  //console.log(summaryPageURL.substring(0, summaryPageURL.length - 1));
-  
   var baseURL = summaryPageURL.substring(0, summaryPageURL.length - 1);
   baseURL = baseURL.substring(0, baseURL.lastIndexOf("/"));
-  //console.log(baseURL);
 
   request(summaryPageURL, function (error, response, body) {
+    'use strict';
     if (!error && response.statusCode == 200) {
       let $ = cheerio.load(body);
-      $(".card").each(function(card) {
-        var cardHTML = $(this).html();
+      $(".card").each(function(index, card) {
+        var cardHTML = $.html($(this));
         if (cardHTML.indexOf(documentName) >= 0) {
-          $(this).find('a').each(function() {
-            var href = $(this).attr('href');
-            $(this).attr('href', toAbsoluteURL(href, baseURL));
-            $(this).attr('target', '_blank');
-          });
-
-          $(this).find('img').each(function() {
-            var href = $(this).attr('src');
-            $(this).attr('src', toAbsoluteURL(href, baseURL));
-          });
-
-          callback(null, html + '<div class="card">' + $(this).html() + '</div>');
+          var cardObject = replaceLinksToAbsolutePath($, cardHTML, baseURL);
+          callback(null, html + cardObject.html() + '\n');
         }
       });
     }
   });
+}
 
-  return html;
+/* Replace card's href and src to absolute paths*/
+function replaceLinksToAbsolutePath($, cardHTML, baseURL) {
+  var cardObject = $('<div>' + cardHTML + '</div>');
+  cardObject.find('a').each(function() {
+    var href = $(this).attr('href');
+    $(this).attr('href', toAbsoluteURL(href, baseURL));
+    $(this).attr('target', '_blank');
+  });
+
+  cardObject.find('img').each(function() {
+    var href = $(this).attr('src');
+    $(this).attr('src', toAbsoluteURL(href, baseURL));
+  });  
+
+  return cardObject;
 }
 
 /* convert relative url to absolute url */
@@ -257,7 +263,6 @@ function toAbsoluteURL(relativeURL, base) {
     if (relativeURL.startsWith("/")) {
       relativeURL = relativeURL.substring(1);
     }
-    //console.log("FULL " + base + relativeURL);
     return base + relativeURL;
   } else {
     return relativeURL;
