@@ -184,6 +184,20 @@ function generateHallOfFrameTemplate() {
 
   if (urls.length > 0) {
     var tasks = [];
+    var essays = [];
+    var projects = [];
+
+    for (var i = 0; i < urls.length; i++) {
+      if (urls[i].indexOf('/essays/') >= 0) {
+        essays.push(urls[i]);
+      }
+      if (urls[i].indexOf('/projects/') >= 0) {
+        projects.push(urls[i]);
+      }
+    }
+
+    urls = essays.concat(projects);
+
     tasks.push(
       function(callback) {
         getCardHTML(urls[0], "", callback);
@@ -269,6 +283,16 @@ function toAbsoluteURL(relativeURL, base) {
   }
 
 }
+
+
+
+String.prototype.format = function() {
+    var formatted = this;
+    for(arg in arguments) {
+        formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+    }
+    return formatted;
+};
 
 
 
