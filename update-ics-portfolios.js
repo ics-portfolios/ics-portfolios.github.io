@@ -12,18 +12,21 @@ const cheerio = require('cheerio');
 const async = require('async');
 
 const dataFile = '_data/data.json';
-const hallOfFrameURLFile = '_data/Hall-Of-Frame.json'
+const hallOfFameURLFile = '_data/Hall-Of-Fame.json'
+const profileTemplateFile = '_includes/portfolio-card.html'
 
 /** Location of the profile entries file. */
 const profileEntriesFile = 'profile-entries.json';
 
-const hallOfFrameCardsFile = '_includes/hallOfFrameCards.html';
+const hallOfFameCardsFile = '_includes/hallOfFameCards.html';
 
+const TYPE_ESSAY_PROJECT = 'essay, project';
+const TYPE_PROFILE = 'profile';
 
 
 /** Holds the profile data, initialized with profile-entries, then updated with bio.json. */
 const profileData = [];
-
+var profileTemplate;
 
 /**
  * Initializes profileData with the contents of the profile-entries file.
@@ -138,7 +141,7 @@ function writeJekyllInfoFiles() {
     }
   });
 
-  generateHallOfFrameTemplate();
+  generateHallOfFameTemplate();
 }
 
 function updateProfileDataFromLocalBio(localProfiles) {
@@ -177,30 +180,41 @@ Promise.all(bioBodyPromises)
     .catch(console.error);
 
 
-/* Generate template codes for hall of frame files*/
-function generateHallOfFrameTemplate() {  
-  const hallOfFrameContents = fs.readFileSync(hallOfFrameURLFile, 'utf8');
-  var urls = jsonic(hallOfFrameContents);
+/* Generate template codes for hall of fame files*/
+function generateHallOfFameTemplate() {  
+  const hallOfFameContents = fs.readFileSync(hallOfFameURLFile, 'utf8');
+  var urls = jsonic(hallOfFameContents);
 
   if (urls.length > 0) {
     var tasks = [];
     var essays = [];
     var projects = [];
+    var profiles = [];
 
     for (var i = 0; i < urls.length; i++) {
       if (urls[i].indexOf('/essays/') >= 0) {
         essays.push(urls[i]);
       }
-      if (urls[i].indexOf('/projects/') >= 0) {
+      else if (urls[i].indexOf('/projects/') >= 0) {
         projects.push(urls[i]);
+      } 
+      else if (urls[i].replace('https://', '').replace('http://', '').split('.').length === 3) {
+        profiles.push(urls[i]);
       }
     }
-
-    urls = essays.concat(projects);
+    
+    urls = essays.concat(projects).concat(profiles);
 
     tasks.push(
       function(callback) {
-        getCardHTML(urls[0], "", callback);
+        var type = "";
+        if (essays.length > 0 || projects.length > 0) {
+          type = TYPE_ESSAY_PROJECT;
+        }
+        else {
+          type = TYPE_PROFILE;
+        }
+        generateHTML(urls[0], type, "", callback);
       }
     );
 
@@ -208,7 +222,14 @@ function generateHallOfFrameTemplate() {
       var j = 1;
       tasks.push(
         function(html, callback) {
-          getCardHTML(urls[j], html, callback);
+          var type = "";
+          if (j < essays.length + projects.length) {
+            type = TYPE_ESSAY_PROJECT;
+          }
+          else {
+            type = TYPE_PROFILE;
+          }
+          generateHTML(urls[j], type, html, callback);
           j++;
         }
       );
@@ -218,8 +239,8 @@ function generateHallOfFrameTemplate() {
       if (err) {
         console.log(err);
       }
-      fs.writeFile(hallOfFrameCardsFile, result, function(err) {
-        console.log("Writing to " + hallOfFrameURLFile);
+      fs.writeFile(hallOfFameCardsFile, result, function(err) {
+        console.log("Writing to " + hallOfFameCardsFile);
         if(err) {
           return console.log(err);
         }
@@ -228,9 +249,55 @@ function generateHallOfFrameTemplate() {
   } 
 }
 
+function generateHTML(url, type, html, callback) {
+  if (type === TYPE_ESSAY_PROJECT) {
+    getExampleWorkHTML(url, html, callback)
+  }
+  else if (type === TYPE_PROFILE) {
+    getProfileHTML(url, html, callback);
+  }
+  else {
+    console.log("Unknown type for " + url);
+    callback(null, html);
+  }
+}
+
+function getProfileHTML(url, html, callback) {
+  console.log("Reading " + url + " as a profile card for hall of fame");
+  var profile = getProfileData(url);
+  if (profile != null) {
+    if (profileTemplate == null || profileTemplate.length === 0) {
+      profileTemplate = fs.readFileSync(profileTemplateFile, 'utf8').replace(/{%.*%}/g, '');
+    }
+    var interests = "";
+    _.each(profile.interests, function(interest) {
+      interests += interest + ', ';
+    });
+    interests = interests.substring(0, interests.length - 2);
+
+    var profileHTML = profileTemplate.format(profile.picture, profile.name, profile.label, profile.summary, interests, profile.website)
+                        .replace(/href/g, 'target="_blank" href');
+
+    callback(null, html + profileHTML + '\n');
+
+  } else {
+    console.log("Unable to get data for " + url + ", perhaps the person's data is not in our database");
+    callback(null, html + '\n');
+  }
+}
+
+function getProfileData(url) {
+  var matchingProfile = _.find(profileData, function(profile) {
+    return profile.website.replace(/\//g, '') === url.replace(/\//g, '');
+  });
+
+  return matchingProfile; 
+}
+
+
 /* Get the card's HTML */
-function getCardHTML(url, html, callback) {
-  console.log("Reading " + url + " for hall of frame");
+function getExampleWorkHTML(url, html, callback) {
+  console.log("Reading " + url + " as a essay or project for hall of fame");
   var summaryPageURL = url.substring(url.substring(0, url.length - 1), url.lastIndexOf("/") + 1);
   var documentName = url.substring(summaryPageURL.length);
   var baseURL = summaryPageURL.substring(0, summaryPageURL.length - 1);
@@ -289,7 +356,7 @@ function toAbsoluteURL(relativeURL, base) {
 String.prototype.format = function() {
     var formatted = this;
     for(arg in arguments) {
-        formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+        formatted = formatted.replace(/{{ .* }}/, arguments[arg]);
     }
     return formatted;
 };
