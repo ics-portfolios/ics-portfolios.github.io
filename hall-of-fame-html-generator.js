@@ -91,7 +91,7 @@ function getProfileHTML(url, html, callback) {
     });
     interests = interests.substring(0, interests.length - 2);
 
-    var profileHTML = profileTemplate.format(profile.picture, profile.name, profile.label, profile.summary, interests, profile.website)
+    var profileHTML = profileTemplate.format(profile.username, profile.picture, profile.name, profile.label, profile.summary, interests, profile.website)
                         .replace(/href/g, 'target="_blank" href');
 
     callback(null, html + profileHTML + '\n');

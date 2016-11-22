@@ -1,0 +1,214 @@
+[
+	{
+		"term": "Software Engineering",
+		"synonyms": 
+		[
+			"software engineer",
+			"software develop",
+			"program",
+			"coding",
+			"software",
+			"prototyp"
+		]
+	},
+	{
+		"term": "Networking",
+		"synonyms":
+		[
+			"network",
+			"iot",
+			"internet of things",
+			"information technolog",
+			"it"
+		]
+	},
+	{
+		"term": "Web Development",
+		"synonyms":
+		[
+			"web dev",
+			"web design",
+			"web",
+			"web app"
+		]
+	},
+	{
+		"term": "Data Administration",
+		"synonyms":
+		[
+			"database",
+			"data"
+		]
+	},
+	{
+		"term": "Languages",
+		"synonyms":
+		[
+			"java",
+			"python"
+		]
+	},
+	{
+		"term": "Game Development",
+		"synonyms":
+		[
+			"game",
+			"gamif"
+		]
+	},
+	{
+		"term": "Virtual Reality",
+		"synonyms":
+		[
+			"virtual",
+			"reality",
+			"augmented",
+			"unity",
+			"3d map"
+		]
+	},
+	{
+		"term": "Artificial Intelligence",
+		"synonyms":
+		[
+			"artificial",
+			"ai",
+			"language process"
+		]
+	},
+	{
+		"term": "Security",
+		"synonyms":
+		[
+			"security",
+			"defense"
+		]
+	},
+	{
+		"term": "Mobile Design",
+		"synonyms":
+		[
+			"app",
+			"mobile",
+			"android",
+			"ios",
+			"smartphone",
+			"app dev"
+		]
+	},
+	{
+		"term": "Sports",
+		"synonyms":
+		[
+			"exercis",
+			"sport",
+			"basketball",
+			"skate",
+			"skating"
+		]
+	},
+	{
+		"term": "Business",
+		"synonyms":
+		[
+			"business",
+			"entrepre"
+		]
+	},
+	{
+		"term": "Art",
+		"synonyms":
+		[
+			"graphic",
+			"draw",
+			"design",
+			"art",
+			"photo",
+			"pixel"
+		]
+	},
+	{
+		"term": "Hardware",
+		"synonyms":
+		[
+			"drone",
+			"electronics",
+			"hardware",
+			"building",
+			"semiconductor",
+			"robot",
+			"unmanned",
+			"product"
+		]
+	},
+	{
+		"term": "System Design",
+		"synonyms":
+		[
+			"architect",
+			"distributed",
+			"system",
+			"signal"
+		]
+	},
+	{
+		"term": "Leisure Activities",
+		"synonyms":
+		[
+			"anime",
+			"music",
+			"eating",
+			"gaming",
+			"personal",
+			"social media"
+		]
+	},
+	{
+		"term": "Social Topics",
+		"synonyms":
+		[
+			"volunteer",
+			"welfare",
+			"education",
+			"educat",
+			"renewable",
+			"power quality"
+		]
+	},
+	{
+		"term": "Algorithm",
+		"synonyms":
+		[
+			"algorithm"
+		]
+	},
+	{
+		"term": "Subjects",
+		"synonyms":
+		[
+			"math",
+			"history",
+			"physics",
+			"bio",
+			"publication",
+			"computer science",
+			"forensics",
+			"informatics"
+		]
+	},
+	{
+		"term": "Operating Systems",
+		"synonyms":
+		[
+			"linux",
+			"unix"
+		]
+	},
+	{
+		"term": "General Interests",
+		"synonyms":
+		[
+
+		]
+	}
+]

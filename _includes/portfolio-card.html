@@ -1,4 +1,4 @@
-<div class="ui card">
+<div class="ui card" id="{{ portfolio.username }}">
     <div class="content">
       <img class="right floated mini circular ui image" src="{{ portfolio.picture }}">
       <div class="header">
@@ -13,12 +13,14 @@
     </div>
     <div class="extra content">
       Interests:
-      {% for interest in portfolio.interests %}
-      {{ interest }}{% if forloop.last != true %}, {% endif %}
-      {% endfor %}
+      <div class="interests">
+        {% for interest in portfolio.interests %}
+        {{ interest }}{% if forloop.last != true %}, {% endif %}
+        {% endfor %}
+      </div>
     </div>
   <a class="ui bottom attached button" href="{{ portfolio.website }}">
-    <i class="external icon"></i>
+    <i class="" ass="external icon"></i>
     See portfolio
   </a>
 </div>
