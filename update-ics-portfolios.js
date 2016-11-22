@@ -20,8 +20,9 @@ const profileEntriesFile = 'profile-entries.json';
 
 const hallOfFameCardsFile = '_includes/hallOfFameCards.html';
 
-const TYPE_ESSAY_PROJECT = 'essay, project';
-const TYPE_PROFILE = 'profile';
+const TYPE_ESSAY = 'Exceptional Essays';
+const TYPE_PROJECT = 'Exceptional Projects';
+const TYPE_PROFILE = 'Exceptional Profiles';
 
 
 /** Holds the profile data, initialized with profile-entries, then updated with bio.json. */
@@ -202,38 +203,24 @@ function generateHallOfFameTemplate() {
         profiles.push(urls[i]);
       }
     }
-    
-    urls = essays.concat(projects).concat(profiles);
 
     tasks.push(
       function(callback) {
-        var type = "";
-        if (essays.length > 0 || projects.length > 0) {
-          type = TYPE_ESSAY_PROJECT;
-        }
-        else {
-          type = TYPE_PROFILE;
-        }
-        generateHTML(urls[0], type, "", callback);
+        addExceptionalEssays(essays, "", callback);
       }
     );
 
-    for (var i = 1; i < urls.length; i++) {
-      var j = 1;
-      tasks.push(
-        function(html, callback) {
-          var type = "";
-          if (j < essays.length + projects.length) {
-            type = TYPE_ESSAY_PROJECT;
-          }
-          else {
-            type = TYPE_PROFILE;
-          }
-          generateHTML(urls[j], type, html, callback);
-          j++;
-        }
-      );
-    }
+    tasks.push(
+      function(html, callback) {
+        addExceptionalProjects(projects, html, callback);
+      }
+    );
+
+    tasks.push(
+      function(html, callback) {
+        addExceptionalProfiles(profiles, html, callback);
+      }
+    );
 
     async.waterfall(tasks, function(err, result) {
       if (err) {
@@ -249,19 +236,7 @@ function generateHallOfFameTemplate() {
   } 
 }
 
-function generateHTML(url, type, html, callback) {
-  if (type === TYPE_ESSAY_PROJECT) {
-    getExampleWorkHTML(url, html, callback)
-  }
-  else if (type === TYPE_PROFILE) {
-    getProfileHTML(url, html, callback);
-  }
-  else {
-    console.log("Unknown type for " + url);
-    callback(null, html);
-  }
-}
-
+/* Get profile card HTML */
 function getProfileHTML(url, html, callback) {
   console.log("Reading " + url + " as a profile card for hall of fame");
   var profile = getProfileData(url);
@@ -279,13 +254,13 @@ function getProfileHTML(url, html, callback) {
                         .replace(/href/g, 'target="_blank" href');
 
     callback(null, html + profileHTML + '\n');
-
   } else {
     console.log("Unable to get data for " + url + ", perhaps the person's data is not in our database");
     callback(null, html + '\n');
   }
 }
 
+/* Get profile data based on the url for that profile's homepage */
 function getProfileData(url) {
   var matchingProfile = _.find(profileData, function(profile) {
     return profile.website.replace(/\//g, '') === url.replace(/\//g, '');
@@ -296,13 +271,13 @@ function getProfileData(url) {
 
 
 /* Get the card's HTML */
-function getExampleWorkHTML(url, html, callback) {
+function getExceptionalWorkHTML(url, html, callback) {
   console.log("Reading " + url + " as a essay or project for hall of fame");
   var summaryPageURL = url.substring(url.substring(0, url.length - 1), url.lastIndexOf("/") + 1);
   var documentName = url.substring(summaryPageURL.length);
   var baseURL = summaryPageURL.substring(0, summaryPageURL.length - 1);
   baseURL = baseURL.substring(0, baseURL.lastIndexOf("/"));
-
+  
   request(summaryPageURL, function (error, response, body) {
     'use strict';
     if (!error && response.statusCode == 200) {
@@ -316,6 +291,85 @@ function getExampleWorkHTML(url, html, callback) {
       });
     }
   });
+}
+
+/* Add section header to the hall of fame section */
+function addSectionHeader(header, html, callback) {
+  var headerTemplate =  
+    `<div class="ui raised segment">
+      <h1 class="ui header"> 
+        <i class="trophy icon"></i> {{ header }}} 
+      </h1>
+      <div class="ui divider"></div>
+      <div class="ui four centered stackable cards">`;
+
+  callback(null, html + headerTemplate.format(header) + '\n');
+}
+
+/* Add section closing divs to the hall of fame section */
+function addSectionClosingDivs(html, callback) {
+  callback(null, html + '</div></div>' + '\n');
+}
+
+/* Add exceptional essays from the URLs */
+function addExceptionalEssays(urls, startHtml, callback) {
+  addSection(urls, startHtml, TYPE_ESSAY, getExceptionalWorkHTML, callback);
+}
+
+/* Add exceptional projects from the URLs */
+function addExceptionalProjects(urls, startHtml, callback) {
+  addSection(urls, startHtml, TYPE_PROJECT, getExceptionalWorkHTML, callback);
+}
+
+/* Add exceptional profiles from the URLs */
+function addExceptionalProfiles(urls, startHtml, callback) {
+  addSection(urls, startHtml, TYPE_PROFILE, getProfileHTML, callback);
+}
+
+/* Add a section appened to the startHtml */
+function addSection(urls, startHtml, type, generator, callback) {
+  if (urls.length > 0) {
+    var iterator = makeIterator(urls);
+    var tasks = [];
+    
+    tasks.push(
+      function(callback1) {
+        addSectionHeader(type, startHtml, callback1);
+      }
+    );
+    
+    for (var i = 0; i < urls.length ; i++) { 
+      tasks.push(
+        function(html, callback1) {
+          generator(iterator.next().value, html, callback1);
+        }
+      );
+    }
+
+    tasks.push(
+      function(html, callback1) {
+        addSectionClosingDivs(html, callback1);
+      }
+    );
+
+    async.waterfall(tasks, function(err, result) {
+      callback(null, result);
+    });
+  } else {
+    callback(null, startHtml + '\n');
+  }
+}
+
+function makeIterator(array){
+    var nextIndex = 0;
+    
+    return {
+       next: function() {
+           return nextIndex < array.length ?
+               {value: array[nextIndex++], done: false} :
+               {done: true};
+       }
+    }
 }
 
 /* Replace card's href and src to absolute paths*/
@@ -348,7 +402,6 @@ function toAbsoluteURL(relativeURL, base) {
   } else {
     return relativeURL;
   }
-
 }
 
 
@@ -356,7 +409,7 @@ function toAbsoluteURL(relativeURL, base) {
 String.prototype.format = function() {
     var formatted = this;
     for(arg in arguments) {
-        formatted = formatted.replace(/{{ .* }}/, arguments[arg]);
+        formatted = formatted.replace(/{{.*}}/, arguments[arg]);
     }
     return formatted;
 };
