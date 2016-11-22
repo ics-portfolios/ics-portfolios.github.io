@@ -135,7 +135,9 @@ function writeJekyllInfoFiles() {
   console.log('Writing jekyll info files.');
   jsonfile.spaces = 2;
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
-    console.error(err);
+    if (err != null) {
+      console.error(err);
+    }
   });
 
   filterInterest.writeToFile();

@@ -37,11 +37,15 @@ function writeToFile() {
   }  
 
   jsonfile.writeFile(interestFile, interestData, function (err) {
-    console.error(err);
+    if (err != null) {
+      console.error(err);
+    }
   });
 
   jsonfile.writeFile(unclassifiedInterestsFile, unclassifiedInterests, function(err) {
-    console.error(err);
+    if (err != null) {
+      console.error(err);
+    }
   });
 
   if (unclassifiedInterests.length > 0) {
