@@ -50,10 +50,13 @@ function generateHallOfFameTemplate(profileData) {
 
     tasks.push(
       function(callback) {
-        addExceptionalEssays(essays, "", callback);
+        addTabs("", callback)
       },
       function(html, callback) {
-        addExceptionalProjects(projects, html, callback);
+        addExceptionalEssays(essays, html, callback);
+      },
+      function(html, callback) {
+         addExceptionalProjects(projects, html, callback);
       },
       function(html, callback) {
         addExceptionalProfiles(profiles, html, callback);
@@ -131,15 +134,22 @@ function getExceptionalWorkHTML(url, html, callback) {
   });
 }
 
+function addTabs(html, callback) {
+  var tabs =  
+    `<div class="ui top attached tabular menu">
+      <a class="active item" data-tab="1"><i class="trophy icon"></i> Exceptional Essays</a>
+      <a class="item" data-tab="2"><i class="trophy icon"></i> Exceptional Projects</a>
+      <a class="item" data-tab="3"><i class="trophy icon"></i> Exceptional Profiles</a>
+    </div>`;
+
+  callback(null, html + tabs + '\n');
+}
+
 /* Add section header to the hall of fame section */
-function addSectionHeader(header, html, callback) {
+function addSectionHeader(header, html, callback, dataTab, active) {
   var headerTemplate =  
-    `<div class="ui raised segment">
-      <h1 class="ui header"> 
-        <i class="trophy icon"></i> {{ header }}} 
-      </h1>
-      <div class="ui divider"></div>
-      <div class="ui four centered stackable cards">`;
+    `<div class="ui bottom attached tab segment ` + active + `" data-tab="` + dataTab + `">
+      <div class="ui four doubling stackable cards">`;
 
   callback(null, html + headerTemplate.format(header) + '\n');
 }
@@ -151,28 +161,28 @@ function addSectionClosingDivs(html, callback) {
 
 /* Add exceptional essays from the URLs */
 function addExceptionalEssays(urls, startHtml, callback) {
-  addSection(urls, startHtml, TYPE_ESSAY, getExceptionalWorkHTML, callback);
+  addSection(urls, startHtml, TYPE_ESSAY, getExceptionalWorkHTML, callback, 1, "active");
 }
 
 /* Add exceptional projects from the URLs */
 function addExceptionalProjects(urls, startHtml, callback) {
-  addSection(urls, startHtml, TYPE_PROJECT, getExceptionalWorkHTML, callback);
+  addSection(urls, startHtml, TYPE_PROJECT, getExceptionalWorkHTML, callback, 2, "");
 }
 
 /* Add exceptional profiles from the URLs */
 function addExceptionalProfiles(urls, startHtml, callback) {
-  addSection(urls, startHtml, TYPE_PROFILE, getProfileHTML, callback);
+  addSection(urls, startHtml, TYPE_PROFILE, getProfileHTML, callback, 3, "");
 }
 
 /* Add a section appened to the startHtml */
-function addSection(urls, startHtml, type, generator, callback) {
+function addSection(urls, startHtml, type, generator, callback, dataTab, active) {
   if (urls.length > 0) {
     var iterator = makeIterator(urls);
     var tasks = [];
     
     tasks.push(
       function(callback1) {
-        addSectionHeader(type, startHtml, callback1);
+        addSectionHeader(type, startHtml, callback1, dataTab, active);
       }
     );
     
