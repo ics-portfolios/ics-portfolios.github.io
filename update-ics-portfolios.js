@@ -9,6 +9,7 @@ const fs = require('fs');
 const _ = require('underscore');
 const jsonic = require('jsonic');
 const jsonfile = require('jsonfile');
+const filterInterest = require('./interest-filter');
 
 const dataFile = '_data/data.json';
 
@@ -20,14 +21,16 @@ const profileData = [];
 
 
 /**
- * Initializes profileData with the contents of the profile-entries file.
+ * Initializes profileData with the contents of the profile-entries file, and load synonyms from synonyms.json.
  */
-function initializeProfileData() {
-  const contents = fs.readFileSync(profileEntriesFile, 'utf8');
-  const data = jsonic(contents);
+function initializeData() {
+  const profileContents = fs.readFileSync(profileEntriesFile, 'utf8');
+  var data = jsonic(profileContents);
   _.each(data, function (entry) {
     profileData.push(entry);
   });
+
+  filterInterest.initData();
 }
 
 
@@ -96,17 +99,25 @@ function updateProfileEntry(bio) {
       return canonicalHostName(entry.techfolio) === canonicalHostName(bioHostName);
     });
     if (profileEntry) {
+      var website = canonicalHostName(bio.basics.website);
+      var username = website.split('.')[0].replace('https://', '').replace('http://', '');
+
       _.defaults(profileEntry, {
         name: bio.basics.name,
         label: bio.basics.label,
-        website: canonicalHostName(bio.basics.website),
+        website: website,
+        username: username,
         summary: bio.basics.summary,
         picture: fixPicturePrefix(bio.basics.picture),
-        interests: _.map(bio.interests, (interest) => interest.name),
+        interests: _.map(bio.interests, (interest) => interest.name)        
       });
       // strip any trailing slash on website url
-      profileEntry.website.replace(/\/$/, '');
+      profileEntry.website = profileEntry.website.replace(/\/$/, '');
+      var level = profileEntry.level;
 
+      for(var i = 0; i < profileEntry.interests.length; i++) {
+        filterInterest.groupInterest(profileEntry.interests[i], username, level);
+      }
     } else {
       console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
     }
@@ -127,10 +138,12 @@ function writeJekyllInfoFiles() {
   console.log('Writing jekyll info files.');
   jsonfile.spaces = 2;
   jsonfile.writeFile(dataFile, _.sortBy(profileData, 'last'), function (err) {
-    if (err) {
+    if (err != null) {
       console.error(err);
     }
   });
+
+  filterInterest.writeToFile();
 
   var hallOfFameGenerator = require("./hall-of-fame-html-generator");
   hallOfFameGenerator.generateHallOfFameTemplate(profileData);
@@ -145,11 +158,10 @@ function updateProfileDataFromLocalBio(localProfiles) {
   });
 }
 
-
 // ////////////////////  Start the script. ////////////////////////////////////////////
 
-// Set profileData to the contents of the profile entries.
-initializeProfileData();
+// Set profileData to the contents of the profile entries and sy.
+initializeData();
 
 // Create a set of promises for reading in the bio.json files associated with every entry.
 // Note that profile-entries cannot yet handle non-Techfolio data.
