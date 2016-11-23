@@ -24,7 +24,7 @@ function checkAuth() {
 function handleAuthResult(authResult) {
   if (authResult && !authResult.error) {
     console.log("authenticated");
-  } else {
+  } else {  
     console.log("not authenticated");
   }
 }
