@@ -183,19 +183,56 @@
 		]
 	},
 	{
-		"term": "Subjects",
+		"term": "Math",
 		"synonyms":
 		[
-			"math",
-			"history",
-			"physics",
-			"bio",
-			"publication",
+			"math"
+		]
+	},
+	{
+		"term": "History",
+		"synonyms":
+		[
+			"history"
+		]
+	},
+	{
+		"term": "Physics",
+		"synonyms":
+		[
+			"physics"
+		]
+	},
+	{
+		"term": "Biology",
+		"synonyms":
+		[
+			"biol"
+		]
+	},
+	{
+		"term": "Biology",
+		"synonyms":
+		[
+			"biol"
+		]
+	},
+	{
+		"term": "Writing",
+		"synonyms":
+		[
+			"publication"
+		]
+	},	
+	{
+		"term": "Computer Science",
+		"synonyms":
+		[
 			"computer science",
 			"forensics",
 			"informatics"
 		]
-	},
+	},	
 	{
 		"term": "Operating Systems",
 		"synonyms":
