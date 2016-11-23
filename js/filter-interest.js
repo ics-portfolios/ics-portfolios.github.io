@@ -1,6 +1,8 @@
 ---
 ---
 var interestMap = {{ site.data.interests | jsonify }};
+var previousSelection = [];
+
 normalizeInterestMap();
 populateOptions();		
 setHandlers();
@@ -63,6 +65,7 @@ function setHandlers() {
 	$('#select-interest').dropdown({
 		onChange: function(value,text){
 			if (value.length > 0) {
+				loadSheetsApi();
 				filterCards(value, !$("#slider").checkbox('is checked'));
 			} else {
 				showAll();
@@ -73,9 +76,9 @@ function setHandlers() {
 	$('#slider').checkbox({
 		onChange: function(value,text){
 			var valueList = $('#select-interest').dropdown('get value');  
-												// returns ["interest", "interest", [Object]], the good stuff is in the last element
 			if (valueList[0] != null) {
 				filterCards(valueList[valueList.length - 1], !$("#slider").checkbox('is checked')); 
+				// returns ["interest", "interest", [Object]], the good stuff is in the last element
 			}
 		}
 	});
@@ -153,3 +156,26 @@ function intersect(a, b) {
     if (b.indexOf(e) !== -1) return true;
   });
 }
+
+/* Get the selected interests */
+function getSelectedInterest() {
+	var currentList = $('#select-interest').dropdown('get value'); 
+	currentList = currentList[currentList.length - 1] == null ? [] : currentList[currentList.length - 1];
+	var diff = currentList.diff(previousSelection);
+	if (diff.length > 0) {
+		return parseValue(diff[0]).interest;
+	} else {
+		return null;
+	}
+}
+
+/* Update the previously selected interests */
+function updatePreviouslySelectedInterests() {
+	previousSelection = $('#select-interest').dropdown('get value'); 
+	previousSelection = previousSelection[previousSelection.length - 1] == null ? [] : previousSelection[previousSelection.length - 1];
+}
+
+
+Array.prototype.diff = function(a) {
+    return this.filter(function(i) {return a.indexOf(i) < 0;});
+};
