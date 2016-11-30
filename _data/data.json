@@ -508,16 +508,16 @@
     "last": "mangrobang",
     "techfolio": "mickyjm.github.io",
     "level": "undergrad",
-    "name": "Michael Mangrobang (Micky)",
+    "name": "Michael (Micky) Mangrobang",
     "label": "Student",
     "website": "https://mickyjm.github.io",
     "username": "mickyjm",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "summary": "I am a student attending University of Hawaii at Manoa and am currently studying for a B.S. in Computer Science in the Department of Information and Computer Sciences. I expect to graduate in Spring, 2018.",
     "picture": "https://mickyjm.github.io/images/mMangro-1.jpg",
     "interests": [
+      "videogame development",
       "artificial intelligence",
-      "software engineering",
-      "video game development"
+      "software engeeering"
     ]
   },
   {
@@ -997,7 +997,6 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2018.",
     "picture": "https://gviloria.github.io/images/ProfilePicture.jpg",
     "interests": [
-      "Data Mining",
       "Web Programming",
       "Computer Graphics"
     ]
