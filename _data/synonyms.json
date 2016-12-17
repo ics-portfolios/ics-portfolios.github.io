@@ -172,11 +172,13 @@
 			"education",
 			"educat",
 			"renewable",
-			"power quality"
+      "sustainability",
+			"power quality",
+      "social justice"
 		]
 	},
 	{
-		"term": "Algorithm",
+		"term": "Algorithms",
 		"synonyms":
 		[
 			"algorithm"
@@ -207,14 +209,8 @@
 		"term": "Biology",
 		"synonyms":
 		[
-			"biol"
-		]
-	},
-	{
-		"term": "Biology",
-		"synonyms":
-		[
-			"biol"
+			"biol",
+      "plants"
 		]
 	},
 	{
@@ -239,13 +235,6 @@
 		[
 			"linux",
 			"unix"
-		]
-	},
-	{
-		"term": "General Interests",
-		"synonyms":
-		[
-
 		]
 	}
 ]

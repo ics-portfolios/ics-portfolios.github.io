@@ -48,7 +48,7 @@
     "level": "undergrad",
     "data": [
       {
-        "interest": "Algorithm",
+        "interest": "Algorithms",
         "names": [
           "minakodoi"
         ]
@@ -65,6 +65,7 @@
           "jogarces",
           "clint-morimoto",
           "aljonpreza",
+          "gviloria",
           "gviloria",
           "spyhi"
         ]
@@ -85,6 +86,12 @@
           "dmosher42",
           "paniolonate",
           "dylanpavao",
+          "matthew-schultz"
+        ]
+      },
+      {
+        "interest": "Biology",
+        "names": [
           "matthew-schultz"
         ]
       },
@@ -112,13 +119,13 @@
           "alliekim13",
           "akuloloia",
           "lambertleong",
+          "mickyjm",
           "smau4",
           "billmullen42",
           "billmullen42",
           "jonkiote",
           "neilnthings",
           "neilnthings",
-          "gviloria",
           "yohanyang"
         ]
       },
@@ -131,6 +138,7 @@
           "kylebali",
           "jchock",
           "dumlaoj",
+          "rfiggs",
           "jogarces",
           "jheadland",
           "mickyjm",
@@ -139,6 +147,7 @@
           "cpalpall",
           "dylanpavao",
           "jonkiote",
+          "gviloria",
           "yohanyang"
         ]
       },
@@ -148,6 +157,7 @@
           "williamycsiu",
           "keauehara",
           "keauehara",
+          "rfiggs",
           "mariahgaoiran",
           "acvmf",
           "rileymiyamoto",
@@ -179,7 +189,8 @@
           "ryanbars",
           "kendrickchen",
           "huang6606521",
-          "xenhuang"
+          "xenhuang",
+          "cpalpall"
         ]
       },
       {
@@ -245,6 +256,7 @@
           "irene-f",
           "jheadland",
           "dankoo",
+          "rileymiyamoto",
           "chadmorita",
           "ian-oconnor",
           "matthew-schultz"
@@ -255,7 +267,9 @@
         "names": [
           "enakano",
           "reedv",
-          "kendrickchen"
+          "kendrickchen",
+          "matthew-schultz",
+          "matthew-schultz"
         ]
       },
       {
@@ -294,6 +308,8 @@
           "keanur",
           "marysantabarbara",
           "matthew-schultz",
+          "matthew-schultz",
+          "gviloria",
           "gviloria",
           "spyhi",
           "yohanyang"
@@ -306,7 +322,8 @@
           "yoshimura123",
           "ryanbars",
           "huang6606521",
-          "clint-morimoto"
+          "clint-morimoto",
+          "matthew-schultz"
         ]
       },
       {
@@ -334,12 +351,14 @@
           "wyattbartlett",
           "minakodoi",
           "seantshi",
+          "kylebali",
           "ryanbars",
           "rfiggs",
           "jogarces",
           "jogarces",
           "xenhuang",
           "lambertleong",
+          "mickyjm",
           "billmullen42",
           "dylanpavao",
           "aljonpreza",
