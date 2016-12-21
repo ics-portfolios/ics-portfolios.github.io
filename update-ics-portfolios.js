@@ -1,5 +1,4 @@
 #! /usr/bin/env node
-
 // Image processing: https://github.com/EyalAr/lwip
 
 console.log('Starting update_ics_portfolios');
@@ -10,6 +9,7 @@ const _ = require('underscore');
 const jsonic = require('jsonic');
 const jsonfile = require('jsonfile');
 const filterInterest = require('./interest-filter');
+const hallOfFameGenerator = require('./hall-of-fame-html-generator');
 
 const dataFile = '_data/data.json';
 
@@ -19,20 +19,18 @@ const profileEntriesFile = 'profile-entries.json';
 /** Holds the profile data, initialized with profile-entries, then updated with bio.json. */
 const profileData = [];
 
-
 /**
  * Initializes profileData with the contents of the profile-entries file, and load synonyms from synonyms.json.
  */
 function initializeData() {
   const profileContents = fs.readFileSync(profileEntriesFile, 'utf8');
-  var data = jsonic(profileContents);
+  const data = jsonic(profileContents);
   _.each(data, function (entry) {
     profileData.push(entry);
   });
 
   filterInterest.initData();
 }
-
 
 /**
  * Given a techfolio hostname, returns the URL to its associated bio.json file.
@@ -72,7 +70,6 @@ function getBioFiles(domain) {
 }
 
 function canonicalHostName(name) {
-  'use strict';
   let canonicalName = name.toLowerCase();
   //  canonicalName.replace(/\/$/, ''); // why this doesn't work in the case of pexzabe is beyond me.
   if (canonicalName.slice(-1) === '/') {
@@ -95,27 +92,28 @@ function updateProfileEntry(bio) {
     const protocolIndex = _.indexOf(bioUrl, ':');
     const bioHostName = bioUrl.substring(protocolIndex + 3);
     const profileEntry = _.find(profileData, function makeEntry(entry) {
-      //console.log(`${canonicalHostName(entry.techfolio)}, ${canonicalHostName(entry.techfolio).length}, ${canonicalHostName(bioHostName)}, ${canonicalHostName(bioHostName).length}`);
       return canonicalHostName(entry.techfolio) === canonicalHostName(bioHostName);
     });
     if (profileEntry) {
-      var website = canonicalHostName(bio.basics.website);
-      var username = website.split('.')[0].replace('https://', '').replace('http://', '');
+      const website = canonicalHostName(bio.basics.website);
+      const username = website.split('.')[0].replace('https://', '').replace('http://', '');
 
-      _.defaults(profileEntry, {
-        name: bio.basics.name,
-        label: bio.basics.label,
-        website: website,
-        username: username,
-        summary: bio.basics.summary,
-        picture: fixPicturePrefix(bio.basics.picture),
-        interests: _.map(bio.interests, (interest) => interest.name)        
-      });
+      _.defaults(profileEntry,
+        {
+          name: bio.basics.name,
+          label: bio.basics.label,
+          website,
+          username,
+          summary: bio.basics.summary,
+          picture: fixPicturePrefix(bio.basics.picture),
+          interests: _.map(bio.interests, interest => interest.name),
+        });
+
       // strip any trailing slash on website url
       profileEntry.website = profileEntry.website.replace(/\/$/, '');
-      var level = profileEntry.level;
+      const level = profileEntry.level;
 
-      for(var i = 0; i < profileEntry.interests.length; i++) {
+      for (let i = 0; i < profileEntry.interests.length; i += 1) {
         filterInterest.groupInterest(profileEntry.interests[i], username, level);
       }
     } else {
@@ -144,8 +142,6 @@ function writeJekyllInfoFiles() {
   });
 
   filterInterest.writeToFile();
-
-  var hallOfFameGenerator = require("./hall-of-fame-html-generator");
   hallOfFameGenerator.generateHallOfFameTemplate(profileData);
 }
 
@@ -166,11 +162,11 @@ initializeData();
 // Create a set of promises for reading in the bio.json files associated with every entry.
 // Note that profile-entries cannot yet handle non-Techfolio data.
 
-const localProfileData = _.filter(profileData, (obj) => _.has(obj, 'tmpbio'));
+const localProfileData = _.filter(profileData, obj => _.has(obj, 'tmpbio'));
 
 updateProfileDataFromLocalBio(localProfileData);
 
-const cloudProfileData = _.filter(profileData, (obj) => !_.has(obj, 'tmpbio'));
+const cloudProfileData = _.filter(profileData, obj => !_.has(obj, 'tmpbio'));
 const bioBodyPromises = _.map(cloudProfileData, function (entry) {
   return getBioFiles(entry.techfolio);
 });
@@ -182,6 +178,3 @@ Promise.all(bioBodyPromises)
       writeJekyllInfoFiles();
     })
     .catch(console.error);
-
-
-
