@@ -160,7 +160,8 @@
 			"eating",
 			"gaming",
 			"personal",
-			"social media"
+			"social media",
+      "food"
 		]
 	},
 	{
@@ -172,30 +173,66 @@
 			"education",
 			"educat",
 			"renewable",
-			"power quality"
+      "sustainability",
+			"power quality",
+      "social justice",
+      "social equality",
+      "Intellectual Property Law"
 		]
 	},
 	{
-		"term": "Algorithm",
+		"term": "Algorithms",
 		"synonyms":
 		[
 			"algorithm"
 		]
 	},
 	{
-		"term": "Subjects",
+		"term": "Math",
 		"synonyms":
 		[
-			"math",
-			"history",
-			"physics",
-			"bio",
-			"publication",
+			"math"
+		]
+	},
+	{
+		"term": "History",
+		"synonyms":
+		[
+			"history"
+		]
+	},
+	{
+		"term": "Physics",
+		"synonyms":
+		[
+			"physics"
+		]
+	},
+	{
+		"term": "Biology",
+		"synonyms":
+		[
+			"biol",
+      "plants",
+      "Lāʻau Lapaʻau (Hawaiian Plant Medicine)"
+		]
+	},
+	{
+		"term": "Writing",
+		"synonyms":
+		[
+			"publication"
+		]
+	},	
+	{
+		"term": "Computer Science",
+		"synonyms":
+		[
 			"computer science",
 			"forensics",
 			"informatics"
 		]
-	},
+	},	
 	{
 		"term": "Operating Systems",
 		"synonyms":
@@ -204,11 +241,11 @@
 			"unix"
 		]
 	},
-	{
-		"term": "General Interests",
-		"synonyms":
-		[
-
-		]
-	}
+  {
+    "term": "Cultures",
+    "synonyms":
+    [
+      "japanese"
+    ]
+  }
 ]

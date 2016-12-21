@@ -48,7 +48,7 @@
     "level": "undergrad",
     "data": [
       {
-        "interest": "Algorithm",
+        "interest": "Algorithms",
         "names": [
           "minakodoi"
         ]
@@ -90,10 +90,31 @@
         ]
       },
       {
+        "interest": "Biology",
+        "names": [
+          "paniolonate",
+          "matthew-schultz"
+        ]
+      },
+      {
         "interest": "Business",
         "names": [
           "mckuok",
           "spyhi"
+        ]
+      },
+      {
+        "interest": "Computer Science",
+        "names": [
+          "steven-braun",
+          "lambertleong",
+          "ian-oconnor"
+        ]
+      },
+      {
+        "interest": "Cultures",
+        "names": [
+          "steven-braun"
         ]
       },
       {
@@ -154,6 +175,12 @@
         ]
       },
       {
+        "interest": "History",
+        "names": [
+          "yohanyang"
+        ]
+      },
+      {
         "interest": "Languages",
         "names": [
           "steven-braun",
@@ -169,7 +196,14 @@
           "kendrickchen",
           "huang6606521",
           "xenhuang",
-          "cpalpall"
+          "cpalpall",
+          "matthew-schultz"
+        ]
+      },
+      {
+        "interest": "Math",
+        "names": [
+          "kaseyhagi"
         ]
       },
       {
@@ -215,6 +249,12 @@
         ]
       },
       {
+        "interest": "Physics",
+        "names": [
+          "kaseyhagi"
+        ]
+      },
+      {
         "interest": "Security",
         "names": [
           "jnasca",
@@ -235,7 +275,10 @@
         "names": [
           "enakano",
           "reedv",
-          "kendrickchen"
+          "kendrickchen",
+          "mickyjm",
+          "matthew-schultz",
+          "matthew-schultz"
         ]
       },
       {
@@ -294,18 +337,6 @@
         ]
       },
       {
-        "interest": "Subjects",
-        "names": [
-          "steven-braun",
-          "kaseyhagi",
-          "kaseyhagi",
-          "lambertleong",
-          "billmullen42",
-          "ian-oconnor",
-          "yohanyang"
-        ]
-      },
-      {
         "interest": "System Design",
         "names": [
           "creightonchan",
@@ -345,6 +376,12 @@
           "marysantabarbara",
           "neilnthings"
         ]
+      },
+      {
+        "interest": "Writing",
+        "names": [
+          "billmullen42"
+        ]
       }
     ]
   },
@@ -353,6 +390,12 @@
     "data": [
       {
         "interest": "Artificial Intelligence",
+        "names": [
+          "amymalia"
+        ]
+      },
+      {
+        "interest": "Computer Science",
         "names": [
           "amymalia"
         ]
@@ -370,6 +413,12 @@
         ]
       },
       {
+        "interest": "Physics",
+        "names": [
+          "sergey-negrashov"
+        ]
+      },
+      {
         "interest": "Social Topics",
         "names": [
           "sergey-negrashov"
@@ -378,13 +427,6 @@
       {
         "interest": "Software Engineering",
         "names": [
-          "amymalia"
-        ]
-      },
-      {
-        "interest": "Subjects",
-        "names": [
-          "sergey-negrashov",
           "amymalia"
         ]
       },
