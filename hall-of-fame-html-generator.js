@@ -2,7 +2,6 @@
 const fs = require('fs');
 const _ = require('underscore');
 const jsonic = require('jsonic');
-const async = require('async');
 
 /* Files */
 const hallOfFameURLFile = '_data/Hall-Of-Fame.json';
@@ -27,17 +26,49 @@ function makeIterator(array) {
   let nextIndex = 0;
   return {
     next() {
-      return nextIndex < array.length ?
-      {
+      if (nextIndex < array.length) {
+        return {
+          value() {
+            const element = array[nextIndex];
+            nextIndex += 1;
+            return element;
+          },
+        };
+      }
+      return {
         value() {
-          const element = array[nextIndex];
-          nextIndex += 1;
-          return element;
+          return null;
         },
-        done: false,
-      } :
-      {
-        done: true,
+      };
+    },
+  };
+}
+
+/* Util method to get the next piece of work in the order of site, project, essay*/
+function createWorkRotationalIterator(sites, projects, essays) {
+  const sitesIterator = makeIterator(sites);
+  const projectsIterator = makeIterator(projects);
+  const essaysIterator = makeIterator(essays);
+
+  const iterators = [sitesIterator, projectsIterator, essaysIterator];
+  const totalCount = sites.length + projects.length + essays.length;
+  let nextIteratorIndex = 0;
+  let currentIndex = 0;
+
+  return {
+    hasNext() {
+      return currentIndex < totalCount;
+    },
+    next() {
+      return {
+        value() {
+          const work = iterators[nextIteratorIndex].next().value();
+          if (work != null) {
+            currentIndex += 1;
+          }
+          nextIteratorIndex = (nextIteratorIndex + 1) % 3;
+          return work;
+        },
       };
     },
   };
@@ -62,7 +93,7 @@ function attachIdentificationFields(work, profileData) {
 
 
 /* Get the card's HTML */
-function addCardHTML(data, html, callback) {
+function getCardHtml(data) {
   const template =
       `        
   <div class="ui centered fluid card">
@@ -87,61 +118,26 @@ function addCardHTML(data, html, callback) {
   `;
 
   const entry = formatString(template, data.title, data.imgURL, data.author, data.reason, data.date, data.url);
-  callback(null, `${html} ${entry} \n`);
+  return entry;
 }
 
-/* Add section header to the hall of fame section */
-function addSectionHeader(header, html, callback) {
-  const headerTemplate =
-      ` 
-    <div class="column">
-      
-      <h3 class="ui centered header"> 
-        <img src="img/trophy.png"></i> 
-        {{ header }}
-      </h3> 
-    `;
+/* Generate a row of exceptional work */
+function getRowHtml(site, project, essay) {
+  let html = '<div class="three column stretched row">';
 
-  callback(null, `${html} ${formatString(headerTemplate, header)} \n`);
-}
-
-/* Add section closing divs to the hall of fame section */
-function addSectionClosingDivs(html, callback) {
-  callback(null, `${html} </div> \n`);
-}
-
-/* Append exceptional works to startHtlm */
-function addExceptionalWorkHTML(type, works, startHtml, callback) {
-  if (works.length > 0) {
-    const iterator = makeIterator(works);
-    const tasks = [];
-
-    let createHtmlTask = function (callback1) {
-      addSectionHeader(type, startHtml, callback1);
-    };
-
-    tasks.push(createHtmlTask);
-
-    for (let i = 0; i < works.length; i += 1) {
-      createHtmlTask = function (html, callback1) {
-        addCardHTML(iterator.next().value(), html, callback1);
-      };
-      tasks.push(createHtmlTask);
+  const works = [site, project, essay];
+  for (let i = 0; i < works.length; i += 1) {
+    html += '<div class="column">';
+    if (works[i] != null) {
+      html += getCardHtml(works[i]);
     }
-
-    createHtmlTask = function (html, callback1) {
-      addSectionClosingDivs(html, callback1);
-    };
-
-    tasks.push(createHtmlTask);
-
-    async.waterfall(tasks, function (err, result) {
-      callback(null, result);
-    });
-  } else {
-    callback(null, `${startHtml} \n`);
+    html += '</div>';
   }
+
+  html += '</div>';
+  return html;
 }
+
 
 /* Generate template codes for hall of fame files*/
 function generateHallOfFameTemplate(profileData) {
@@ -149,7 +145,6 @@ function generateHallOfFameTemplate(profileData) {
   const works = jsonic(hallOfFameContents);
 
   if (works.length > 0) {
-    const tasks = [];
     const essays = [];
     const projects = [];
     const profiles = [];
@@ -170,28 +165,20 @@ function generateHallOfFameTemplate(profileData) {
       }
     }
 
-    tasks.push(
-        function (callback) {
-          addExceptionalWorkHTML('Sites', profiles, '', callback);
-        },
-        function (html, callback) {
-          addExceptionalWorkHTML('Projects', projects, html, callback);
-        },
-        function (html, callback) {
-          addExceptionalWorkHTML('Essays', essays, html, callback);
-        });
+    const workRotationalIterator = createWorkRotationalIterator(profiles, projects, essays);
+    let html = '';
+    while (workRotationalIterator.hasNext()) {
+      html += getRowHtml(workRotationalIterator.next().value(),
+          workRotationalIterator.next().value(),
+          workRotationalIterator.next().value());
+    }
 
-    async.waterfall(tasks, function (err, result) {
-      if (err) {
-        console.log(err);
+    fs.writeFile(hallOfFameCardsFile, html, function (IOerr) {
+      console.log(`Writing to ${hallOfFameCardsFile}`);
+      if (IOerr) {
+        return console.log(IOerr);
       }
-      fs.writeFile(hallOfFameCardsFile, result, function (IOerr) {
-        console.log(`Writing to ${hallOfFameCardsFile}`);
-        if (IOerr) {
-          return console.log(IOerr);
-        }
-        return null;
-      });
+      return null;
     });
   }
 }
