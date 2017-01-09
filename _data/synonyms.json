@@ -160,7 +160,8 @@
 			"eating",
 			"gaming",
 			"personal",
-			"social media"
+			"social media",
+      "food"
 		]
 	},
 	{
@@ -174,7 +175,9 @@
 			"renewable",
       "sustainability",
 			"power quality",
-      "social justice"
+      "social justice",
+      "social equality",
+      "Intellectual Property Law"
 		]
 	},
 	{
@@ -210,7 +213,8 @@
 		"synonyms":
 		[
 			"biol",
-      "plants"
+      "plants",
+      "Lāʻau Lapaʻau (Hawaiian Plant Medicine)"
 		]
 	},
 	{
@@ -236,5 +240,12 @@
 			"linux",
 			"unix"
 		]
-	}
+	},
+  {
+    "term": "Cultures",
+    "synonyms":
+    [
+      "japanese"
+    ]
+  }
 ]
