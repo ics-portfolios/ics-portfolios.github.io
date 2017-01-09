@@ -98,18 +98,10 @@ function getCardHtml(data) {
       `        
   <div class="ui centered fluid card">
     <div class="content">
-      <h5 class="header">{{ title }}}</h5>
-      <h3 class="ui header">
-        <img class="ui avatar image left floated" src="{{ img_url }}}">
-        {{ author }}
-      </h3>
-      <h4 class="ui sub header"> Selected Reason: </h4>
-      <div class="ui description"> 
-        <p> {{ reason }} </p>
-      </div>
-      <div class="meta">
-        <span class="right floated time">{{ date }}</span>
-      </div>
+      <img class="right floated mini ui image" src="{{ img_url }}}">
+      <div class="header">{{ title }}}</div>
+      <div class="meta">{{ author }}</div>
+      <div class="description">{{{ reason }}}</div>
     </div>
     <a class="ui bottom attached button" href="{{ url }}" target="_blank">
       <p> <i class="external icon"></i> View Work </p>
@@ -117,7 +109,7 @@ function getCardHtml(data) {
   </div>
   `;
 
-  const entry = formatString(template, data.title, data.imgURL, data.author, data.reason, data.date, data.url);
+  const entry = formatString(template, data.imgURL, data.title, data.author, data.reason, data.url);
   return entry;
 }
 

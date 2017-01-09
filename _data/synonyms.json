@@ -41,7 +41,7 @@
 		]
 	},
 	{
-		"term": "Languages",
+		"term": "Programming Languages",
 		"synonyms":
 		[
 			"java",
@@ -152,7 +152,7 @@
 		]
 	},
 	{
-		"term": "Leisure Activities",
+		"term": "Leisure",
 		"synonyms":
 		[
 			"anime",
@@ -242,7 +242,7 @@
 		]
 	},
   {
-    "term": "Cultures",
+    "term": "Culture",
     "synonyms":
     [
       "japanese"

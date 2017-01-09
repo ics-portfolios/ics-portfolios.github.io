@@ -64,7 +64,6 @@
           "jogarces",
           "jogarces",
           "clint-morimoto",
-          "aljonpreza",
           "gviloria",
           "gviloria",
           "spyhi"
@@ -111,7 +110,7 @@
         ]
       },
       {
-        "interest": "Cultures",
+        "interest": "Culture",
         "names": [
           "steven-braun"
         ]
@@ -129,7 +128,6 @@
           "smau4",
           "billmullen42",
           "billmullen42",
-          "jonkiote",
           "neilnthings",
           "neilnthings",
           "yohanyang"
@@ -151,7 +149,6 @@
           "clint-morimoto",
           "cpalpall",
           "dylanpavao",
-          "jonkiote",
           "gviloria",
           "yohanyang"
         ]
@@ -165,10 +162,7 @@
           "acvmf",
           "rileymiyamoto",
           "smau4",
-          "jonkiote",
           "keanur",
-          "amsanchez93",
-          "amsanchez93",
           "keauehara",
           "keauehara"
         ]
@@ -180,20 +174,12 @@
         ]
       },
       {
-        "interest": "Languages",
-        "names": [
-          "steven-braun",
-          "cpalpall"
-        ]
-      },
-      {
-        "interest": "Leisure Activities",
+        "interest": "Leisure",
         "names": [
           "williamycsiu",
           "kylebali",
           "kendrickchen",
           "huang6606521",
-          "xenhuang",
           "cpalpall",
           "matthew-schultz"
         ]
@@ -226,7 +212,6 @@
           "pexzabe",
           "mariahgaoiran",
           "huang6606521",
-          "xenhuang",
           "alliekim13",
           "mckuok",
           "akuloloia",
@@ -250,6 +235,13 @@
         "interest": "Physics",
         "names": [
           "kaseyhagi"
+        ]
+      },
+      {
+        "interest": "Programming Languages",
+        "names": [
+          "steven-braun",
+          "cpalpall"
         ]
       },
       {
@@ -311,8 +303,6 @@
           "ian-oconnor",
           "cpalpall",
           "dylanpavao",
-          "aljonpreza",
-          "jonkiote",
           "keanur",
           "marysantabarbara",
           "matthew-schultz",
@@ -346,8 +336,7 @@
           "mahoe7",
           "jnasca",
           "kylebali",
-          "byerst",
-          "amsanchez93"
+          "byerst"
         ]
       },
       {
@@ -359,14 +348,11 @@
           "kylebali",
           "rfiggs",
           "jogarces",
-          "xenhuang",
           "lambertleong",
           "mickyjm",
           "billmullen42",
           "paniolonate",
           "dylanpavao",
-          "aljonpreza",
-          "aljonpreza",
           "marysantabarbara",
           "neilnthings"
         ]
@@ -429,6 +415,70 @@
         "names": [
           "anthonyjchriste",
           "anthonyjchriste"
+        ]
+      }
+    ]
+  },
+  {
+    "level": "alumni",
+    "data": [
+      {
+        "interest": "Art",
+        "names": [
+          "aljonpreza"
+        ]
+      },
+      {
+        "interest": "Data Administration",
+        "names": [
+          "jonkiote"
+        ]
+      },
+      {
+        "interest": "Game Development",
+        "names": [
+          "jonkiote"
+        ]
+      },
+      {
+        "interest": "Hardware",
+        "names": [
+          "jonkiote",
+          "amsanchez93",
+          "amsanchez93"
+        ]
+      },
+      {
+        "interest": "Leisure",
+        "names": [
+          "xenhuang"
+        ]
+      },
+      {
+        "interest": "Networking",
+        "names": [
+          "xenhuang"
+        ]
+      },
+      {
+        "interest": "Software Engineering",
+        "names": [
+          "aljonpreza",
+          "jonkiote"
+        ]
+      },
+      {
+        "interest": "Virtual Reality",
+        "names": [
+          "amsanchez93"
+        ]
+      },
+      {
+        "interest": "Web Development",
+        "names": [
+          "xenhuang",
+          "aljonpreza",
+          "aljonpreza"
         ]
       }
     ]

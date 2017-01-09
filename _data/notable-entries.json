@@ -3,24 +3,48 @@
     "url": "https://billmullen42.github.io/essays/Meteorite_The_Movie_Pitch.html",
     "github": "billmullen42",
     "title": "Meteorite, the Movie Pitch",
-    "reason": "A great essay.",
+    "reason": "This essay was written for ICS 314, Software Engineering, when the author was working through issues installing Meteor on a Windows platform.  A very clever and humorous description of the problems involved with Meteor on Windows. ",
     "type": "essay",
-    "date": "2016-11-29"
+    "date": "Fall, 2016"
   },
   {
     "url": "https://mickyjm.github.io/projects/ics111final",
     "github": "mickyjm",
-    "title": "ICS 111 Music Video1",
-    "reason": "This is the reason why this piece is awesome. It is creative, using java and the EZ library to create a music video for the song from scratch",
+    "title": "ICS 111 Music Video",
+    "reason": "Introductory computer science programming projects tend to be rather simple and uninteresting.  This project is the exception, using Java and the EZ library to create a music video.",
     "type": "project",
-    "date": "2016-11-29"
+    "date": "Fall, 2016"
   },
   {
     "url": "https://anthonyjchriste.github.io/",
     "github": "anthonyjchriste",
-    "title": "Anthony Christe's Profile",
-    "reason": "This is the reason why",
+    "title": "Ph.D. Portfolio",
+    "reason": "The ICS Department requires all Ph.D. students to develop a portfolio as part of their degree experience.  This site illustrates the use of TechFolios to satisfy the portfolio requirements.",
     "type": "site",
-    "date": "2016-11-29"
+    "date": "Fall, 2016"
+  },
+  {
+    "url": "https://irene-f.github.io/projects/MyMinecraft",
+    "github": "irene-f",
+    "title": "MyMineCraft",
+    "reason": "This essay recounts the author's experience teaching Javascript to high school students through the creation of mods for Minecraft. It seems she learned just as much as the students from the class.",
+    "type": "essay",
+    "date": "Fall, 2016"
+  },
+  {
+    "url": "https://jheadland.github.io/projects/mtg",
+    "github": "jheadland",
+    "title": "Manoa The Gathering",
+    "reason": "Fans of Magic The Gathering might find this locally flavored version of interest. In addition to Manoa-oriented cards, the application provides a way to play the game without incurring the cost of card decks.",
+    "type": "project",
+    "date": "Fall, 2016"
+  },
+  {
+    "url": "https://mickyjm.github.io/",
+    "github": "mickyjm",
+    "title": "Custom TechFolio Home Page",
+    "reason": "TechFolio comes with a few built-in themes and the ability to easily change background colors, but if you are willing to dig into the templates, much more customization is possible. Micky's site illustrates a totally custom approach to the home page.",
+    "type": "site",
+    "date": "Fall, 2016"
   }
 ]
