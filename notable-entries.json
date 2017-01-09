@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://billmullen42.github.io/essays/Meteorite_The_Movie_Pitch.html",
+    "github": "billmullen42",
+    "title": "Meteorite, the Movie Pitch",
+    "reason": "A great essay.",
+    "type": "essay",
+    "date": "2016-11-29"
+  },
+  {
+    "url": "https://mickyjm.github.io/projects/ics111final",
+    "github": "mickyjm",
+    "title": "ICS 111 Music Video1",
+    "reason": "This is the reason why this piece is awesome. It is creative, using java and the EZ library to create a music video for the song from scratch",
+    "type": "project",
+    "date": "2016-11-29"
+  },
+  {
+    "url": "https://anthonyjchriste.github.io/",
+    "github": "anthonyjchriste",
+    "title": "Anthony Christe's Profile",
+    "reason": "This is the reason why",
+    "type": "site",
+    "date": "2016-11-29"
+  }
+]

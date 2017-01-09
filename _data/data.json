@@ -19,22 +19,6 @@
     ]
   },
   {
-    "last": "barsatan",
-    "techfolio": "ryanbars.github.io",
-    "level": "undergrad",
-    "name": "Ryan Barsatan",
-    "label": "Student",
-    "website": "https://ryanbars.github.io",
-    "username": "ryanbars",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
-    "picture": "https://ryanbars.github.io/images/headshot2.jpg",
-    "interests": [
-      "Web Design and Development",
-      "Social Media",
-      "Exercising"
-    ]
-  },
-  {
     "last": "bartlett",
     "techfolio": "wyattbartlett.github.io",
     "level": "undergrad",
@@ -951,33 +935,15 @@
     ]
   },
   {
-    "last": "theriot",
-    "techfolio": "rctheriot.github.io",
-    "level": "undergrad",
-    "tmpbio": "rctheriot",
-    "name": "Ryan Theriot",
-    "label": "Student",
-    "website": "https://rctheriot.github.io",
-    "username": "rctheriot",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2017.",
-    "picture": "https://rctheriot.github.io/images/headshot-300x300.jpg",
-    "interests": [
-      "Computer Graphics",
-      "Unity3D",
-      "Virtual Reality"
-    ]
-  },
-  {
     "last": "uyehara",
     "techfolio": "Keauehara.github.io",
     "level": "undergrad",
-    "tmpbio": "keauehara",
     "name": "Kea Uehara",
     "label": "Student",
     "website": "https://keauehara.github.io",
     "username": "keauehara",
-    "summary": "I am an undergraduate pursuing a B.S. in Computer Science at the University of Hawaii. My expected graduation date is Spring, 2018.After graduation, I would like to be employed in an area involving networking.",
-    "picture": "https://KeaUehara.github.io/images/Kea_Face.JPG",
+    "summary": "I am an undergraduate pursuing a B.S. in Computer Science at the University of Hawaii. My expected graduation date is Spring, 2018. After graduation, I would like to be employed in an area involving networking.",
+    "picture": "https://KeaUehara.github.io/images/Kea_Face.jpg",
     "interests": [
       "Networking",
       "Electronics",
