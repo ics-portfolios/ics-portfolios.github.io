@@ -4,8 +4,8 @@ const _ = require('underscore');
 const jsonic = require('jsonic');
 
 /* Files */
-const hallOfFameURLFile = '_data/Hall-Of-Fame.json';
-const hallOfFameCardsFile = '_includes/hallOfFameCards.html';
+const hallOfFameURLFile = '_data/notable-entries.json';
+const hallOfFameCardsFile = '_includes/notableCards.html';
 
 /* constant */
 const TYPE_ESSAY = 'essay';

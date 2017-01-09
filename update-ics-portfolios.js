@@ -9,7 +9,7 @@ const _ = require('underscore');
 const jsonic = require('jsonic');
 const jsonfile = require('jsonfile');
 const filterInterest = require('./interest-filter');
-const hallOfFameGenerator = require('./hall-of-fame-html-generator');
+const hallOfFameGenerator = require('./notable-html-generator');
 
 const dataFile = '_data/data.json';
 
