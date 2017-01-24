@@ -1,0 +1,14 @@
+{
+  "basics": {
+    "name": "Depeng Li",
+    "label": "Assistant Professor",
+    "picture": "https://github.com/ics-portfolios/ics-portfolios.github.io/raw/master/images/depeng.png",
+    "website": "https://www2.hawaii.edu/~depengli/",
+    "summary": "I am an Assistant Professor in the Department of Information and Computer Sciences (ICS) at the University of Hawai`i at Manoa. Both my research and my teaching are in the security area."
+  },
+  "interests": [
+    {
+      "name": "Security and Privacy, Internet of Things, Applied Cryptography, Operating System Development, Network Security"
+    }
+  ]
+}
