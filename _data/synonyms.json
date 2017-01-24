@@ -4,10 +4,13 @@
 		"synonyms": 
 		[
 			"software engineer",
+      "Sofware Engineering",
 			"software develop",
 			"program",
 			"coding",
 			"software",
+      "Reverse Engineering",
+      "Project Management",
 			"prototyp"
 		]
 	},
@@ -19,6 +22,8 @@
 			"iot",
 			"internet of things",
 			"information technolog",
+      "AWS",
+      "cloud computing",
 			"it"
 		]
 	},
@@ -45,6 +50,7 @@
 		"synonyms":
 		[
 			"java",
+      "node.js",
 			"python"
 		]
 	},
@@ -81,9 +87,19 @@
 		"synonyms":
 		[
 			"security",
-			"defense"
+			"defense",
+      "Cryptography",
+      "Ethical Hacking"
 		]
 	},
+  {
+    "term": "Intelligence",
+    "synonyms":
+    [
+      "Intelligence",
+      "Geospatial Intelligence Analysis"
+    ]
+  },
 	{
 		"term": "Mobile Design",
 		"synonyms":
@@ -93,6 +109,8 @@
 			"android",
 			"ios",
 			"smartphone",
+      "luxury apps/device development",
+      "iOS Application Development",
 			"app dev"
 		]
 	},
@@ -104,6 +122,10 @@
 			"sport",
 			"basketball",
 			"skate",
+      "Soccer",
+      "hiking",
+      "Hockey",
+      "Rifle Marksmanship",
 			"skating"
 		]
 	},
@@ -112,11 +134,14 @@
 		"synonyms":
 		[
 			"business",
+      "Marketing",
+      "e-commerce",
+      "venture capital",
 			"entrepre"
 		]
 	},
 	{
-		"term": "Art",
+		"term": "Art and Culture",
 		"synonyms":
 		[
 			"graphic",
@@ -124,6 +149,16 @@
 			"design",
 			"art",
 			"photo",
+      "Drums",
+      "Teaching",
+      "Learning and teaching new technologies",
+      "publication",
+      "japanese",
+      "Speech",
+      "Dentistry",
+      "history",
+      "Linguistics",
+      "computational linguistics",
 			"pixel"
 		]
 	},
@@ -138,6 +173,8 @@
 			"semiconductor",
 			"robot",
 			"unmanned",
+      "Firmware Development",
+      "Rasperry Pi",
 			"product"
 		]
 	},
@@ -148,6 +185,7 @@
 			"architect",
 			"distributed",
 			"system",
+      "Logistics",
 			"signal"
 		]
 	},
@@ -161,7 +199,12 @@
 			"gaming",
 			"personal",
 			"social media",
-      "food"
+      "food",
+      "Surfing Web and Sea",
+      "Puzzles",
+      "piano",
+      "Traveling",
+      "Reading"
 		]
 	},
 	{
@@ -177,6 +220,7 @@
 			"power quality",
       "social justice",
       "social equality",
+      "Russian-American relations",
       "Intellectual Property Law"
 		]
 	},
@@ -188,49 +232,28 @@
 		]
 	},
 	{
-		"term": "Math",
+		"term": "Science",
 		"synonyms":
 		[
-			"math"
-		]
-	},
-	{
-		"term": "History",
-		"synonyms":
-		[
-			"history"
-		]
-	},
-	{
-		"term": "Physics",
-		"synonyms":
-		[
-			"physics"
-		]
-	},
-	{
-		"term": "Biology",
-		"synonyms":
-		[
-			"biol",
+			"math",
+      "inferential statistics",
+      "science",
+      "physics",
+      "astronomy",
+      "biol",
       "plants",
       "Lāʻau Lapaʻau (Hawaiian Plant Medicine)"
 		]
 	},
-	{
-		"term": "Writing",
-		"synonyms":
-		[
-			"publication"
-		]
-	},	
 	{
 		"term": "Computer Science",
 		"synonyms":
 		[
 			"computer science",
 			"forensics",
-			"informatics"
+			"informatics",
+      "Analytics",
+      "human computer interaction"
 		]
 	},	
 	{
@@ -238,14 +261,8 @@
 		"synonyms":
 		[
 			"linux",
+      "Ubuntu",
 			"unix"
 		]
-	},
-  {
-    "term": "Culture",
-    "synonyms":
-    [
-      "japanese"
-    ]
-  }
+	}
 ]
