@@ -274,7 +274,7 @@
     "label": "Student",
     "website": "https://jaketdk.github.io",
     "username": "jaketdk",
-    "summary": "I am studying for a B.A. in Information and Computer Sciences with a focus in Security Science in the Department of Information and Computer Sciences at the University of Hawaii at Mānoa. I expect to graduate in the Spring of 2019.",
+    "summary": "I am studying for a B.A. in Information and Computer Sciences with a focus in Security Science in the Department of Information and Computer Sciences at the University of Hawaii at Mānoa. I expect to graduate in the Spring of 2019. I am also a Desktop Support / POS Specialist for City Mill Company, Limited.",
     "picture": "https://jaketdk.github.io/images/profile1.jpg",
     "interests": [
       "Networking",
@@ -835,13 +835,13 @@
   {
     "last": "li",
     "techfolio": "dandli.github.io",
+    "picture": "https://dandli.github.io/images/dan.JPG",
     "level": "undergrad",
     "name": "Dan Li",
     "label": "Student",
     "website": "https://dandli.github.io",
     "username": "dandli",
     "summary": "I am pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2019.",
-    "picture": "https:///images/dan.JPG",
     "interests": [
       "Programming",
       "Cyber Security",
@@ -1180,13 +1180,13 @@
   {
     "last": "nikaitani",
     "techfolio": "kknikk.github.io",
+    "picture": "https://kknikk.github.io/images/temp-profile.jpg",
     "level": "undergrad",
     "name": "Kurt Nikaitani",
     "label": "Student/IT Professional",
     "website": "https://kknikk.github.io",
     "username": "kknikk",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
-    "picture": "https:///images/temp-profile.jpg",
     "interests": [
       "Sofware Engineering",
       "Security",
