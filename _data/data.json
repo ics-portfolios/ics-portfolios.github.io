@@ -769,6 +769,22 @@
     ]
   },
   {
+    "last": "leandro",
+    "techfolio": "christianleandro.github.io",
+    "level": "undergrad",
+    "name": "Christian Leandro",
+    "label": "Student",
+    "website": "https://christianleandro.github.io",
+    "username": "christianleandro",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2018.",
+    "picture": "https://christianleandro.github.io/images/christian.jpg",
+    "interests": [
+      "Software Development",
+      "Mobile Application Development",
+      "Back-end Website Development"
+    ]
+  },
+  {
     "last": "lee",
     "techfolio": "kellyl4.github.io",
     "level": "undergrad",
@@ -929,6 +945,23 @@
       "Game Development",
       "Speech",
       "Project Management"
+    ]
+  },
+  {
+    "last": "mcfeeley",
+    "techfolio": "brendtmcfeeley.github.io",
+    "level": "undergrad",
+    "name": "Brendt McFeeley",
+    "label": "Student",
+    "website": "https://brendtmcfeeley.github.io",
+    "username": "brendtmcfeeley",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaiʻi at Mānoa. I expect to graduate in Fall, 2018.",
+    "picture": "https://brendtmcfeeley.github.io/images/github300.png",
+    "interests": [
+      "software engineering",
+      "real estate",
+      "network administration",
+      "database management"
     ]
   },
   {
