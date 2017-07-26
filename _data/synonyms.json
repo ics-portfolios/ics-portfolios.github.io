@@ -34,7 +34,8 @@
 			"web dev",
 			"web design",
 			"web",
-			"web app"
+			"web app",
+      "Back-end Website Development"
 		]
 	},
 	{
@@ -79,7 +80,8 @@
 		[
 			"artificial",
 			"ai",
-			"language process"
+			"language process",
+      "Machine Learning"
 		]
 	},
 	{
@@ -111,8 +113,9 @@
 			"smartphone",
       "luxury apps/device development",
       "iOS Application Development",
-			"app dev"
-		]
+			"app dev",
+      "Moblie Development"
+    ]
 	},
 	{
 		"term": "Sports",
@@ -137,7 +140,10 @@
       "Marketing",
       "e-commerce",
       "venture capital",
-			"entrepre"
+			"entrepre",
+      "Management",
+      "Patent Law",
+      "real estate"
 		]
 	},
 	{
@@ -159,7 +165,8 @@
       "history",
       "Linguistics",
       "computational linguistics",
-			"pixel"
+			"pixel",
+      "Storytelling"
 		]
 	},
 	{
@@ -221,7 +228,9 @@
       "social justice",
       "social equality",
       "Russian-American relations",
-      "Intellectual Property Law"
+      "Intellectual Property Law",
+      "health",
+      "nature conservation"
 		]
 	},
 	{
@@ -239,7 +248,9 @@
       "inferential statistics",
       "science",
       "physics",
+      "probability",
       "astronomy",
+      "Research",
       "biol",
       "plants",
       "Lāʻau Lapaʻau (Hawaiian Plant Medicine)"

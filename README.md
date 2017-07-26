@@ -10,7 +10,7 @@ Second, install the `update_ics_portfolios` shell script locally:
  
  ```
  npm install
- npm link
+ sudo npm link
  ```
 
 To test your installation, invoke update_ics_portfolios:
