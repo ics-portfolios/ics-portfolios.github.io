@@ -704,12 +704,12 @@
   {
     "last": "lam",
     "level": "undergrad",
-    "techfolio": "www.nathan-lam.com",
+    "techfolio": "nathancy.github.io/nathan-lam.com",
     "tmpbio": "nathanlam",
     "name": "Nathan Lam",
     "label": "Undergraduate",
-    "website": "http://www.nathan-lam.com",
-    "username": "www",
+    "website": "http://nathancy.github.io/nathan-lam.com",
+    "username": "nathancy",
     "summary": "I am pursuing a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring 2018.",
     "picture": "http://www.nathan-lam.com/images/profile_nathan_lam.jpg",
     "interests": [
@@ -1674,6 +1674,23 @@
       "programming",
       "music",
       "science"
+    ]
+  },
+  {
+    "last": "weng",
+    "techfolio": "wengdg.github.io",
+    "level": "grad",
+    "name": "Danny Weng",
+    "label": "",
+    "website": "https://wengdg.github.io",
+    "username": "wengdg",
+    "summary": "Computer Science.  Graduate student.  That's about it.",
+    "picture": "https://wengdg.github.io/images/profile.jpg",
+    "interests": [
+      "Bioinformatics",
+      "Biology",
+      "Graphic Design",
+      "Games With a Purpose"
     ]
   },
   {

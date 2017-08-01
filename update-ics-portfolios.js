@@ -39,8 +39,9 @@ function initializeData() {
  */
 function getBioJsonUrl(techfolioHostName) {
   // URL: https://raw.githubusercontent.com/philipmjohnson/philipmjohnson.github.io/master/_data/bio.json
-  const username = techfolioHostName.split('.')[0];
-  return `https://raw.githubusercontent.com/${username}/${techfolioHostName}/master/_data/bio.json`;
+  // const username = techfolioHostName.split('.')[0];
+  // return `https://raw.githubusercontent.com/${username}/${techfolioHostName}/master/_data/bio.json`;
+  return `https://${techfolioHostName}/_data/bio.json`;
 }
 
 /**
@@ -61,7 +62,7 @@ function getBioFiles(domain) {
           resolve({});
         }
       } else {
-        console.log(`Failed to get bio.json for ${domain}.`);
+        console.log(`Failed to get bio.json for ${domain}. Error: ${error}, Status code: ${response && response.statusCode}`);
         // reject(new Error(`Failed to get bio.json for ${domain}.`));
         resolve({});
       }

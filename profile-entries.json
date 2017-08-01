@@ -224,7 +224,7 @@
   {
     "last": "lam",
     "level": "undergrad",
-    "techfolio": "www.nathan-lam.com",
+    "techfolio": "nathancy.github.io/nathan-lam.com",
     "tmpbio": "nathanlam"
   },
   {
@@ -503,7 +503,7 @@
   {
     "last": "uyehara",
     "techfolio": "Keauehara.github.io",
-    "level": "undergrad",
+    "level": "undergrad"
   },
   {
     "last": "viloria",
@@ -525,6 +525,11 @@
     "last": "watanabe",
     "techfolio": "alexcw234.github.io",
     "level": "undergrad"
+  },
+  {
+    "last": "weng",
+    "techfolio": "wengdg.github.io",
+    "level": "grad"
   },
   {
     "last": "white",

@@ -58,7 +58,7 @@
       {
         "interest": "Art and Culture",
         "names": [
-          "www",
+          "nathancy",
           "williamycsiu",
           "yoshimura123",
           "kylebali",
@@ -438,7 +438,7 @@
       {
         "interest": "System Design",
         "names": [
-          "www",
+          "nathancy",
           "creightonchan",
           "kevinkawa",
           "dylannakahodo",
@@ -464,7 +464,7 @@
         "names": [
           "wyattbartlett",
           "minakodoi",
-          "www",
+          "nathancy",
           "seantshi",
           "kylebali",
           "rfiggs",
@@ -494,6 +494,12 @@
     "level": "grad",
     "data": [
       {
+        "interest": "Art and Culture",
+        "names": [
+          "wengdg"
+        ]
+      },
+      {
         "interest": "Artificial Intelligence",
         "names": [
           "amymalia"
@@ -502,13 +508,20 @@
       {
         "interest": "Computer Science",
         "names": [
-          "amymalia"
+          "amymalia",
+          "wengdg"
         ]
       },
       {
         "interest": "Data Administration",
         "names": [
           "anthonyjchriste"
+        ]
+      },
+      {
+        "interest": "Game Development",
+        "names": [
+          "wengdg"
         ]
       },
       {
@@ -521,7 +534,8 @@
       {
         "interest": "Science",
         "names": [
-          "sergey-negrashov"
+          "sergey-negrashov",
+          "wengdg"
         ]
       },
       {
