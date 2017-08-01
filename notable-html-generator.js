@@ -77,7 +77,7 @@ function createWorkRotationalIterator(sites, projects, essays) {
 /* Attach extra fields to the work by looping through profileData to find the author's name and avatar url*/
 function attachIdentificationFields(work, profileData) {
   const matchingProfile = _.find(profileData, function (profile) {
-    return profile.username.toLowerCase() === work.github.toLowerCase();
+    return profile.username && work.github && profile.username.toLowerCase() === work.github.toLowerCase();
   });
 
   if (matchingProfile != null) {

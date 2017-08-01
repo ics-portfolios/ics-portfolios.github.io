@@ -703,18 +703,19 @@
   },
   {
     "last": "lam",
-    "techfolio": "nathancy.github.io",
     "level": "undergrad",
+    "techfolio": "www.nathan-lam.com",
+    "tmpbio": "nathanlam",
     "name": "Nathan Lam",
-    "label": "Student",
-    "website": "https://nathancy.github.io",
-    "username": "nathancy",
+    "label": "Undergraduate",
+    "website": "http://www.nathan-lam.com",
+    "username": "www",
     "summary": "I am pursuing a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring 2018.",
-    "picture": "https://nathancy.github.io/images/profile_nathan_lam.jpg",
+    "picture": "http://www.nathan-lam.com/images/profile_nathan_lam.jpg",
     "interests": [
       "Embedded Systems",
-      "Artificial Intelligence",
-      "Firmware Development"
+      "Web Development",
+      "UI Design"
     ]
   },
   {
