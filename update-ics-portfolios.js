@@ -62,7 +62,7 @@ function getBioFiles(domain) {
           resolve({});
         }
       } else {
-        console.log(`Failed to get bio.json for ${domain}. Error: ${error}, Status code: ${response && response.statusCode}`);
+        console.log(`Failed to get bio.json  ${domain}. Error: ${error}, code: ${response && response.statusCode}`);
         // reject(new Error(`Failed to get bio.json for ${domain}.`));
         resolve({});
       }
@@ -90,6 +90,7 @@ function updateProfileEntry(bio) {
   if (!_.isEmpty(bio)) {
     // first, strip off the protocol part of the website entry.
     const bioUrl = bio.basics.website;
+    const email = bio.basics.email;
     const protocolIndex = _.indexOf(bioUrl, ':');
     const bioHostName = bioUrl.substring(protocolIndex + 3);
     const profileEntry = _.find(profileData, function makeEntry(entry) {
@@ -103,6 +104,7 @@ function updateProfileEntry(bio) {
         {
           name: bio.basics.name,
           label: bio.basics.label,
+          email,
           website,
           username,
           summary: bio.basics.summary,
@@ -146,6 +148,25 @@ function writeJekyllInfoFiles() {
   hallOfFameGenerator.generateHallOfFameTemplate(profileData);
 }
 
+/**
+ * From https://stackoverflow.com/questions/46155/how-to-validate-email-address-in-javascript
+ */
+/* eslint-disable no-useless-escape, max-len */
+function validateEmail(email) {
+  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+
+function writeEmailAddresses() {
+  let emails = _.map(profileData, profile => profile.email);
+  emails = _.filter(emails, email => validateEmail(email));
+  emails = _.sortBy(emails);
+  const emailString = _.reduce(emails, (memo, email) => memo.concat(`\n${email}`));
+  console.log('Writing _data/emails.txt');
+  fs.writeFile('_data/emails.txt', emailString, (err) => { if (err) console.log('Error writing emails', err); });
+}
+
 function updateProfileDataFromLocalBio(localProfiles) {
   _.map(localProfiles, function updateLocal(localProfile) {
     const dirName = localProfile.tmpbio;
@@ -174,8 +195,9 @@ const bioBodyPromises = _.map(cloudProfileData, function (entry) {
 
 // Retrieve the bio.json files, add them to the profileData object, then write out a Jekyll file
 Promise.all(bioBodyPromises)
-    .then(function (bios) {
-      updateProfileEntries(bios);
-      writeJekyllInfoFiles();
-    })
-    .catch(console.error);
+  .then(function (bios) {
+    updateProfileEntries(bios);
+    writeJekyllInfoFiles();
+    writeEmailAddresses();
+  })
+  .catch(console.error);

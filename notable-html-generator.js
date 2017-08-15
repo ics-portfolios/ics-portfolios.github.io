@@ -12,7 +12,7 @@ const TYPE_ESSAY = 'essay';
 const TYPE_PROJECT = 'project';
 const TYPE_PROFILE = 'site';
 
-/* Util method for simulating printf("%s", arg1) function*/
+/* Util method for simulating printf("%s", arg1) function */
 function formatString(string, ...args) {
   let formatted = string;
   for (let i = 0; i < arguments.length; i += 1) {
@@ -44,7 +44,7 @@ function makeIterator(array) {
   };
 }
 
-/* Util method to get the next piece of work in the order of site, project, essay*/
+/* Util method to get the next piece of work in the order of site, project, essay */
 function createWorkRotationalIterator(sites, projects, essays) {
   const sitesIterator = makeIterator(sites);
   const projectsIterator = makeIterator(projects);
@@ -74,7 +74,7 @@ function createWorkRotationalIterator(sites, projects, essays) {
   };
 }
 
-/* Attach extra fields to the work by looping through profileData to find the author's name and avatar url*/
+/* Attach extra fields to the work by looping through profileData to find the author's name and avatar url */
 function attachIdentificationFields(work, profileData) {
   const matchingProfile = _.find(profileData, function (profile) {
     return profile.username && work.github && profile.username.toLowerCase() === work.github.toLowerCase();
@@ -91,11 +91,10 @@ function attachIdentificationFields(work, profileData) {
   return null;
 }
 
-
 /* Get the card's HTML */
 function getCardHtml(data) {
   const template =
-      `        
+    `        
   <div class="ui centered fluid card">
     <div class="content">
       <img class="right floated mini ui image" src="{{ img_url }}}">
@@ -130,8 +129,7 @@ function getRowHtml(site, project, essay) {
   return html;
 }
 
-
-/* Generate template codes for hall of fame files*/
+/* Generate template codes for hall of fame files */
 function generateHallOfFameTemplate(profileData) {
   const hallOfFameContents = fs.readFileSync(hallOfFameURLFile, 'utf8');
   const works = jsonic(hallOfFameContents);
@@ -161,8 +159,8 @@ function generateHallOfFameTemplate(profileData) {
     let html = '';
     while (workRotationalIterator.hasNext()) {
       html += getRowHtml(workRotationalIterator.next().value(),
-          workRotationalIterator.next().value(),
-          workRotationalIterator.next().value());
+        workRotationalIterator.next().value(),
+        workRotationalIterator.next().value());
     }
 
     fs.writeFile(hallOfFameCardsFile, html, function (IOerr) {
