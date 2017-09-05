@@ -219,7 +219,7 @@
     "email": "clemmer@hawaii.edu",
     "website": "https://kclemmer.github.io",
     "username": "kclemmer",
-    "summary": "I am currently working towards my B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in the Spring of 2018. My general professional direction is towards Software Engineering.",
+    "summary": "I am currently working towards my B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in the Spring of 2019. My general professional direction is towards Software Engineering.",
     "picture": "https://kclemmer.github.io/images/squareProfile.jpg",
     "interests": [
       "Software Engineering",
@@ -315,24 +315,6 @@
     ]
   },
   {
-    "last": "doi",
-    "techfolio": "minakodoi.github.io",
-    "level": "undergrad",
-    "tmpbio": "minakodoi",
-    "name": "Minako Doi",
-    "label": "Student",
-    "email": "minakod@hawaii.edu",
-    "website": "https://minakodoi.github.io",
-    "username": "minakodoi",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2017.",
-    "picture": "https://minakodoi.github.io/images/minako_pic.JPG",
-    "interests": [
-      "software engineering",
-      "web designing",
-      "algorithms"
-    ]
-  },
-  {
     "last": "dumlao",
     "techfolio": "dumlaoj.github.io",
     "level": "undergrad",
@@ -424,12 +406,12 @@
     "email": "glennga@hawaii.edu",
     "website": "https://glennga.github.io",
     "username": "glennga",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences, and a minor in Mathematics at the University of Hawaii. I expect to graduate in Fall, 2018.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences, and a certicate in Mathematical Biology at the University of Hawaii. I expect to graduate in Fall, 2018.",
     "picture": "https://glennga.github.io/images/profile-image.jpg",
     "interests": [
       "probability",
       "algorithms",
-      "robotics"
+      "astrometry"
     ]
   },
   {
@@ -471,7 +453,7 @@
     "techfolio": "jogarces.github.io",
     "level": "undergrad",
     "name": "Josephine Garces",
-    "label": "Student",
+    "label": "Application Developer",
     "email": "jgarces@hawaii.edu",
     "website": "https://jogarces.github.io",
     "username": "jogarces",
@@ -1062,7 +1044,7 @@
     "email": "wlmullen@hawaii.edu",
     "website": "https://billmullen42.github.io",
     "username": "billmullen42",
-    "summary": "I am a Second Bachelor's student, studying Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Summer, 2017.",
+    "summary": "I am a Second Bachelor's student, studying Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in August of 2017.",
     "picture": "https://billmullen42.github.io/images/headshot.png",
     "interests": [
       "Web development",
@@ -1441,7 +1423,7 @@
     "techfolio": "keanur.github.io",
     "level": "undergrad",
     "name": "Keanu Robles",
-    "label": "Help Desk Consultant",
+    "label": "IT Specialist",
     "email": "keanur@hawaii.edu",
     "website": "https://keanur.github.io",
     "username": "keanur",
@@ -1457,19 +1439,7 @@
   {
     "last": "robles",
     "techfolio": "r-robles.github.io",
-    "level": "undergrad",
-    "name": "Raven Robles",
-    "label": "Student",
-    "email": "ravenr@hawaii.edu",
-    "website": "https://r-robles.github.io",
-    "username": "r-robles",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2018.",
-    "picture": "https://r-robles.github.io/images/r.jpg",
-    "interests": [
-      "software engineering",
-      "database systems",
-      "web development"
-    ]
+    "level": "undergrad"
   },
   {
     "last": "rude",
@@ -1619,13 +1589,13 @@
     "last": "takayesu",
     "techfolio": "amymalia.github.io",
     "level": "grad",
-    "name": "Amy Takayesu",
-    "label": "Graduate Student",
-    "email": "amytaka@hawaii.edu",
+    "name": "Amy Malia Takayesu",
+    "label": "Software Engineer",
+    "email": "amytakayesu@gmail.com",
     "website": "https://amymalia.github.io",
     "username": "amymalia",
-    "summary": "I am studying for a Masters in Computer Science at the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Summer, 2017.",
-    "picture": "https://amymalia.github.io/images/amy2.jpeg",
+    "summary": "My mission is to help to advance humankind in a creative, beautiful and positive direction.",
+    "picture": "https://amymalia.github.io/images/amy.jpeg",
     "interests": [
       "software engineering",
       "social informatics",
