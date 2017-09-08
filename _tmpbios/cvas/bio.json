@@ -1,0 +1,14 @@
+{
+  "basics": {
+    "name": "Carlos Paradis",
+    "label": "Graduate Student",
+    "picture": "http://carlosparadis.com/images/profile2.jpg",
+    "website": "http://carlosparadis.com/",
+    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs."
+  },
+  "interests": [
+    {
+      "name": "Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
+    }
+  ]
+}

@@ -572,6 +572,12 @@
     "level": "undergrad"
   },
   {
+    "last": "paradis",
+    "level": "grad",
+    "techfolio": "carlosparadis.com",
+    "tmpbio": "cvas"
+  },
+  {
     "last": "pascual",
     "techfolio": "mary-pascual.github.io",
     "level": "undergrad"
@@ -705,6 +711,7 @@
   {
     "last": "takayesu",
     "techfolio": "amymalia.github.io",
+    "picture": "https://github.com/amymalia/amymalia.github.io/raw/master/images/amy2.jpeg",
     "level": "grad"
   },
   {

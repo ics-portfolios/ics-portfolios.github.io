@@ -624,6 +624,81 @@
     ]
   },
   {
+    "level": "grad",
+    "data": [
+      {
+        "interest": "Art and Culture",
+        "names": [
+          "wengdg"
+        ]
+      },
+      {
+        "interest": "Artificial Intelligence",
+        "names": [
+          "amymalia"
+        ]
+      },
+      {
+        "interest": "Computer Science",
+        "names": [
+          "amymalia",
+          "wengdg"
+        ]
+      },
+      {
+        "interest": "Data Administration",
+        "names": [
+          "anthonyjchriste"
+        ]
+      },
+      {
+        "interest": "Game Development",
+        "names": [
+          "wengdg"
+        ]
+      },
+      {
+        "interest": "Networking",
+        "names": [
+          "sergey-negrashov",
+          "amymalia"
+        ]
+      },
+      {
+        "interest": "Science",
+        "names": [
+          "sergey-negrashov",
+          "wengdg"
+        ]
+      },
+      {
+        "interest": "Security",
+        "names": [
+          "carlosparadis"
+        ]
+      },
+      {
+        "interest": "Social Topics",
+        "names": [
+          "sergey-negrashov"
+        ]
+      },
+      {
+        "interest": "Software Engineering",
+        "names": [
+          "amymalia"
+        ]
+      },
+      {
+        "interest": "System Design",
+        "names": [
+          "anthonyjchriste",
+          "anthonyjchriste"
+        ]
+      }
+    ]
+  },
+  {
     "level": "alumni",
     "data": [
       {
@@ -744,75 +819,6 @@
           "xenhuang",
           "dylanpavao",
           "amsanchez93"
-        ]
-      }
-    ]
-  },
-  {
-    "level": "grad",
-    "data": [
-      {
-        "interest": "Art and Culture",
-        "names": [
-          "wengdg"
-        ]
-      },
-      {
-        "interest": "Artificial Intelligence",
-        "names": [
-          "amymalia"
-        ]
-      },
-      {
-        "interest": "Computer Science",
-        "names": [
-          "amymalia",
-          "wengdg"
-        ]
-      },
-      {
-        "interest": "Data Administration",
-        "names": [
-          "anthonyjchriste"
-        ]
-      },
-      {
-        "interest": "Game Development",
-        "names": [
-          "wengdg"
-        ]
-      },
-      {
-        "interest": "Networking",
-        "names": [
-          "sergey-negrashov",
-          "amymalia"
-        ]
-      },
-      {
-        "interest": "Science",
-        "names": [
-          "sergey-negrashov",
-          "wengdg"
-        ]
-      },
-      {
-        "interest": "Social Topics",
-        "names": [
-          "sergey-negrashov"
-        ]
-      },
-      {
-        "interest": "Software Engineering",
-        "names": [
-          "amymalia"
-        ]
-      },
-      {
-        "interest": "System Design",
-        "names": [
-          "anthonyjchriste",
-          "anthonyjchriste"
         ]
       }
     ]

@@ -1954,6 +1954,21 @@
     ]
   },
   {
+    "last": "paradis",
+    "level": "grad",
+    "techfolio": "carlosparadis.com",
+    "tmpbio": "cvas",
+    "name": "Carlos Paradis",
+    "label": "Graduate Student",
+    "website": "http://carlosparadis.com",
+    "username": "carlosparadis",
+    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs.",
+    "picture": "http://carlosparadis.com/images/profile2.jpg",
+    "interests": [
+      "Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
+    ]
+  },
+  {
     "last": "pascual",
     "techfolio": "mary-pascual.github.io",
     "level": "undergrad",
