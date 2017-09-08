@@ -51,76 +51,105 @@
       {
         "interest": "Algorithms",
         "names": [
-          "glennga"
+          "glennga",
+          "seanytak"
         ]
       },
       {
         "interest": "Art and Culture",
         "names": [
           "nathancy",
-          "williamycsiu",
-          "yoshimura123",
+          "cadamos",
           "kylebali",
+          "kahlinbaughman",
           "steven-braun",
+          "troycarson",
+          "wendychong",
           "derrick-comiso",
+          "lancenhd",
           "brandondoan",
           "irene-f",
-          "jogarces",
-          "jogarces",
+          "creighton-gorai",
+          "zach2heth",
           "sorazodia",
+          "beejayines",
+          "ilungj",
+          "crleekwc",
           "joryleech",
           "jleong8",
           "dandli",
           "billmullen42",
           "billmullen42",
           "clint-morimoto",
+          "blairmuraoka",
           "jjhna",
           "shaziney",
           "samrasay",
           "creindle",
+          "kaisuke23",
+          "cksimao",
+          "williamycsiu",
           "connorslike",
+          "kirsten0604",
+          "kirsten0604",
           "gviloria",
           "gviloria",
+          "blaine-wataru",
           "spyhi",
           "yohanyang",
-          "cgyeager"
+          "cgyeager",
+          "yoshimura123"
         ]
       },
       {
         "interest": "Artificial Intelligence",
         "names": [
+          "cristianaspacio",
           "wyattbartlett",
           "wyattbartlett",
-          "seantshi",
-          "byerst",
           "creightonchan",
-          "jchock",
+          "yizanchen",
+          "wendychen9",
+          "alicewy",
+          "wendychong",
           "idemello",
           "brandondoan",
+          "tallasgoo",
+          "jessiejames",
           "kaseyhagi",
           "kaseyhagi",
           "sorazodia",
+          "cizumigawa",
+          "cizumigawa",
           "akuloloia",
+          "camelial",
+          "camelial",
+          "paulolemus",
+          "lihongman",
           "hongbo-lin",
-          "acvmf",
           "mickyjm",
-          "dmosher42",
-          "chrisoh1",
-          "dylanpavao",
+          "jonathanmng",
+          "jordan-ooka",
+          "mserai",
           "jameyia",
-          "matthew-schultz"
+          "tee0402",
+          "matthew-schultz",
+          "seantshi",
+          "seanytak"
         ]
       },
       {
         "interest": "Business",
         "names": [
+          "chokevin",
           "idemello",
+          "jessiejames",
           "kodayv",
           "mickyjm",
           "brendtmcfeeley",
           "billmullen42",
           "senderjosh",
-          "chrisoh1",
+          "tee0402",
           "spyhi"
         ]
       },
@@ -128,25 +157,31 @@
         "interest": "Computer Science",
         "names": [
           "elenambarbour",
+          "tallasgoo",
+          "camelial",
+          "camelial",
           "lambertleong",
-          "ian-oconnor"
+          "ian-oconnor",
+          "awyz"
         ]
       },
       {
         "interest": "Data Administration",
         "names": [
-          "seantshi",
-          "reedv",
-          "byerst",
+          "viltaria",
           "kaseyhagi",
           "alliekim13",
           "akuloloia",
           "lambertleong",
+          "markpm808",
           "mickyjm",
           "smau4",
           "billmullen42",
           "billmullen42",
           "russellomo",
+          "vpawid",
+          "bryantsa",
+          "seantshi",
           "neilnthings",
           "neilnthings",
           "yohanyang"
@@ -156,13 +191,16 @@
         "interest": "Game Development",
         "names": [
           "enakano",
-          "williamycsiu",
-          "williamycsiu",
+          "cristianaspacio",
+          "aprilbala",
           "kylebali",
-          "jchock",
+          "yizanchen",
+          "wendychen9",
+          "lancenhd",
           "dumlaoj",
           "rfiggs",
           "brandonganeko",
+          "creighton-gorai",
           "jheadland",
           "sorazodia",
           "erikhuan",
@@ -171,33 +209,54 @@
           "mickyjm",
           "billmullen42",
           "clint-morimoto",
+          "mynatt",
           "jjhna",
           "senderjosh",
+          "jordan-ooka",
           "pakcharles",
           "terrypalo",
           "cpalpall",
-          "dylanpavao",
+          "innikakp",
           "jackrude",
+          "tevintsales",
+          "mserai",
+          "williamycsiu",
+          "williamycsiu",
+          "saehyuns",
           "gviloria",
-          "jingjiewu",
+          "blaine-wataru",
+          "garyjw",
           "yohanyang"
         ]
       },
       {
         "interest": "Hardware",
         "names": [
-          "williamycsiu",
           "rfiggs",
           "mariahgaoiran",
+          "cizumigawa",
           "joryleech",
-          "acvmf",
+          "paulolemus",
+          "kleve84",
+          "surajmehta95",
           "rileymiyamoto",
           "smau4",
+          "jordan-ooka",
           "samrasay",
+          "mserai",
+          "williamycsiu",
           "keauehara",
           "keauehara",
           "evanyasaka",
           "evanyasaka"
+        ]
+      },
+      {
+        "interest": "Hawaiian Culture",
+        "names": [
+          "wyattbartlett",
+          "liloa",
+          "paniolonate"
         ]
       },
       {
@@ -209,12 +268,14 @@
       {
         "interest": "Leisure",
         "names": [
-          "williamycsiu",
+          "aprilbala",
           "kylebali",
+          "kahlinbaughman",
           "kendrickchen",
           "kclemmer",
           "kclemmer",
           "brandonganeko",
+          "creighton-gorai",
           "huang6606521",
           "erikhuan",
           "richardkahakui",
@@ -222,59 +283,86 @@
           "kellyl4",
           "pakcharles",
           "cpalpall",
+          "innikakp",
           "creindle",
+          "williamycsiu",
           "dannytan",
+          "lyuyeda",
+          "lyuyeda",
+          "lyuyeda",
           "alexcw234",
-          "jingjiewu"
+          "blaine-wataru"
         ]
       },
       {
         "interest": "Mobile Design",
         "names": [
+          "cadamos",
+          "aprilbala",
+          "yizanchen",
+          "chokevin",
           "markrcummins",
           "idemello",
           "dumlaoj",
           "irene-f",
           "dankoo",
           "christianleandro",
+          "paulolemus",
+          "surajmehta95",
           "rileymiyamoto",
           "paniolonate",
           "senderjosh",
           "keanur",
           "jameyia",
+          "tee0402",
+          "saehyuns",
           "dannytan",
+          "garyjw",
           "jerry1100"
         ]
       },
       {
         "interest": "Networking",
         "names": [
-          "wyattbartlett",
-          "mahoe7",
           "enakano",
-          "reedv",
-          "jchock",
+          "aprilbala",
+          "alicewy",
+          "chokevin",
+          "viltaria",
+          "wendychong",
+          "wendychong",
           "derrick-comiso",
           "markrcummins",
           "jaketdk",
           "jaketdk",
           "pexzabe",
           "mariahgaoiran",
+          "jessiejames",
           "huang6606521",
+          "beejayines",
+          "ilungj",
           "richardkahakui",
           "alliekim13",
+          "kiankoba",
           "akuloloia",
-          "acvmf",
+          "crleekwc",
+          "kleve84",
+          "markpm808",
           "rileymiyamoto",
           "smau4",
-          "dmosher42",
-          "chrisoh1",
+          "blairmuraoka",
+          "aobatake",
           "keanur",
+          "tevintsales",
+          "bryantsa",
+          "bryantsa",
           "marysantabarbara",
+          "cksimao",
           "connorslike",
           "connorslike",
           "keauehara",
           "joshuajw",
+          "garyjw",
           "jerry1100"
         ]
       },
@@ -289,6 +377,8 @@
         "interest": "Programming Languages",
         "names": [
           "steven-braun",
+          "beejayines",
+          "kiankoba",
           "cpalpall"
         ]
       },
@@ -298,50 +388,68 @@
           "steven-braun",
           "brandondoan",
           "glennga",
+          "glennga",
           "kaseyhagi",
           "kodayv",
           "jleong8",
           "jleong8",
-          "paniolonate",
+          "innikakp",
+          "bwallick",
           "alexcw234"
         ]
       },
       {
         "interest": "Security",
         "names": [
-          "jnasca",
           "elenambarbour",
           "elenambarbour",
+          "troycarson",
+          "troycarson",
           "kendrickchen",
+          "alicewy",
+          "viltaria",
           "jaketdk",
           "dumlaoj",
           "pexzabe",
           "irene-f",
+          "tallasgoo",
           "jheadland",
+          "rhynes",
           "zknoebel",
           "dankoo",
+          "neelkotak13",
+          "neelkotak13",
           "kellyl4",
           "dandli",
           "rileymiyamoto",
-          "dylannakahodo",
+          "jnasca",
           "shaziney",
           "shaziney",
           "ian-oconnor",
+          "vpawid",
           "cepugh",
           "samrasay",
+          "kaisuke23",
+          "mserai",
+          "cksimao",
           "matthew-schultz",
-          "joshuajw"
+          "saehyuns",
+          "kirsten0604",
+          "lyuyeda",
+          "joshuajw",
+          "awyz"
         ]
       },
       {
         "interest": "Social Topics",
         "names": [
           "enakano",
-          "reedv",
+          "wyattbartlett",
           "kendrickchen",
           "idemello",
           "richardkahakui",
           "kodayv",
+          "kleve84",
           "matthew-schultz",
           "matthew-schultz",
           "matthew-schultz",
@@ -351,83 +459,98 @@
       {
         "interest": "Software Engineering",
         "names": [
-          "brandon-chun",
-          "brandon-chun",
-          "mahoe7",
-          "jnasca",
-          "reedv",
-          "yoshimura123",
+          "cristianaspacio",
           "kylebali",
+          "kahlinbaughman",
           "steven-braun",
           "creightonchan",
+          "wendychen9",
           "kendrickchen",
-          "jchock",
+          "liloa",
+          "liloa",
           "derrick-comiso",
           "kclemmer",
           "markrcummins",
+          "lancenhd",
           "idemello",
           "pexzabe",
           "cfrifel",
           "brandonganeko",
           "mariahgaoiran",
-          "jogarces",
+          "creighton-gorai",
+          "zach2heth",
+          "zach2heth",
           "sorazodia",
+          "beejayines",
+          "cizumigawa",
           "kevinkawa",
           "alliekim13",
           "zknoebel",
           "zknoebel",
+          "kiankoba",
           "dankoo",
+          "neelkotak13",
+          "adi-kumar",
+          "adi-kumar",
           "christianleandro",
+          "crleekwc",
           "kellyl4",
           "joryleech",
+          "paulolemus",
           "dandli",
           "hongbo-lin",
           "brianmayeshiro",
           "brianmayeshiro",
+          "surajmehta95",
           "mickyjm",
           "brendtmcfeeley",
-          "dmosher42",
           "clint-morimoto",
           "paniolonate",
-          "dylannakahodo",
+          "jnasca",
           "senderjosh",
+          "jonathanmng",
+          "jonathanmng",
           "chrisnguyenhi",
+          "aobatake",
           "russellomo",
           "ian-oconnor",
           "pakcharles",
           "terrypalo",
           "cpalpall",
-          "dylanpavao",
           "cepugh",
           "cepugh",
           "samrasay",
           "keanur",
+          "tevintsales",
           "marysantabarbara",
+          "mserai",
           "matthew-schultz",
           "matthew-schultz",
           "dannytan",
+          "seanytak",
           "dtokita",
           "gviloria",
           "gviloria",
           "alexcw234",
           "spyhi",
-          "jingjiewu",
           "yohanyang",
           "evanyasaka",
           "cgyeager",
-          "cgyeager"
+          "cgyeager",
+          "yoshimura123"
         ]
       },
       {
         "interest": "Sports",
         "names": [
-          "brandon-chun",
-          "yoshimura123",
           "huang6606521",
           "clint-morimoto",
           "pakcharles",
           "creindle",
-          "jackrude"
+          "jackrude",
+          "kaisuke23",
+          "blaine-wataru",
+          "yoshimura123"
         ]
       },
       {
@@ -435,11 +558,16 @@
         "names": [
           "nathancy",
           "creightonchan",
+          "beejayines",
+          "ilungj",
           "kevinkawa",
-          "dylannakahodo",
+          "lihongman",
+          "surajmehta95",
+          "surajmehta95",
           "keanur",
           "jameyia",
           "dtokita",
+          "bwallick",
           "jerry1100",
           "cgyeager"
         ]
@@ -447,38 +575,175 @@
       {
         "interest": "Virtual Reality",
         "names": [
-          "mahoe7",
-          "jnasca",
           "kylebali",
-          "byerst",
-          "brianmayeshiro"
+          "tallasgoo",
+          "brianmayeshiro",
+          "mynatt",
+          "jnasca",
+          "williamycsiu"
         ]
       },
       {
         "interest": "Web Development",
         "names": [
-          "wyattbartlett",
           "nathancy",
-          "seantshi",
+          "cadamos",
+          "aprilbala",
           "kylebali",
+          "wyattbartlett",
+          "wendychong",
+          "lancenhd",
           "rfiggs",
-          "jogarces",
+          "jessiejames",
+          "adi-kumar",
           "christianleandro",
+          "crleekwc",
           "dandli",
           "lambertleong",
           "mickyjm",
           "brendtmcfeeley",
           "billmullen42",
+          "blairmuraoka",
+          "mynatt",
           "paniolonate",
+          "aobatake",
           "russellomo",
           "terrypalo",
           "mary-pascual",
-          "dylanpavao",
+          "vpawid",
           "jackrude",
           "marysantabarbara",
+          "seantshi",
           "dannytan",
           "neilnthings",
-          "joshuajw"
+          "joshuajw",
+          "bwallick",
+          "awyz"
+        ]
+      }
+    ]
+  },
+  {
+    "level": "alumni",
+    "data": [
+      {
+        "interest": "Art and Culture",
+        "names": [
+          "jogarces",
+          "jogarces"
+        ]
+      },
+      {
+        "interest": "Artificial Intelligence",
+        "names": [
+          "byerst",
+          "jchock",
+          "yongkim93",
+          "yongkim93",
+          "acvmf",
+          "dmosher42",
+          "chrisoh1",
+          "dylanpavao"
+        ]
+      },
+      {
+        "interest": "Business",
+        "names": [
+          "chrisoh1"
+        ]
+      },
+      {
+        "interest": "Data Administration",
+        "names": [
+          "reedv",
+          "byerst",
+          "jonkiote"
+        ]
+      },
+      {
+        "interest": "Game Development",
+        "names": [
+          "jchock",
+          "yongkim93",
+          "dylanpavao",
+          "jonkiote",
+          "jingjiewu"
+        ]
+      },
+      {
+        "interest": "Hardware",
+        "names": [
+          "acvmf",
+          "jonkiote",
+          "amsanchez93"
+        ]
+      },
+      {
+        "interest": "Leisure",
+        "names": [
+          "xenhuang",
+          "jingjiewu"
+        ]
+      },
+      {
+        "interest": "Networking",
+        "names": [
+          "reedv",
+          "jchock",
+          "mahoe7",
+          "xenhuang",
+          "acvmf",
+          "dmosher42",
+          "chrisoh1"
+        ]
+      },
+      {
+        "interest": "Security",
+        "names": [
+          "dylannakahodo"
+        ]
+      },
+      {
+        "interest": "Social Topics",
+        "names": [
+          "reedv"
+        ]
+      },
+      {
+        "interest": "Software Engineering",
+        "names": [
+          "reedv",
+          "jchock",
+          "jogarces",
+          "mahoe7",
+          "dmosher42",
+          "dylannakahodo",
+          "dylanpavao",
+          "jonkiote",
+          "jingjiewu"
+        ]
+      },
+      {
+        "interest": "System Design",
+        "names": [
+          "dylannakahodo"
+        ]
+      },
+      {
+        "interest": "Virtual Reality",
+        "names": [
+          "byerst",
+          "mahoe7",
+          "amsanchez93"
+        ]
+      },
+      {
+        "interest": "Web Development",
+        "names": [
+          "jogarces",
+          "xenhuang",
+          "dylanpavao",
+          "amsanchez93"
         ]
       }
     ]
@@ -548,61 +813,6 @@
         "names": [
           "anthonyjchriste",
           "anthonyjchriste"
-        ]
-      }
-    ]
-  },
-  {
-    "level": "alumni",
-    "data": [
-      {
-        "interest": "Data Administration",
-        "names": [
-          "jonkiote"
-        ]
-      },
-      {
-        "interest": "Game Development",
-        "names": [
-          "jonkiote"
-        ]
-      },
-      {
-        "interest": "Hardware",
-        "names": [
-          "jonkiote",
-          "amsanchez93"
-        ]
-      },
-      {
-        "interest": "Leisure",
-        "names": [
-          "xenhuang"
-        ]
-      },
-      {
-        "interest": "Networking",
-        "names": [
-          "xenhuang"
-        ]
-      },
-      {
-        "interest": "Software Engineering",
-        "names": [
-          "jonkiote"
-        ]
-      },
-      {
-        "interest": "Virtual Reality",
-        "names": [
-          "amsanchez93"
-        ]
-      },
-      {
-        "interest": "Web Development",
-        "names": [
-          "xenhuang",
-          "amsanchez93"
         ]
       }
     ]

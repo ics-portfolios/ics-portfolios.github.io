@@ -1,5 +1,20 @@
 [
   {
+    "last": "adamos",
+    "techfolio": "cadamos.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "aspacio",
+    "techfolio": "cristianaspacio.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "bala",
+    "techfolio": "aprilbala.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "balisacan",
     "techfolio": "kylebali.github.io",
     "level": "undergrad"
@@ -7,6 +22,11 @@
   {
     "last": "barbour",
     "techfolio": "elenambarbour.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "baughman",
+    "techfolio": "kahlinbaughman.github.io",
     "level": "undergrad"
   },
   {
@@ -23,13 +43,17 @@
   {
     "last": "byers",
     "techfolio": "byerst.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "bartlett",
     "techfolio": "wyattbartlett.github.io",
-    "level": "undergrad",
-    "tmpbio": "wyattbartlett"
+    "level": "undergrad"
+  },
+  {
+    "last": "carson",
+    "techfolio": "troycarson.github.io",
+    "level": "undergrad"
   },
   {
     "last": "casanova",
@@ -44,19 +68,48 @@
   },
   {
     "last": "chen",
+    "techfolio": "yizanchen.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "chen",
+    "techfolio": "wendychen9.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "chen",
     "techfolio": "kendrickchen.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "chen",
+    "techfolio": "alicewy.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "ching-nakana",
+    "techfolio": "liloa.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "cho",
+    "techfolio": "chokevin.github.io",
     "level": "undergrad"
   },
   {
     "last": "chock",
     "techfolio": "jchock.github.io",
+    "level": "alumni"
+  },
+  {
+    "last": "chong",
+    "techfolio": "viltaria.github.io",
     "level": "undergrad"
   },
   {
-    "last": "chun",
-    "techfolio": "brandon-chun.github.io",
-    "level": "undergrad",
-    "tmpbio": "brandon-chun"
+    "last": "chong",
+    "techfolio": "wendychong.github.io",
+    "level": "undergrad"
   },
   {
     "last": "comiso",
@@ -76,6 +129,11 @@
   {
     "last": "cummins",
     "techfolio": "markrcummins.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "daclison",
+    "techfolio": "lancenhd.github.io",
     "level": "undergrad"
   },
   {
@@ -136,6 +194,21 @@
   {
     "last": "garces",
     "techfolio": "jogarces.github.io",
+    "level": "alumni"
+  },
+  {
+    "last": "goo",
+    "techfolio": "tallasgoo.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "gorai",
+    "techfolio": "creighton-gorai.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "grazziotin",
+    "techfolio": "jessiejames.github.io",
     "level": "undergrad"
   },
   {
@@ -149,6 +222,11 @@
     "level": "undergrad"
   },
   {
+    "last": "heth",
+    "techfolio": "zach2heth.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "ho",
     "techfolio": "sorazodia.github.io",
     "level": "undergrad"
@@ -156,8 +234,7 @@
   {
     "last": "hoe",
     "techfolio": "mahoe7.github.io",
-    "level": "undergrad",
-    "tmpbio": "mahoe7"
+    "level": "alumni"
   },
   {
     "last": "huang",
@@ -173,6 +250,26 @@
     "last": "huang",
     "techfolio": "XenHuang.github.io",
     "level": "alumni"
+  },
+  {
+    "last": "hynes",
+    "techfolio": "rhynes.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "ines",
+    "techfolio": "beejayines.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "izumigawa",
+    "techfolio": "cizumigawa.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "jeong",
+    "techfolio": "ilungj.github.io",
+    "level": "undergrad"
   },
   {
     "last": "johnson",
@@ -192,12 +289,22 @@
   },
   {
     "last": "kim",
+    "techfolio": "yongkim93.github.io",
+    "level": "alumni"
+  },
+  {
+    "last": "kim",
     "techfolio": "alliekim13.github.io",
     "level": "undergrad"
   },
   {
     "last": "knoebel",
     "techfolio": "zknoebel.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "kobayashi",
+    "techfolio": "kiankoba.github.io",
     "level": "undergrad"
   },
   {
@@ -216,6 +323,21 @@
     "level": "undergrad"
   },
   {
+    "last": "kotak",
+    "techfolio": "neelkotak13.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "kumar",
+    "techfolio": "adi-kumar.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "lai",
+    "level": "undergrad",
+    "techfolio": "camelial.github.io"
+  },
+  {
     "last": "lam",
     "level": "undergrad",
     "techfolio": "nathancy.github.io/nathan-lam.com",
@@ -224,6 +346,11 @@
   {
     "last": "leandro",
     "techfolio": "christianleandro.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "lee",
+    "techfolio": "crleekwc.github.io",
     "level": "undergrad"
   },
   {
@@ -237,8 +364,18 @@
     "level": "undergrad"
   },
   {
+    "last": "lemus",
+    "techfolio": "paulolemus.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "leong",
     "techfolio": "jleong8.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "levesque",
+    "techfolio": "kleve84.github.io",
     "level": "undergrad"
   },
   {
@@ -251,6 +388,11 @@
     "last": "li",
     "techfolio": "dandli.github.io",
     "picture": "https://dandli.github.io/images/dan.JPG",
+    "level": "undergrad"
+  },
+  {
+    "last": "li",
+    "techfolio": "lihongman.github.io",
     "level": "undergrad"
   },
   {
@@ -269,9 +411,19 @@
     "level": "undergrad"
   },
   {
+    "last": "mcdermott",
+    "techfolio": "markpm808.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "mehta",
+    "techfolio": "surajmehta95.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "mink",
     "techfolio": "acvmf.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "miyamoto",
@@ -301,7 +453,7 @@
   {
     "last": "mosher",
     "techfolio": "dmosher42.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "mullen",
@@ -311,6 +463,16 @@
   {
     "last": "morimoto",
     "techfolio": "clint-morimoto.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "muraoka",
+    "techfolio": "blairmuraoka.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "mynatt",
+    "techfolio": "mynatt.github.io",
     "level": "undergrad"
   },
   {
@@ -326,7 +488,7 @@
   {
     "last": "nakahodo",
     "techfolio": "dylannakahodo.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "nakano",
@@ -337,8 +499,7 @@
   {
     "last": "nasca",
     "techfolio": "jnasca.github.io",
-    "level": "undergrad",
-    "tmpbio": "jnasca"
+    "level": "undergrad"
   },
   {
     "last": "natividad",
@@ -350,10 +511,14 @@
     "techfolio": "sergey-negrashov.github.io",
     "level": "grad"
   },
-
   {
     "last": "nishiguchi",
     "techfolio": "senderjosh.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "nguyen",
+    "techfolio": "jonathanmng.github.io",
     "level": "undergrad"
   },
   {
@@ -362,9 +527,14 @@
     "level": "undergrad"
   },
   {
+    "last": "obatake",
+    "techfolio": "aobatake.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "oconner",
     "techfolio": "chrisoh1.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "omo",
@@ -374,6 +544,11 @@
   {
     "last": "oh",
     "techfolio": "ian-oconnor.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "ooka",
+    "techfolio": "jordan-ooka.github.io",
     "level": "undergrad"
   },
   {
@@ -392,6 +567,11 @@
     "level": "undergrad"
   },
   {
+    "last": "pang",
+    "techfolio": "innikakp.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "pascual",
     "techfolio": "mary-pascual.github.io",
     "level": "undergrad"
@@ -399,6 +579,11 @@
   {
     "last": "pavao",
     "techfolio": "dylanpavao.github.io",
+    "level": "alumni"
+  },
+  {
+    "last": "pawid",
+    "techfolio": "vpawid.github.io",
     "level": "undergrad"
   },
   {
@@ -422,11 +607,6 @@
     "level": "undergrad"
   },
   {
-    "last": "robles",
-    "techfolio": "r-robles.github.io",
-    "level": "undergrad"
-  },
-  {
     "last": "reindle",
     "techfolio": "creindle.github.io",
     "level": "undergrad",
@@ -438,13 +618,33 @@
     "level": "undergrad"
   },
   {
+    "last": "sales",
+    "techfolio": "tevintsales.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "sanchez",
+    "techfolio": "bryantsa.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "sanchez",
     "techfolio": "amsanchez93.github.io",
     "level": "alumni"
   },
   {
+    "last": "sanidad",
+    "techfolio": "kaisuke23.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "santabarbara",
     "techfolio": "marysantabarbara.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "serai",
+    "techfolio": "mserai.github.io",
     "level": "undergrad"
   },
   {
@@ -453,10 +653,19 @@
     "level": "undergrad"
   },
   {
+    "last": "simiao",
+    "techfolio": "cksimao.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "sio",
+    "techfolio": "tee0402.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "siu",
     "techfolio": "williamycsiu.github.io",
-    "level": "undergrad",
-    "tmpbio": "williamycsiu"
+    "level": "undergrad"
   },
   {
     "last": "schultz",
@@ -466,8 +675,7 @@
   {
     "last": "shimoda",
     "techfolio": "seantshi.github.io",
-    "level": "undergrad",
-    "tmpbio": "seantshi"
+    "level": "undergrad"
   },
   {
     "last": "slike",
@@ -475,8 +683,23 @@
     "level": "undergrad"
   },
   {
+    "last": "song",
+    "techfolio": "saehyuns.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "tan",
     "techfolio": "dannytan.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "takafuji",
+    "techfolio": "seanytak.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "takanishi",
+    "techfolio": "kirsten0604.github.io",
     "level": "undergrad"
   },
   {
@@ -495,6 +718,11 @@
     "level": "undergrad"
   },
   {
+    "last": "uyeda",
+    "techfolio": "lyuyeda.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "uyehara",
     "techfolio": "Keauehara.github.io",
     "level": "undergrad"
@@ -507,7 +735,7 @@
   {
     "last": "vilanueva",
     "techfolio": "reedv.github.io",
-    "level": "undergrad",
+    "level": "alumni",
     "tmpbio": "reedv"
   },
   {
@@ -516,8 +744,18 @@
     "level": "undergrad"
   },
   {
+    "last": "wallick",
+    "techfolio": "bwallick.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "watanabe",
     "techfolio": "alexcw234.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "wataru",
+    "techfolio": "blaine-wataru.github.io",
     "level": "undergrad"
   },
   {
@@ -531,6 +769,11 @@
     "level": "undergrad"
   },
   {
+    "last": "wong",
+    "techfolio": "garyjw.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "wu",
     "techfolio": "jerry1100.github.io",
     "level": "undergrad"
@@ -538,7 +781,7 @@
   {
     "last": "wu",
     "techfolio": "jingjiewu.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "yang",
@@ -559,7 +802,11 @@
   {
     "last": "yoshimura",
     "techfolio": "yoshimura123.github.io",
-    "level": "undergrad",
-    "tmpbio": "yoshimura123"
+    "level": "undergrad"
+  },
+  {
+    "last": "zheng",
+    "techfolio": "awyz.github.io",
+    "level": "undergrad"
   }
 ]

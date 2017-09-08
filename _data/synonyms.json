@@ -4,6 +4,7 @@
 		"synonyms": 
 		[
 			"software engineer",
+      "",
       "Sofware Engineering",
 			"software develop",
 			"program",
@@ -19,6 +20,7 @@
 		"synonyms":
 		[
 			"network",
+      "Device to Device Communication",
 			"iot",
 			"internet of things",
 			"information technolog",
@@ -33,8 +35,11 @@
 		[
 			"web dev",
 			"web design",
+      "user interface / user experience",
+      "human-computer interaction",
 			"web",
 			"web app",
+      "User Applications",
       "Back-end Website Development"
 		]
 	},
@@ -52,6 +57,8 @@
 		[
 			"java",
       "node.js",
+      "Assembly",
+      "translation and interpretation",
 			"python"
 		]
 	},
@@ -81,6 +88,7 @@
 			"artificial",
 			"ai",
 			"language process",
+      "feature recognition",
       "Machine Learning"
 		]
 	},
@@ -91,6 +99,7 @@
 			"security",
 			"defense",
       "Cryptography",
+      "CTF competitions",
       "Ethical Hacking"
 		]
 	},
@@ -113,6 +122,7 @@
 			"smartphone",
       "luxury apps/device development",
       "iOS Application Development",
+      "iOS Development",
 			"app dev",
       "Moblie Development"
     ]
@@ -123,6 +133,8 @@
 		[
 			"exercis",
 			"sport",
+      "Bicyce Racing",
+      "Weightlifting",
 			"basketball",
 			"skate",
       "Soccer",
@@ -137,12 +149,15 @@
 		"synonyms":
 		[
 			"business",
+      "finance",
       "Marketing",
       "e-commerce",
       "venture capital",
 			"entrepre",
       "Management",
       "Patent Law",
+      "Financial Technology",
+      "blockchain",
       "real estate"
 		]
 	},
@@ -151,8 +166,14 @@
 		"synonyms":
 		[
 			"graphic",
+      "Songwriting",
+      "Japan",
+      "Dancing",
+      "Twitch",
 			"draw",
+      "Learning new languages",
 			"design",
+      "Character/Scenic Animation",
 			"art",
 			"photo",
       "Drums",
@@ -166,7 +187,8 @@
       "Linguistics",
       "computational linguistics",
 			"pixel",
-      "Storytelling"
+      "Storytelling",
+      "Ancient Rome"
 		]
 	},
 	{
@@ -175,12 +197,14 @@
 		[
 			"drone",
 			"electronics",
+      "Home Automation",
 			"hardware",
 			"building",
 			"semiconductor",
 			"robot",
 			"unmanned",
       "Firmware Development",
+      "power monitoring",
       "Rasperry Pi",
 			"product"
 		]
@@ -201,6 +225,7 @@
 		"synonyms":
 		[
 			"anime",
+      "guitar",
 			"music",
 			"eating",
 			"gaming",
@@ -248,12 +273,14 @@
       "inferential statistics",
       "science",
       "physics",
+      "Psychology",
+      "psychology",
       "probability",
       "astronomy",
+      "astrometry",
       "Research",
       "biol",
-      "plants",
-      "Lāʻau Lapaʻau (Hawaiian Plant Medicine)"
+      "plants"
 		]
 	},
 	{
@@ -275,5 +302,14 @@
       "Ubuntu",
 			"unix"
 		]
-	}
+	},
+  {
+    "term": "Hawaiian Culture",
+    "synonyms":
+    [
+      "Lāʻau Lapaʻau (Hawaiian Plant Medicine)",
+      "ka ʻimi ʻike ʻana",
+      "Hawaiian Language"
+    ]
+  }
 ]
