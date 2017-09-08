@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Carlos Paradis",
-    "label": "Graduate Student",
-    "picture": "http://carlosparadis.com/images/profile2.jpg",
+    "label": "Ph.D. Student and Research Assistant",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAw6AAAAJDk5MjVlMzYzLTg3ZDYtNDgyYy1iN2FjLWI1MjJlYTA4ZDg5ZQ.jpg",
     "website": "http://carlosparadis.com/",
-    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs."
+    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs. My dissertation seeks to understand conceptual evolution of hacker discourse online through text mining and social network dynamics."
   },
   "interests": [
     {
-      "name": "Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
+      "name": "Data Science, Hadoop Ecosystem, Healthcare, Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
     }
   ]
 }

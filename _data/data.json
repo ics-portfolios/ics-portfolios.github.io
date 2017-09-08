@@ -1959,13 +1959,13 @@
     "techfolio": "carlosparadis.com",
     "tmpbio": "cvas",
     "name": "Carlos Paradis",
-    "label": "Graduate Student",
+    "label": "Ph.D. Student and Research Assistant",
     "website": "http://carlosparadis.com",
     "username": "carlosparadis",
-    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs.",
-    "picture": "http://carlosparadis.com/images/profile2.jpg",
+    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs. My dissertation seeks to understand conceptual evolution of hacker discourse online through text mining and social network dynamics.",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAw6AAAAJDk5MjVlMzYzLTg3ZDYtNDgyYy1iN2FjLWI1MjJlYTA4ZDg5ZQ.jpg",
     "interests": [
-      "Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
+      "Data Science, Hadoop Ecosystem, Healthcare, Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
     ]
   },
   {
@@ -2407,6 +2407,7 @@
   {
     "last": "takayesu",
     "techfolio": "amymalia.github.io",
+    "picture": "https://github.com/amymalia/amymalia.github.io/raw/master/images/amy2.jpeg",
     "level": "grad",
     "name": "Amy Malia Takayesu",
     "label": "Software Engineer",
@@ -2414,7 +2415,6 @@
     "website": "https://amymalia.github.io",
     "username": "amymalia",
     "summary": "My mission is to help to advance humankind in a creative, beautiful and positive direction.",
-    "picture": "https://amymalia.github.io/images/amy.jpeg",
     "interests": [
       "software engineering",
       "social informatics",
