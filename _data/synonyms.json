@@ -12,6 +12,7 @@
 			"software",
       "Reverse Engineering",
       "Project Management",
+      "Project Development",
 			"prototyp"
 		]
 	},
@@ -26,7 +27,9 @@
 			"information technolog",
       "AWS",
       "cloud computing",
-			"it"
+			"it",
+      "Servers",
+      "Technology Integration"
 		]
 	},
 	{
@@ -141,6 +144,8 @@
       "hiking",
       "Hockey",
       "Rifle Marksmanship",
+      "Cycling",
+      "Running",
 			"skating"
 		]
 	},
@@ -158,7 +163,9 @@
       "Patent Law",
       "Financial Technology",
       "blockchain",
-      "real estate"
+      "real estate",
+      "Financial Markets",
+      "Cryptocurrency"
 		]
 	},
 	{
@@ -175,6 +182,7 @@
 			"design",
       "Character/Scenic Animation",
 			"art",
+      "Cooking",
 			"photo",
       "Drums",
       "Teaching",
@@ -247,17 +255,24 @@
 			"welfare",
 			"education",
 			"educat",
-			"renewable",
-      "sustainability",
-			"power quality",
       "social justice",
       "social equality",
       "Russian-American relations",
       "Intellectual Property Law",
-      "health",
-      "nature conservation"
+      "health"
 		]
 	},
+  {
+    "term": "Sustainability",
+    "synonyms":
+    [
+      "renewable",
+      "sustainability",
+      "power quality",
+      "green energy",
+      "nature conservation"
+    ]
+  },
 	{
 		"term": "Algorithms",
 		"synonyms":
@@ -291,7 +306,8 @@
 			"forensics",
 			"informatics",
       "Analytics",
-      "human computer interaction"
+      "human computer interaction",
+      "Technology"
 		]
 	},	
 	{

@@ -1,7 +1,17 @@
 [
   {
+    "last": "abe",
+    "techfolio": "maiabe.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "adamos",
     "techfolio": "cadamos.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "agbayani",
+    "techfolio": "darleneagbayani.github.io",
     "level": "undergrad"
   },
   {
@@ -127,6 +137,11 @@
     "level": "undergrad"
   },
   {
+    "last": "crelencia",
+    "techfolio": "dcrelencia.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "cummins",
     "techfolio": "markrcummins.github.io",
     "level": "undergrad"
@@ -152,8 +167,23 @@
     "level": "undergrad"
   },
   {
+    "last": "dorn",
+    "techfolio": "tylergdorn.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "ducey",
+    "techfolio": "joshducey.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "dumlao",
     "techfolio": "dumlaoj.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "eligio",
+    "techfolio": "janeligio.github.io",
     "level": "undergrad"
   },
   {
@@ -169,6 +199,11 @@
   {
     "last": "fang",
     "techfolio": "irene-f.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "felipe",
+    "techfolio": "jeremy-felipe.github.io",
     "level": "undergrad"
   },
   {
@@ -243,6 +278,11 @@
   },
   {
     "last": "huang",
+    "techfolio": "jasonhuang23.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "huang",
     "techfolio": "erikhuan.github.io",
     "level": "undergrad"
   },
@@ -285,6 +325,11 @@
     "last": "kawamura",
     "techfolio": "kevinkawa.github.io",
     "picture": "https://kevinkawa.github.io/images/kevin.jpg",
+    "level": "undergrad"
+  },
+  {
+    "last": "kawano",
+    "techfolio": "kenkawano.github.io",
     "level": "undergrad"
   },
   {
@@ -344,6 +389,16 @@
     "tmpbio": "nathanlam"
   },
   {
+    "last": "lam",
+    "level": "undergrad",
+    "techfolio": "joshuaccl.github.io"
+  },
+  {
+    "last": "laranio",
+    "level": "undergrad",
+    "techfolio": "nlaranio.github.io"
+  },
+  {
     "last": "leandro",
     "techfolio": "christianleandro.github.io",
     "level": "undergrad"
@@ -366,6 +421,11 @@
   {
     "last": "lemus",
     "techfolio": "paulolemus.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "len",
+    "techfolio": "lenjason.github.io",
     "level": "undergrad"
   },
   {
@@ -406,6 +466,16 @@
     "level": "undergrad"
   },
   {
+    "last": "mamuad",
+    "techfolio": "sharieannem.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "maskey",
+    "techfolio": "ayushmaskey.github.io",
+    "level": "grad"
+  },
+  {
     "last": "mayeshiro",
     "techfolio": "brianmayeshiro.github.io",
     "level": "undergrad"
@@ -418,6 +488,11 @@
   {
     "last": "mehta",
     "techfolio": "surajmehta95.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "meinzen",
+    "techfolio": "natashameinzen.github.io",
     "level": "undergrad"
   },
   {
@@ -478,6 +553,11 @@
   {
     "last": "na",
     "techfolio": "jjhna.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "nagoshi",
+    "techfolio": "vnagoshi.github.io",
     "level": "undergrad"
   },
   {
@@ -544,6 +624,11 @@
   {
     "last": "oh",
     "techfolio": "ian-oconnor.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "okabe",
+    "techfolio": "jokabe.github.io",
     "level": "undergrad"
   },
   {
@@ -621,6 +706,11 @@
   {
     "last": "rude",
     "techfolio": "jackrude.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "sakuda",
+    "techfolio": "mhsakuda.github.io",
     "level": "undergrad"
   },
   {
@@ -712,7 +802,7 @@
     "last": "takayesu",
     "techfolio": "amymalia.github.io",
     "picture": "https://github.com/amymalia/amymalia.github.io/raw/master/images/amy2.jpeg",
-    "level": "grad"
+    "level": "alumni"
   },
   {
     "last": "teves",
@@ -804,6 +894,11 @@
     "last": "yeager",
     "techfolio": "cgyeager.github.io",
     "picture": "https://cgyeager.github.io/images/new_pic.jpg",
+    "level": "undergrad"
+  },
+  {
+    "last": "yoro",
+    "techfolio": "wyoro.github.io",
     "level": "undergrad"
   },
   {

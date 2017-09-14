@@ -19,7 +19,6 @@
       {
         "interest": "Social Topics",
         "names": [
-          "philipmjohnson",
           "cammoore"
         ]
       },
@@ -28,6 +27,12 @@
         "names": [
           "philipmjohnson",
           "cammoore"
+        ]
+      },
+      {
+        "interest": "Sustainability",
+        "names": [
+          "philipmjohnson"
         ]
       },
       {
@@ -68,12 +73,15 @@
           "derrick-comiso",
           "lancenhd",
           "brandondoan",
+          "tylergdorn",
           "irene-f",
+          "jeremy-felipe",
           "creighton-gorai",
           "zach2heth",
           "sorazodia",
           "beejayines",
           "ilungj",
+          "joshuaccl",
           "crleekwc",
           "joryleech",
           "jleong8",
@@ -104,6 +112,7 @@
       {
         "interest": "Artificial Intelligence",
         "names": [
+          "maiabe",
           "cristianaspacio",
           "wyattbartlett",
           "wyattbartlett",
@@ -124,11 +133,14 @@
           "akuloloia",
           "camelial",
           "camelial",
+          "nlaranio",
           "paulolemus",
           "lihongman",
           "hongbo-lin",
+          "sharieannem",
           "mickyjm",
           "jonathanmng",
+          "jokabe",
           "jordan-ooka",
           "mserai",
           "jameyia",
@@ -141,13 +153,16 @@
       {
         "interest": "Business",
         "names": [
+          "darleneagbayani",
           "chokevin",
           "idemello",
+          "tylergdorn",
           "jessiejames",
           "kodayv",
           "mickyjm",
           "brendtmcfeeley",
           "billmullen42",
+          "vnagoshi",
           "senderjosh",
           "tee0402",
           "spyhi"
@@ -156,13 +171,14 @@
       {
         "interest": "Computer Science",
         "names": [
+          "maiabe",
           "elenambarbour",
           "tallasgoo",
           "camelial",
           "camelial",
           "lambertleong",
-          "ian-oconnor",
-          "awyz"
+          "natashameinzen",
+          "ian-oconnor"
         ]
       },
       {
@@ -179,7 +195,9 @@
           "billmullen42",
           "billmullen42",
           "russellomo",
+          "jokabe",
           "vpawid",
+          "mhsakuda",
           "bryantsa",
           "seantshi",
           "neilnthings",
@@ -196,6 +214,7 @@
           "kylebali",
           "yizanchen",
           "wendychen9",
+          "dcrelencia",
           "lancenhd",
           "dumlaoj",
           "rfiggs",
@@ -204,6 +223,7 @@
           "jheadland",
           "sorazodia",
           "erikhuan",
+          "kenkawano",
           "hongbo-lin",
           "brianmayeshiro",
           "mickyjm",
@@ -226,12 +246,15 @@
           "gviloria",
           "blaine-wataru",
           "garyjw",
-          "yohanyang"
+          "yohanyang",
+          "wyoro",
+          "awyz"
         ]
       },
       {
         "interest": "Hardware",
         "names": [
+          "dcrelencia",
           "rfiggs",
           "mariahgaoiran",
           "cizumigawa",
@@ -274,9 +297,12 @@
           "kendrickchen",
           "kclemmer",
           "kclemmer",
+          "joshducey",
+          "joshducey",
           "brandonganeko",
           "creighton-gorai",
           "huang6606521",
+          "jasonhuang23",
           "erikhuan",
           "richardkahakui",
           "kevinkawa",
@@ -306,6 +332,7 @@
           "dumlaoj",
           "irene-f",
           "dankoo",
+          "joshuaccl",
           "christianleandro",
           "paulolemus",
           "surajmehta95",
@@ -313,6 +340,7 @@
           "paniolonate",
           "senderjosh",
           "keanur",
+          "tevintsales",
           "jameyia",
           "tee0402",
           "saehyuns",
@@ -335,6 +363,7 @@
           "markrcummins",
           "jaketdk",
           "jaketdk",
+          "tylergdorn",
           "pexzabe",
           "mariahgaoiran",
           "jessiejames",
@@ -346,6 +375,7 @@
           "kiankoba",
           "akuloloia",
           "crleekwc",
+          "lenjason",
           "kleve84",
           "markpm808",
           "rileymiyamoto",
@@ -353,6 +383,7 @@
           "blairmuraoka",
           "aobatake",
           "keanur",
+          "mhsakuda",
           "tevintsales",
           "bryantsa",
           "bryantsa",
@@ -363,7 +394,8 @@
           "keauehara",
           "joshuajw",
           "garyjw",
-          "jerry1100"
+          "jerry1100",
+          "wyoro"
         ]
       },
       {
@@ -393,6 +425,8 @@
           "kodayv",
           "jleong8",
           "jleong8",
+          "sharieannem",
+          "natashameinzen",
           "innikakp",
           "bwallick",
           "alexcw234"
@@ -419,6 +453,7 @@
           "dankoo",
           "neelkotak13",
           "neelkotak13",
+          "nlaranio",
           "kellyl4",
           "dandli",
           "rileymiyamoto",
@@ -446,19 +481,18 @@
           "enakano",
           "wyattbartlett",
           "kendrickchen",
-          "idemello",
-          "richardkahakui",
           "kodayv",
-          "kleve84",
+          "nlaranio",
+          "lenjason",
           "matthew-schultz",
-          "matthew-schultz",
-          "matthew-schultz",
-          "dtokita"
+          "matthew-schultz"
         ]
       },
       {
         "interest": "Software Engineering",
         "names": [
+          "maiabe",
+          "darleneagbayani",
           "cristianaspacio",
           "kylebali",
           "kahlinbaughman",
@@ -470,10 +504,13 @@
           "liloa",
           "derrick-comiso",
           "kclemmer",
+          "dcrelencia",
           "markrcummins",
           "lancenhd",
           "idemello",
+          "joshducey",
           "pexzabe",
+          "jeremy-felipe",
           "cfrifel",
           "brandonganeko",
           "mariahgaoiran",
@@ -481,9 +518,12 @@
           "zach2heth",
           "zach2heth",
           "sorazodia",
+          "jasonhuang23",
           "beejayines",
           "cizumigawa",
           "kevinkawa",
+          "kenkawano",
+          "kenkawano",
           "alliekim13",
           "zknoebel",
           "zknoebel",
@@ -492,19 +532,25 @@
           "neelkotak13",
           "adi-kumar",
           "adi-kumar",
+          "joshuaccl",
           "christianleandro",
           "crleekwc",
           "kellyl4",
           "joryleech",
           "paulolemus",
+          "lenjason",
           "dandli",
           "hongbo-lin",
+          "sharieannem",
           "brianmayeshiro",
           "brianmayeshiro",
           "surajmehta95",
+          "natashameinzen",
           "mickyjm",
           "brendtmcfeeley",
           "clint-morimoto",
+          "vnagoshi",
+          "vnagoshi",
           "paniolonate",
           "jnasca",
           "senderjosh",
@@ -514,6 +560,7 @@
           "aobatake",
           "russellomo",
           "ian-oconnor",
+          "jokabe",
           "pakcharles",
           "terrypalo",
           "cpalpall",
@@ -521,6 +568,7 @@
           "cepugh",
           "samrasay",
           "keanur",
+          "mhsakuda",
           "tevintsales",
           "marysantabarbara",
           "mserai",
@@ -543,7 +591,10 @@
       {
         "interest": "Sports",
         "names": [
+          "maiabe",
+          "janeligio",
           "huang6606521",
+          "jasonhuang23",
           "clint-morimoto",
           "pakcharles",
           "creindle",
@@ -551,6 +602,17 @@
           "kaisuke23",
           "blaine-wataru",
           "yoshimura123"
+        ]
+      },
+      {
+        "interest": "Sustainability",
+        "names": [
+          "idemello",
+          "richardkahakui",
+          "kleve84",
+          "sharieannem",
+          "matthew-schultz",
+          "dtokita"
         ]
       },
       {
@@ -593,18 +655,24 @@
           "wyattbartlett",
           "wendychong",
           "lancenhd",
+          "janeligio",
+          "janeligio",
           "rfiggs",
+          "jeremy-felipe",
           "jessiejames",
           "adi-kumar",
           "christianleandro",
           "crleekwc",
           "dandli",
           "lambertleong",
+          "sharieannem",
+          "sharieannem",
           "mickyjm",
           "brendtmcfeeley",
           "billmullen42",
           "blairmuraoka",
           "mynatt",
+          "vnagoshi",
           "paniolonate",
           "aobatake",
           "russellomo",
@@ -618,6 +686,7 @@
           "neilnthings",
           "joshuajw",
           "bwallick",
+          "wyoro",
           "awyz"
         ]
       }
@@ -633,15 +702,8 @@
         ]
       },
       {
-        "interest": "Artificial Intelligence",
-        "names": [
-          "amymalia"
-        ]
-      },
-      {
         "interest": "Computer Science",
         "names": [
-          "amymalia",
           "wengdg"
         ]
       },
@@ -661,8 +723,7 @@
       {
         "interest": "Networking",
         "names": [
-          "sergey-negrashov",
-          "amymalia"
+          "sergey-negrashov"
         ]
       },
       {
@@ -673,15 +734,22 @@
         ]
       },
       {
-        "interest": "Social Topics",
+        "interest": "Software Engineering",
         "names": [
-          "sergey-negrashov"
+          "ayushmaskey"
         ]
       },
       {
-        "interest": "Software Engineering",
+        "interest": "Sports",
         "names": [
-          "amymalia"
+          "ayushmaskey",
+          "ayushmaskey"
+        ]
+      },
+      {
+        "interest": "Sustainability",
+        "names": [
+          "sergey-negrashov"
         ]
       },
       {
@@ -713,13 +781,20 @@
           "acvmf",
           "dmosher42",
           "chrisoh1",
-          "dylanpavao"
+          "dylanpavao",
+          "amymalia"
         ]
       },
       {
         "interest": "Business",
         "names": [
           "chrisoh1"
+        ]
+      },
+      {
+        "interest": "Computer Science",
+        "names": [
+          "amymalia"
         ]
       },
       {
@@ -764,7 +839,8 @@
           "xenhuang",
           "acvmf",
           "dmosher42",
-          "chrisoh1"
+          "chrisoh1",
+          "amymalia"
         ]
       },
       {
@@ -790,6 +866,7 @@
           "dylannakahodo",
           "dylanpavao",
           "jonkiote",
+          "amymalia",
           "jingjiewu"
         ]
       },
