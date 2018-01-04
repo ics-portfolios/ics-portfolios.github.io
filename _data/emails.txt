@@ -1,6 +1,5 @@
 IO@hawaii.edu
 Smau4@hawaii.edu
-Yong4@hawaii.edu
 aaibala@hawaii.edu
 achriste@hawaii.edu
 acvmf@hawaii.edu
@@ -17,12 +16,12 @@ aspacio@hawaii.edu
 awy@hawaii.edu
 beejayi@hawaii.edu
 bganeko@hawaii.edu
+blainewataru@gmail.com
 blairmuraoka@gmail.com
 brendt@hawaii.edu
 brianmay@hawaii.edu
 bryantsa@hawaii.edu
 bwallick@hawaii.edu
-bwataru808@yahoo.com
 byerst@hawaii.edu
 cadamos@hawaii.edu
 camelial@hawaii.edu
@@ -118,8 +117,10 @@ mamuads3@hawaii.edu
 markpm@hawaii.edu
 markrc@hawaii.edu
 meds@hawaii.edu
+meinz015@umn.edu
 mekp@hawaii.edu
 mhsakuda@hawaii.edu
+michael.yoshimura@gmail.com
 micky.jm4@gmail.com
 mjg4@hawaii.edu
 mschultz@hawaii.edu
@@ -128,7 +129,6 @@ mynatt@hawaii.edu
 nahinan@hawaii.edu
 neelk@hawaii.edu
 nlaranio@hawaii.edu
-nmeinzen@hawaii.edu
 nn4@hawaii.edu
 oh2@hawaii.edu
 okabej3@hawaii.edu
@@ -167,6 +167,6 @@ wsiu4@hawaii.edu
 wyoro@hawaii.edu
 yizan@hawaii.edu
 yohany@hawaii.edu
-yoshim3@hawaii.edu
+yong4@hawaii.edu
 zhenfeng@hawaii.edu
 zheth@hawaii.edu
