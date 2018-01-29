@@ -77,6 +77,11 @@
     "level": "alumni"
   },
   {
+    "last": "chan",
+    "techfolio": "kyle-chan.github.io/",
+    "level": "undergrad"
+  },
+  {
     "last": "chen",
     "techfolio": "yizanchen.github.io",
     "level": "undergrad"
@@ -192,6 +197,11 @@
     "level": "alumni"
   },
   {
+    "last": "fia",
+    "techfolio": "naryssa-fia.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "figgs",
     "techfolio": "rfiggs.github.io",
     "level": "undergrad"
@@ -230,6 +240,11 @@
     "last": "garces",
     "techfolio": "jogarces.github.io",
     "level": "alumni"
+  },
+  {
+    "last": "garcia",
+    "techfolio": "victor-jr.github.io",
+    "level": "undergrad"
   },
   {
     "last": "goo",
@@ -271,6 +286,11 @@
     "techfolio": "mahoe7.github.io",
     "picture": "https://mahoe7.github.io/images/Aviary%20Photo_131166281005894729.png",
     "level": "alumni"
+  },
+  {
+    "last": "hoole",
+    "techfolio": "brianhoole.github.io",
+    "level": "undergrad"
   },
   {
     "last": "huang",
@@ -324,6 +344,11 @@
     "level": "alumni"
   },
   {
+    "last": "kasuya",
+    "techfolio": "jkasuya.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "kawamura",
     "techfolio": "kevinkawa.github.io",
     "picture": "https://kevinkawa.github.io/images/kevin.jpg",
@@ -375,6 +400,11 @@
     "level": "undergrad"
   },
   {
+    "last": "kulka",
+    "techfolio": "jkulka.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "kumar",
     "techfolio": "adi-kumar.github.io",
     "level": "undergrad"
@@ -396,9 +426,19 @@
     "techfolio": "joshuaccl.github.io"
   },
   {
+    "last": "lam",
+    "level": "undergrad",
+    "techfolio": "thinhtedlam.github.io"
+  },
+  {
     "last": "laranio",
     "level": "undergrad",
     "techfolio": "nlaranio.github.io"
+  },
+  {
+    "last": "lau",
+    "level": "undergrad",
+    "techfolio": "jon-lau.github.io"
   },
   {
     "last": "leandro",
@@ -468,6 +508,11 @@
     "level": "undergrad"
   },
   {
+    "last": "lomeli",
+    "techfolio": "ilomeli32.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "mamuad",
     "techfolio": "sharieannem.github.io",
     "level": "undergrad"
@@ -476,6 +521,11 @@
     "last": "maskey",
     "techfolio": "ayushmaskey.github.io",
     "level": "grad"
+  },
+  {
+    "last": "mateo",
+    "techfolio": "haychaster.github.io",
+    "level": "undergrad"
   },
   {
     "last": "mayeshiro",
