@@ -1,7 +1,7 @@
 [
 	{
 		"term": "Software Engineering",
-		"synonyms": 
+		"synonyms":
 		[
 			"software engineer",
       "",
@@ -92,6 +92,7 @@
 			"ai",
 			"language process",
       "feature recognition",
+      "computer vision",
       "Machine Learning"
 		]
 	},
@@ -103,6 +104,7 @@
 			"defense",
       "Cryptography",
       "CTF competitions",
+      "Information Assurance",
       "Ethical Hacking"
 		]
 	},
@@ -155,8 +157,11 @@
 		[
 			"business",
       "finance",
+      "Leadership and Followership",
+      "Real Time Bidding",
       "Marketing",
       "e-commerce",
+      "Social Engineering",
       "venture capital",
 			"entrepre",
       "Management",
@@ -176,6 +181,7 @@
       "Songwriting",
       "Japan",
       "Dancing",
+      "foreign languages",
       "Twitch",
 			"draw",
       "Learning new languages",
@@ -214,6 +220,7 @@
       "Firmware Development",
       "power monitoring",
       "Rasperry Pi",
+      "Firmware",
 			"product"
 		]
 	},
@@ -270,6 +277,7 @@
       "sustainability",
       "power quality",
       "green energy",
+      "population modeling",
       "nature conservation"
     ]
   },
@@ -286,6 +294,7 @@
 		[
 			"math",
       "inferential statistics",
+      "Statistics",
       "science",
       "physics",
       "Psychology",
@@ -309,13 +318,14 @@
       "human computer interaction",
       "Technology"
 		]
-	},	
+	},
 	{
 		"term": "Operating Systems",
 		"synonyms":
 		[
 			"linux",
       "Ubuntu",
+      "HPC",
 			"unix"
 		]
 	},
