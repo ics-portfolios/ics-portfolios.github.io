@@ -87,8 +87,8 @@ function fixPicturePrefix(pictureUrl) {
 }
 
 function updateProfileEntry(bio) {
-  console.log('==============================================');
-  console.log(bio);
+  // console.log('==============================================');
+  // console.log(bio);
   if (!_.isEmpty(bio)) {
     // first, strip off the protocol part of the website entry.
     const bioUrl = bio.basics.website;
