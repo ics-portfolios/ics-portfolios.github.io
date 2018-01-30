@@ -2166,11 +2166,6 @@
     ]
   },
   {
-    "last": "nakamoto",
-    "techfolio": "dylan-cn.github.io",
-    "level": "undergrad"
-  },
-  {
     "last": "nakano",
     "techfolio": "Enakano.github.io",
     "level": "undergrad",
@@ -2985,6 +2980,40 @@
     ]
   },
   {
+    "last": "soto",
+    "techfolio": "victoria-soto.github.io",
+    "level": "undergrad",
+    "name": "Victoria Soto",
+    "label": "Student",
+    "email": "vjaramil@hawaii.edu",
+    "website": "https://victoria-soto.github.io",
+    "username": "victoria-soto",
+    "summary": "I am a junior in the Computer Engineering B.S. program at the University of Hawaii at Manoa. I expect to graduate in the Fall of 2018 and will be actively seeking a position in software development.",
+    "picture": "https://victoria-soto.github.io/images/300pix.jpeg",
+    "interests": [
+      "Software engineering",
+      "Android app development",
+      "Cyber security "
+    ]
+  },
+  {
+    "last": "strasburger",
+    "techfolio": "sabinestrasburger.github.io",
+    "level": "undergrad",
+    "name": "Sabine Strasburger",
+    "label": "Student",
+    "email": "sabines@hawaii.edu",
+    "website": "https://sabinestrasburger.github.io",
+    "username": "sabinestrasburger",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2019.",
+    "picture": "https://sabinestrasburger.github.io/images/ProfilePic.jpg",
+    "interests": [
+      "Internet of Things",
+      "Sustainability",
+      "Networking"
+    ]
+  },
+  {
     "last": "takafuji",
     "techfolio": "seanytak.github.io",
     "level": "undergrad",
@@ -3090,6 +3119,23 @@
     ]
   },
   {
+    "last": "tolentino",
+    "techfolio": "g-tolentino.github.io",
+    "level": "undergrad",
+    "name": "Glesa Mae Tolentino",
+    "label": "Student",
+    "email": "gmtolent@hawaii.edu",
+    "website": "https://g-tolentino.github.io",
+    "username": "g-tolentino",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring, 2019.",
+    "picture": "https://raw.githubusercontent.com/g-tolentino/g-tolentino.github.io/master/images/profilePicSquare.jpg",
+    "interests": [
+      "Robotics",
+      "App Development",
+      "Virtual Reality"
+    ]
+  },
+  {
     "last": "uyeda",
     "techfolio": "lyuyeda.github.io",
     "level": "undergrad",
@@ -3122,6 +3168,23 @@
       "Networking",
       "Electronics",
       "High quality products"
+    ]
+  },
+  {
+    "last": "vernon",
+    "techfolio": "akirav.github.io",
+    "level": "undergrad",
+    "name": "Akira Vernon",
+    "label": "Student",
+    "email": "akirav@hawaii.edu",
+    "website": "https://akirav.github.io",
+    "username": "akirav",
+    "summary": "I am a junior in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring, 2019 and hope to pursue a career in software development.",
+    "picture": "https://github.com/akirav/akirav.github.io/raw/master/images/Cropped%20AVID%20Pic.jpeg",
+    "interests": [
+      "Internet of things",
+      "High Performance Computing",
+      "Web Development"
     ]
   },
   {
@@ -3280,6 +3343,42 @@
       "Mobile Applications",
       "Video Game Developement",
       "Device to Device Communication"
+    ]
+  },
+  {
+    "last": "wong",
+    "techfolio": "collinhw.github.io",
+    "level": "undergrad",
+    "name": "Collin Wong",
+    "label": "Student",
+    "email": "collinhw@hawaii.edu",
+    "website": "https://collinhw.github.io",
+    "username": "collinhw",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://collinhw.github.io/images/collin.JPG",
+    "interests": [
+      "software engineering",
+      "data mining",
+      "network security"
+    ]
+  },
+  {
+    "last": "wooton",
+    "techfolio": "btwooton.github.io",
+    "level": "undergrad",
+    "name": "Billy Troy Wooton",
+    "label": "Student",
+    "email": "bwooton@hawaii.edu",
+    "website": "https://btwooton.github.io",
+    "username": "btwooton",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to transition into the M.S. program starting Fall 2018.",
+    "picture": "https://btwooton.github.io/images/head_shot.png",
+    "interests": [
+      "Programming Languages",
+      "Theory of Computation",
+      "Genetic Algorithms",
+      "Indie Game Development",
+      "Cellular Automata"
     ]
   },
   {
