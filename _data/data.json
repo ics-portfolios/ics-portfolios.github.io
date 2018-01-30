@@ -1850,6 +1850,23 @@
     ]
   },
   {
+    "last": "mccabe",
+    "techfolio": "brmccabe.github.io",
+    "level": "undergrad",
+    "name": "Brendan McCabe",
+    "label": "Student",
+    "email": "molly@hawaii.edu",
+    "website": "https://brmccabe.github.io",
+    "username": "brmccabe",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://brmccabe.github.io/images/IMG_3266.jpg",
+    "interests": [
+      "Software Engineering",
+      "Video games",
+      "Game Developement"
+    ]
+  },
+  {
     "last": "mcdermott",
     "techfolio": "markpm808.github.io",
     "level": "undergrad",
@@ -1954,6 +1971,23 @@
     ]
   },
   {
+    "last": "miyamoto",
+    "techfolio": "clift3.github.io",
+    "level": "undergrad",
+    "name": "Clifton Miyamoto",
+    "label": "Student",
+    "email": "clifton3@hawaii.edu",
+    "website": "https://clift3.github.io",
+    "username": "clift3",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2019.",
+    "picture": "https://clift3.github.io/images/profile-pic.jpg",
+    "interests": [
+      "UI design",
+      "security",
+      "artificial intelligence"
+    ]
+  },
+  {
     "last": "moore",
     "techfolio": "cammoore.github.io",
     "level": "faculty",
@@ -2003,6 +2037,23 @@
       "internet of things",
       "rapid prototyping",
       "artificial intelligence"
+    ]
+  },
+  {
+    "last": "mukai",
+    "techfolio": "reyn-mukai.github.io",
+    "level": "undergrad",
+    "name": "Reyn Mukai",
+    "label": "Student",
+    "email": "mukair@hawaii.edu",
+    "website": "https://reyn-mukai.github.io",
+    "username": "reyn-mukai",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "picture": "https://reyn-mukai.github.io/images/Profile-Square.jpg",
+    "interests": [
+      "Internet of Things",
+      "Server Management",
+      "Circuit Design"
     ]
   },
   {
@@ -2115,6 +2166,11 @@
     ]
   },
   {
+    "last": "nakamoto",
+    "techfolio": "dylan-cn.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "nakano",
     "techfolio": "Enakano.github.io",
     "level": "undergrad",
@@ -2130,6 +2186,23 @@
       "internet of things",
       "gamification",
       "education"
+    ]
+  },
+  {
+    "last": "nakata",
+    "techfolio": "rknakata.github.io",
+    "level": "undergrad",
+    "name": "Ryan Nakata",
+    "label": "Student",
+    "email": "rknakata@hawaii.edu",
+    "website": "https://rknakata.github.io",
+    "username": "rknakata",
+    "summary": "I am studying for a B.A. in Computer Science (Security Science Focus) in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Fall, 2019.",
+    "picture": "https://rknakata.github.io/images/profilePic300x300.png",
+    "interests": [
+      "DIY Maker",
+      "Information Assurance",
+      "Software Engineering"
     ]
   },
   {
@@ -2472,6 +2545,23 @@
     ]
   },
   {
+    "last": "peterson",
+    "techfolio": "notyubi.github.io",
+    "level": "undergrad",
+    "name": "Yubi Peterson",
+    "label": "Student",
+    "email": "yubi@hawaii.edu",
+    "website": "https://notyubi.github.io",
+    "username": "notyubi",
+    "summary": "Studying Computer Science and Economics at the University of Hawaii at Manoa. I strive to develop applications and technologies for a sustainable future.",
+    "picture": "https://notyubi.github.io/images/itme.png",
+    "interests": [
+      "Environmental Issues/Sustainability",
+      "Computational Economics",
+      "Web Development"
+    ]
+  },
+  {
     "last": "pugh",
     "techfolio": "cepugh.github.io",
     "level": "undergrad",
@@ -2504,6 +2594,23 @@
       "Software Engineering",
       "Game Design",
       "Database Management"
+    ]
+  },
+  {
+    "last": "rafael",
+    "techfolio": "cdrafael.github.io",
+    "level": "undergrad",
+    "name": "Charles Rhon Rafael",
+    "label": "Student",
+    "email": "cdrafael@hawaii.edu",
+    "website": "https://cdrafael.github.io",
+    "username": "cdrafael",
+    "summary": "Currently a Junior in the Computer Engineering Major at the University of Hawaii at Manoa. I expect to graduate Fall 2019.",
+    "picture": "https://raw.githubusercontent.com/cdrafael/cdrafael.github.io/master/images/fdsafsaf.jpg",
+    "interests": [
+      "Networking",
+      "Coding",
+      "Game Development"
     ]
   },
   {

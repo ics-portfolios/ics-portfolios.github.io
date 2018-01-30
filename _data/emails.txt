@@ -25,6 +25,7 @@ bwallick@hawaii.edu
 byerst@hawaii.edu
 cadamos@hawaii.edu
 camelial@hawaii.edu
+cdrafael@hawaii.edu
 cepugh@hawaii.edu
 cfrifeldt@gmail.com
 cgorai@hawaii.edu
@@ -38,6 +39,7 @@ cj38@hawaii.edu
 cksimao@hawaii.edu
 cleandro@hawaii.edu
 clemmer@hawaii.edu
+clifton3@hawaii.edu
 clintmor@hawaii.edu
 cmoore@hawaii.edu
 cnguyen7@hawaii.edu
@@ -129,8 +131,10 @@ mhsakuda@hawaii.edu
 michael.yoshimura@gmail.com
 micky.jm4@gmail.com
 mjg4@hawaii.edu
+molly@hawaii.edu
 mschultz@hawaii.edu
 mserai@hawaii.edu
+mukair@hawaii.edu
 mynatt@hawaii.edu
 nahinan@hawaii.edu
 naryssa@hawaii.edu
@@ -147,6 +151,7 @@ rfiggs@hawaii.edu
 rhynes@hawaii.edu
 rkahakui@hawaii.edu
 rkam9@hawaii.edu
+rknakata@hawaii.edu
 saehyuns@hawaii.edu
 salest@hawaii.edu
 samrasay@hawaii.edu
@@ -177,5 +182,6 @@ wyoro@hawaii.edu
 yizan@hawaii.edu
 yohany@hawaii.edu
 yong4@hawaii.edu
+yubi@hawaii.edu
 zhenfeng@hawaii.edu
 zheth@hawaii.edu
