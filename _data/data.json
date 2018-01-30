@@ -2431,16 +2431,16 @@
     "techfolio": "terrypalo.github.io",
     "level": "undergrad",
     "name": "Terry Palomares",
-    "label": "Student",
+    "label": "Software Developer",
     "email": "terrylp@hawaii.edu",
     "website": "https://terrypalo.github.io",
     "username": "terrypalo",
-    "summary": "Motivated and creative student with a passion for Computer Science. Pursuing a BS in Computer Science at the University of Hawai'i at Manoa.",
+    "summary": "Motivated and creative student with a passion for Computer Science. Graduated with BS in Computer Science at the University of Hawai'i at Manoa.",
     "picture": "https://terrypalo.github.io/images/portfoli.jpg",
     "interests": [
       "Software Engineering",
-      "Web Development",
-      "Game Development"
+      "Ethereum Development",
+      "Financial Algorithms"
     ]
   },
   {
@@ -2845,6 +2845,23 @@
     ]
   },
   {
+    "last": "shek",
+    "techfolio": "arnoldshek.github.io",
+    "level": "undergrad",
+    "name": "Arnold Shek",
+    "label": "Student",
+    "email": "ashek@hawaii.edu",
+    "website": "https://arnoldshek.github.io",
+    "username": "arnoldshek",
+    "summary": "I am a student pursuing a B.S in Computer Engineering from the College of Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring 2019.",
+    "picture": "https://arnoldshek.github.io/images/Profile_Picture.png",
+    "interests": [
+      "Embedded Systems",
+      "Robotics",
+      "PCB Design"
+    ]
+  },
+  {
     "last": "shimoda",
     "techfolio": "seantshi.github.io",
     "level": "undergrad",
@@ -2931,6 +2948,23 @@
       "internet of things",
       "Website design",
       "Network Security"
+    ]
+  },
+  {
+    "last": "somera",
+    "techfolio": "jsome635.github.io",
+    "level": "undergrad",
+    "name": "Jacob Somera",
+    "label": "Student",
+    "email": "jsome635@hawaii.edu",
+    "website": "https://jsome635.github.io",
+    "username": "jsome635",
+    "summary": "I am studying for a B.S. in Computer Engineering in the College of Engineering at the University of Hawaii. I expect to graduate in Spring, 2019.",
+    "picture": "https://raw.githubusercontent.com/jsome635/jsome635.github.io/master/images/profile-pic.jpg",
+    "interests": [
+      "Game Development",
+      "Virtual Reality",
+      "Artificial Intelligence"
     ]
   },
   {

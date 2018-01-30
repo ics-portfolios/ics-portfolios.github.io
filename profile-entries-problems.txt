@@ -1,12 +1,12 @@
- {"last": "nunagawa", "techfolio": "brentnunogawa.github.io", "level": "undergrad" },
-   - profile picture is a stock icon.
+ {
+     "last": "sou",
+     "techfolio": "oliversou.github.io",
+     "level": "undergrad"
+   },
 
- https://azadaj.github.io/
-   - profile picture link broken, essays not written
-
- https://jeremyhedricks.github.io/
- picture not square (home page, projects)
-
- https://kpk3.github.io/
- using default essays.
+   {
+       "last": "nakamoto",
+       "techfolio": "dylan-cn.github.io",
+       "level": "undergrad"
+     },
 
