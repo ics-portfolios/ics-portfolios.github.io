@@ -1,4 +1,297 @@
 [
+  {
+    "term": "Algorithms",
+    "synonyms":
+    [
+      "algorithm",
+      "Theory of Computation",
+      "Cellular Automata"
+    ]
+  },
+  {
+    "term": "Art and Culture",
+    "synonyms":
+    [
+      "graphic",
+      "digital humanities",
+      "Songwriting",
+      "Japan",
+      "Dancing",
+      "foreign languages",
+      "Twitch",
+      "draw",
+      "Learning new languages",
+      "design",
+      "Character/Scenic Animation",
+      "art",
+      "Cooking",
+      "photo",
+      "Drums",
+      "Teaching",
+      "Learning and teaching new technologies",
+      "publication",
+      "japanese",
+      "Speech",
+      "Dentistry",
+      "history",
+      "Linguistics",
+      "computational linguistics",
+      "pixel",
+      "Storytelling",
+      "Ancient Rome"
+    ]
+  },
+  {
+    "term": "Artificial Intelligence",
+    "synonyms":
+    [
+      "artificial",
+      "ai",
+      "Computer learning",
+      "language process",
+      "Vision Processing",
+      "feature recognition",
+      "computer vision",
+      "Machine Learning"
+    ]
+  },
+  {
+    "term": "Business",
+    "synonyms":
+    [
+      "business",
+      "finance",
+      "Leadership and Followership",
+      "Real Time Bidding",
+      "Technical Writing",
+      "Marketing",
+      "e-commerce",
+      "Ethereum Development",
+      "Computational Economics",
+      "Social Engineering",
+      "venture capital",
+      "entrepre",
+      "Management",
+      "Patent Law",
+      "Financial Technology",
+      "blockchain",
+      "real estate",
+      "Financial Markets",
+      "Cryptocurrency"
+    ]
+  },
+  {
+    "term": "Computer Science",
+    "synonyms":
+    [
+      "computer science",
+      "forensics",
+      "new tech",
+      "informatics",
+      "Analytics",
+      "human computer interaction",
+      "Technology"
+    ]
+  },
+  {
+    "term": "Data Administration",
+    "synonyms":
+    [
+      "database",
+      "data"
+    ]
+  },
+  {
+    "term": "Games and Game Development",
+    "synonyms":
+    [
+      "game",
+      "Hearthstone",
+      "gamif"
+    ]
+  },
+  {
+    "term": "Hardware Engineering",
+    "synonyms":
+    [
+      "drone",
+      "electronics",
+      "Home Automation",
+      "hardware",
+      "DIY Maker",
+      "Cars",
+      "building",
+      "semiconductor",
+      "robot",
+      "Arduino",
+      "Vehicle performance tuning",
+      "unmanned",
+      "Firmware Development",
+      "power monitoring",
+      "Rasperry Pi",
+      "Firmware",
+      "product"
+    ]
+  },
+  {
+    "term": "Hawaiian Culture",
+    "synonyms":
+    [
+      "Lāʻau Lapaʻau (Hawaiian Plant Medicine)",
+      "ka ʻimi ʻike ʻana",
+      "Hawaiian Language"
+    ]
+  },
+  {
+    "term": "Military/Intelligence Service",
+    "synonyms":
+    [
+      "Intelligence",
+      "Air Force",
+      "Geospatial Intelligence Analysis"
+    ]
+  },
+  {
+    "term": "Leisure",
+    "synonyms":
+    [
+      "anime",
+      "guitar",
+      "music",
+      "eating",
+      "gaming",
+      "personal",
+      "social media",
+      "food",
+      "Watches",
+      "Surfing Web and Sea",
+      "Puzzles",
+      "piano",
+      "Traveling",
+      "Reading"
+    ]
+  },
+  {
+    "term": "Mobile Design",
+    "synonyms":
+    [
+      "app",
+      "mobile",
+      "android",
+      "ios",
+      "smartphone",
+      "luxury apps/device development",
+      "iOS Application Development",
+      "iOS Development",
+      "app dev",
+      "Moblie Development"
+    ]
+  },
+  {
+    "term": "Networking",
+    "synonyms":
+    [
+      "network",
+      "Device to Device Communication",
+      "iot",
+      "internet of things",
+      "information technolog",
+      "AWS",
+      "cloud computing",
+      "it",
+      "Servers",
+      "Technology Integration"
+    ]
+  },
+  {
+    "term": "Operating Systems",
+    "synonyms":
+    [
+      "linux",
+      "Ubuntu",
+      "HPC",
+      "High Performance Computing",
+      "unix"
+    ]
+  },
+  {
+    "term": "Programming Languages",
+    "synonyms":
+    [
+      "java",
+      "node.js",
+      "Assembly",
+      "translation and interpretation",
+      "python"
+    ]
+  },
+  {
+    "term": "Science",
+    "synonyms":
+    [
+      "math",
+      "inferential statistics",
+      "Statistics",
+      "science",
+      "physics",
+      "Psychology",
+      "psychology",
+      "probability",
+      "Space",
+      "astronomy",
+      "astrometry",
+      "Research",
+      "biol",
+      "plants"
+    ]
+  },
+  {
+    "term": "Security",
+    "synonyms":
+    [
+      "security",
+      "defense",
+      "Cryptography",
+      "CTF competitions",
+      "Information Assurance",
+      "Ethical Hacking"
+    ]
+  },
+  {
+    "term": "Sports",
+    "synonyms":
+    [
+      "exercis",
+      "sport",
+      "Surfing",
+      "Bicyce Racing",
+      "Weightlifting",
+      "basketball",
+      "skate",
+      "Soccer",
+      "hiking",
+      "Hockey",
+      "Rifle Marksmanship",
+      "Cycling",
+      "Running",
+      "skating"
+    ]
+  },
+  {
+    "term": "Social Topics",
+    "synonyms":
+    [
+      "volunteer",
+      "welfare",
+      "education",
+      "educat",
+      "social justice",
+      "social equality",
+      "Russian-American relations",
+      "Intellectual Property Law",
+      "health"
+    ]
+  },
 	{
 		"term": "Software Engineering",
 		"synonyms":
@@ -16,27 +309,51 @@
 			"prototyp"
 		]
 	},
-	{
-		"term": "Networking",
-		"synonyms":
-		[
-			"network",
-      "Device to Device Communication",
-			"iot",
-			"internet of things",
-			"information technolog",
-      "AWS",
-      "cloud computing",
-			"it",
-      "Servers",
-      "Technology Integration"
-		]
-	},
+  {
+    "term": "Sustainability",
+    "synonyms":
+    [
+      "renewable",
+      "sustainability",
+      "alternative energy",
+      "power quality",
+      "green energy",
+      "population modeling",
+      "nature conservation"
+    ]
+  },
+  {
+    "term": "System Design",
+    "synonyms":
+    [
+      "architect",
+      "distributed",
+      "Automation",
+      "system",
+      "Logistics",
+      "signal"
+    ]
+  },
+  {
+    "term": "Virtual Reality",
+    "synonyms":
+    [
+      "virtual",
+      "reality",
+      "augmented",
+      "unity",
+      "3D character modeling",
+      "3d map"
+    ]
+  },
 	{
 		"term": "Web Development",
 		"synonyms":
 		[
 			"web dev",
+      "website development",
+      "Front-End Development",
+      "App-development ",
 			"web design",
       "user interface / user experience",
       "human-computer interaction",
@@ -45,297 +362,5 @@
       "User Applications",
       "Back-end Website Development"
 		]
-	},
-	{
-		"term": "Data Administration",
-		"synonyms":
-		[
-			"database",
-			"data"
-		]
-	},
-	{
-		"term": "Programming Languages",
-		"synonyms":
-		[
-			"java",
-      "node.js",
-      "Assembly",
-      "translation and interpretation",
-			"python"
-		]
-	},
-	{
-		"term": "Game Development",
-		"synonyms":
-		[
-			"game",
-			"gamif"
-		]
-	},
-	{
-		"term": "Virtual Reality",
-		"synonyms":
-		[
-			"virtual",
-			"reality",
-			"augmented",
-			"unity",
-			"3d map"
-		]
-	},
-	{
-		"term": "Artificial Intelligence",
-		"synonyms":
-		[
-			"artificial",
-			"ai",
-			"language process",
-      "feature recognition",
-      "computer vision",
-      "Machine Learning"
-		]
-	},
-	{
-		"term": "Security",
-		"synonyms":
-		[
-			"security",
-			"defense",
-      "Cryptography",
-      "CTF competitions",
-      "Information Assurance",
-      "Ethical Hacking"
-		]
-	},
-  {
-    "term": "Intelligence",
-    "synonyms":
-    [
-      "Intelligence",
-      "Geospatial Intelligence Analysis"
-    ]
-  },
-	{
-		"term": "Mobile Design",
-		"synonyms":
-		[
-			"app",
-			"mobile",
-			"android",
-			"ios",
-			"smartphone",
-      "luxury apps/device development",
-      "iOS Application Development",
-      "iOS Development",
-			"app dev",
-      "Moblie Development"
-    ]
-	},
-	{
-		"term": "Sports",
-		"synonyms":
-		[
-			"exercis",
-			"sport",
-      "Bicyce Racing",
-      "Weightlifting",
-			"basketball",
-			"skate",
-      "Soccer",
-      "hiking",
-      "Hockey",
-      "Rifle Marksmanship",
-      "Cycling",
-      "Running",
-			"skating"
-		]
-	},
-	{
-		"term": "Business",
-		"synonyms":
-		[
-			"business",
-      "finance",
-      "Leadership and Followership",
-      "Real Time Bidding",
-      "Marketing",
-      "e-commerce",
-      "Social Engineering",
-      "venture capital",
-			"entrepre",
-      "Management",
-      "Patent Law",
-      "Financial Technology",
-      "blockchain",
-      "real estate",
-      "Financial Markets",
-      "Cryptocurrency"
-		]
-	},
-	{
-		"term": "Art and Culture",
-		"synonyms":
-		[
-			"graphic",
-      "Songwriting",
-      "Japan",
-      "Dancing",
-      "foreign languages",
-      "Twitch",
-			"draw",
-      "Learning new languages",
-			"design",
-      "Character/Scenic Animation",
-			"art",
-      "Cooking",
-			"photo",
-      "Drums",
-      "Teaching",
-      "Learning and teaching new technologies",
-      "publication",
-      "japanese",
-      "Speech",
-      "Dentistry",
-      "history",
-      "Linguistics",
-      "computational linguistics",
-			"pixel",
-      "Storytelling",
-      "Ancient Rome"
-		]
-	},
-	{
-		"term": "Hardware",
-		"synonyms":
-		[
-			"drone",
-			"electronics",
-      "Home Automation",
-			"hardware",
-			"building",
-			"semiconductor",
-			"robot",
-			"unmanned",
-      "Firmware Development",
-      "power monitoring",
-      "Rasperry Pi",
-      "Firmware",
-			"product"
-		]
-	},
-	{
-		"term": "System Design",
-		"synonyms":
-		[
-			"architect",
-			"distributed",
-			"system",
-      "Logistics",
-			"signal"
-		]
-	},
-	{
-		"term": "Leisure",
-		"synonyms":
-		[
-			"anime",
-      "guitar",
-			"music",
-			"eating",
-			"gaming",
-			"personal",
-			"social media",
-      "food",
-      "Surfing Web and Sea",
-      "Puzzles",
-      "piano",
-      "Traveling",
-      "Reading"
-		]
-	},
-	{
-		"term": "Social Topics",
-		"synonyms":
-		[
-			"volunteer",
-			"welfare",
-			"education",
-			"educat",
-      "social justice",
-      "social equality",
-      "Russian-American relations",
-      "Intellectual Property Law",
-      "health"
-		]
-	},
-  {
-    "term": "Sustainability",
-    "synonyms":
-    [
-      "renewable",
-      "sustainability",
-      "power quality",
-      "green energy",
-      "population modeling",
-      "nature conservation"
-    ]
-  },
-	{
-		"term": "Algorithms",
-		"synonyms":
-		[
-			"algorithm"
-		]
-	},
-	{
-		"term": "Science",
-		"synonyms":
-		[
-			"math",
-      "inferential statistics",
-      "Statistics",
-      "science",
-      "physics",
-      "Psychology",
-      "psychology",
-      "probability",
-      "astronomy",
-      "astrometry",
-      "Research",
-      "biol",
-      "plants"
-		]
-	},
-	{
-		"term": "Computer Science",
-		"synonyms":
-		[
-			"computer science",
-			"forensics",
-			"informatics",
-      "Analytics",
-      "human computer interaction",
-      "Technology"
-		]
-	},
-	{
-		"term": "Operating Systems",
-		"synonyms":
-		[
-			"linux",
-      "Ubuntu",
-      "HPC",
-			"unix"
-		]
-	},
-  {
-    "term": "Hawaiian Culture",
-    "synonyms":
-    [
-      "Lāʻau Lapaʻau (Hawaiian Plant Medicine)",
-      "ka ʻimi ʻike ʻana",
-      "Hawaiian Language"
-    ]
-  }
+	}
 ]

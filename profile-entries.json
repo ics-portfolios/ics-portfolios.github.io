@@ -31,6 +31,11 @@
     "level": "undergrad"
   },
   {
+    "last": "bach",
+    "techfolio": "jonb808.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "bala",
     "techfolio": "aprilbala.github.io",
     "level": "undergrad"
@@ -410,6 +415,11 @@
     "level": "undergrad"
   },
   {
+    "last": "kawamoto",
+    "techfolio": "ryank22.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "kawamura",
     "techfolio": "kevinkawa.github.io",
     "picture": "https://kevinkawa.github.io/images/kevin.jpg",
@@ -429,6 +439,11 @@
     "last": "kim",
     "techfolio": "alliekim13.github.io",
     "level": "alumni"
+  },
+  {
+    "last": "kikuyama",
+    "techfolio": "tyler-kikuyama.github.io",
+    "level": "undergrad"
   },
   {
     "last": "kinel",
@@ -458,6 +473,11 @@
   {
     "last": "kuloloia",
     "techfolio": "akuloloia.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "kurihara",
+    "techfolio": "michaelkurihara.github.io",
     "level": "undergrad"
   },
   {
@@ -501,6 +521,11 @@
     "last": "lam",
     "level": "undergrad",
     "techfolio": "thinhtedlam.github.io"
+  },
+  {
+    "last": "lam",
+    "level": "undergrad",
+    "techfolio": "mattlammmmm.github.io"
   },
   {
     "last": "laranio",
@@ -572,6 +597,11 @@
   {
     "last": "li",
     "techfolio": "lihongman.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "lim",
+    "techfolio": "dlim7.github.io",
     "level": "undergrad"
   },
   {
@@ -713,6 +743,11 @@
   {
     "last": "na",
     "techfolio": "jjhna.github.io",
+    "level": "undergrad"
+  },
+  {
+    "last": "nagahama",
+    "techfolio": "jjnaga.github.io",
     "level": "undergrad"
   },
   {
@@ -1047,6 +1082,11 @@
     "level": "undergrad"
   },
   {
+    "last": "torres",
+    "techfolio": "git-jftorres.github.io",
+    "level": "undergrad"
+  },
+  {
     "last": "uyeda",
     "techfolio": "lyuyeda.github.io",
     "level": "undergrad"
@@ -1125,6 +1165,16 @@
   {
     "last": "wu",
     "techfolio": "jingjiewu.github.io",
+    "level": "alumni"
+  },
+  {
+    "last": "yamaguchi",
+    "techfolio": "matthew-yamaguchi.github.io",
+    "level": "alumni"
+  },
+  {
+    "last": "yamaguchi-townsend",
+    "techfolio": "kyamagucuhm.github.io",
     "level": "alumni"
   },
   {

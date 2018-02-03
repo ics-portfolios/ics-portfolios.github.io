@@ -15,4 +15,14 @@
          "techfolio": "htobin.github.io",
          "level": "undergrad"
        },
+{
+    "last": "wood",
+    "techfolio": "jwoodii.github.io",
+    "level": "undergrad"
+  },
 
+  {
+      "last": "kurano",
+      "techfolio": "andku23.github.io",
+      "level": "undergrad"
+    },
