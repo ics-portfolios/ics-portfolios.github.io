@@ -416,7 +416,7 @@
   {
     "last": "chen",
     "techfolio": "kendrickchen.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Kendrick Chen",
     "label": "Student",
     "email": "chenkk@hawaii.edu",
@@ -643,7 +643,7 @@
   {
     "last": "demello",
     "techfolio": "idemello.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Isaac DeMello",
     "label": "Student",
     "email": "idemello@hawaii.edu",
@@ -749,7 +749,7 @@
   {
     "last": "dumlao",
     "techfolio": "dumlaoj.github.io",
-    "level": "undergrad",
+    "level": "alumni",
     "name": "Jordan Dumlao",
     "label": "Student",
     "email": "dumlaoj@hawaii.edu",
@@ -1485,7 +1485,7 @@
   {
     "last": "kim",
     "techfolio": "yongkim93.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Yongnam Kim",
     "label": "Student",
     "email": "yong4@hawaii.edu",
@@ -1557,7 +1557,7 @@
   {
     "last": "kobayashi",
     "techfolio": "kiankoba.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Kian Kobayashi",
     "label": "Student",
     "email": "kiank@hawaii.edu",
@@ -2800,7 +2800,7 @@
   {
     "last": "oh",
     "techfolio": "chrisoh1.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Christopher Oh",
     "label": "Student",
     "email": "oh2@hawaii.edu",
@@ -2920,7 +2920,7 @@
   {
     "last": "palomares",
     "techfolio": "terrypalo.github.io",
-    "level": "undergrad",
+    "level": "alumni",
     "name": "Terry Palomares",
     "label": "Software Developer",
     "email": "terrylp@hawaii.edu",
@@ -3143,7 +3143,7 @@
   {
     "last": "reindle",
     "techfolio": "creindle.github.io",
-    "level": "undergrad",
+    "level": "alumni",
     "picture": "https://creindle.github.io/images/main.JPG",
     "name": "Christie Reindle",
     "label": "Full Stack Developer",
@@ -3969,7 +3969,7 @@
   {
     "last": "wu",
     "techfolio": "jingjiewu.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "JingJie Wu",
     "label": "Student",
     "email": "jingjie6@hawaii.edu",
@@ -3986,7 +3986,7 @@
   {
     "last": "yamaguchi",
     "techfolio": "matthew-yamaguchi.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Matthew Yamaguchi",
     "label": "Student",
     "email": "my26@hawaii.edu",
@@ -4003,7 +4003,7 @@
   {
     "last": "yamaguchi-townsend",
     "techfolio": "kyamagucuhm.github.io",
-    "level": "alumni",
+    "level": "undergrad",
     "name": "Kenneth Yamaguchi-Townsend",
     "label": "Student",
     "email": "kyamaguc@hawaii.edu",
