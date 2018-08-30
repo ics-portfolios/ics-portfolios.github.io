@@ -1531,8 +1531,8 @@
     "picture": "https://kiankoba.github.io/images/20170826_161247.jpg",
     "interests": [
       "network security",
-      "software engineering",
-      "translation and interpretation"
+      "machine learning",
+      "artificial intelligence"
     ]
   },
   {
@@ -2879,8 +2879,8 @@
     "label": "Ph.D. Student and Research Assistant",
     "website": "http://carlosparadis.com",
     "username": "carlosparadis",
-    "summary": "I am Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs. My dissertation seeks to understand conceptual evolution of hacker discourse online through text mining and social network dynamics.",
-    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAw6AAAAJDk5MjVlMzYzLTg3ZDYtNDgyYy1iN2FjLWI1MjJlYTA4ZDg5ZQ.jpg",
+    "summary": "I am a Graduate Student in the Department of Information and Computer Sciences at the University of Hawaii at Manoa and a member of the Machine Learning and Data-Driven Software Engineering Labs. My dissertation seeks to understand conceptual evolution of hacker discourse online through text mining and social network dynamics.",
+    "picture": "http://carlosandrade.x10.mx/leaves/images/profile2.jpg",
     "interests": [
       "Data Science, Hadoop Ecosystem, Healthcare, Net-Zero Energy Buildings, Cyber Security, Solar Forecasting"
     ]
