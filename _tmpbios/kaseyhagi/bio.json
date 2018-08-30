@@ -1,0 +1,14 @@
+{
+  "basics": {
+    "name": "Kasey Hagi",
+    "label": "Software Engineer",
+    "picture": "https://avatars1.githubusercontent.com/u/21249626?s=88&v=4",
+    "website": "https://kaseyhagi.github.io/",
+    "summary": "I'm Kasey Hagi, a recent graduate and software engineer based in Honolulu. I received my B.S. in Computer Engineering from University of Hawaii at Manoa."
+  },
+  "interests": [
+    {
+      "name": "Python, Machine Learning, C++"
+    }
+  ]
+}

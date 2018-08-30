@@ -5,7 +5,8 @@
     [
       "algorithm",
       "Theory of Computation",
-      "Cellular Automata"
+      "Cellular Automata",
+      "biocomputing"
     ]
   },
   {
@@ -148,7 +149,8 @@
     [
       "Intelligence",
       "Air Force",
-      "Geospatial Intelligence Analysis"
+      "Geospatial Intelligence Analysis",
+      "Lidar"
     ]
   },
   {
@@ -210,6 +212,7 @@
       "linux",
       "Ubuntu",
       "HPC",
+      "MacOS",
       "High Performance Computing",
       "unix"
     ]
@@ -230,6 +233,7 @@
     "synonyms":
     [
       "math",
+      "agriculture",
       "inferential statistics",
       "Statistics",
       "science",
@@ -343,7 +347,8 @@
       "augmented",
       "unity",
       "3D character modeling",
-      "3d map"
+      "3d map",
+      "VR/AR"
     ]
   },
 	{
