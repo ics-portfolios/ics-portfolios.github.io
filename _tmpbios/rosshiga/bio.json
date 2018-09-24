@@ -1,0 +1,226 @@
+{
+  "basics": {
+    "name": "Ross Higa",
+    "label": "Student and Technology Consultant",
+    "picture": "https://rosshiga.com/images/ross.jpg",
+    "email": "ross@rosshiga.com",
+    "phone": "808-258-8604",
+    "website": "https://rosshiga.com",
+    "summary": "I am a B.S. Computer Engineering candidate and research assistant in Mānoa at the University of Hawaii. I run RH Digital, an IT services and retail analytics firm for local businesses. When not working find me outside shooting landscapes with a Canon.",
+    "location": {
+      "address": "PO Box 971171",
+      "postalCode": "96797",
+      "city": "Waipahu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "rosshiga",
+        "url": "http://github.com/rosshiga"
+      },
+      {
+        "network": "linkedin",
+        "username": "rosshiga",
+        "url": "https://www.linkedin.com/in/rosshiga/"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "multi-platform apps",
+      "keywords": [
+        "Node.js",
+        "Cordova/Phonegap",
+        "Electron"
+      ]
+    },
+    {
+      "name": "process automation",
+      "keywords": [
+        "AutoHotKey",
+        "Office Visual Basic Scripting",
+        "Google App Engine"
+      ]
+    },
+    {
+      "name": "cyber security",
+      "keywords": [
+        "802.11 security",
+        "Operational hygiene",
+        "Availability threats"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Bash/Batch files",
+        "C",
+        "CSS",
+        "HTML",
+        "Java",
+        "Javascript",
+        "JSON",
+        "MatLab",
+        "PHP 5",
+        "Python 3",
+        "SQL",
+        "Visual Basic",
+        "XML",
+        "YAML"
+      ]
+    },
+    {
+      "name": "Frameworks and Engines",
+      "level": "Intermediate",
+      "keywords": [
+        "Asterisk",
+        "Apache httpd",
+        "BIND",
+        "BR Data Retail Boss",
+        "Cacti",
+        "cPanel/WHM",
+        "Concrete5",
+        "Flask",
+        "FreePBX",
+        "FreeSWITCH",
+        "iptables",
+        "Node.js",
+        "Node-RED",
+        "NGINX",
+        "Squid",
+        "Wordpress",
+        "Zabbix"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Adobe Creative Cloud",
+        "Amazon Web Services",
+        "Atmel ATMEGA",
+        "Canon DSLR",
+        "CentOS",
+        "Cisco IOS",
+        "CloudTrax Mesh",
+        "dd-wrt",
+        "Git/GitHub",
+        "Google App Engine",
+        "G Suite",
+        "Kali",
+        "Ubuntu"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2019)",
+      "studyType": "B.S.",
+      "startDate": "2016-01-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Leeward Community College, Pearl City, HI",
+      "area": "Natural Sciences",
+      "studyType": "A.S.",
+      "startDate": "2013-08-20",
+      "endDate": "2018-06-01",
+      "gpa": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Moanalua Community School for Adults, Honolulu, HI",
+      "area": "Hawaii Adult Education Diploma",
+      "studyType": "G.E.D.",
+      "startDate": "",
+      "endDate": "2013-06-01",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii",
+      "position": "Mixed/Virtual Reality Research Assistant",
+      "website": "",
+      "startDate": "2018-09-11",
+      "endDate": "Present",
+      "summary": "Manoa, HI - Research support for VR and ambient/context aware devices",
+      "highlights": [
+        "Provide system and developer support under the direction of Dr. Darren Carlson"
+      ]
+    },
+    {
+      "company": "RH Digital LLC",
+      "position": "Owner",
+      "website": "",
+      "startDate": "2013-06-01",
+      "endDate": "Present",
+      "summary": "Oahu, HI - RH Digital is proud to empower local business with technology and data driven strategies.",
+      "highlights": [
+        "Provided clear direction, leadership, and communication necessary to achieve business, financial and operating goals",
+        "Built, repaired, and upgraded personal computers by following detailed and specific build plans",
+        "Developed engaging and visually compelling websites based on the WordPress and Concrete5 platform",
+        "Set up home office networks or business services including DNS, email, and server hosting",
+        "Develop tools to process large amounts of retail data to provide movement and market analytics"
+      ]
+    },
+    {
+      "company": "Tri-Net Solutions",
+      "position": "Junior Developer and Technical Support",
+      "website": "https://lava.net",
+      "startDate": "2014-10-15",
+      "endDate": "2015-06-15",
+      "summary": "Honolulu, HI - Reported directly to the vice president of programming to collaborate on milestone initiatives while reducing help desk ticket load",
+      "highlights": [
+        "Provided direct line support for 56k, DSL, managed IP, VoIP, and colocation customers to diagnose and resolve system issues",
+        "Generated operational and financial analytics using spreadsheets, Quicken, and other data sources",
+        "Utilized Cacti, Nagios, and Zabbix to monitor IP circuits and escalate issues to NOC supervisor",
+        "Developed bash automated certificate deployment and Asterisk PBX configuration for SRTP VoIP encryption and high availability seamless route failover",
+        "Integrated open source software with various telecom vendor systems such as Verizon, 2wire, Polycom, Linksys, CloudTrax, and Pace"
+      ]
+    },
+    {
+      "company": "Pictureman of Hawaii ",
+      "position": "Photographer",
+      "website": "http://www.pmoh.com",
+      "startDate": "2013-05-01",
+      "endDate": "2014-06-15",
+      "summary": "Kapolei, HI - Shot once in a lifetime events for clients such as the University of Hawaii, Kamehameha Schools, and Oahu Interscholastic Association",
+      "highlights": [
+        "Provided consultation to clients on creating the most appropriate style and expression to meet their expectations. ",
+        "Captured over 6,000 individual photos of every undergraduate and graduate as the part of the official 2014 University of Hawaii at Mānoa Commencement Ceremony photographer team"
+      ]
+    },
+    {
+      "company": "SellWHM.com",
+      "position": "System Administrator",
+      "website": "",
+      "startDate": "2008-12-01",
+      "endDate": "2010-06-01",
+      "summary": "Summitville, IN",
+      "highlights": [
+        "Ensured optimal performance of systems utilizing the Xen and WHM/cPanel platforms",
+        "Configured critical services including Squid proxy, BIND, iptables, Apache httpd, PHP-FCGI, MySQL, and ProFTPD",
+        "Improved customer satisfaction by providing live customer support via chat and ticketing system",
+        "Implemented polices and optimization for shell access, brute force timeouts, SYN cookies, and TCP windows"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

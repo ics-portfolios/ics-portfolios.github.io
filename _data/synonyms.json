@@ -14,6 +14,11 @@
     "synonyms":
     [
       "graphic",
+      "Reddit",
+      "movies",
+      "playing saxophone",
+      "Modern Media",
+      "Cultural Awareness",
       "digital humanities",
       "Songwriting",
       "Japan",
@@ -61,6 +66,7 @@
     "synonyms":
     [
       "business",
+      "startups",
       "finance",
       "Leadership and Followership",
       "Real Time Bidding",
@@ -88,6 +94,7 @@
       "computer science",
       "forensics",
       "new tech",
+      "Computers",
       "informatics",
       "Analytics",
       "human computer interaction",
@@ -108,6 +115,7 @@
     [
       "game",
       "Hearthstone",
+      "animation",
       "gamif"
     ]
   },
@@ -186,6 +194,7 @@
       "iOS Application Development",
       "iOS Development",
       "app dev",
+      "multi-platform apps",
       "Moblie Development"
     ]
   },
@@ -223,6 +232,7 @@
     [
       "java",
       "node.js",
+      "C++",
       "Assembly",
       "translation and interpretation",
       "python"
@@ -255,6 +265,7 @@
     [
       "security",
       "defense",
+      "Pentesting",
       "Cryptography",
       "CTF competitions",
       "Information Assurance",
@@ -288,6 +299,7 @@
       "volunteer",
       "welfare",
       "education",
+      "Social Good",
       "educat",
       "social justice",
       "social equality",
@@ -304,9 +316,12 @@
       "",
       "Sofware Engineering",
 			"software develop",
+      "HCI",
 			"program",
+      "User Interface",
 			"coding",
 			"software",
+      "User Interface",
       "Reverse Engineering",
       "Project Management",
       "Project Development",
@@ -332,6 +347,7 @@
     [
       "architect",
       "distributed",
+      "Simulations",
       "Automation",
       "system",
       "Logistics",
@@ -343,6 +359,7 @@
     "synonyms":
     [
       "virtual",
+      "VR",
       "reality",
       "augmented",
       "unity",

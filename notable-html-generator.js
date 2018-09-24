@@ -97,7 +97,7 @@ function getCardHtml(data) {
     `        
   <div class="ui centered fluid card">
     <div class="content">
-      <img class="right floated mini ui image" src="{{ img_url }}}">
+      <img class="right floated tiny ui image" src="{{ img_url }}}">
       <div class="header">{{ title }}}</div>
       <div class="meta">{{ author }}</div>
       <div class="description">{{{ reason }}}</div>
