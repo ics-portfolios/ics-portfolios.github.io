@@ -14,6 +14,8 @@
     "synonyms":
     [
       "graphic",
+      "Writing",
+      "Miniatures",
       "watching youtube videos",
       "special effects(SFX)",
       "Reddit",
@@ -56,6 +58,7 @@
       "artificial",
       "ai",
       "Computer learning",
+      "Language Recognition",
       "language process",
       "Vision Processing",
       "feature recognition",
@@ -95,6 +98,8 @@
     "synonyms":
     [
       "computer science",
+      "Open Source",
+      "Scripting Languages",
       "Porgramming",
       "forensics",
       "new tech",
@@ -102,6 +107,7 @@
       "informatics",
       "Analytics",
       "human computer interaction",
+      "Scientific simulation",
       "Technology"
     ]
   },
@@ -227,6 +233,7 @@
       "HPC",
       "MacOS",
       "High Performance Computing",
+      "high-performance computing",
       "unix"
     ]
   },
@@ -248,6 +255,8 @@
     [
       "math",
       "agriculture",
+      "Biomimicry",
+      "geospatial",
       "inferential statistics",
       "Statistics",
       "science",
@@ -321,6 +330,7 @@
       "",
       "Sofware Engineering",
 			"software develop",
+      "electrical engineering",
       "HCI",
 			"program",
       "User Interface",
@@ -331,7 +341,8 @@
       "Reverse Engineering",
       "Project Management",
       "Project Development",
-			"prototyp"
+			"prototyp",
+      "devops"
 		]
 	},
   {
@@ -342,6 +353,7 @@
       "sustainability",
       "alternative energy",
       "power quality",
+      "conservation",
       "green energy",
       "population modeling",
       "nature conservation"
