@@ -235,6 +235,7 @@
   {
     "last": "chinen",
     "techfolio": "tylerchinen.github.io",
+    "picture": "https://tylerchinen.github.io/images/tyler.jpg",
     "level": "undergrad"
   },
   {
@@ -1014,6 +1015,7 @@
   {
     "last": "medallon",
     "techfolio": "miraabela.github.io",
+    "picture": "https://miraabela.github.io/images/b3.jpg",
     "level": "undergrad"
   },
   {
@@ -1593,7 +1595,7 @@
   {
     "last": "uyehara",
     "techfolio": "Keauehara.github.io",
-    "level": "undergrad"
+    "level": "alumni"
   },
   {
     "last": "vernon",
