@@ -3506,25 +3506,6 @@
     ]
   },
   {
-    "last": "mehta",
-    "techfolio": "surajmehta95.github.io",
-    "level": "alumni",
-    "name": "Suraj Mehta",
-    "label": "Software Engineer",
-    "email": "suraj@hawaii.edu",
-    "website": "https://surajmehta95.github.io",
-    "username": "surajmehta95",
-    "summary": "I'm a student pursuing a degree in Computer Engineering at the University of Hawaii at Manoa, I expect to graduate in December 2017. I have a passion for innovation and enjoy solving challenging problems in efficient ways.",
-    "picture": "https://github.com/surajmehta95/surajmehta95.github.io/raw/master/images/profile.jpg",
-    "interests": [
-      "Software Engineering",
-      "Embedded Systems",
-      "Signal Analysis",
-      "iOS Development",
-      "Home Automation"
-    ]
-  },
-  {
     "last": "meinzen",
     "techfolio": "natashameinzen.github.io",
     "level": "undergrad",
@@ -5155,6 +5136,23 @@
       "Software engineering",
       "Artificial intelligence",
       "Big Data"
+    ]
+  },
+  {
+    "last": "takahashi",
+    "techfolio": "dvntaka.github.io",
+    "level": "undergrad",
+    "name": "Davin Takahashi",
+    "label": "Student",
+    "email": "dvntaka@yahoo.com",
+    "website": "https://dvntaka.github.io",
+    "username": "dvntaka",
+    "summary": "I am working towards a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2021. I am interested in learning how technology can be used for interdisciplinary analysis, and garnering creative insights.",
+    "picture": "https://dvntaka.github.io/images/Davin.jpeg",
+    "interests": [
+      "Machine Learning",
+      "Data Science",
+      "Game Development"
     ]
   },
   {
