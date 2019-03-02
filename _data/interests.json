@@ -151,7 +151,6 @@
           "chrisnguyenhi",
           "jonkiote",
           "mserai",
-          "mserai",
           "spyhi"
         ]
       },
@@ -168,6 +167,7 @@
           "ian-oconnor",
           "tevintsales",
           "bryantsa",
+          "mserai",
           "amymalia"
         ]
       },
@@ -223,8 +223,7 @@
           "smau4",
           "jonkiote",
           "samrasay",
-          "amsanchez93",
-          "mserai"
+          "amsanchez93"
         ]
       },
       {
@@ -608,7 +607,6 @@
           "dubongen",
           "koby-villalobos",
           "leightonvillanueva",
-          "blaine-wataru",
           "awongway",
           "pauline-peihan-wu",
           "matthew-yamaguchi",
@@ -650,7 +648,6 @@
           "aaronjgeronimo",
           "zakgilbert",
           "tallasgoo",
-          "whoodes",
           "yuting7",
           "jhutch42",
           "hwangwooj",
@@ -861,8 +858,7 @@
           "blaine-wataru",
           "conradwolfe",
           "kyamagucuhm",
-          "tyy21",
-          "awyz"
+          "tyy21"
         ]
       },
       {
@@ -888,8 +884,6 @@
           "jordan-ooka",
           "arnoldshek",
           "g-tolentino",
-          "keauehara",
-          "keauehara",
           "andrewyagin",
           "evanyasaka",
           "evanyasaka",
@@ -1027,7 +1021,6 @@
           "sabinestrasburger",
           "sabinestrasburger",
           "git-jftorres",
-          "keauehara",
           "akirav",
           "collinhw",
           "andrewyagin",
@@ -1064,7 +1057,6 @@
           "dickensc",
           "neezcha",
           "aerocraker",
-          "whoodes",
           "yuting7",
           "hwanglance",
           "ilungj",
@@ -1137,8 +1129,7 @@
           "koby-villalobos",
           "weneddie",
           "andrewyagin",
-          "cade-yamamoto",
-          "awyz"
+          "cade-yamamoto"
         ]
       },
       {
@@ -1207,7 +1198,6 @@
           "zachayas",
           "zach2heth",
           "kyho22",
-          "whoodes",
           "brianhoole",
           "yuting7",
           "jasonhuang23",
@@ -1288,6 +1278,8 @@
           "dubongen",
           "leahmeiv",
           "leightonvillanueva",
+          "blaine-wataru",
+          "blaine-wataru",
           "jaweber808",
           "weneddie",
           "keanuwilliams",
@@ -1312,7 +1304,6 @@
           "weilelin123",
           "pakcharles",
           "jeffsuen",
-          "blaine-wataru",
           "awongway",
           "pauline-peihan-wu",
           "pauline-peihan-wu"
@@ -1422,8 +1413,7 @@
           "ken-10",
           "akirav",
           "leahmeiv",
-          "bwallick",
-          "awyz"
+          "bwallick"
         ]
       }
     ]
@@ -1440,6 +1430,7 @@
       {
         "interest": "Artificial Intelligence",
         "names": [
+          "simonengler",
           "crisnow",
           "jjhna",
           "katrinaturner"
@@ -1471,8 +1462,15 @@
         ]
       },
       {
+        "interest": "Hardware Engineering",
+        "names": [
+          "simonengler"
+        ]
+      },
+      {
         "interest": "Military/Intelligence Service",
         "names": [
+          "simonengler",
           "jjhna"
         ]
       },

@@ -370,6 +370,11 @@
     "level": "undergrad"
   },
   {
+    "last": "engler",
+    "techfolio": "simonengler.github.io",
+    "level": "grad"
+  },
+  {
     "last": "exzabe",
     "techfolio": "pexzabe.github.io",
     "level": "alumni"
@@ -547,11 +552,6 @@
     "techfolio": "mahoe7.github.io",
     "picture": "https://mahoe7.github.io/images/Aviary%20Photo_131166281005894729.png",
     "level": "alumni"
-  },
-  {
-    "last": "hoodes",
-    "techfolio": "whoodes.github.io",
-    "level": "undergrad"
   },
   {
     "last": "hoole",
@@ -1593,11 +1593,6 @@
     "level": "undergrad"
   },
   {
-    "last": "uyehara",
-    "techfolio": "Keauehara.github.io",
-    "level": "alumni"
-  },
-  {
     "last": "vernon",
     "techfolio": "akirav.github.io",
     "level": "undergrad"
@@ -1792,11 +1787,5 @@
     "last": "yoshimura",
     "techfolio": "yoshimura123.github.io",
     "level": "alumni"
-  },
-  {
-    "last": "zheng",
-    "techfolio": "awyz.github.io",
-    "picture": "https://awyz.github.io/images/me.jpg",
-    "level": "undergrad"
   }
 ]
