@@ -26,7 +26,7 @@ layout: default
           <span class="date"></span>
         </div>
         <div class="left aligned description">
-          A directory of professional portfolios from students, faculty, and alumni in the
+          A directory of undergraduate and alumni professional portfolios in the
           <a href="http://www.ics.hawaii.edu">Department of Information and Computer Sciences</a> and
           <a href="http://www.eng.hawaii.edu/">College of Engineering</a>
           at the
@@ -39,20 +39,6 @@ layout: default
         <div class="column">
           <a href="{{ site.baseurl}}/undergrads">
             <button class="ui small green fluid button">B.A./B.S. ({{ undergrads.size }})</button>
-          </a>
-        </div>
-        {% endif %}
-        {% if grads.size > 0 %}
-        <div class="column">
-          <a href="{{ site.baseurl}}/graduatestudents">
-            <button class="ui small green fluid button">M.S./Ph.D. ({{ grads.size }})</button>
-          </a>
-        </div>
-        {% endif %}
-        {% if faculty.size > 0 %}
-        <div class="column">
-          <a href="{{ site.baseurl}}/faculty">
-            <button class="ui small green fluid button">Faculty ({{ faculty.size }})</button>
           </a>
         </div>
         {% endif %}
