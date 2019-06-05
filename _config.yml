@@ -2,9 +2,9 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: ICS Portfolios
+title: MIS Portfolios
 # Edit next line, replacing 'techfolios' with your github username
-url: "https://ics-portfolios.github.io"
+url: "https://mis-portfolios.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
 
