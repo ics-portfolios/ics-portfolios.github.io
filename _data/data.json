@@ -77,7 +77,7 @@
     "email": "aidana@hawaii.edu",
     "website": "https://akkamin.github.io",
     "username": "akkamin",
-    "summary": "I am studying for a B.S. in Computer Science and a B.A in Chemistry in the Departments of Information and Computer Sciences and Chemistry at the University of Hawaii. Additonally I have completed a minor Japanese at the University of Hawaii. I expect to graduate in Spring, 2019.",
+    "summary": "I am studying for a B.S. in Computer Science and a B.A in Chemistry in the Departments of Information and Computer Sciences and Chemistry at the University of Hawaii. Additonally I have completed a minor Japanese at the University of Hawaii. I graduated in May, 2019.",
     "interests": [
       "3D modeling",
       "Computer-aided Design",
@@ -344,7 +344,7 @@
     "email": "jeb3@hawaii.edu",
     "website": "https://bennettjames649.github.io",
     "username": "bennettjames649",
-    "summary": "I am studying for a B.A. in Information and Computer Scienceat the University of Hawaii.",
+    "summary": "I am studying for a B.A. in Information and Computer Science at the University of Hawaii.",
     "picture": "https://bennettjames649.github.io/images/jameshead.jpg",
     "interests": [
       "Video Games",
@@ -1663,13 +1663,12 @@
     "email": "tallas@hawaii.edu",
     "website": "https://tallasgoo.github.io",
     "username": "tallasgoo",
-    "summary": "I am studying for a B.S. in Computer Science with a focus in Cybersecurity at the University of Hawaii at Manoa, and I expect to graduate in Spring 2020. I aim to serve as a Cyberspace Operations Officer in the United States Air Force.",
+    "summary": "I am studying for a B.S. in Computer Science with a focus in Cybersecurity at the University of Hawaii at Manoa, and I expect to graduate in Spring 2021. I aim to serve as a Cyberspace Operations Officer in the United States Air Force.",
     "picture": "https://tallasgoo.github.io/images/profile.jpg",
     "interests": [
-      "Cybersecurity",
-      "Digital Forensics",
-      "Artificial Intelligence",
-      "Augmented Reality"
+      "Cyber Warfare",
+      "Cyber Security",
+      "Artificial Intelligence"
     ]
   },
   {
@@ -2193,9 +2192,10 @@
     "email": "johnson@hawaii.edu",
     "website": "https://philipmjohnson.github.io",
     "username": "philipmjohnson",
-    "summary": "I am a Professor of [Information and Computer Sciences](http://www.ics.hawaii.edu) at the University of Hawaii, Director of the [Collaborative Software Development Laboratory](http://csdl.ics.hawaii.edu), and the CEO of [OpenPowerQuality.com](http://openpowerquality.com).",
+    "summary": "I am a Professor of [Information and Computer Sciences](http://www.ics.hawaii.edu) at the University of Hawaii and Director of the [Collaborative Software Development Laboratory](http://csdl.ics.hawaii.edu)",
     "picture": "https://philipmjohnson.github.io/images/philip2.jpeg",
     "interests": [
+      "Climate Change",
       "Software Engineering",
       "Serious Games",
       "Renewable Energy"
