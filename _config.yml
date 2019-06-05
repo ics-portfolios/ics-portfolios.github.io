@@ -22,3 +22,5 @@ theme-bio: theme-bio-builtin-2-pj.html
 markdown: kramdown
 include: [_data]
 
+
+theme: jekyll-theme-slate
