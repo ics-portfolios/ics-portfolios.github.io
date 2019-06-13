@@ -5,5 +5,5 @@ layout: all
 {% include profiles.html level = "all" %}
 
 {% for member in site.data.team %}
-  Hello {{member[1].first_name}}
+  Hello {{member.name}}
 {% endfor %}
