@@ -18,6 +18,11 @@
         {{ interest }}{% if forloop.last != true %}, {% endif %}
         {% endfor %}
       </div>
+      <div class="interests">
+        {% for member in site.data.team.keywords %}
+          Hello {{member.name}}
+        {% endfor %}
+        </div>
     </div>
   <a class="ui bottom attached button" href="{{ portfolio.website }}">
     <i class="" ass="external icon"></i>
