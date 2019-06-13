@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+{% assign faculty = site.data.data | where: "level", "faculty"  %}
+{% assign undergrads = site.data.data | where: "level", "undergrad"  %}
+{% assign grads = site.data.data | where: "level", "grad"  %}
+{% assign alumni = site.data.data | where: "level", "alumni"  %}
+
+<div style="height: 100%; margin-top: -75px" class="ui middle aligned grid ">
+
+  <div class="column">
+
+    <div style="position: relative; top: 75px; z-index: 1; background-color: darkgreen;"
+         class="ui fluid centered small circular image">
+      <img width="100px" src="/images/ics-logo-reversed.png">
+    </div>
+
+
+    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px; padding-bottom: 20px"
+         class="ui fluid centered card">
+
+      <div class="center aligned content">
+        <span class="header">ICS Portfolios</span>
+        <div class="meta">
+          <span class="date"></span>
+        </div>
+        <div class="left aligned description">
+          A directory of undergraduate and alumni professional portfolios in the
+          <a href="http://www.ics.hawaii.edu">Department of Information and Computer Sciences</a> and
+          <a href="http://www.eng.hawaii.edu/">College of Engineering</a>
+          at the
+          <a href="http://www.hawaii.edu">University of Hawaii</a>.
+        </div>
+      </div>
+
+      <div class="ui center aligned four column stackable grid content">
+        {% if undergrads.size > 0 %}
+        <div class="column">
+          <a href="{{ site.baseurl}}/undergrads">
+            <button class="ui small green fluid button">B.A./B.S. ({{ undergrads.size }})</button>
+          </a>
+        </div>
+        {% endif %}
+        {% if alumni.size > -1 %}
+        <div class="column">
+          <a href="{{ site.baseurl}}/alumni">
+            <button class="ui small green fluid button">Alumni ({{ alumni.size }})</button>
+          </a>
+        </div>
+        {% endif %}
+        <!--
+        <div class="column">
+          <a href="{{ site.baseurl}}/all">
+            <button class="ui small green fluid button">All ({{ site.data.data.size }}) <br/> &nbsp; </button>
+          </a>
+        </div>
+        -->
+
+      </div>
+    </div>
+  </div>
+
+</div>
