@@ -24,3 +24,7 @@ include: [_data]
 
 
 theme: jekyll-theme-slate
+
+jekyll_get:
+  data: team
+  json: 'https://18f.gsa.gov/hub/api/team/'
