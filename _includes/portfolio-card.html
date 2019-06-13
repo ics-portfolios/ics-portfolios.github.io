@@ -19,9 +19,9 @@
       {% endfor %}
     </div>
     <div class="interests">
-
-      Hello kitty
-
+      {% for member in site.data.team.keywords %}
+      Hello {{member.name}}
+      {% endfor %}
     </div>
   </div>
   <a class="ui bottom attached button" href="{{ portfolio.website }}">
