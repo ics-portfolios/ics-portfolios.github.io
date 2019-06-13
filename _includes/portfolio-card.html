@@ -1,29 +1,29 @@
 <div class="ui card" id="{{ portfolio.username }}">
-    <div class="content">
-      <img class="right floated tiny ui image" src="{{ portfolio.picture }}">
-      <div class="header">
-        {{ portfolio.name }}
-      </div>
-      <div class="meta">
-        {{ portfolio.label }}
-      </div>
-      <div class="description">
-        {{ portfolio.summary | markdownify }}
-      </div>
+  <div class="content">
+    <img class="right floated tiny ui image" src="{{ portfolio.picture }}">
+    <div class="header">
+      {{ portfolio.name }}
     </div>
-    <div class="extra content">
-      Interests:
-      <div class="interests">
-        {% for interest in portfolio.interests %}
-        {{ interest }}{% if forloop.last != true %}, {% endif %}
-        {% endfor %}
-      </div>
-      <div class="interests">
-        {% for member in site.data.team.keywords %}
-          Hello {{member.name}}
-        {% endfor %}
-        </div>
+    <div class="meta">
+      {{ portfolio.label }}
     </div>
+    <div class="description">
+      {{ portfolio.summary | markdownify }}
+    </div>
+  </div>
+  <div class="extra content">
+    Interests:
+    <div class="interests">
+      {% for interest in portfolio.interests %}
+      {{ interest }}{% if forloop.last != true %}, {% endif %}
+      {% endfor %}
+    </div>
+    <div class="interests">
+
+      Hello kitty
+
+    </div>
+  </div>
   <a class="ui bottom attached button" href="{{ portfolio.website }}">
     <i class="" ass="external icon"></i>
     See portfolio
