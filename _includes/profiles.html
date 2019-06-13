@@ -11,6 +11,11 @@
     {% endfor %}
   </div>
 </div>
+<div>
+{% for member in site.data.team %}
+  Hello {{member.name}}
+{% endfor %}
+</div>
 <script type="text/javascript" src="/js/google-sheet-api.js"></script>
 <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
 <script type="text/javascript" src="/js/telemetry.js"></script>
