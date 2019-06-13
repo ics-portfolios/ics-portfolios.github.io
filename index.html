@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<ul class="photo-gallery">
-
-    <li><img src="xxx" alt="NONE"/></li>
-
-</ul>
+{% for profile in site.profiless %}
+  <h2>{{ profile.name }} - {{ profile.position }}</h2>
+  <p>{{ profile.content | markdownify }}</p>
+{% endfor %}
