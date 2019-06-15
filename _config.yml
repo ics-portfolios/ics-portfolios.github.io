@@ -24,7 +24,3 @@ include: [_data]
 
 
 theme: jekyll-theme-slate
-
-jekyll_get:
-  data: team
-  json: 'https://github.com/dport96/danport/blob/master/package.json'
