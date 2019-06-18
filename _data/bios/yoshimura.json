@@ -1,0 +1,123 @@
+{
+  "basics": {
+    "name": "Michael Yoshimura",
+    "label": "Student",
+    "picture": "https://yoshimura123.github.io/images/image.jpeg",
+    "email": "yoshim3@hawaii.edu",
+    "phone": "808-385-0501",
+    "website": "https://yoshimura123.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Fall, 2018.",
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "yoshimura123",
+        "url": "https://github.com/yoshimura123"
+      },
+      {
+        "network": "linkedin",
+        "username": "Michael Yoshimura",
+        "url": "https://www.linkedin.com/in/michael-yoshimura-77555b124?trk=nav_responsive_tab_profile"
+      },
+      {
+        "network": "facebook",
+        "username": "Michael Yoshimura",
+        "url": "https://www.facebook.com/michael.yoshimura.3"
+      },
+      {
+        "network": "instagram",
+        "username": "mikeyyoshi"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Programming",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "App Design",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Skateboarding",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "Assembly"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Git/GitHub",
+        "g++"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Fall, 2017)",
+      "studyType": "B.S.",
+      "startDate": "2014-09-20",
+      "endDate": "2017-12-20",
+      "gpa": "3.6",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Mo'ili'ili Community Center",
+      "position": "Tutor",
+      "website": "",
+      "startDate": "2014-08-01",
+      "endDate": "2015-05-20",
+      "summary": "Main tutor for grades 1-5",
+      "highlights": [
+        "Maintain, teach, and oversee all students",
+        "Motivate and assist all student needs"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "UH Manoa Dean's List",
+      "date": "2014-Present",
+      "awarder": "University of Hawaii at Manoa ",
+      "summary": "Undergraduate students are awarded the Dean’s List distinction if they: (1) earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade, and (2) do not receive grades of W, I, F, or NC for that semester."
+    },
+    {
+      "title": "UH Manoa Merit Scholarship",
+      "date": "2014-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to high-achieving high school graduates who are entering UHM the fall semester following their high school graduation"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}

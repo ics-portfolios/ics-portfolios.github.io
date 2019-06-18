@@ -2,4 +2,11 @@
 layout: all
 ---
 
-{% include profiles.html level = "all" %}
+<ul>
+    {% for bio_hash in site.data.bios %}
+    {% assign bio = bio_hash[1] %}
+      <li>
+        {{ bio.basics.name }}
+      </li>
+    {% endfor %}
+    </ul>
