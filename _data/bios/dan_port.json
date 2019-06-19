@@ -1,0 +1,132 @@
+{
+    "basics": {
+      "name": "Daniel Port",
+      "label": "Professor",
+      "picture": "https://github.com/brandon-chun/brandon-chun.github.io/raw/master/images/bChun-1%20-%20Copy.jpg",
+      "email": "dport@hawaii.edu",
+      "phone": "+1-808-956-7494",
+      "website": "https://dport96.github.io/danport/",
+      "summary": "I am a professor of Information Technology Management in the Shidler College of Business at the University of Hawaii at Manoa.",
+      "location": {
+        "address": "Shidler College of Business, 2404 Maile Way",
+        "postalCode": "96822",
+        "city": "Honolulu",
+        "countryCode": "USA",
+        "region": "Hawaii"
+      },
+      "profiles": [
+        {
+          "network": "github",
+          "username": "bchun9",
+          "url": "http://brandon-chun.github.io"
+        },
+        {
+          "network": "email",
+          "url": "dport@hawaii.edu"
+        }
+      ]
+    },
+    "interests": [
+      {
+        "name": "Software Engineering Economics and Management",
+        "keywords": [
+          "Software",
+          "Engineering Management",
+          "Software Economics"
+        ]
+      },
+      [
+        {
+          "name": "Data Analytics",
+          "keywords": [
+            "Statistics",
+            "Data Analytics",
+            "Business Intelligence"
+          ]
+        }
+      ],
+      {
+        "name": "Sailing",
+        "keywords": [
+          "Sailboat",
+          "Boat"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Languages and Frameworks",
+        "level": "advanced",
+        "keywords": [
+          "C",
+          "C++",
+          "Java",
+          "Javascript",
+          "PHP",
+          "Python",
+          "R",
+          "Matlab",
+          "VBA",
+          "Applesoft",
+          "ObjC",
+          "Fortran",
+          "APL",
+          "Pascal",
+          "Ruby"
+        ]
+      },
+      {
+        "name": "Toolsets/OS",
+        "level": "",
+        "keywords": [
+          "Git/GitHub",
+          "Widoze",
+          "OSX",
+          "Linux"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Massachusetts Institute of Technology",
+        "area": "Mathematics and Theoretical Computer Science",
+        "studyType": "PhD",
+        "startDate": "",
+        "endDate": "",
+        "gpa": "",
+        "courses": []
+      }
+    ],
+    "work": [
+      {
+        "company": "Shidler College of Business",
+        "position": "Associate Professor of Infortmation Technology Management",
+        "website": "http://shidler.hawaii.edu/itm/about",
+        "startDate": "2003-01-01",
+        "endDate": "Present",
+        "summary": "",
+        "highlights": [
+          "teaching and develolping ITM courses",
+          "technolgy management research"
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Delta Sigma Pi business fraternity",
+        "website": " http://www.dspuhm.com/",
+        "position": "Faculty Advisor",
+        "startDate": "2014",
+        "endDate": "present",
+        "summary": "",
+        "highlights": []
+      }
+    ],
+    "awards": [],
+    "references": [
+      {
+        "name": "Available upon request",
+        "reference": ""
+      }
+    ]
+  }
