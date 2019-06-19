@@ -2,11 +2,12 @@
   {% include filter.html level = include.level %}
   <div class="ui four doubling stackable cards">
   	{% if include.level == "all" %}
-			{% assign portfolios = site.data.data %}
+			{% assign portfolios = site.data.bios %}
 		{% else %}
-			{% assign portfolios = site.data.data | where: "level", include.level  %}
+			{% assign portfolios = site.data.bio | where: "level", include.level  %}
 		{% endif %}    
-    {% for portfolio in portfolios %}
+    {% for portfolio_hash in portfolios %}
+      {% assign portfolio = portfolio_hash[1] %}
       {% include portfolio-card.html portfolio=portfolio %}
     {% endfor %}
   </div>

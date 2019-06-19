@@ -2,20 +2,20 @@
   <div class="content">
     <img class="right floated tiny ui image" src="{{ portfolio.picture }}">
     <div class="header">
-      {{ portfolio.name }}
+      {{ portfolio.basics.name }}
     </div>
     <div class="meta">
-      {{ portfolio.label }}
+      {{ portfolio.basics.label }}
     </div>
     <div class="description">
-      {{ portfolio.summary | markdownify }}
+      {{ portfolio.basics.summary | markdownify }}
     </div>
   </div>
   <div class="extra content">
     Interests:
     <div class="interests">
       {% for interest in portfolio.interests %}
-      {{ interest }}{% if forloop.last != true %}, {% endif %}
+      {{ interest.name }}{% if forloop.last != true %}, {% endif %}
       {% endfor %}
     </div>
   </div>
