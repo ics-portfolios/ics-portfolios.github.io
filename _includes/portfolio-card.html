@@ -12,6 +12,7 @@
 
           // Examine the text in the response
           response.json().then(function (data) {
+            console.log(data);
             document.getElementById('pname').innerHTML = data.basics.name;
           });
         }
@@ -27,7 +28,7 @@
   <div class="content">
     <img class="right floated tiny ui image" style="width:80px;height:80px;" src="{{ portfolio.basics.picture }}">
     <div class="header" id="pname">
-      {{ portfolio.basics.name }}
+
     </div>
     <div class="meta">
       {{ portfolio.basics.label }}
