@@ -1,7 +1,32 @@
+<script>
+  window.onload = function () {
+    var data;
+    fetch('https://dport96.github.io/_data/bio.json')
+      .then(
+        function (response) {
+          if (response.status !== 200) {
+            console.log('Looks like there was a problem. Status Code: ' +
+              response.status);
+            return;
+          }
+
+          // Examine the text in the response
+          response.json().then(function (data) {
+            document.getElementById('pname').innerHTML = data.basics.name;
+          });
+        }
+      )
+      .catch(function (err) {
+        console.log('Fetch Error :-S', err);
+      });
+  };
+</script>
+
+
 <div class="ui card" id="{{ portfolio.username }}">
   <div class="content">
     <img class="right floated tiny ui image" style="width:80px;height:80px;" src="{{ portfolio.basics.picture }}">
-    <div class="header">
+    <div class="header" id="pname">
       {{ portfolio.basics.name }}
     </div>
     <div class="meta">
