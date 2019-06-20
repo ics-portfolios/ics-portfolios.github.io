@@ -1,27 +1,5 @@
-<div class="ui right aligned grid">
-  <div class="left floated left aligned eight wide column">
-    <div class="ui form">
-      <div class="field">
-        <label>Filter By Interests
-          
-          <span style="float: right">
-            <label><strong>OR</strong></label>
-            <div class="ui slider checkbox" id="slider">
-              <input type="checkbox" name="newsletter">
-              <label>AND</label>
-            </div>
-          </span>
-
-        </label>
-        <select name="interests" class="ui selection dropdown" multiple="" id="select-interest"></select>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
 <hr>
 <br>
 <script type="text/javascript">
   var targetLevel = "{{ include.level }}".toLowerCase();
 </script>
-<script type="text/javascript" src="/js/filter-interest.js"></script>

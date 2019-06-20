@@ -24,10 +24,3 @@ include: [_data]
 
 
 theme: jekyll-theme-slate
-
-plugins:
-  - jekyll-get-json
-
-jekyll_get_json:
-  - data: foo
-    json: 'https://example.com/data.json'
