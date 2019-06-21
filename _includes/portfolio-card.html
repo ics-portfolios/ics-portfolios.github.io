@@ -1,51 +1,53 @@
 <script>
-  window.onload = function () {
-    var data;
-    fetch('https://dport96.github.io/_data/bio.json')
-      .then(
-        function (response) {
-          if (response.status !== 200) {
-            console.log('Looks like there was a problem. Status Code: ' +
-              response.status);
-            return;
-          }
-
-          // Examine the text in the response
-          response.json().then(function (data) {
-            console.log(data);
-            document.getElementById('pname').innerHTML = data.basics.name;
-          });
+  fetch('{{ member_json_bio }}/_data/bio.json')
+    .then(
+      function (response) {
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+            response.status);
+            document.getElementById('{{ member_json_bio }}').style.display = "none";
+          return;
         }
-      )
-      .catch(function (err) {
-        console.log('Fetch Error :-S', err);
-      });
-  };
+
+        // Examine the text in the response
+        response.json().then(function (data) {
+          // console.log(data);
+          // Got the JSON resume, populate the profile 
+          document.getElementById('{{ member_json_bio }}_name').innerHTML = data.basics.name;
+          document.getElementById('{{ member_json_bio }}_label').innerHTML = data.basics.label;
+          document.getElementById('{{ member_json_bio }}_picture').src = data.basics.picture;
+          converter = new showdown.Converter();
+          document.getElementById('{{ member_json_bio }}_summary').innerHTML =  converter.makeHtml(data.basics.summary);
+          document.getElementById('{{ member_json_bio }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
+          document.getElementById('{{ member_json_bio }}_website').href = data.basics.website;
+        });
+      }
+    )
+    .catch(function (err) {
+      console.log('Fetch Error :-S', err);
+      document.getElementById('{{ member_json_bio }}').style.display = "none";
+    });
 </script>
-
-
-<div class="ui card" id="{{ portfolio.username }}">
+<div class="ui card" id="{{ member_json_bio }}">
   <div class="content">
-    <img class="right floated tiny ui image" style="width:80px;height:80px;" src="{{ portfolio.basics.picture }}">
-    <div class="header" id="pname">
-
+    <img class="right floated tiny ui image" id="{{ member_json_bio }}_picture" style="width:80px;height:80px;" src="">
+    <div class="header" id="{{ member_json_bio }}_name">
+      Name
     </div>
-    <div class="meta">
-      {{ portfolio.basics.label }}
+    <div class="meta" id="{{ member_json_bio }}_label">
+      Label
     </div>
-    <div class="description">
-      {{ portfolio.basics.summary | markdownify }}
+    <div class="description" id="{{ member_json_bio }}_summary">
+      Summary
     </div>
   </div>
   <div class="extra content">
     Interests:
-    <div class="interests">
-      {% for interest in portfolio.interests %}
-      {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-      {% endfor %}
+    <div class="interests" id="{{ member_json_bio }}_interests">
+      Interest1, Interests2, ...
     </div>
   </div>
-  <a class="ui bottom attached button" href="{{ portfolio.basics.website }}">
+  <a class="ui bottom attached button" id="{{ member_json_bio }}_website" href="">
     <i class="" ass="external icon"></i>
     See portfolio
   </a>

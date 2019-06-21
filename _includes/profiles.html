@@ -1,18 +1,9 @@
+<script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.1/dist/showdown.min.js"></script>
+
 <div class="ui container ">
-  {% include filter.html level = include.level %}
   <div class="ui four doubling stackable cards">
-  	{% if include.level == "all" %}
-			{% assign portfolios = site.data.bios %}
-		{% else %}
-			{% assign portfolios = site.data.bios | where: "basics.label", include.level  %}
-		{% endif %}    
-    {% for portfolio_hash in portfolios %}
-      {% assign portfolio = portfolio_hash[1] %}
-      {% include portfolio-card.html portfolio=portfolio %}
+    {% for member_json_bio in site.data.members %}
+    {% include portfolio-card.html member_json_bio=member_json_bio %}
     {% endfor %}
   </div>
 </div>
-
-<script type="text/javascript" src="/js/google-sheet-api.js"></script>
-<script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
-<script type="text/javascript" src="/js/telemetry.js"></script>
