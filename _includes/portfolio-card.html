@@ -5,7 +5,7 @@
         if (response.status !== 200) {
           console.log('Looks like there was a problem. Status Code: ' +
             response.status);
-            document.getElementById('{{ member_json_bio }}').style.display = "none";
+          document.getElementById('{{ member_json_bio }}').style.display = "none";
           return;
         }
 
@@ -17,7 +17,7 @@
           document.getElementById('{{ member_json_bio }}_label').innerHTML = data.basics.label;
           document.getElementById('{{ member_json_bio }}_picture').src = data.basics.picture;
           converter = new showdown.Converter();
-          document.getElementById('{{ member_json_bio }}_summary').innerHTML =  converter.makeHtml(data.basics.summary);
+          document.getElementById('{{ member_json_bio }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
           document.getElementById('{{ member_json_bio }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
           document.getElementById('{{ member_json_bio }}_website').href = data.basics.website;
         });
