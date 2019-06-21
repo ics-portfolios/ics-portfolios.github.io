@@ -10,9 +10,12 @@
         }
 
         // Examine the text in the response
-        response.json().then(function (data) {
+        response.text().then(function (rdata) {
+
+          const data = dJSON.parse(rdata);
+
           // console.log(data);
-          // Got the JSON resume, populate the profile 
+          // Got the JSON resume, populate the profile
           document.getElementById('{{ member_json_bio }}_name').innerHTML = data.basics.name;
           document.getElementById('{{ member_json_bio }}_label').innerHTML = data.basics.label;
           document.getElementById('{{ member_json_bio }}_picture').src = data.basics.picture;
