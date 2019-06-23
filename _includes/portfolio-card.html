@@ -1,7 +1,5 @@
 <script>
-  fetch('{{ member_json_bio }}/_data/bio.json', {
-  credentials: 'include', // Useful for including session ID (and, IIRC, authorization headers)
-})
+  fetch('{{ member_json_bio }}/_data/bio.json')
     .then(
       function (response) {
         if (response.status !== 200) {
