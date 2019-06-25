@@ -1,4 +1,4 @@
-{% assign profileURL = {{ member_json_bio | remove: "https://" }} %}
+{% assign profileURL = member_json_bio | remove: "https://" %}
 
 <script>
   fetch('https//{{ profileURL }}/_data/bio.json')
