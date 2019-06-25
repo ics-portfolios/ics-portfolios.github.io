@@ -21,6 +21,7 @@
           document.getElementById('{{ profileURL }}_name').innerHTML = data.basics.name;
           document.getElementById('{{ profileURL }}_label').innerHTML = data.basics.label;
           document.getElementById('{{ profileURL }}_picture').src = data.basics.picture.replace(/^http:\/\//i, 'https://');
+          console.log(data.basics.picture, data.basics.picture.replace(/^http:\/\//i, 'https://'));
           converter = new showdown.Converter();
           document.getElementById('{{ profileURL }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
           document.getElementById('{{ profileURL }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
