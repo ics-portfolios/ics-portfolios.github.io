@@ -1,11 +1,15 @@
+{% profileURL %}
+{{ member_json_bio | remove: "https://" }}
+{% endcapture %}
+
 <script>
-  fetch('{{ member_json_bio }}/_data/bio.json')
+  fetch('https//{{ profileURL }}/_data/bio.json')
     .then(
       function (response) {
         if (response.status !== 200) {
           console.log('Looks like there was a problem. Status Code: ' +
             response.status);
-          document.getElementById('{{ member_json_bio }}').style.display = "none";
+          document.getElementById('{{ profileURL }}').style.display = "none";
           return;
         }
 
@@ -16,41 +20,41 @@
 
           // console.log(data);
           // Got the JSON resume, populate the profile
-          document.getElementById('{{ member_json_bio }}_name').innerHTML = data.basics.name;
-          document.getElementById('{{ member_json_bio }}_label').innerHTML = data.basics.label;
-          document.getElementById('{{ member_json_bio }}_picture').src = data.basics.picture;
+          document.getElementById('{{ profileURL }}_name').innerHTML = data.basics.name;
+          document.getElementById('{{ profileURL }}_label').innerHTML = data.basics.label;
+          document.getElementById('{{ profileURL }}_picture').src = data.basics.picture;
           converter = new showdown.Converter();
-          document.getElementById('{{ member_json_bio }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
-          document.getElementById('{{ member_json_bio }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
-          document.getElementById('{{ member_json_bio }}_website').href = data.basics.website;
+          document.getElementById('{{ profileURL }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
+          document.getElementById('{{ profileURL }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
+          document.getElementById('{{ profileURL }}_website').href = data.basics.website;
         });
       }
     )
     .catch(function (err) {
       console.log('Fetch Error :-S', err);
-      document.getElementById('{{ member_json_bio }}').style.display = "none";
+      document.getElementById('{{ profileURL }}').style.display = "none";
     });
 </script>
-<div class="ui card" id="{{ member_json_bio }}">
+<div class="ui card" id="{{ profileURL }}">
   <div class="content">
-    <img class="right floated tiny ui image" id="{{ member_json_bio }}_picture" style="width:80px;height:80px;" src="">
-    <div class="header" id="{{ member_json_bio }}_name">
+    <img class="right floated tiny ui image" id="{{ profileURL }}_picture" style="width:80px;height:80px;" src="">
+    <div class="header" id="{{ profileURL }}_name">
       Name
     </div>
-    <div class="meta" id="{{ member_json_bio }}_label">
+    <div class="meta" id="{{ profileURL }}_label">
       Label
     </div>
-    <div class="description" id="{{ member_json_bio }}_summary">
+    <div class="description" id="{{ profileURL }}_summary">
       Summary
     </div>
   </div>
   <div class="extra content">
     Interests:
-    <div class="interests" id="{{ member_json_bio }}_interests">
+    <div class="interests" id="{{ profileURL }}_interests">
       Interest1, Interests2, ...
     </div>
   </div>
-  <a class="ui bottom attached button" id="{{ member_json_bio }}_website" href="">
+  <a class="ui bottom attached button" id="{{ profileURL }}_website" href="">
     <i class="" ass="external icon"></i>
     See portfolio
   </a>
