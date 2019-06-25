@@ -1,6 +1,4 @@
-{% capture profileURL %}
-{{ member_json_bio | remove: "https://" }}
-{% endcapture %}
+{% capture profileURL %}{{ member_json_bio | remove: "https://" }}{% endcapture %}
 
 <script>
   fetch('https//{{ profileURL }}/_data/bio.json')
