@@ -23,8 +23,9 @@
           var el = document.createElement('a');
           el.href = data.basics.picture;
           el.protocol = 'https:';
-          el.hostname = '{{ profileURL }}';
-          
+          if(!el.hostname) { 
+            el.hostname = '{{ profileURL }}'; 
+            }
           document.getElementById('{{ profileURL }}_picture').src = el.href;
           // data.basics.picture.replace(/^http:\/\//i, 'https://');
           converter = new showdown.Converter();
