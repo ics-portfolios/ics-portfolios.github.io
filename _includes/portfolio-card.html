@@ -24,7 +24,7 @@
           el.href = data.basics.picture;
           el.protocol = 'https:';
           console.log('el.hostname = ' + el.hostname);
-          if(el.hostname == '') { 
+          if(el.hostname != '{{ profileURL }}') { 
             el.hostname = '{{ profileURL }}'; 
             }
           document.getElementById('{{ profileURL }}_picture').src = el.href;
