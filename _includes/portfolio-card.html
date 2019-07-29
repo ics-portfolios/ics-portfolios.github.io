@@ -23,7 +23,8 @@
           var el = document.createElement('a');
           el.href = data.basics.picture;
           el.protocol = 'https:';
-          if(!el.hostname) { 
+          console.log('el.hostname = ' + el.hostname);
+          if(el.hostname == '') { 
             el.hostname = '{{ profileURL }}'; 
             }
           document.getElementById('{{ profileURL }}_picture').src = el.href;
