@@ -24,10 +24,15 @@
           el.href = data.basics.picture;
           el.protocol = 'https:';
           console.log('el.hostname = ' + el.hostname);
-          if(el.hostname != '{{ profileURL }}') { 
+
+          if(el.hostname != '{{ profileURL }}' && el.hostname != 'image' ) { 
             el.hostname = '{{ profileURL }}'; 
-            }
+            } 
+          if(el.hostname != 'image') {   
           document.getElementById('{{ profileURL }}_picture').src = el.href;
+          } else {
+            document.getElementById('{{ profileURL }}_picture').src = data.basics.picture;
+          }
           // data.basics.picture.replace(/^http:\/\//i, 'https://');
           converter = new showdown.Converter();
           document.getElementById('{{ profileURL }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
