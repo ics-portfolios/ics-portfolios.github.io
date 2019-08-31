@@ -14,7 +14,7 @@
         // Examine the text in the response
         response.text().then(function (rdata) {
 
-          const data = dJSON.parse(rdata);
+          const data = JSON.parse(rdata);
 
           // console.log(data);
           // Got the JSON resume, populate the profile
