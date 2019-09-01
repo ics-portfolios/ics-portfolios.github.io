@@ -1,5 +1,21 @@
 {% assign profileURL = member_json_bio | remove: "https://" | remove "http://" %}
 
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var filtertextbox = $("#filter");
+      filtertextbox.keyup(function () {
+        var allCards = $(".card");
+        allCards.show();
+        var filteredCards = $(".card").not(":contains(" + filtertextbox.val() + ")");
+        filteredCards.hide();
+        $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
+      });
+    });
+  </script>
+</head>
+
 <script>
   fetch('https://{{ profileURL }}/_data/bio.json')
     .then(
@@ -23,11 +39,11 @@
           var el = document.createElement('a');
           el.href = data.basics.picture;
           el.protocol = 'https:';
-          if(el.hostname != '{{ profileURL }}' && el.hostname != 'image' ) { 
-            el.hostname = '{{ profileURL }}'; 
-            } 
-          if(el.hostname != 'image' && !data.basics.picture.includes('https://')) {   
-          document.getElementById('{{ profileURL }}_picture').src = el.href;
+          if (el.hostname != '{{ profileURL }}' && el.hostname != 'image') {
+            el.hostname = '{{ profileURL }}';
+          }
+          if (el.hostname != 'image' && !data.basics.picture.includes('https://')) {
+            document.getElementById('{{ profileURL }}_picture').src = el.href;
           } else {
             document.getElementById('{{ profileURL }}_picture').src = data.basics.picture;
           }

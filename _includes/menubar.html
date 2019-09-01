@@ -2,4 +2,18 @@
   <a href="{{ site.baseurl }}/" class="brand item">
     Home
   </a>
+  <style>
+    #filter::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: lightgray;
+      opacity: 1;
+      font-size: 80%;  
+      font-style: italic;
+      /* Firefox */
+    }
+  </style>
+  <input type="text" id="filter" placeholder="show portfolios with">
+  <span class="brand item">
+    Showing {{ site.data.members.size }}&nbsp;/&nbsp;<span id="visiblePortfoliosNum">{{ site.data.members.size }}</span>
+  </span>
 </nav>
