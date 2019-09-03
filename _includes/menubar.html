@@ -1,36 +1,19 @@
-{% assign faculty = site.data.data | where: "level", "faculty"  %}
-{% assign undergrads = site.data.data | where: "level", "undergrad"  %}
-{% assign grads = site.data.data | where: "level", "grad"  %}
-{% assign alumni = site.data.data | where: "level", "alumni"  %}
-
 <nav class="ui stackable menu">
   <a href="{{ site.baseurl }}/" class="brand item">
-    ICS Portfolios
+    Home
   </a>
-  {% if undergrads.size > 0 %}
-  <a href="{{ site.baseurl }}/undergrads" class=" {% if include.active == "undergrad" %} active {% endif
-  %}item">B.A./B.S. ({{ undergrads.size }})</a>
-  {% endif %}
-
-  {% if grads.size > 0 %}
-  <a href="{{ site.baseurl }}/graduatestudents" class=" {% if include.active == "grad" %} active {% endif %}item">M.S./Ph.D. ({{
-  grads.size }})</a>
-  {% endif %}
-
-  {% if faculty.size > 0 %}
-  <a href="{{ site.baseurl }}/faculty" class=" {% if include.active == "faculty" %} active {% endif %}item">Faculty ({{
-  faculty.size }})</a>
-  {% endif %}
-
-  {% if alumni.size > -1 %}
-  <a href="{{ site.baseurl }}/alumni" class=" {% if include.active == "alumni" %} active {% endif %}item">Alumni ({{
-  alumni.size }})</a>
-  {% endif %}
-
-  <a href="{{ site.baseurl }}/all" class=" {% if include.active == "all" %} active {% endif %}item">All ({{
-  site.data.data.size }})</a>
-
-  <a href="{{ site.baseurl }}/notable" class=" {% if include.active == "notable" %} active {% endif %}item">
-  Notable ({{ site.data.notable-entries.size }})</a>
-
+  <style>
+    #filter::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: lightgray;
+      opacity: 1;
+      font-size: 80%;  
+      font-style: italic;
+      /* Firefox */
+    }
+  </style>
+  <input type="text" id="filter" placeholder="show portfolios with">
+  <span class="brand item">
+    Showing {{ site.data.members.size }}&nbsp;/&nbsp;<span id="visiblePortfoliosNum">{{ site.data.members.size }}</span>
+  </span>
 </nav>

@@ -8,24 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ics-portfolios/ics-portfolios.github.io.git"
+    "url": "git+https://github.com/dport96/mis-portfolios.git"
   },
   "author": "Philip Johnson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ics-portfolios/ics-portfolios.github.io/issues"
+    "url": "https://github.com/dport96/mis-portfolios/issues"
   },
   "bin": {
     "update_ics_portfolios": "update-ics-portfolios.js"
   },
-  "homepage": "https://github.com/ics-portfolios/ics-portfolios.github.io#readme",
+  "homepage": "https://github.com/dport96/mis-portfolios#readme",
   "dependencies": {
     "JSON2016": "^1.0.0",
     "async": "^2.1.2",
+    "dirty-json": "^0.7.0",
     "fs": "0.0.1-security",
     "fs-promise": "^0.5.0",
+    "json5": "^2.1.0",
     "jsonfile": "^2.4.0",
     "jsonic": "^0.2.2",
+    "relaxed-json": "^1.0.3",
     "request": "^2.74.0",
     "underscore": "^1.8.3"
   }

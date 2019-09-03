@@ -1,25 +1,12 @@
-# ICS Portfolios
+# MIS Portfolios
 
-A simple web application to display the professional portfolios for students, faculty, and staff in the ICS Department.
+A simple web application to display the professional portfolios for MIS students, faculty, and staff.
 
-## Installation
+## Use
 
-First, [install node](https://nodejs.org/en/).
- 
-Second, install the `update_ics_portfolios` shell script locally:
- 
- ```
- npm install
- sudo npm link
- ```
+See (E0: Create an MIS Portfolio)[https://dport96.github.io/ITM352/morea/010.introduction/experience-MIS-portfolio.html]
 
-To test your installation, invoke update_ics_portfolios:
-
-```
-update_ics_portfolios
-```
-
-
+Portfolio gallery at (https://dport96.github.io/mis-portfolios/) 
 
 
 

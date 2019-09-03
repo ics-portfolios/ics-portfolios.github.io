@@ -2,11 +2,11 @@
 
 # REQUIRED CHANGES
 # Edit next line, providing your own name.
-title: ICS Portfolios
+title: MIS Portfolios
 # Edit next line, replacing 'techfolios' with your github username
-url: "https://ics-portfolios.github.io"
+url: "https://dport96.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+baseurl: "/mis-portfolios"
 
 # OPTIONAL CHANGES
 # You might want to change the bio page label to something else, such as CV
@@ -22,3 +22,5 @@ theme-bio: theme-bio-builtin-2-pj.html
 markdown: kramdown
 include: [_data]
 
+
+theme: jekyll-theme-slate

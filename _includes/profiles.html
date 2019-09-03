@@ -1,16 +1,16 @@
+<script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.1/dist/showdown.min.js"></script>
+<script src="{{ site.baseurl }}/js/bundle.js"></script>
+<script>
+  // const dJSON = require('dirty-json');
+  // const RJSON = require('relaxed-json');
+  // const JSON5 = require('json5');
+</script>
+
+</script>
 <div class="ui container ">
-  {% include filter.html level = include.level %}
   <div class="ui four doubling stackable cards">
-  	{% if include.level == "all" %}
-			{% assign portfolios = site.data.data %}
-		{% else %}
-			{% assign portfolios = site.data.data | where: "level", include.level  %}
-		{% endif %}    
-    {% for portfolio in portfolios %}
-      {% include portfolio-card.html portfolio=portfolio %}
+    {% for member_json_bio in site.data.members %}
+    {% include portfolio-card.html member_json_bio=member_json_bio %}
     {% endfor %}
   </div>
 </div>
-<script type="text/javascript" src="/js/google-sheet-api.js"></script>
-<script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
-<script type="text/javascript" src="/js/telemetry.js"></script>

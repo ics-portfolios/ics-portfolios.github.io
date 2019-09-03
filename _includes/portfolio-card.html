@@ -1,25 +1,91 @@
-<div class="ui card" id="{{ portfolio.username }}">
-    <div class="content">
-      <img class="right floated tiny ui image" src="{{ portfolio.picture }}">
-      <div class="header">
-        {{ portfolio.name }}
-      </div>
-      <div class="meta">
-        {{ portfolio.label }}
-      </div>
-      <div class="description">
-        {{ portfolio.summary | markdownify }}
-      </div>
+{% assign profileURL = member_json_bio | remove: "https://" | remove "http://" %}
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $.expr[":"].contains = $.expr.createPseudo(function (arg) {
+        return function (elem) {
+          return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+        };
+      });
+
+      var filtertextbox = $("#filter");
+      filtertextbox.keyup(function () {
+        var allCards = $(".card");
+        allCards.show();
+        var filteredCards = $(".card").not(":contains(" + filtertextbox.val() + ")");
+        filteredCards.hide();
+        $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
+      });
+    });
+  </script>
+</head>
+
+<script>
+  fetch('https://{{ profileURL }}/_data/bio.json')
+    .then(
+      function (response) {
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+            response.status);
+          document.getElementById('{{ profileURL }}').style.display = "none";
+          return;
+        }
+
+        // Examine the text in the response
+        response.text().then(function (rdata) {
+
+          const data = JSON.parse(rdata);
+
+          // console.log(data);
+          // Got the JSON resume, populate the profile
+          document.getElementById('{{ profileURL }}_name').innerHTML = data.basics.name;
+          document.getElementById('{{ profileURL }}_label').innerHTML = data.basics.label;
+          var el = document.createElement('a');
+          el.href = data.basics.picture;
+          el.protocol = 'https:';
+          if (el.hostname != '{{ profileURL }}' && el.hostname != 'image') {
+            el.hostname = '{{ profileURL }}';
+          }
+          if (el.hostname != 'image' && !data.basics.picture.includes('https://')) {
+            document.getElementById('{{ profileURL }}_picture').src = el.href;
+          } else {
+            document.getElementById('{{ profileURL }}_picture').src = data.basics.picture;
+          }
+          // data.basics.picture.replace(/^http:\/\//i, 'https://');
+          converter = new showdown.Converter();
+          document.getElementById('{{ profileURL }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
+          document.getElementById('{{ profileURL }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
+          document.getElementById('{{ profileURL }}_website').href = data.basics.website;
+        });
+      }
+    )
+    .catch(function (err) {
+      console.log('Fetch Error :-S', err);
+      document.getElementById('{{ profileURL }}').style.display = "none";
+    });
+</script>
+<div class="ui card" id="{{ profileURL }}">
+  <div class="content">
+    <img class="right floated tiny ui image" id="{{ profileURL }}_picture" style="width:80px;height:80px;" src="">
+    <div class="header" id="{{ profileURL }}_name">
+      Name
     </div>
-    <div class="extra content">
-      Interests:
-      <div class="interests">
-        {% for interest in portfolio.interests %}
-        {{ interest }}{% if forloop.last != true %}, {% endif %}
-        {% endfor %}
-      </div>
+    <div class="meta" id="{{ profileURL }}_label">
+      Label
     </div>
-  <a class="ui bottom attached button" href="{{ portfolio.website }}">
+    <div class="description" id="{{ profileURL }}_summary">
+      Summary
+    </div>
+  </div>
+  <div class="extra content">
+    Interests:
+    <div class="interests" id="{{ profileURL }}_interests">
+      Interest1, Interests2, ...
+    </div>
+  </div>
+  <a class="ui bottom attached button" id="{{ profileURL }}_website" href="">
     <i class="" ass="external icon"></i>
     See portfolio
   </a>
