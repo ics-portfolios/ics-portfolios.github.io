@@ -11,7 +11,7 @@
       });
 
       var filtertextbox = $("#filter");
-      filtertextbox.keyup(function () {
+      filtertextbox.keyup(async function () {
         var allCards = $(".card");
         allCards.show();
         var filteredCards = $(".card").not(":contains(" + filtertextbox.val() + ")");
