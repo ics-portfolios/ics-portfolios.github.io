@@ -4,6 +4,33 @@
   // const dJSON = require('dirty-json');
   // const RJSON = require('relaxed-json');
   // const JSON5 = require('json5');
+/*
+  $(document).ready(function () {
+    var profileCards = $('.card');
+    var sortList = Array.prototype.sort.bind(profileCards);
+    console.log(sortList);
+
+    sortList(function (a, b) {
+
+      // Cache inner content from the first element (a) and the next sibling (b)
+      var aText = document.getElementById(a.id + '_name').innerHTML;
+      var bText = document.getElementById(b.id + '_name').innerHTML;
+
+      // Returning -1 will place element `a` before element `b`
+      if (aText < bText) {
+        return -1;
+      }
+
+      // Returning 1 will do the opposite
+      if (aText > bText) {
+        return 1;
+      }
+
+      // Returning 0 leaves them as-is
+      return 0;
+    });
+  });
+  */
 </script>
 
 </script>
