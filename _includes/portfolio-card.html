@@ -10,14 +10,29 @@
         };
       });
 
+      var typingTimer;                //timer identifier
+      var doneTypingInterval = 250;  //time in ms, 1 second for example
+
       var filtertextbox = $("#filter");
-      filtertextbox.keyup(async function () {
-        var allCards = $(".card");
-        allCards.show();
-        var filteredCards = $(".card").not(":contains(" + filtertextbox.val() + ")");
-        filteredCards.hide();
-        $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
+      filtertextbox.keyup(function () {
+        clearTimeout(typingTimer);
+        typingTimer = setTimeout(filterCards, doneTypingInterval);
       });
+
+      filtertextbox.keydown(function () {
+        clearTimeout(typingTimer);
+      });
+
+      function filterCards() {
+       // setTimeout(function () {
+          var allCards = $(".card");
+          allCards.show();
+          var filteredCards = $(".card").not(":contains(" + filtertextbox.val() + ")");
+          filteredCards.hide();
+          $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
+       // }, 0);
+      }
+
     });
   </script>
 </head>
