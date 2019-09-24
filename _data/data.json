@@ -140,6 +140,7 @@
   {
     "last": "asato",
     "techfolio": "tylerz1443.github.io",
+    "picture": "https://tylerz1443.github.io/images/20180222_102527.jpg",
     "level": "undergrad",
     "name": "Tyler Asato",
     "label": "Student",
@@ -147,7 +148,6 @@
     "website": "https://tylerz1443.github.io",
     "username": "tylerz1443",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
-    "picture": "https:///images/20180222_102527.jpg",
     "interests": [
       "game design",
       "web development",
@@ -1202,6 +1202,7 @@
   {
     "last": "decker",
     "techfolio": "dylandecker.github.io",
+    "picture": "https://dylandecker.github.io/images/IMG_4277.JPG",
     "level": "undergrad",
     "name": "Dylan Decker",
     "label": "Student",
@@ -1209,7 +1210,6 @@
     "website": "https://dylandecker.github.io",
     "username": "dylandecker",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2021.",
-    "picture": "https://../images/IMG_4277.JPG",
     "interests": [
       "Software Engineering"
     ]
@@ -1217,6 +1217,7 @@
   {
     "last": "delossantos",
     "techfolio": "rexter-ds.github.io",
+    "picture": "https://rexter-ds.github.io/images/profile-pic.jpg",
     "level": "undergrad",
     "name": "Rexter Delos Santos",
     "label": "Student",
@@ -1224,7 +1225,6 @@
     "website": "https://rexter-ds.github.io",
     "username": "rexter-ds",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2021.",
-    "picture": "https://../images/profile-pic.jpg",
     "interests": [
       "Game development",
       "Robotics"
@@ -1493,6 +1493,7 @@
   {
     "last": "eltagonde",
     "techfolio": "kiarae99.github.io",
+    "picture": "https://kiarae99.github.io/images/fullsizeoutput_4f0.jpeg",
     "level": "undergrad",
     "name": "Kiara Eltagonde",
     "label": "Student",
@@ -1500,7 +1501,6 @@
     "website": "http://kiarae99.github.io",
     "username": "kiarae99",
     "summary": "I am studying for a B.A. in Information and Computer Science with a focus in Security Sciences in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2021.",
-    "picture": "https://../images/fullsizeoutput_4f0.jpeg",
     "interests": [
       "Outrigger Paddling",
       "music",
@@ -2481,7 +2481,7 @@
     "website": "https://jayryanj.github.io",
     "username": "jayryanj",
     "summary": "Undergraduate student at the University of Hawaii at Manoa pursuing a BS in Computer Science - Security Science (Expected: Fall 2021) and an aspiring security engineer/researcher.",
-    "picture": "https://images/portrait.jpg",
+    "picture": "https://jayryanj.github.io/images/portrait.jpg",
     "interests": [
       "Computer Networking",
       "Software Engineering",
@@ -3307,6 +3307,7 @@
   {
     "last": "lau",
     "level": "undergrad",
+    "picture": "https://jklaulau.github.io/images/github%20selfie%20v2.jpg",
     "techfolio": "jklaulau.github.io",
     "name": "James Lau",
     "label": "Student",
@@ -3314,7 +3315,6 @@
     "website": "https://jklaulau.github.io",
     "username": "jklaulau",
     "summary": "I am studying for a BS Computer Science - Security Science Track in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
-    "picture": "https://images/github selfie v2.jpg",
     "interests": [
       "software engineering",
       "data management",

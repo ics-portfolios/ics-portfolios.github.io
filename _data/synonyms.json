@@ -6,6 +6,7 @@
       "algorithm",
       "Theory of Computation",
       "Cellular Automata",
+      "quantitative analysis",
       "biocomputing"
     ]
   },
@@ -15,6 +16,9 @@
     [
       "graphic",
       "Writing",
+      "creative processes",
+      "children illustration",
+      "audio engineering",
       "Miniatures",
       "watching youtube videos",
       "Cross Stitch",
@@ -60,6 +64,7 @@
       "ai",
       "Computer learning",
       "Language Recognition",
+      "Sentiment analysis",
       "language process",
       "Vision Processing",
       "feature recognition",
@@ -109,6 +114,7 @@
       "Analytics",
       "human computer interaction",
       "Scientific simulation",
+      "Simulation",
       "Technology"
     ]
   },
@@ -127,6 +133,7 @@
       "game",
       "Hearthstone",
       "animation",
+      "MMO",
       "gamif"
     ]
   },
@@ -136,12 +143,14 @@
     [
       "drone",
       "electronics",
+      "raspberry pi",
       "Home Automation",
       "hardware",
       "DIY Maker",
       "Cars",
       "building",
       "semiconductor",
+      "home lab",
       "robot",
       "Arduino",
       "Vehicle performance tuning",
@@ -170,6 +179,7 @@
     [
       "Intelligence",
       "Air Force",
+      "Cyber Warfare",
       "Geospatial Intelligence Analysis",
       "Lidar"
     ]
@@ -183,6 +193,7 @@
       "music",
       "eating",
       "gaming",
+      "Beach",
       "personal",
       "social media",
       "food",
@@ -219,9 +230,11 @@
       "Device to Device Communication",
       "iot",
       "internet of things",
+      "internet",
       "information technolog",
       "AWS",
       "cloud computing",
+      "Cloud",
       "it",
       "Servers",
       "Technology Integration"
@@ -269,6 +282,8 @@
       "probability",
       "Space",
       "astronomy",
+      "Climate Change",
+      "environmental engineering",
       "astrometry",
       "Research",
       "biol",
@@ -281,7 +296,9 @@
     [
       "security",
       "defense",
+      "Malware Analysis",
       "Pentesting",
+      "Cyber Secuirty",
       "Cryptography",
       "CTF competitions",
       "Information Assurance",
@@ -294,7 +311,9 @@
     [
       "exercis",
       "Baseball",
+      "Outrigger Paddling",
       "sport",
+      "Archery",
       "Surfing",
       "Bicyce Racing",
       "Weightlifting",
@@ -330,8 +349,11 @@
 		"synonyms":
 		[
 			"software engineer",
+      "user experience",
       "",
       "API Development",
+      "application development",
+      "Sotware Engineering",
       "Sofware Engineering",
 			"software develop",
       "electrical engineering",
@@ -370,6 +392,8 @@
     [
       "architect",
       "distributed",
+      "Containerization",
+      "Kubernetes",
       "Simulations",
       "Automation",
       "system",
@@ -397,6 +421,8 @@
 		[
 			"web dev",
       "website development",
+      "Front End Development",
+      "Front end development",
       "Web-Developement",
       "Front-End Development",
       "App-development ",

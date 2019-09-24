@@ -3,6 +3,12 @@
     "level": "faculty",
     "data": [
       {
+        "interest": "Computer Science",
+        "names": [
+          "henricasanova"
+        ]
+      },
+      {
         "interest": "Games and Game Development",
         "names": [
           "philipmjohnson"
@@ -14,6 +20,12 @@
           "www2",
           "henricasanova",
           "www2"
+        ]
+      },
+      {
+        "interest": "Science",
+        "names": [
+          "philipmjohnson"
         ]
       },
       {
@@ -38,7 +50,6 @@
       {
         "interest": "System Design",
         "names": [
-          "henricasanova",
           "henricasanova"
         ]
       },
@@ -603,6 +614,8 @@
           "kevinkawa",
           "joshuaccl",
           "markpm808",
+          "brendtmcfeeley",
+          "brendtmcfeeley",
           "keanur",
           "arnoldshek",
           "kekupua",
@@ -669,6 +682,7 @@
       {
         "interest": "Art and Culture",
         "names": [
+          "crisnow",
           "wengdg"
         ]
       },
@@ -802,6 +816,7 @@
           "ryutokitagawa",
           "markm24",
           "cemclaughlin",
+          "ryotabs",
           "morganstremick",
           "seanytak",
           "weneddie"
@@ -836,6 +851,7 @@
           "vgerber614",
           "tregelacio",
           "creighton-gorai",
+          "hermantw",
           "wxh23285815",
           "jiajunk",
           "dkihe",
@@ -877,6 +893,7 @@
           "leishask",
           "hyosuns",
           "hyosuns",
+          "isaiahstarkey",
           "jeffsuen",
           "kellikt",
           "kirsten0604",
@@ -982,6 +999,7 @@
           "dvntaka",
           "zicero",
           "ntomchak",
+          "ntomchak",
           "jltu",
           "jltu",
           "rebeccavatnebryn",
@@ -1025,9 +1043,11 @@
         "names": [
           "maiabe",
           "johnbigornia",
+          "corbenbroennimann",
           "zaxer2",
           "cruzjoshua",
           "brandondoan",
+          "ty-gwartney",
           "yusukemh",
           "jayryanj",
           "ronnie-kauanoe",
@@ -1114,6 +1134,7 @@
           "yusukemh",
           "wxh23285815",
           "wxh23285815",
+          "wxh23285815",
           "tysenimaitoyama",
           "rustyjacinto",
           "yuhanj",
@@ -1178,6 +1199,8 @@
           "rknakata",
           "narcisoa",
           "jordan-ooka",
+          "eric5rivera",
+          "eric5rivera",
           "asalazar46",
           "chriswon98",
           "andrewyagin",
@@ -1198,6 +1221,7 @@
           "acathers",
           "neezcha",
           "joshducey",
+          "kiarae99",
           "kiarae99",
           "brandonganeko",
           "ryan38",
@@ -1231,7 +1255,8 @@
         "interest": "Military/Intelligence Service",
         "names": [
           "christiancheshire",
-          "cruzjoshua"
+          "cruzjoshua",
+          "tallasgoo"
         ]
       },
       {
@@ -1291,8 +1316,10 @@
           "josephpalma",
           "cdrafael",
           "joelsikkink",
+          "willjsimmons",
           "connorslike",
           "connorslike",
+          "haochen-wang",
           "collinhw",
           "jygh98"
         ]
@@ -1320,6 +1347,7 @@
       {
         "interest": "Science",
         "names": [
+          "k-canaday",
           "christiancheshire",
           "dickensc",
           "neezcha",
@@ -1365,9 +1393,11 @@
           "gbfrancisco",
           "tallasgoo",
           "rosshiga",
+          "tosuzu1",
           "colinj23",
           "colinj23",
           "colinj23",
+          "jayryanj",
           "jayryanj",
           "nainoan",
           "jkasuya",
@@ -1475,6 +1505,7 @@
           "vjodar",
           "nainoan",
           "xandrewuh",
+          "xandrewuh",
           "jiajunk",
           "jkasuya",
           "kenkawano",
@@ -1513,6 +1544,7 @@
           "anamoca",
           "narcisoa",
           "peter-newton",
+          "timothynicdao",
           "romannicolai",
           "chris-nishimura",
           "chris-nishimura",
@@ -1545,6 +1577,7 @@
           "seanytak",
           "ken-10",
           "dubongen",
+          "rebeccavatnebryn",
           "leahmeiv",
           "leightonvillanueva",
           "jaweber808",
@@ -1565,9 +1598,11 @@
         "names": [
           "maiabe",
           "janeligio",
+          "kiarae99",
           "jasonhuang23",
           "weilelin123",
           "pakcharles",
+          "asalazar46",
           "jeffsuen",
           "awongway",
           "pauline-peihan-wu",
@@ -1595,7 +1630,6 @@
           "erbot",
           "darius-despain",
           "tregelacio",
-          "ty-gwartney",
           "ty-gwartney",
           "rosshiga",
           "kyho22",
@@ -1638,6 +1672,7 @@
           "deshay-clemons",
           "aerocraker",
           "janeligio",
+          "aljereno",
           "aljayf",
           "rfiggs",
           "victor-jr",
@@ -1650,6 +1685,7 @@
           "qiqing-luo",
           "sharieannem",
           "miraabela",
+          "natashameinzen",
           "sahramoseby",
           "mynatt",
           "jjnaga",
