@@ -92,7 +92,7 @@ function updateProfileEntry(bio) {
   if (!_.isEmpty(bio)) {
     // first, strip off the protocol part of the website entry.
     const bioUrl = bio.basics.website;
-    const email = bio.basics.email;
+    const { email } = bio.basics;
     const protocolIndex = _.indexOf(bioUrl, ':');
     const bioHostName = bioUrl.substring(protocolIndex + 3);
     const profileEntry = _.find(profileData, function makeEntry(entry) {
@@ -110,13 +110,13 @@ function updateProfileEntry(bio) {
           website,
           username,
           summary: bio.basics.summary,
-          picture: fixPicturePrefix(bio.basics.picture),
+          picture: bio.basics.picture ? fixPicturePrefix(bio.basics.picture) : '',
           interests: _.map(bio.interests, interest => interest.name),
         });
 
       // strip any trailing slash on website url
       profileEntry.website = profileEntry.website.replace(/\/$/, '');
-      const level = profileEntry.level;
+      const { level } = profileEntry;
 
       for (let i = 0; i < profileEntry.interests.length; i += 1) {
         filterInterest.groupInterest(profileEntry.interests[i], username, level);
