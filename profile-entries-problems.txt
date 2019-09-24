@@ -26,3 +26,24 @@
       "techfolio": "andku23.github.io",
       "level": "undergrad"
     },
+
+---------------
+Fall 2019
+
+Error: https://jnocampo.github.io/_data/bio.json
+        SyntaxError Expected "}" or key but "/" found., line: undefined
+
+Error: https://arslan-r.github.io/_data/bio.json
+    SyntaxError Expected end of input but "," found., line: undefined
+
+Error: https://brodyu.github.io/_data/bio.json
+    SyntaxError Expected ":" but " " found., line: undefined
+
+Error: https://lcaraang.github.io/_data/bio.json
+    SyntaxError Expected "[", "false", "null", "true", "{", [^,}\]], double-quote string, number or single-quote string but "}" found., line: undefined
+
+Could not find profile entry corresponding to mmaluhia.github.io (James Galway-Severtson)
+
+Error: https://michaeljohnson127.github.io/_data/bio.json
+    SyntaxError Expected end of input but "]" found., line: undefined
+
