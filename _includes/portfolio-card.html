@@ -13,13 +13,12 @@
       var typingTimer;                //timer identifier
       var doneTypingInterval = 250;  //time in ms, 1 second for example
 
-      var filtertextbox = $("#filter");
-      filtertextbox.keyup(function () {
+      $("#filter").keyup(function () {
         clearTimeout(typingTimer);
         typingTimer = setTimeout(filterCards, doneTypingInterval);
       });
 
-      filtertextbox.keydown(function () {
+      $("#filter").keydown(function () {
         clearTimeout(typingTimer);
       });
 
@@ -27,7 +26,7 @@
        // setTimeout(function () {
           var allCards = $(".card");
           allCards.show();
-          var filteredCards = $(".card").not(":contains(" + filtertextbox.val() + ")");
+          var filteredCards = $(".card").not(":contains(" + $("#filter").val() + ")");
           filteredCards.hide();
           $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
        // }, 0);
