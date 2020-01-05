@@ -36,12 +36,13 @@
 </script>
 {% for group in site.data.members %}
 <h2 style="text-align: center;">{{ group[0] }}</h2>
-{% endfor %}
 
 <div class="ui container ">
   <div class="ui four doubling stackable cards">
-    {% for member_json_bio in site.data.members.Instructors %}
+    {% for member_json_bio in site.data.members.group[0] %}
     {% include portfolio-card.html member_json_bio=member_json_bio %}
     {% endfor %}
   </div>
 </div>
+
+{% endfor %}
