@@ -37,7 +37,7 @@
 <h2 style="text-align: center;">Faculty</h2>
 <div class="ui container ">
   <div class="ui four doubling stackable cards">
-    {% for member_json_bio in site.data.members %}
+    {% for member_json_bio in site.data.members.Students %}
     {% include portfolio-card.html member_json_bio=member_json_bio %}
     {% endfor %}
   </div>
