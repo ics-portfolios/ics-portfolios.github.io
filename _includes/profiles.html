@@ -34,15 +34,7 @@
 </script>
 
 </script>
-<h2>Faculty</h2>
-<div class="ui container ">
-  <div class="ui four doubling stackable cards">
-    {% for member_json_bio in site.data.members %}
-    {% include portfolio-card.html member_json_bio=member_json_bio %}
-    {% endfor %}
-  </div>
-</div>
-<h2>Students</h2>
+<h2 style="text-align: center;">Faculty</h2>
 <div class="ui container ">
   <div class="ui four doubling stackable cards">
     {% for member_json_bio in site.data.members %}
