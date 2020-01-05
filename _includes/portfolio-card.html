@@ -22,6 +22,8 @@
         clearTimeout(typingTimer);
       });
 
+      $('#totalPortfoliosNum').text($(".card").length);
+
       function filterCards() {
        // setTimeout(function () {
           var allCards = $(".card");
