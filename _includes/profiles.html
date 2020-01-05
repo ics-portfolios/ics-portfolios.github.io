@@ -35,7 +35,8 @@
 
 </script>
 {% for group in site.data.members %}
-<h2 style="text-align: center;">{{ group }}</h2>
+{% assign group_name = group %}
+<h2 style="text-align: center;">{{ group_name }}</h2>
 {% endfor %}
 
 <div class="ui container ">
