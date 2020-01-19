@@ -38,7 +38,7 @@ layout: default
               for(let group in members) {
                 num_members += members[group].length;
               }
-              num_members_id.innerHTML = num_members;
+              document.getElementById("num_members_id").innerHTML = num_members;
             </script>
             <button class="ui small green fluid button">(<span id=num_members_id>0</span>) Members</button>
           </a>
