@@ -32,6 +32,7 @@ layout: default
       <div class="ui center aligned four column stackable grid content">
         <div class="column">
           <a href="{{ site.baseurl}}/all">
+            <button class="ui small green fluid button">(<span id=num_members_id>0</span>) Members</button>
             <script>
               var members = {{site.data.members | jsonify}}
               let num_members = 0;
@@ -40,7 +41,6 @@ layout: default
               }
               document.getElementById("num_members_id").innerHTML = num_members;
             </script>
-            <button class="ui small green fluid button">(<span id=num_members_id>0</span>) Members</button>
           </a>
         </div>
       </div>
