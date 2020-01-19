@@ -33,7 +33,7 @@ layout: default
         <div class="column">
           <a href="{{ site.baseurl}}/all">
             <script>
-              var myVar = {{site.data.members | json}}
+              var myVar = {{site.data.members}}
             </script>
             <button class="ui small green fluid button">({{ site.data.members.size }}) Members</button>
           </a>
