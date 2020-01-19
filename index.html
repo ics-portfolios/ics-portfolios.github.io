@@ -36,7 +36,7 @@ layout: default
               var members = {{site.data.members | jsonify}}
               let num_members = 0;
               for(let group in members) {
-                num_members += group.size;
+                num_members += members[group].size;
               }
               num_members_id = num_members;
             </script>
