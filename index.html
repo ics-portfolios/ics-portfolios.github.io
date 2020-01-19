@@ -32,6 +32,9 @@ layout: default
       <div class="ui center aligned four column stackable grid content">
         <div class="column">
           <a href="{{ site.baseurl}}/all">
+            <script>
+              var myVar = {{site.data.members | json}}
+            </script>
             <button class="ui small green fluid button">({{ site.data.members.size }}) Members</button>
           </a>
         </div>
