@@ -11,6 +11,7 @@ aaronj9@hawaii.edu
 achriste@hawaii.edu
 acvmf@hawaii.edu
 aduong2@hawaii.edu
+aeemmons@hawaii.edu
 aidana@hawaii.edu
 akirav@hawaii.edu
 akuloloi@hawaii.edu
@@ -100,6 +101,7 @@ davonm@hawaii.edu
 dclemons@hawaii.edu
 dcomiso@hawaii.edu
 ddespain@hawaii.edu
+deantf@hawaii.edu
 derekcn@hawaii.edu
 dkihe@hawaii.edu
 dkwock@hawaii.edu
@@ -152,6 +154,7 @@ isio@hawaii.edu
 istarkey@hawaii.edu
 jaketdk@hawaii.edu
 jameyia@hawaii.edu
+jatinp@hawaii.edu
 jaweber@hawaii.edu
 jayryanj@hawaii.edu
 jcamarao@hawaii.edu
@@ -194,6 +197,7 @@ johnson@hawaii.edu
 johnyap@hawaii.edu
 joliec@hawaii.edu
 jordanoo@hawaii.edu
+joshuabh@hawaii.edu
 joshuajw@hawaii.edu
 jpham79@hawaii.edu
 jrude@hawaii.edu
@@ -203,6 +207,8 @@ jsikkink@hawaii.edu
 jsn9@hawaii.edu
 jsome635@hawaii.edu
 jth9@hawaii.edu
+julianki@hawaii.edu
+justinhw@hawaii.edu
 jwu1100@gmail.com
 jx2@hawaii.edu
 jyim3@hawaii.edu
@@ -225,6 +231,7 @@ kim276@hawaii.edu
 kimmicah@hawaii.edu
 kkawa@hawaii.edu
 kkkawano@hawaii.edu
+kl26@hawaii.edu
 klauritz@hawaii.edu
 kleve84@hawaii.edu
 kobyv@hawaii.edu
@@ -236,6 +243,7 @@ kyleanak@hawaii.edu
 kylebali@hawaii.edu
 lavillan@hawaii.edu
 leahmei@hawaii.edu
+leanh@hawaii.edu
 leishask@hawaii.edu
 lenj@hawaii.edu
 levyjean@hawaii.edu
@@ -269,6 +277,7 @@ millarda@hawaii.edu
 mirabelamedallon@gmail.com
 mjg4@hawaii.edu
 mkurihar@hawaii.edu
+mlr2010@hawaii.edu
 molly@hawaii.edu
 mschultz@hawaii.edu
 mserafic@hawaii.edu
@@ -285,6 +294,7 @@ nchu277@hawaii.edu
 neelk@hawaii.edu
 neezcha@hawaii.edu
 nicolasl@hawaii.edu
+nk279@hawaii.edu
 nkko@hawaii.edu
 nkmp@hawaii.edu
 nlaranio@hawaii.edu
@@ -300,9 +310,11 @@ piniolk@hawaii.edu
 plemus@hawaii.edu
 pmccrind@hawaii.edu
 pnewton@hawaii.edu
+ppoochai@hawaii.edu
 qauchida@hawaii.edu
 qiqingl@hawaii.edu
 rao642@hawaii.edu
+rberbano@hawaii.edu
 rcammack@hawaii.edu
 rcard@hawaii.edu
 rexterds@hawaii.edu
@@ -317,6 +329,7 @@ ross@rosshiga.com
 rosskk@hawaii.edu
 ruizaj@hawaii.edu
 ryan38@hawaii.edu
+ryan73@hawaii.edu
 ryanell@hawaii.edu
 ryankkaw@hawaii.edu
 ryanli80@hawaii.edu
@@ -341,6 +354,7 @@ sjavella@hawaii.edu
 sm60@hawaii.edu
 smoseby@hawaii.edu
 sophiak8@hawaii.edu
+spjy@hawaii.edu
 srathyen@hawaii.edu
 sumidase@hawaii.edu
 sunnysiu@hawaii.edu
@@ -348,9 +362,11 @@ tasumida@hawaii.edu
 tcarson@hawaii.edu
 tdorn@hawaii.edu
 teramae8@hawaii.edu
+tgabatin@hawaii.edu
 tgelacio@hawaii.edu
 thinh851@hawaii.edu
 timoteos@hawaii.edu
+tinaloos@hawaii.edu
 tlc852@hawaii.edu
 tmnicdao@hawaii.edu
 torressm@hawaii.edu
@@ -358,6 +374,7 @@ ttejero@hawaii.edu
 tyg@hawaii.edu
 tylerk2@hawaii.edu
 tylerz@hawaii.edu
+tynwilli@hawaii.edu
 tyy21@hawaii.edu
 uc@hawaii.edu
 vgerber@hawaii.edu
@@ -395,3 +412,4 @@ yuting7@hawaii.edu
 zachayas@hawaii.edu
 zhenfeng@hawaii.edu
 zheth@hawaii.edu
+zijunlin@hawaii.edu
