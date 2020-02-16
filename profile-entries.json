@@ -153,11 +153,6 @@
     "level": "undergrad"
   },
   {
-    "last": "bui",
-    "techfolio": "wileybui.github.io",
-    "level": "undergrad"
-  },
-  {
     "last": "bulosan",
     "techfolio": "icsluke.github.io",
     "level": "undergrad"
@@ -221,11 +216,6 @@
   {
     "last": "castro",
     "techfolio": "mercedezcastro.github.io",
-    "level": "undergrad"
-  },
-  {
-    "last": "cathers",
-    "techfolio": "acathers.github.io",
     "level": "undergrad"
   },
   {
@@ -411,11 +401,6 @@
     "last": "dorn",
     "techfolio": "tylergdorn.github.io",
     "level": "alumni"
-  },
-  {
-    "last": "ducey",
-    "techfolio": "joshducey.github.io",
-    "level": "undergrad"
   },
   {
     "last": "duong",
@@ -1068,11 +1053,6 @@
   },
   {
     "last": "lin",
-    "techfolio": "hongbo-lin.github.io",
-    "level": "alumni"
-  },
-  {
-    "last": "lin",
     "techfolio": "klin6.github.io",
     "level": "undergrad"
   },
@@ -1255,11 +1235,6 @@
     "level": "alumni"
   },
   {
-    "last": "muraoka",
-    "techfolio": "blairmuraoka.github.io",
-    "level": "alumni"
-  },
-  {
     "last": "mynatt",
     "techfolio": "mynatt.github.io",
     "picture": "http://folio.micah.zone/images/photo.jpg",
@@ -1329,11 +1304,6 @@
   {
     "last": "nicdao",
     "techfolio": "timothynicdao.github.io",
-    "level": "undergrad"
-  },
-  {
-    "last": "nicolai",
-    "techfolio": "romannicolai.github.io",
     "level": "undergrad"
   },
   {
@@ -1419,11 +1389,6 @@
   {
     "last": "pang",
     "techfolio": "eppang.github.io",
-    "level": "undergrad"
-  },
-  {
-    "last": "park",
-    "techfolio": "hannaparkuh.github.io",
     "level": "undergrad"
   },
   {
@@ -1522,12 +1487,6 @@
     "last": "robles",
     "techfolio": "keanur.github.io",
     "level": "alumni"
-  },
-  {
-    "last": "reindle",
-    "techfolio": "creindle.github.io",
-    "level": "alumni",
-    "picture": "https://creindle.github.io/images/main.JPG"
   },
   {
     "last": "rude",
@@ -1876,11 +1835,6 @@
     "last": "white",
     "techfolio": "spyhi.github.io",
     "level": "alumni"
-  },
-  {
-    "last": "williams",
-    "techfolio": "keanuwilliams.github.io",
-    "level": "undergrad"
   },
   {
     "last": "wolfe",
