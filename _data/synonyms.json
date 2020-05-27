@@ -16,6 +16,14 @@
     [
       "graphic",
       "Writing",
+      "Browsing the Web",
+      "really bad puns",
+      "Analysis",
+      "Dogs",
+      "Poetry",
+      "Diversity in STEM",
+      "Travel",
+      "Well Crafted Cocktails",
       "creative processes",
       "children illustration",
       "audio engineering",
@@ -62,6 +70,9 @@
     [
       "artificial",
       "ai",
+      "Deep learning",
+      "Evolutionary Computation",
+      "Object Detection and Classification",
       "Computer learning",
       "Language Recognition",
       "Sentiment analysis",
@@ -142,6 +153,10 @@
     "synonyms":
     [
       "drone",
+      "Microcontrollers",
+      "Rasberry Pi",
+      "Sound Synthesis",
+      "IoT and Service Disovery",
       "electronics",
       "raspberry pi",
       "Home Automation",
@@ -179,6 +194,8 @@
     [
       "Intelligence",
       "Air Force",
+      "Military",
+      "satellites",
       "Cyber Warfare",
       "Geospatial Intelligence Analysis",
       "Lidar"
@@ -191,6 +208,7 @@
       "anime",
       "guitar",
       "music",
+      "learning new skills",
       "eating",
       "gaming",
       "Beach",
@@ -228,6 +246,7 @@
     [
       "network",
       "Device to Device Communication",
+      "Wireless Communication",
       "iot",
       "internet of things",
       "internet",
@@ -250,6 +269,7 @@
       "MacOS",
       "High Performance Computing",
       "high-performance computing",
+      "Parallel and Concurrent Computing",
       "unix"
     ]
   },
@@ -273,7 +293,10 @@
       "agriculture",
       "Biomimicry",
       "geospatial",
+      "Numerical Analysis",
+      "AR",
       "inferential statistics",
+      "Differential Equations and Linear Algebra",
       "Statistics",
       "science",
       "physics",
@@ -295,6 +318,7 @@
     "synonyms":
     [
       "security",
+      "online privacy",
       "defense",
       "Malware Analysis",
       "Pentesting",
@@ -311,6 +335,7 @@
     [
       "exercis",
       "Baseball",
+      "golf",
       "Outrigger Paddling",
       "sport",
       "Archery",
@@ -335,6 +360,7 @@
       "volunteer",
       "welfare",
       "education",
+      "Social Computing",
       "Social Good",
       "educat",
       "social justice",
@@ -351,6 +377,7 @@
 			"software engineer",
       "user experience",
       "",
+      "APIs",
       "API Development",
       "application development",
       "Sotware Engineering",
