@@ -3,6 +3,7 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
+
     $(document).ready(function () {
       $.expr[":"].contains = $.expr.createPseudo(function (arg) {
         return function (elem) {
@@ -26,13 +27,13 @@
       $('#visiblePortfoliosNum').text($(".card").length);
 
       function filterCards() {
-       // setTimeout(function () {
-          var allCards = $(".card");
-          allCards.show();
-          var filteredCards = $(".card").not(":contains(" + $("#filter").val() + ")");
-          filteredCards.hide();
-          $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
-       // }, 0);
+        // setTimeout(function () {
+        var allCards = $(".card");
+        allCards.show();
+        var filteredCards = $(".card").not(":contains(" + $("#filter").val() + ")");
+        filteredCards.hide();
+        $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
+        // }, 0);
       }
 
     });
@@ -52,8 +53,22 @@
 
         // Examine the text in the response
         response.text().then(function (rdata) {
+          var data;
+          try {
+            data = JSON.parse(rdata);
+          } catch (e) {
+            data = {
+              "basics": {
+                "name":"{{ profileURL }}",
+                "label":"Malformed JSON",
+                "picture":"../images/error3.png",
+                "summary":"Hey {{ profileURL }}, you have malformed JSON in your bio.json file. Better go fix this!",
+                "website":"https://{{ profileURL }}"
+              },
+              "interests":[]
+            };
+    }
 
-          const data = JSON.parse(rdata);
 
           // console.log(data);
           // Got the JSON resume, populate the profile
@@ -65,7 +80,7 @@
           if (el.hostname != '{{ profileURL }}' && el.hostname != 'image') {
             el.hostname = '{{ profileURL }}';
           }
-          if (el.hostname != 'image' && !data.basics.picture.includes('https://')) {
+          if (el.hostname != 'image' && !data.basics.picture.includes('https://') && !data.basics.picture.includes('error')) {
             document.getElementById('{{ profileURL }}_picture').src = el.href;
           } else {
             document.getElementById('{{ profileURL }}_picture').src = data.basics.picture;
@@ -79,7 +94,7 @@
       }
     )
     .catch(function (err) {
-      console.log('Fetch Error :-S', err);
+      console.log('Fetch Error :-S for {{ profileURL }}', err);
       document.getElementById('{{ profileURL }}').style.display = "none";
     });
 </script>
