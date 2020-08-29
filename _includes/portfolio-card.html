@@ -62,7 +62,7 @@
                 "name":"{{ profileURL }}",
                 "label":"Malformed JSON",
                 "picture":"../images/error3.png",
-                "summary":"Hey {{ profileURL }}, you have malformed JSON in your bio.json file.",
+                "summary":"Hey {{ profileURL }}, you have malformed JSON in your bio.json file. Better go fix this!",
                 "website":"https://{{ profileURL }}"
               },
               "interests":[]
@@ -80,7 +80,7 @@
           if (el.hostname != '{{ profileURL }}' && el.hostname != 'image') {
             el.hostname = '{{ profileURL }}';
           }
-          if (el.hostname != 'image' && !data.basics.picture.includes('https://')) {
+          if (el.hostname != 'image' && !data.basics.picture.includes('https://') && !data.basics.picture.includes('error')) {
             document.getElementById('{{ profileURL }}_picture').src = el.href;
           } else {
             document.getElementById('{{ profileURL }}_picture').src = data.basics.picture;
