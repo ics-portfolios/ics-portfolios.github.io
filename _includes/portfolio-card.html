@@ -3,6 +3,7 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
+
     $(document).ready(function () {
       $.expr[":"].contains = $.expr.createPseudo(function (arg) {
         return function (elem) {
@@ -26,13 +27,13 @@
       $('#visiblePortfoliosNum').text($(".card").length);
 
       function filterCards() {
-       // setTimeout(function () {
-          var allCards = $(".card");
-          allCards.show();
-          var filteredCards = $(".card").not(":contains(" + $("#filter").val() + ")");
-          filteredCards.hide();
-          $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
-       // }, 0);
+        // setTimeout(function () {
+        var allCards = $(".card");
+        allCards.show();
+        var filteredCards = $(".card").not(":contains(" + $("#filter").val() + ")");
+        filteredCards.hide();
+        $('#visiblePortfoliosNum').text(allCards.length - filteredCards.length);
+        // }, 0);
       }
 
     });
@@ -52,8 +53,22 @@
 
         // Examine the text in the response
         response.text().then(function (rdata) {
+          const data;
+          try {
+            data = JSON.parse(rdata);
+          } catch (e) {
+            data = {
+              "basics": {
+                "name":"{{ profileURL }}",
+                "label":"Malformed JSON",
+                "picture":"",
+                "summary":"You have malformed JSON in your bio.json file.",
+                "website":""
+              },
+              "interests":[]
+            };
+    }
 
-          const data = JSON.parse(rdata);
 
           // console.log(data);
           // Got the JSON resume, populate the profile
