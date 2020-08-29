@@ -53,7 +53,7 @@
 
         // Examine the text in the response
         response.text().then(function (rdata) {
-          const data;
+          var data;
           try {
             data = JSON.parse(rdata);
           } catch (e) {
