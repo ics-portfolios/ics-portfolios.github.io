@@ -42,6 +42,9 @@
 <div class="ui container ">
   <div class="ui four doubling stackable cards">
     {% assign members_group = group[1] | sort %}
+    <script>
+      console.log('{{ members_group }}', '{{ group[1] }}');
+    </script>
     {% for member_json_bio in members_group %}
     {% include portfolio-card.html member_json_bio=member_json_bio %}
     {% endfor %}
