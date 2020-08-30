@@ -41,7 +41,7 @@
 
 <div class="ui container ">
   <div class="ui four doubling stackable cards">
-    {% assign members_group = group[1] | sort %}
+    {% assign members_group = group[1] | downcase | sort %}
     <script>
       console.log('{{ members_group | join: ", " }}', ' **** ' , '{{ group[1] | join: ", " }}');
     </script>
