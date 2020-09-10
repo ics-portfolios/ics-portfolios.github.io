@@ -1182,12 +1182,13 @@
     "email": "dclemons@hawaii.edu",
     "website": "https://deshay-clemons.github.io",
     "username": "deshay-clemons",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2021.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2021.",
     "picture": "https://deshay-clemons.github.io/images/IMG_6403.jpg",
     "interests": [
       "programming",
       "web development",
-      "software engineering"
+      "software engineering",
+      "game development"
     ]
   },
   {
@@ -2796,7 +2797,7 @@
     "website": "https://jayryanj.github.io",
     "username": "jayryanj",
     "summary": "Undergraduate student at the University of Hawaii at Manoa pursuing a BS in Computer Science - Security Science (Expected: Fall 2021) and an aspiring security engineer/researcher.",
-    "picture": "https://jayryanj.github.io/images/portrait.jpg",
+    "picture": "https://jayryanj.github.io/images/portrait(new).jpg",
     "interests": [
       "Computer Networking",
       "Software Engineering",
@@ -6506,25 +6507,6 @@
       "Machine Learning",
       "Data Science",
       "Game Development"
-    ]
-  },
-  {
-    "last": "takanishi",
-    "techfolio": "kirsten0604.github.io",
-    "level": "alumni",
-    "name": "Kirsten Takanishi",
-    "label": "Software Developer",
-    "email": "khtakani@hawaii.edu",
-    "website": "https://kirsten0604.github.io",
-    "username": "kirsten0604",
-    "summary": "I have graduated with B.A. in Computer Science in the Department of Information and Computer Sciences, along with a minor in Business Administration at the University of Hawaii as of Fall 2019.",
-    "picture": "https://Kirsten0604.github.io/images/kirsten.jpg",
-    "interests": [
-      "Big Data",
-      "Malware Analysis",
-      "Pentesting",
-      "Machine Learning",
-      "AI Programming"
     ]
   },
   {
