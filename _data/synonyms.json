@@ -125,8 +125,12 @@
       "Analytics",
       "human computer interaction",
       "Scientific simulation",
+      "Scientific Simlator",
       "Simulation",
-      "Technology"
+      "Technology",
+      "Computer Operations",
+      "Maintenance",
+      "CI/CD"
     ]
   },
   {
@@ -303,6 +307,7 @@
       "Psychology",
       "psychology",
       "probability",
+      "cool stuff",
       "Space",
       "astronomy",
       "Climate Change",
@@ -310,7 +315,10 @@
       "astrometry",
       "Research",
       "biol",
-      "plants"
+      "plants",
+      "Radiology",
+      "Medicine",
+      "STEM"
     ]
   },
   {
@@ -459,6 +467,7 @@
 			"web",
 			"web app",
       "User Applications",
+      "full stack development",
       "Back-end Website Development"
 		]
 	}

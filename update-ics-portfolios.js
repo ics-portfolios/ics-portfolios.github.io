@@ -119,7 +119,9 @@ function updateProfileEntry(bio) {
       const { level } = profileEntry;
 
       for (let i = 0; i < profileEntry.interests.length; i += 1) {
-        filterInterest.groupInterest(profileEntry.interests[i], username, level);
+        if (profileEntry.interests[i]) {
+          filterInterest.groupInterest(profileEntry.interests[i], username, level);
+        }
       }
     } else {
       console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
