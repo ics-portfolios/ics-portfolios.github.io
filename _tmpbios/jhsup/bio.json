@@ -1,0 +1,14 @@
+{
+  "basics": {
+    "name": "Jennifer Hsu ",
+    "label": "CS Student",
+    "picture": "https://jhsup.github.io/static/media/github.0d7a432a.jpg",
+    "website": "https://jhsup.github.io/",
+    "summary": "I am a student studying Computer Science & Social Work at the University of Hawaii at Manoa. I was always interested in CS and after taking courses in Social Work, I realized how much difference a good and user-friendly software can be when it comes to case management and working with marginalized populations. It was then I decided that I should tie in both of my passions -- CS and helping others."
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Social Computing" },
+    { "name": "Psychology" }
+  ]
+}
