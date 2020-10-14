@@ -2,3 +2,4 @@
 .idea
 node_modules
 _site
+.jekyll-cache
