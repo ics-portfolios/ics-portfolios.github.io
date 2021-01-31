@@ -87,8 +87,8 @@ function fixPicturePrefix(pictureUrl) {
 }
 
 function updateProfileEntry(bio) {
-  //console.log('==============================================');
-  //console.log(bio.basics);
+  //  console.log('==============================================');
+  //  console.log(bio.basics);
   if (!_.isEmpty(bio)) {
     // first, strip off the protocol part of the website entry.
     const bioUrl = bio.basics.website;
@@ -125,6 +125,7 @@ function updateProfileEntry(bio) {
       }
     } else {
       console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
+      // console.log(bio);
     }
   }
 }
