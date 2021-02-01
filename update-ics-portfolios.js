@@ -125,7 +125,7 @@ function updateProfileEntry(bio) {
       }
     } else {
       console.log(`Could not find profile entry corresponding to ${bioHostName} (${bio.basics.name})`);
-      // console.log(bio);
+      //console.log(bio);
     }
   }
 }
