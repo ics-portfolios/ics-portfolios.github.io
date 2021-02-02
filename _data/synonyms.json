@@ -16,6 +16,7 @@
     [
       "graphic",
       "Creative Media",
+      "Adobe Premiere",
       "Korean Language and Culture",
       "Writing",
       "Browsing the Web",
@@ -91,6 +92,8 @@
     [
       "business",
       "Financial Engineering",
+      "Stocks",
+      "Ecommerce",
       "FinTech",
       "startups",
       "finance",
@@ -121,6 +124,7 @@
       "Open Source",
       "Scripting Languages",
       "Porgramming",
+      "GIS",
       "AI Learning",
       "forensics",
       "new tech",
@@ -151,6 +155,7 @@
     [
       "game",
       "Hearthstone",
+      "3ds Max",
       "animation",
       "MMO",
       "gamif"
@@ -162,6 +167,7 @@
     [
       "drone",
       "Microcontrollers",
+      "Qubits",
       "Rasberry Pi",
       "FPGA Development",
       "Sound Synthesis",
@@ -216,6 +222,8 @@
     [
       "anime",
       "guitar",
+      "Streaming videos",
+      "meeting new people",
       "music",
       "learning new skills",
       "eating",
@@ -300,6 +308,10 @@
     [
       "math",
       "agriculture",
+      "STEAM",
+      "languages",
+      "industries",
+      "Mycology",
       "Biomimicry",
       "Bioinfomatics",
       "behaviorism",
@@ -342,6 +354,7 @@
     [
       "security",
       "online privacy",
+      "Crypto",
       "defense",
       "Malware Analysis",
       "Pentesting",
@@ -384,6 +397,8 @@
     [
       "volunteer",
       "welfare",
+      "Criminal Justice",
+      "Criminology",
       "education",
       "Social Computing",
       "Social Good",
@@ -481,6 +496,7 @@
       "Web-Developement",
       "Front-End Development",
       "App-development ",
+      "web administration",
 			"web design",
       "user interface / user experience",
       "human-computer interaction",
