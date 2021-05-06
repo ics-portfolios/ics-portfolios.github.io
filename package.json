@@ -28,7 +28,7 @@
     "jsonfile": "^2.4.0",
     "jsonic": "^0.2.2",
     "request": "^2.74.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
