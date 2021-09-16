@@ -15,6 +15,8 @@
     "synonyms":
     [
       "graphic",
+      "Creative Director",
+      "general interest",
       "Creative Media",
       "Adobe Premiere",
       "Korean Language and Culture",
@@ -92,6 +94,7 @@
     [
       "business",
       "Financial Engineering",
+      "Organization",
       "Stocks",
       "Ecommerce",
       "FinTech",
@@ -146,7 +149,8 @@
     "synonyms":
     [
       "database",
-      "data"
+      "data",
+      "query processing"
     ]
   },
   {
@@ -172,6 +176,7 @@
       "FPGA Development",
       "Sound Synthesis",
       "IoT and Service Disovery",
+      "Quantum / super Computing",
       "electronics",
       "raspberry pi",
       "Home Automation",
@@ -299,6 +304,9 @@
       "C++",
       "Assembly",
       "translation and interpretation",
+      "React",
+      "Rust",
+      "Flutter",
       "python"
     ]
   },
@@ -491,6 +499,8 @@
 		[
 			"web dev",
       "website development",
+      "Web Accessibility",
+      "streaming",
       "Front End Development",
       "Front end development",
       "Web-Developement",
