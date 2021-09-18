@@ -133,6 +133,10 @@ More often than not, though, there will be one of two problems: (1) For one or m
 
 In either case, the script will output more-or-less helpful information that you can use to fix the problems that come up.
 
+For example, if there is a portfolio containing a term that the system doesn't know about, it will listed in `_data/unclassifiedInterests.json`. You can copy those terms into `_data/synonyms.json` so they are known to the system the next time you run `update_ics_portfolios`.
+
+If there's a problem processing the bio.json file, then you can either contact the student to fix the problem, or else remove the portfolio entry.
+
 ### Review site locally
 
 Once update_ics_portfolios runs without errors, you are ready to preview the site locally.  As noted above, invoke:
