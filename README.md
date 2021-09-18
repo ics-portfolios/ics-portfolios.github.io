@@ -165,7 +165,7 @@ You should be able to see the site locally by viewing http://127.0.0.1:4000/ in 
 
 There are two things you want to look for at this point:
 
-1.  Portfolios that appear in the "wrong place" in the site.  The most common situation is a student that appears in the "undergrad" or "grad" areas but appears to have already graduated.
+1.  Portfolios that appear in the "wrong place" in the site.  The most common situation is a student that appears in the "undergrad" or "grad" areas but appears to have already graduated based upon their summary description.
 2. Portfolio pictures that don't display, or text that is garbled or inappropriate.
 
 In either case, edit profile-entries.json to fix (or remove) the entry, then run `update_ics_portfolios` to regenerate the data file for the site, then `bundle exec jekyll serve` to redisplay the updated site.
