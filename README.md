@@ -94,11 +94,15 @@ You should be able to see the site locally by viewing http://127.0.0.1:4000/ in 
 
 Maintaining this site involves:
 
-  * Adding new portfolios each semester as new students create them as part of ICS 314.
-  * Changing the status of portfolios from "undergrad" (or "grad") to "alumni" when students graduate.
+  * Adding new portfolios each semester as new students create them.
+  * Changing the status of portfolios from "undergrad" (or "grad") to "alumni" as students graduate.
   * Removing portfolios on student request or when the retrieval process for them is broken (i.e. the image is not retrieved, or there is some other issue with the portfolio.)
 
-The way you do this involves updating profile-entries.json, running the update_ics_portfolios script and fixing any errors that arise, and finally reviewing the site locally to find other problems.
+The basic workflow for site maintenance is:
+   * Update profile-entries.json,
+   * Invoke `update_ics_portfolios` script to process the profile-entries.json file.
+   * Fix any errors noted by the script
+   * Run jekyll to view the site in a browser, review pages to find any remaining problems.
 
 ### Update profile-entries.json
 
