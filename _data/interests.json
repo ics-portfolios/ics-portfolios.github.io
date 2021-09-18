@@ -168,6 +168,7 @@
           "billmullen42",
           "clint-morimoto",
           "shaziney",
+          "sergey-negrashov",
           "chris-nishimura",
           "russellomo",
           "jlorias",
@@ -207,6 +208,7 @@
           "koby-villalobos",
           "leightonvillanueva",
           "joshuajw",
+          "wengdg",
           "spyhi",
           "chriswon98",
           "andrewyagin",
@@ -252,6 +254,7 @@
           "wendychong",
           "idemello",
           "sydempsey",
+          "simonengler",
           "aljereno",
           "jiayingfeng",
           "jganibi",
@@ -402,6 +405,7 @@
           "camelial",
           "lenjason",
           "jleong8",
+          "ayushmaskey",
           "brendtmcfeeley",
           "olivia-murray",
           "ian-oconnor",
@@ -415,15 +419,18 @@
           "qauchida",
           "qauchida",
           "leahmeiv",
-          "leahmeiv"
+          "leahmeiv",
+          "wengdg"
         ]
       },
       {
         "interest": "Data Administration",
         "names": [
+          "carlosparadis",
           "reedv",
           "jkbishay",
           "mia-clause",
+          "anthonyjchriste",
           "maxdeyo",
           "dickensc",
           "neezcha",
@@ -537,6 +544,7 @@
           "jeffsuen",
           "soratsky",
           "blaine-wataru",
+          "wengdg",
           "chriswon98",
           "garyjw",
           "andrewyagin",
@@ -562,6 +570,7 @@
           "cruzjoshua",
           "cruzjoshua",
           "dickensc",
+          "simonengler",
           "mariahgaoiran",
           "aaronjgeronimo",
           "devoider",
@@ -654,6 +663,7 @@
         "names": [
           "christiancheshire",
           "cruzjoshua",
+          "simonengler",
           "tallasgoo",
           "sethak"
         ]
@@ -756,6 +766,7 @@
           "reyn-mukai",
           "kyleanakanishi",
           "anamoca",
+          "sergey-negrashov",
           "josephpalma",
           "cdrafael",
           "keanur",
@@ -840,6 +851,7 @@
           "aklum3",
           "sharieannem",
           "markpm808",
+          "sergey-negrashov",
           "jonathanmng",
           "innikakp",
           "willpost1292",
@@ -852,6 +864,7 @@
           "ltsamous",
           "joshnwalters",
           "alexcw234",
+          "wengdg",
           "btwooton",
           "jerry1100",
           "jkyap808",
@@ -1078,6 +1091,7 @@
           "sharieannem",
           "ryanm73",
           "justin-mar",
+          "ayushmaskey",
           "levyjeanmatsu",
           "brianmayeshiro",
           "brmccabe",
@@ -1093,6 +1107,7 @@
           "rknakata",
           "anamoca",
           "narcisoa",
+          "sergey-negrashov",
           "peter-newton",
           "peter-newton",
           "senderjosh",
@@ -1168,6 +1183,8 @@
           "jasonhuang23",
           "tysenimaitoyama",
           "weilelin123",
+          "ayushmaskey",
+          "ayushmaskey",
           "brianmayeshiro",
           "clint-morimoto",
           "jackrude",
@@ -1202,6 +1219,8 @@
         "interest": "System Design",
         "names": [
           "marionne",
+          "anthonyjchriste",
+          "anthonyjchriste",
           "markrcummins",
           "darius-despain",
           "tregelacio",
@@ -2186,15 +2205,12 @@
       {
         "interest": "Art and Culture",
         "names": [
-          "crisnow",
-          "sergey-negrashov",
-          "wengdg"
+          "crisnow"
         ]
       },
       {
         "interest": "Artificial Intelligence",
         "names": [
-          "simonengler",
           "crisnow",
           "willkoch",
           "deepsmoseli"
@@ -2209,37 +2225,20 @@
       {
         "interest": "Computer Science",
         "names": [
-          "ayushmaskey",
-          "ninanye",
-          "wengdg"
+          "ninanye"
         ]
       },
       {
         "interest": "Data Administration",
         "names": [
-          "carlosparadis",
-          "anthonyjchriste",
           "crisnow"
-        ]
-      },
-      {
-        "interest": "Games and Game Development",
-        "names": [
-          "wengdg"
         ]
       },
       {
         "interest": "Hardware Engineering",
         "names": [
-          "simonengler",
           "willkoch",
           "ninanye"
-        ]
-      },
-      {
-        "interest": "Military/Intelligence Service",
-        "names": [
-          "simonengler"
         ]
       },
       {
@@ -2251,8 +2250,7 @@
       {
         "interest": "Networking",
         "names": [
-          "victor-jr",
-          "sergey-negrashov"
+          "victor-jr"
         ]
       },
       {
@@ -2265,9 +2263,7 @@
         "interest": "Science",
         "names": [
           "crisnow",
-          "willkoch",
-          "sergey-negrashov",
-          "wengdg"
+          "willkoch"
         ]
       },
       {
@@ -2276,24 +2272,8 @@
           "crisnow",
           "derrickluyen",
           "derrickluyen",
-          "ayushmaskey",
           "deepsmoseli",
-          "sergey-negrashov",
           "ninanye"
-        ]
-      },
-      {
-        "interest": "Sports",
-        "names": [
-          "ayushmaskey",
-          "ayushmaskey"
-        ]
-      },
-      {
-        "interest": "System Design",
-        "names": [
-          "anthonyjchriste",
-          "anthonyjchriste"
         ]
       },
       {

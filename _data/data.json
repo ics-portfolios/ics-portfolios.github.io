@@ -1624,7 +1624,7 @@
   {
     "last": "christe",
     "techfolio": "anthonyjchriste.github.io",
-    "level": "grad",
+    "level": "alumni",
     "name": "Anthony J. Christe",
     "label": "Ph.D. Student and Research Assistant",
     "email": "achriste@hawaii.edu",
@@ -2251,7 +2251,7 @@
   {
     "last": "engler",
     "techfolio": "simonengler.github.io",
-    "level": "grad",
+    "level": "alumni",
     "name": "Simon Engler",
     "label": "PhD Student",
     "email": "simon.engler@hawaii.edu",
@@ -5978,7 +5978,7 @@
   {
     "last": "maskey",
     "techfolio": "ayushmaskey.github.io",
-    "level": "grad",
+    "level": "alumni",
     "name": "Ayush Maskey",
     "label": "Student",
     "email": "amaskey@hawaii.edu",
@@ -6658,7 +6658,7 @@
   {
     "last": "negrashov",
     "techfolio": "sergey-negrashov.github.io",
-    "level": "grad",
+    "level": "alumni",
     "name": "Dr. Sergey Negrashov",
     "label": "Applied Physicist/Software Engineer",
     "email": "sin8@hawaii.edu",
@@ -7179,7 +7179,7 @@
   },
   {
     "last": "paradis",
-    "level": "grad",
+    "level": "alumni",
     "techfolio": "carlosparadis.com",
     "tmpbio": "cvas",
     "name": "Carlos Paradis",
@@ -9298,7 +9298,7 @@
   {
     "last": "weng",
     "techfolio": "wengdg.github.io",
-    "level": "grad",
+    "level": "alumni",
     "name": "Danny Weng",
     "label": "",
     "email": "weng@hawaii.edu",
