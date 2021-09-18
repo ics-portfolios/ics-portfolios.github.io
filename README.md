@@ -106,16 +106,16 @@ The basic workflow for site maintenance is:
 
 ### Update profile-entries.json
 
-First, update the file profile-entries.json.  This contains an array of objects, each object containing basic information about a single portfolio:
+First, edit the file profile-entries.json.  This contains an array of objects, each object containing basic information about a single portfolio:
   * the "last" name of the person, which is used to sort the entries and display in alphabetical order.
   * The "techfolio", which is the domain name for the portfolio without protocol or slashes. For example, "philip.github.io" is valid, while "https://philip.github.io/" is invalid.
   * The "level" of the person: either "undergrad", "grad", "faculty", or "alumni".
 
 ### Run update_ics_portfolios and fix errors
 
-Second, once you have updated profile-entries.json, you should run the update_ics_portfolios script.
+Second, once you have updated profile-entries.json, you should run the `update_ics_portfolios` script.
 
-In a nutshell, the update_ics_portfolios script reads the contents of profile-entries.json, and for each entry, uses the techfolio field to generate an HTTP request to get the contents of the bio.json file stored at that site in the `_data` directory.  Since almost all of the portfolios are built using [TechFolios](https://techfolios.github.io/), you may want to read more about them here. That said, as long as a file called bio.json can be retrieved from an `_data` directory at the specified site, it doesn't actually have to be a TechFolio site.  Note that bio.json should be formatted to conform to [JSON Resume](https://jsonresume.org/).
+In a nutshell, `update_ics_portfolios` reads the contents of profile-entries.json, and for each entry, uses the "techfolio" field to generate an HTTP request to get the contents of the bio.json file stored at that site in the `_data` directory.  Since almost all of the portfolios are built using [TechFolios](https://techfolios.github.io/), you may want to read more about them. That said, as long as a file called bio.json can be retrieved from an `_data` directory at the specified site, it doesn't actually have to be a TechFolio site.  Note that bio.json should be formatted to conform to [JSON Resume](https://jsonresume.org/).
 
 
 If the script can successfully retrieve and process the contents of the bio.json file for every entry in profile-entries, then the output will look like this:
