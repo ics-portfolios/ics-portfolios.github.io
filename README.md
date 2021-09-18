@@ -16,22 +16,22 @@ ICS Portfolios has been tested on Jekyll 4.2.0.
 
 `update_ics_portfolios` is a node script that is used to parse a data file containing information about portfolios and produce a new data file that can be used by the deployed site to display the "card" associated with each portfolio.
 
-To install update_ics_portfolios, first [install node](https://nodejs.org/en/).
+To install `update_ics_portfolios`, first [install node](https://nodejs.org/en/).
 
-Second, install the shell script like this:
+Second, make it possible to run `update_ics_portfolios` as a top-level command by doing the following:
 
 ```
  npm install
  sudo npm link
  ```
 
-To test your installation, invoke update_ics_portfolios:
+To test your installation, invoke `update_ics_portfolios`:
 
 ```
 update_ics_portfolios
 ```
 
-The output will look something like this:
+The output should look something like this:
 
 ```
 $ update_ics_portfolios
@@ -41,6 +41,8 @@ All interests are mapped to a term
 Writing _data/emails.txt
 Writing to _includes/notableCards.html
 ```
+
+If it differs, there is probably a problem with profile-entries.json. Don't worry, I'll provide some information on how to deal with that below.
 
 ### 3. Install Jekyll third party libraries
 
