@@ -1880,7 +1880,7 @@
       "Software Engineering",
       "Web Design/Development",
       "UI/UX Design",
-      "Creative Director",
+      "Creative Direction",
       "Product Management"
     ]
   },
@@ -2518,7 +2518,7 @@
     "email": "grahambr@hawaii.edu",
     "website": "https://gbfrancisco.github.io",
     "username": "gbfrancisco",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2021.",
+    "summary": "I studied for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I graduated in Spring, 2021.",
     "picture": "https://gbfrancisco.github.io/images/me.jpg",
     "interests": [
       "Software Engineering",
@@ -4089,7 +4089,8 @@
     "interests": [
       "Data Science",
       "Web Development",
-      "Social Justice"
+      "Social Justice",
+      "Quantitative Social Science"
     ]
   },
   {
@@ -5341,23 +5342,6 @@
     ]
   },
   {
-    "last": "lemon",
-    "techfolio": "robert-lemon-uhm.github.io",
-    "level": "undergrad",
-    "name": "Robert Lemon",
-    "label": "Student",
-    "email": "rlemon@hawaii.edu",
-    "website": "https://robert-lemon-uhm.github.io",
-    "username": "robert-lemon-uhm",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
-    "picture": "https://robert-lemon-uhm.github.io/images/Robert-Lemon-Headshot.png",
-    "interests": [
-      "Low-Level Development",
-      "Machine Learning",
-      "Algorithm Optimization"
-    ]
-  },
-  {
     "last": "lemus",
     "techfolio": "paulolemus.github.io",
     "level": "alumni",
@@ -5832,23 +5816,6 @@
       "Programming",
       "Surfing",
       "Gaming"
-    ]
-  },
-  {
-    "last": "machii",
-    "techfolio": "lmachii.github.io",
-    "level": "alumni",
-    "name": "Leland K. Machii",
-    "label": "Student",
-    "email": "lmachii@hawaii.edu",
-    "website": "https://lmachii.github.io",
-    "username": "lmachii",
-    "summary": "Field Technician for Network 2000 LLC. with a B.S. in Computer Engineering currently looking for an entry level engineering position.",
-    "picture": "https://lmachii.github.io/images/photo.jpg",
-    "interests": [
-      "Internet of things",
-      "Renewable Energy",
-      "Networking"
     ]
   },
   {
@@ -9275,24 +9242,6 @@
       "Guitar",
       "Software Development",
       "API Development"
-    ]
-  },
-  {
-    "last": "wen",
-    "techfolio": "weneddie.github.io",
-    "level": "alumni",
-    "name": "Eddie Wen",
-    "label": "Student",
-    "email": "eddiewen@hawaii.edu",
-    "website": "https://weneddie.github.io",
-    "username": "weneddie",
-    "summary": "I am a student at UH Manoa pursuing Bachelor of Science in Computer Science that specialiizes in Cyber Security. I expect to graduate in Spring, 2021.",
-    "picture": "https://WenEddie.github.io/images/Eddie.jpg",
-    "interests": [
-      "Programming",
-      "Cyber Security",
-      "Algorithms",
-      "Software Development"
     ]
   },
   {
