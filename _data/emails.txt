@@ -19,7 +19,6 @@ acoa@hawaii.edu
 acvmf@hawaii.edu
 aduong2@hawaii.edu
 aedrada@hawaii.edu
-aeemmons@hawaii.edu
 aidana@hawaii.edu
 ajp808@hawaii.edu
 akirav@hawaii.edu
@@ -94,7 +93,6 @@ chakhon@hawaii.edu
 chankyle@hawaii.edu
 chanung@hawaii.edu
 charlieadickens@gmail.com
-chasem6@hawaii.edu
 chaster@hawaii.edu
 chengs@hawaii.edu
 chenkk@hawaii.edu
@@ -103,7 +101,6 @@ choi4879@hawaii.edu
 chokevin@hawaii.edu
 chonga3@hawaii.edu
 chowc89@hawaii.edu
-chunjy@hawaii.edu
 cizumi32@hawaii.edu
 cj38@hawaii.edu
 cjsiador@hawaii.edu
@@ -111,7 +108,6 @@ ckguira@hawaii.edu
 ckim60@hawaii.edu
 cksimao@hawaii.edu
 cl33@hawaii.edu
-clark37@hawaii.edu
 cleandro@hawaii.edu
 clemmer@hawaii.edu
 cliftonmiyamoto@gmail.com
@@ -147,7 +143,6 @@ dlim7@hawaii.edu
 dluyen@hawaii.edu
 dmk2@hawaii.edu
 dmosher4@hawaii.edu
-dmtapia@hawaii.edu
 doyoungk@hawaii.edu
 dppavao@hawaii.edu
 dtan808@hawaii.edu
@@ -158,7 +153,6 @@ dylaned@hawaii.edu
 ebarbour@hawaii.edu
 emmavr@hawaii.edu
 enakano@hawaii.edu
-eppang@hawaii.edu
 erikhuan@hawaii.edu
 ethanwc@hawaii.edu
 ew7@hawaii.edu
@@ -181,7 +175,6 @@ glarita@hawaii.edu
 glee25@hawaii.edu
 gmtolent@hawaii.edu
 grahambr@hawaii.edu
-greent3@hawaii.edu
 guanhong@hawaii.edu
 gviloria@hawaii.edu
 hansenca@hawaii.edu
@@ -253,11 +246,10 @@ jleong8@hawaii.edu
 jlorias@hawaii.edu
 jltu@hawaii.edu
 jma66@hawaii.edu
+jmd386@hawaii.edu
 jnutt4@hawaii.edu
 jnw6@hawaii.edu
-joba@hawaii.edu
 joepalma08@hotmail.com
-johnbigo@hawaii.edu
 johnnyho@hawaii.edu
 johnson@hawaii.edu
 johnyap@hawaii.edu
@@ -350,7 +342,6 @@ mairene@hawaii.edu
 makanalg@hawaii.edu
 mamuads3@hawaii.edu
 manalun@hawaii.edu
-marionne@hawaii.edu
 markm24@hawaii.edu
 markpm@hawaii.edu
 markrc@hawaii.edu
@@ -406,7 +397,6 @@ nkmp@hawaii.edu
 nlaranio@hawaii.edu
 nn4@hawaii.edu
 nominb@hawaii.edu
-ntomchak@hawaii.edu
 nzenger@hawaii.edu
 omurray4@hawaii.edu
 oshiroc3@hawaii.edu
@@ -461,7 +451,6 @@ sbraun@hawaii.edu
 seanmd@hawaii.edu
 seanmoto@hawaii.edu
 seantshi@hawaii.edu
-seanytak@hawaii.edu
 secruz@hawaii.edu
 sethak@hawaii.edu
 shanesev@hawaii.edu
@@ -487,9 +476,7 @@ tam9@hawaii.edu
 tarynet@hawaii.edu
 taylorsw@hawaii.edu
 tcarson@hawaii.edu
-tdorn@hawaii.edu
 tgabatin@hawaii.edu
-tgelacio@hawaii.edu
 thanel@hawaii.edu
 thd@hawaii.edu
 thinh851@hawaii.edu
@@ -537,7 +524,6 @@ wscole@hawaii.edu
 wsiu4@hawaii.edu
 wyoro@hawaii.edu
 xandrew@hawaii.edu
-yiwenc22@hawaii.edu
 yizan@hawaii.edu
 yohany@hawaii.edu
 yong4@hawaii.edu
