@@ -1,5 +1,7 @@
 ## Student update email
 
+(REMEMBER TO BCC: THE LIST OF EMAILS)
+
 Greetings all,
 
 It is that time of the year when I update the Professional Portfolio website at https://ics-portfolios.github.io/. Currently, over 500 portfolios from ICS and Computer Engineering are listed at this site.  I am writing to nudge you to review your professional portfolio and update it if necessary.
