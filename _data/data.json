@@ -699,15 +699,15 @@
     "techfolio": "nominbold.github.io",
     "level": "alumni",
     "name": "Nomin Boldbayar",
-    "label": "Student",
-    "email": "nominb@hawaii.edu",
+    "label": "Recent Graduate",
+    "email": "bnomin8@gmail.com",
     "website": "https://nominbold.github.io",
     "username": "nominbold",
-    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring, 2021.",
-    "picture": "https://nominbold.github.io/images/pic.jpg",
+    "summary": "I have B.A. in English and Computer Science Minor at the University of Hawaii at Manoa. I graduated in Fall 2021. Activily looking for full-time position.",
+    "picture": "https://nominbold.github.io/images/profile-nomin-bold.PNG",
     "interests": [
       "Software Engineering",
-      "Game Developing",
+      "Web Developing",
       "Artificial Intelligence",
       "and Human-Computer Interaction"
     ]
@@ -4296,8 +4296,8 @@
     "email": "kimmicah@hawaii.edu",
     "website": "https://kimmicah.github.io",
     "username": "kimmicah",
-    "summary": "I have received a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii in Spring, 2021.",
-    "picture": "https://kimmicah.github.io/images/micah_2.JPG",
+    "summary": "I am a Software Developer with a B.S. in Computer Science from the Department of Information and Computer Sciences at the University of Hawaii in Spring, 2021.",
+    "picture": "https://kimmicah.github.io/images/micah_3.jpg",
     "interests": [
       "Software Development",
       "Medicine",
@@ -4375,23 +4375,6 @@
     ]
   },
   {
-    "last": "kim",
-    "techfolio": "sunyoungk.github.io",
-    "level": "alumni",
-    "name": "Sun Young Kim",
-    "label": "Student",
-    "email": "kim276@hawaii.edu",
-    "website": "https://sunyoungk.github.io",
-    "username": "sunyoungk",
-    "summary": "I am striving to complete a B.S. in Computer Science at the University of Hawaii by Spring 2021. After graduation, I hope to pursue one (or a combination) of my interests listed below.",
-    "picture": "https://sunyoungk.github.io/images/syk.jpeg",
-    "interests": [
-      "Machine Learning",
-      "Natural Language Processing",
-      "Software Engineering"
-    ]
-  },
-  {
     "last": "kimura",
     "techfolio": "ian-kimura.github.io",
     "level": "undergrad",
@@ -4446,19 +4429,7 @@
   {
     "last": "kirts",
     "techfolio": "mkirts.github.io",
-    "level": "undergrad",
-    "name": "Matthew Kirts",
-    "label": "Student",
-    "email": "mkirts@hawaii.edu",
-    "website": "https://mkirts.github.io",
-    "username": "mkirts",
-    "summary": "Hello! My name is Matthew Kirts and I am currently studying Information and Computer Sciences under the BS general path. I expect to graduate in the 2021 Fall semester.",
-    "picture": "https://mkirts.github.io/images/matt.jpg",
-    "interests": [
-      "software engineering",
-      "gaming",
-      "cars"
-    ]
+    "level": "undergrad"
   },
   {
     "last": "knoebel",
@@ -4547,23 +4518,6 @@
       "Analytics",
       "Research",
       "Programming"
-    ]
-  },
-  {
-    "last": "koo",
-    "techfolio": "dankoo.github.io",
-    "level": "alumni",
-    "name": "Daniel Koo",
-    "label": "Student",
-    "email": "danieldk@hawaii.edu",
-    "website": "https://dankoo.github.io",
-    "username": "dankoo",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
-    "picture": "https://dankoo.github.io/images/profilepic2.jpg",
-    "interests": [
-      "Software Engineering/Design",
-      "Mobile Apps",
-      "Security"
     ]
   },
   {
@@ -7047,7 +7001,7 @@
     "email": "karl4@hawaii.edu",
     "website": "https://karlp1998.github.io",
     "username": "karlp1998",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2022.",
+    "summary": "I am studying for a B.A. in the General ICS track at the University of Hawaii at Manoa. I expect to graduate in Spring, 2022.",
     "picture": "https://karlp1998.github.io/images/kpenu.jpg",
     "interests": [
       "Software Engineering",
