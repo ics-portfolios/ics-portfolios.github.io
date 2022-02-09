@@ -249,6 +249,40 @@
     ]
   },
   {
+    "last": "arai",
+    "techfolio": "kobeyarai808.github.io",
+    "level": "undergrad",
+    "name": "Kobey Arai",
+    "label": "Student and Software Engineer",
+    "email": "kobeya@hawaii.edu",
+    "website": "https://kobeyarai808.github.io",
+    "username": "kobeyarai808",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2023.",
+    "picture": "https://kobeyarai808.github.io/images/kobey.jpeg",
+    "interests": [
+      "Software Engineering",
+      "Data Structures",
+      "Teaching/Learning"
+    ]
+  },
+  {
+    "last": "arakaki",
+    "techfolio": "carakaki808.github.io",
+    "level": "undergrad",
+    "name": "Cameron Arakaki",
+    "label": "Student",
+    "email": "ca234@hawaii.edu",
+    "website": "https://carakaki808.github.io",
+    "username": "carakaki808",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2024.",
+    "picture": "https://carakaki808.github.io/images/20220119_173129.jpg",
+    "interests": [
+      "Software Engineering",
+      "App Development",
+      "Web Development"
+    ]
+  },
+  {
     "last": "araujo",
     "techfolio": "acatarinaoaraujo.github.io",
     "level": "undergrad",
@@ -281,6 +315,23 @@
       "computer gaming",
       "cryptocurrency",
       "artificial intelligence"
+    ]
+  },
+  {
+    "last": "arquines",
+    "techfolio": "darquines.github.io",
+    "level": "undergrad",
+    "name": "Devin Arquines",
+    "label": "Student",
+    "email": "darquine@hawaii.edu",
+    "website": "https://darquines.github.io",
+    "username": "darquines",
+    "summary": "I am a student at the University of Hawaii at Manoa studying Cinformation and Computer Science.",
+    "picture": "https://darquines.github.io/images/Devin.jpg",
+    "interests": [
+      "Software Development",
+      "Data Science",
+      "Video Games"
     ]
   },
   {
@@ -452,6 +503,24 @@
       "Mobile Application Development",
       "UI/UX Design",
       "Social Media"
+    ]
+  },
+  {
+    "last": "bala",
+    "techfolio": "louie808.github.io",
+    "level": "undergrad",
+    "name": "Louie Bala",
+    "label": "Student",
+    "email": "balal@hawaii.edu",
+    "website": "https://louie808.github.io",
+    "username": "louie808",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://Louie808.github.io/images/Face_snow_close.jpg",
+    "interests": [
+      "Software Engineering",
+      "Web Development",
+      "Gaming Industry",
+      "Artificial Intelligence"
     ]
   },
   {
@@ -800,7 +869,7 @@
   },
   {
     "last": "buccat",
-    "techfolio": "buccatm.github.io/",
+    "techfolio": "buccatm.github.io",
     "level": "undergrad",
     "name": "Marcos Buccat Jr.",
     "label": "Student",
@@ -1160,6 +1229,25 @@
     ]
   },
   {
+    "last": "chaikin",
+    "techfolio": "zchaikin.github.io",
+    "level": "undergrad",
+    "name": "Zachary Chaikin",
+    "label": "Student",
+    "email": "zchaikin@hawaii.edu",
+    "website": "https://zchaikin.github.io",
+    "username": "zchaikin",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2023.",
+    "picture": "https://zchaikin.github.io/images/zachaikin.PNG",
+    "interests": [
+      "Artificial Intelligence",
+      "Augmented/Virtual Reality",
+      "Education",
+      "Robotics",
+      "Software Engineering"
+    ]
+  },
+  {
     "last": "chan",
     "techfolio": "creightonchan.github.io",
     "level": "alumni",
@@ -1225,6 +1313,23 @@
       "mobile application",
       "game design",
       "artificial intelligence"
+    ]
+  },
+  {
+    "last": "chen",
+    "techfolio": "alyssia-chen.github.io",
+    "level": "undergrad",
+    "name": "Alyssia Chen",
+    "label": "Student",
+    "email": "abc8@hawaii.edu",
+    "website": "https://alyssia-chen.github.io",
+    "username": "alyssia-chen",
+    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences and for a B.B.A in Management Information Systems at the Shidler College of Business at the University of Hawaii. I expect to graduate in Spring, 2023.",
+    "picture": "https://alyssia-chen.github.io/images/ProfilePic_square2.jpg",
+    "interests": [
+      "Software engineering",
+      "Database design",
+      "Artificial intelligence"
     ]
   },
   {
@@ -1707,6 +1812,25 @@
       "Information Technology",
       "Computer Graphics",
       "Software Engineering"
+    ]
+  },
+  {
+    "last": "crabbe",
+    "techfolio": "mahi3crab.github.io",
+    "level": "undergrad",
+    "name": "Mahie Crabbe",
+    "label": "Student",
+    "email": "mahi3@hawaii.edu",
+    "website": "https://mahi3crab.github.io",
+    "username": "mahi3crab",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://mahi3crab.github.io/images/Screen Shot 2022-01-18 at 12.05.52 PM.png",
+    "interests": [
+      "Software Engineering",
+      "Artificial Intelligence",
+      "Data Science",
+      "Hula",
+      "Water Sports"
     ]
   },
   {
@@ -2675,20 +2799,7 @@
   {
     "last": "gerber",
     "techfolio": "vgerber614.github.io",
-    "level": "alumni",
-    "name": "Vanessa Gerber",
-    "label": "a Software Engineer",
-    "email": "vancgerber@gmail.com",
-    "website": "https://vgerber614.github.io",
-    "username": "vgerber614",
-    "summary": "Recent graduate with a Bachelor's degree in Computer Science with concentrations in Software Engineering and Data Science from The University of Texas at San Antonio. I love to create and turn ideas into reality with code!",
-    "picture": "https://vgerber614.github.io/images/vanessapfp.jpg",
-    "interests": [
-      "Software Engineering",
-      "Android Development",
-      "Web Development",
-      "Data"
-    ]
+    "level": "alumni"
   },
   {
     "last": "geronimo",
@@ -3258,6 +3369,25 @@
     ]
   },
   {
+    "last": "house",
+    "techfolio": "cole-house.github.io",
+    "level": "undergrad",
+    "name": "Cole House",
+    "label": "Student",
+    "email": "coleh3@hawaii.edu",
+    "website": "https://cole-house.github.io",
+    "username": "cole-house",
+    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2024.",
+    "picture": "https://Cole-House.github.io/images/cole.JPG",
+    "interests": [
+      "Software Engineering",
+      "Sustainability",
+      "Artificial Intelligence",
+      "Web Applications",
+      "Sports and Wellness"
+    ]
+  },
+  {
     "last": "hsu",
     "techfolio": "yuting7.github.io",
     "level": "alumni",
@@ -3634,6 +3764,23 @@
       "artificial intelligence",
       "soccer",
       "photography"
+    ]
+  },
+  {
+    "last": "ishimi",
+    "techfolio": "ishimi8.github.io",
+    "level": "undergrad",
+    "name": "Jase Ishimi",
+    "label": "Student",
+    "email": "ishimi8@hawaii.edu",
+    "website": "https://ishimi8.github.io",
+    "username": "ishimi8",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2024.",
+    "picture": "https://ishimi8.github.io/images/IMG_1548.JPG",
+    "interests": [
+      "Cyber Security",
+      "Swimming",
+      "Videogames"
     ]
   },
   {
@@ -4427,11 +4574,6 @@
     ]
   },
   {
-    "last": "kirts",
-    "techfolio": "mkirts.github.io",
-    "level": "undergrad"
-  },
-  {
     "last": "knoebel",
     "techfolio": "zknoebel.github.io",
     "level": "undergrad",
@@ -5210,6 +5352,23 @@
     ]
   },
   {
+    "last": "levy",
+    "techfolio": "glevy94.github.io",
+    "level": "undergrad",
+    "name": "Grayson Levy",
+    "label": "Student",
+    "email": "glevy4@hawaii.edu",
+    "website": "https://glevy94.github.io",
+    "username": "glevy94",
+    "summary": "Currently pursuing a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://glevy94.github.io/images/github1.jpg",
+    "interests": [
+      "Data Science",
+      "Artificial Intelligence",
+      "Machine Learning"
+    ]
+  },
+  {
     "last": "li",
     "level": "faculty",
     "techfolio": "https://www2.hawaii.edu/~depengli/",
@@ -5759,6 +5918,23 @@
       "Cycling",
       "Data analytics",
       "Running"
+    ]
+  },
+  {
+    "last": "masuda",
+    "techfolio": "yongsungm.github.io",
+    "level": "undergrad",
+    "name": "Yong-Sung Masuda",
+    "label": "Student",
+    "email": "ydmasuda@hawaii.edu",
+    "website": "https://yongsungm.github.io",
+    "username": "yongsungm",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://yongsungm.github.io/images/portrait.png",
+    "interests": [
+      "software engineering",
+      "ultimate frisbee",
+      "chess"
     ]
   },
   {
@@ -6331,6 +6507,24 @@
     "interests": [
       "software engineering",
       "game development"
+    ]
+  },
+  {
+    "last": "nakano",
+    "techfolio": "cknakano.github.io",
+    "level": "undergrad",
+    "name": "Christine Nakano",
+    "label": "Student",
+    "email": "Cknakano@hawaii.edu",
+    "website": "https://cknakano.github.io",
+    "username": "cknakano",
+    "summary": "I am a student studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2024.",
+    "picture": "https://Cknakano.github.io/images/resized pic ckn.jpg",
+    "interests": [
+      "Software Engineering",
+      "Robotics",
+      "AI Development",
+      "Gaming Industry"
     ]
   },
   {
@@ -7029,19 +7223,7 @@
   {
     "last": "peros",
     "techfolio": "cperos.github.io",
-    "level": "undergrad",
-    "name": "Constantine Peros",
-    "label": "Student",
-    "email": "cperos@hawaii.edu",
-    "website": "https://cperos.github.io",
-    "username": "cperos",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2022.",
-    "picture": "https://cperos.github.io/images/cperos.png",
-    "interests": [
-      "Surfing",
-      "Robotics",
-      "artificial intelligence"
-    ]
+    "level": "undergrad"
   },
   {
     "last": "peterson",
@@ -7424,6 +7606,23 @@
       "Digital Systems",
       "Web Development",
       "Cybersecurity"
+    ]
+  },
+  {
+    "last": "ro",
+    "techfolio": "timothyro.github.io",
+    "level": "undergrad",
+    "name": "Timothy Ro",
+    "label": "Student",
+    "email": "tro8@hawaii.edu",
+    "website": "https://timothyro.github.io",
+    "username": "timothyro",
+    "summary": "I am studying for a B.S. in Computer Science (General) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://timothyro.github.io/images/troprofilepic.jpg",
+    "interests": [
+      "Problem Solving",
+      "Basketball",
+      "Exercise"
     ]
   },
   {
@@ -9176,19 +9375,7 @@
   {
     "last": "wu",
     "techfolio": "jerry1100.github.io",
-    "level": "alumni",
-    "name": "Jerry Wu",
-    "label": "Software Engineer @ Microsoft",
-    "email": "jwu1100@gmail.com",
-    "website": "https://jerry1100.github.io",
-    "username": "jerry1100",
-    "summary": "Hi, I'm a Software Engineer working on IBM Data Science Experience, an integrated environment for data scientists to collaborate using industry-standard tools like Jupyter, RStudio, and Zeppelin.",
-    "picture": "https://jerry1100.github.io/images/jerry-wu.jpg",
-    "interests": [
-      "Embedded Systems",
-      "Mobile Development",
-      "Internet of Things"
-    ]
+    "level": "alumni"
   },
   {
     "last": "wu",
@@ -9225,6 +9412,23 @@
       "app development",
       "software engineering",
       "artificial intelligence"
+    ]
+  },
+  {
+    "last": "yadav",
+    "techfolio": "bhavanikay.github.io",
+    "level": "undergrad",
+    "name": "Bhavanika Yadav",
+    "label": "Student",
+    "email": "bhavanik@hawaii.edu",
+    "website": "https://bhavanikay.github.io",
+    "username": "bhavanikay",
+    "summary": "I am a student at UH Manoa currently pursuing my B.S. in Computer Science. I expect to graduate in December of 2022, and hope to go into technical marketing one day.",
+    "picture": "https://bhavanikay.github.io/images/IMG_6409.JPG",
+    "interests": [
+      "software engineering",
+      "artificial intelligence",
+      "bioengineering"
     ]
   },
   {
