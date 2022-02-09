@@ -94,6 +94,9 @@ function updateProfileEntry(bio) {
     const bioUrl = bio.basics.website;
     const { email } = bio.basics;
     const protocolIndex = _.indexOf(bioUrl, ':');
+    if (!bioUrl) {
+      console.log('bioUrl undefined', email, bio);
+    }
     const bioHostName = bioUrl.substring(protocolIndex + 3);
     const profileEntry = _.find(profileData, function makeEntry(entry) {
       return canonicalHostName(entry.techfolio) === canonicalHostName(bioHostName);
