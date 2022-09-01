@@ -2,7 +2,7 @@
   <script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 document.write(`<head>`);
-if(document.getElementById('{{ profileURL }}' == null)) {
+// if(document.getElementById('{{ profileURL }}' == null)) {
     $(document).ready(function () {
       $.expr[":"].contains = $.expr.createPseudo(function (arg) {
         return function (elem) {
@@ -122,5 +122,5 @@ document.write(`</head>`);
   </a>
 </div>
 `);
-  }
+//  }
 </script>
