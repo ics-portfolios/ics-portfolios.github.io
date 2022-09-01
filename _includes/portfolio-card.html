@@ -96,7 +96,7 @@
       console.log('Fetch Error :-S for {{ profileURL }}', err);
       document.getElementById('{{ profileURL }}').style.display = "none";
     });
-  if(document.getElementById('{{ profileURL }}' == null) {
+  if(document.getElementById('{{ profileURL }}' == null)) {
      document.write(`
 <div class="ui card" id="{{ profileURL }}">
   <div class="content">
