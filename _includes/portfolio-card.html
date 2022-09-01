@@ -88,7 +88,7 @@
           converter = new showdown.Converter();
           document.getElementById('{{ profileURL }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
           document.getElementById('{{ profileURL }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
-          document.getElementById('{{ profileURL }}_website').href = data.basics.website;
+          // document.getElementById('{{ profileURL }}_website').href = data.basics.website;
         });
       }
     )
@@ -116,7 +116,7 @@
       Interest1, Interests2, ...
     </div>
   </div>
-  <a class="ui bottom attached button" id="{{ profileURL }}_website" href="">
+  <a class="ui bottom attached button" id="{{ profileURL }}_website" href="{{ profileURL }}">
     <i class="" ass="external icon"></i>
     See portfolio
   </a>
