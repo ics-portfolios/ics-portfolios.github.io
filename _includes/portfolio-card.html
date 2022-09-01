@@ -96,7 +96,8 @@
       console.log('Fetch Error :-S for {{ profileURL }}', err);
       document.getElementById('{{ profileURL }}').style.display = "none";
     });
-</script>
+  if(document.getElementById('{{ profileURL }}' == null) {
+     document.write(`
 <div class="ui card" id="{{ profileURL }}">
   <div class="content">
     <img class="right floated tiny ui image" id="{{ profileURL }}_picture" style="width:80px;height:80px;" src="">
@@ -121,3 +122,6 @@
     See portfolio
   </a>
 </div>
+`);
+  }
+</script>
