@@ -44,7 +44,7 @@
     {% assign members_group = group[1] | sort_natural %}
     {% for member_json_bio in members_group %}
     <script>
-      if(document.getElementById({{ PROFILE_URL }}) == null) {
+      if(document.getElementById({{ profileURL }}) == null) {
         document.write({% include portfolio-card.html member_json_bio=member_json_bio %});
       }
     </script>
