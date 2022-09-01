@@ -43,11 +43,7 @@
   <div class="ui four doubling stackable cards">
     {% assign members_group = group[1] | sort_natural %}
     {% for member_json_bio in members_group %}
-    <script>
-      if(document.getElementById({{ profileURL }}) == null) {
-        document.write({% include portfolio-card.html member_json_bio=member_json_bio %});
-      }
-    </script>
+    {% include portfolio-card.html member_json_bio=member_json_bio %}
     {% endfor %}
   </div>
 </div>
