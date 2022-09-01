@@ -4,6 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
 
+    if(document.getElementById('{{ profileURL }}' == null)) {
     $(document).ready(function () {
       $.expr[":"].contains = $.expr.createPseudo(function (arg) {
         return function (elem) {
@@ -96,7 +97,7 @@
       console.log('Fetch Error :-S for {{ profileURL }}', err);
       document.getElementById('{{ profileURL }}').style.display = "none";
     });
-  if(document.getElementById('{{ profileURL }}' == null)) {
+  
      document.write(`
 <div class="ui card" id="{{ profileURL }}">
   <div class="content">
