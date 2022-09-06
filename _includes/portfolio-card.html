@@ -1,8 +1,8 @@
 {% assign profileURL = member_json_bio | remove: "https://" | remove "http://" %}
-
-<head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script>
+<script>
+ if(document.getElementById('{{ profileURL }}') == null) {
+document.write(`<head>`);
 
     $(document).ready(function () {
       $.expr[":"].contains = $.expr.createPseudo(function (arg) {
@@ -37,10 +37,10 @@
       }
 
     });
-  </script>
-</head>
 
-<script>
+document.write(`</head>`);
+
+
   fetch('https://{{ profileURL }}/_data/bio.json')
     .then(
       function (response) {
@@ -88,7 +88,7 @@
           converter = new showdown.Converter();
           document.getElementById('{{ profileURL }}_summary').innerHTML = converter.makeHtml(data.basics.summary);
           document.getElementById('{{ profileURL }}_interests').innerHTML = data.interests.map(x => x.name).join(', ');
-          document.getElementById('{{ profileURL }}_website').href = data.basics.website;
+          // document.getElementById('{{ profileURL }}_website').href = data.basics.website;
         });
       }
     )
@@ -96,7 +96,8 @@
       console.log('Fetch Error :-S for {{ profileURL }}', err);
       document.getElementById('{{ profileURL }}').style.display = "none";
     });
-</script>
+  
+     document.write(`
 <div class="ui card" id="{{ profileURL }}">
   <div class="content">
     <img class="right floated tiny ui image" id="{{ profileURL }}_picture" style="width:80px;height:80px;" src="">
@@ -116,8 +117,11 @@
       Interest1, Interests2, ...
     </div>
   </div>
-  <a class="ui bottom attached button" id="{{ profileURL }}_website" href="">
+  <a class="ui bottom attached button" id="{{ profileURL }}_website" href="http://{{ profileURL }}">
     <i class="" ass="external icon"></i>
     See portfolio
   </a>
 </div>
+`);
+  }
+</script>
