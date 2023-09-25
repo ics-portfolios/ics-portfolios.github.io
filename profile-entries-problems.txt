@@ -47,3 +47,222 @@ Could not find profile entry corresponding to mmaluhia.github.io (James Galway-S
 Error: https://michaeljohnson127.github.io/_data/bio.json
     SyntaxError Expected end of input but "]" found., line: undefined
 
+---------------
+Fall 2023
+⋊> ~/G/ics-portfolios.github.io on master ⨯ update_ics_portfolios
+Starting update_ics_portfolios
+Failed to get bio.json  zaxer2.github.io. Error: null, code: 404
+Failed to get bio.json  idemello.github.io. Error: null, code: 404
+Failed to get bio.json  tbui00.github.io. Error: null, code: 404
+Error: https://hermantw.github.io/_data/bio.json
+    SyntaxError Expected ":" but "," found., line: undefined
+Failed to get bio.json  balemayehu1.github.io. Error: null, code: 404
+Failed to get bio.json  jimanaka.github.io. Error: null, code: 404
+Error: https://waylonho.github.io/_data/bio.json
+    SyntaxError Expected "[", "false", "null", "true", "{", [^,}\]], double-quote string, number or single-quote string but "}" found., line: undefined
+Failed to get bio.json  rhynes.github.io. Error: null, code: 404
+Failed to get bio.json  kimmicah.github.io. Error: null, code: 404
+Failed to get bio.json  sync925.github.io. Error: null, code: 404
+Failed to get bio.json  jiajunk.github.io. Error: null, code: 404
+Failed to get bio.json  weilelin123.github.io. Error: null, code: 404
+Failed to get bio.json  sabinestrasburger.github.io. Error: null, code: 404
+Failed to get bio.json  jaysonnutt.github.io. Error: null, code: 404
+Failed to get bio.json  vialliou.github.io. Error: null, code: 404
+Error: https://gailag.github.io/_data/bio.json
+    SyntaxError Expected end of input but "\\" found., line: undefined
+Failed to get bio.json  willkoch.github.io. Error: null, code: 404
+Failed to get bio.json  skimura1.github.io. Error: null, code: 404
+Failed to get bio.json  alyssandra-cabading.github.io. Error: null, code: 404
+Failed to get bio.json  jcamarao.github.io. Error: null, code: 404
+Failed to get bio.json  nenyehub.github.io. Error: null, code: 404
+Error: https://kobeyarai808.github.io/_data/bio.json
+    SyntaxError Expected ":" but " " found., line: undefined
+Failed to get bio.json  jygh98.github.io. Error: null, code: 404
+Failed to get bio.json  ty-gwartney.github.io. Error: null, code: 404
+Failed to get bio.json  audreyford.github.io. Error: null, code: 404
+Failed to get bio.json  jleong8.github.io. Error: null, code: 404
+Failed to get bio.json  mercedezcastro.github.io. Error: null, code: 404
+Failed to get bio.json  yongu2000.github.io. Error: null, code: 404
+Failed to get bio.json  kyraikeda.github.io. Error: null, code: 404
+Failed to get bio.json  samuelcy.github.io. Error: null, code: 404
+Failed to get bio.json  krnkev.github.io. Error: null, code: 404
+Failed to get bio.json  zknoebel.github.io. Error: null, code: 404
+Failed to get bio.json  doyounghi.github.io. Error: null, code: 404
+Failed to get bio.json  jchai75.github.io. Error: null, code: 404
+Failed to get bio.json  mikel-ishihara.github.io. Error: null, code: 404
+Failed to get bio.json  tallasgoo.github.io. Error: null, code: 404
+Failed to get bio.json  saehyuns.github.io. Error: null, code: 404
+Failed to get bio.json  tevintsales.github.io. Error: null, code: 404
+Failed to get bio.json  gumsanaung.github.io. Error: null, code: 404
+Failed to get bio.json  bretwitt.github.io. Error: null, code: 404
+Failed to get bio.json  michaelbito.github.io. Error: null, code: 404
+Failed to get bio.json  leedenkraquel.github.io. Error: null, code: 404
+----------------------------------
+Could not find profile entry corresponding to connectiveunconscious.com (Stephanie Aelmore)
+{
+  "name": "Stephanie Aelmore",
+  "label": "B.S. Candidate, Computer Engineering",
+  "picture": "https://github.com/believeinlain/believeinlain.github.io/blob/master/images/pfp.jpg?raw=true",
+  "email": "saelmore@hawaii.edu",
+  "website": "https://connectiveunconscious.com",
+  "summary": "Software developer with diverse simulation-focused experience and an interest in novel computing technology and interactive media. Expected graduation date: May 14th, 2022.",
+  "location": {
+    "address": "",
+    "postalCode": "96822",
+    "city": "Honolulu",
+    "countryCode": "USA",
+    "region": "Hawaii"
+  },
+  "profiles": [
+    {
+      "network": "github",
+      "username": "believeinlain",
+      "url": "http://github.com/believeinlain"
+    },
+    {
+      "network": "linkedin",
+      "username": "Stephanie Aelmore",
+      "url": "http://linkedin.com/in/stephanie-aelmore"
+    }
+  ]
+}
+----------------------------------
+----------------------------------
+Could not find profile entry corresponding to mmaluhia.github.io (Molly Maluhia)
+{
+  "name": "Molly Maluhia",
+  "label": "Student",
+  "picture": "https://github.com/kambergjohnson.png",
+  "email": "molly@hawaii.edu",
+  "phone": "808-333-4444",
+  "website": "https://mmaluhia.github.io",
+  "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+  "location": {
+    "address": "",
+    "postalCode": "96822",
+    "city": "Honolulu",
+    "countryCode": "USA",
+    "region": "Hawaii"
+  },
+  "profiles": [
+    {
+      "network": "github",
+      "username": "mmaluhia",
+      "url": "http://github.com/changeme"
+    },
+    {
+      "network": "linkedin",
+      "username": "mollymaluhia",
+      "url": "http://linkedin.com/in/changeme"
+    },
+    {
+      "network": "twitter",
+      "username": "mollymal",
+      "url": "http://twitter.com/changeme"
+    },
+    {
+      "network": "instagram",
+      "username": "molly",
+      "url": "http://instagram.com/changeme"
+    }
+  ]
+}
+----------------------------------
+----------------------------------
+Could not find profile entry corresponding to  (Li Liang)
+{
+  "name": "Li Liang",
+  "label": "Student",
+  "picture": "https://LiLiang808.github.io/images/IMG-0490.jpg",
+  "email": "",
+  "phone": "",
+  "website": "/",
+  "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
+  "location": {
+    "address": "",
+    "postalCode": "96817",
+    "city": "Honolulu",
+    "countryCode": "USA",
+    "region": "Hawaii"
+  },
+  "profiles": [
+    {
+      "network": "github",
+      "username": "LiLiang808",
+      "url": "http://github.com/LiLiang808"
+    },
+    {
+      "network": "linkedin",
+      "username": "Li Liang",
+      "url": "https://www.linkedin.com/in/li-liang-a1307a1b6/"
+    }
+  ]
+}
+----------------------------------
+bioUrl undefined mujtaba.a.quadri@gmail.com {
+  basics: {
+    name: 'Mujtaba Abdullah Quadri',
+    label: 'Alumni',
+    picture: 'https://github.com/mujtaba-a-quadri.png',
+    email: 'mujtaba.a.quadri@gmail.com',
+    phone: '808-800-6709',
+    summary: "I'm a recent graduate from UH Manoa with a BS in Computer Science, currently job searching.",
+    location: {
+      address: '',
+      postalCode: '96822',
+      city: 'Honolulu',
+      countryCode: 'USA',
+      region: 'Hawaii'
+    },
+    profiles: [ [Object], [Object] ]
+  },
+  interests: [
+    { name: 'Software Engineering', keywords: [] },
+    { name: 'Website Development', keywords: [] },
+    { name: 'Data Management', keywords: [] }
+  ],
+  skills: [
+    { name: 'Languages', level: '', keywords: [Array] },
+    { name: 'Tools/OS', level: '', keywords: [Array] }
+  ],
+  education: [
+    {
+      institution: "University of Hawai'i, Honolulu, HI",
+      area: 'Computer Science',
+      studyType: 'BS',
+      startDate: 'Aug. 2019',
+      endDate: 'Dec. 2022',
+      gpa: '3.98',
+      courses: [Array]
+    }
+  ],
+  work: [
+    {
+      company: "Hawai'i Department of Taxation",
+      position: 'System Programmer',
+      website: 'https://tax.hawaii.gov/',
+      startDate: 'Jul. 2022',
+      endDate: 'Dec. 2022',
+      summary: "Developing alongside a team of Hawai'i government employees and contracted FAST Enterprises employees on the internal GenTax website and the public DOTAX tax.hawaii.gov website.",
+      highlights: [Array]
+    },
+    {
+      company: 'ISEC Society',
+      position: 'Full Stack Developer',
+      website: 'https://www.isec-society.org/index.php',
+      startDate: 'Dec. 2020',
+      endDate: 'Aug. 2022',
+      summary: 'Independent contractor, working on ISEC website and providing IT support',
+      highlights: [Array]
+    }
+  ],
+  references: [ { name: 'Available upon request', reference: '' } ]
+}
+TypeError: Cannot read properties of undefined (reading 'substring')
+    at updateProfileEntry (/Users/carletonmoore/GitHub/ics-portfolios.github.io/update-ics-portfolios.js:100:32)
+    at Function.each (/Users/carletonmoore/GitHub/ics-portfolios.github.io/node_modules/underscore/underscore-node-f.cjs:1323:7)
+    at updateProfileEntries (/Users/carletonmoore/GitHub/ics-portfolios.github.io/update-ics-portfolios.js:140:5)
+    at /Users/carletonmoore/GitHub/ics-portfolios.github.io/update-ics-portfolios.js:209:5
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+⋊> ~/G/ics-portfolios.github.io on master ⨯
